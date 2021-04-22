@@ -1,0 +1,30 @@
+{
+  "modules":{
+    "appstream": {
+      "alias": "appstreams"
+    },
+    "appstreams": {
+      "description": "Custom Promise Type to manage yum module appstreams",
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/olehermanse",
+      "commit": "TBD",
+      "subdirectory": "promise_types/appstreams/",
+      "steps": [
+        {"copy": ["appstreams.py", "modules/promise_types/"]}
+      ]
+    },
+    "masterfiles": {
+      "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
+      "repo": "https://github.com/cfengine/masterfiles",
+      "by": "https://github.com/cfengine",
+      "commit": "TBD",
+      "steps": [
+        {"shell": "./autogen.sh"},
+        {"base": "."}
+      ]
+    },
+    "mpf": {
+      "alias": "masterfiles"
+    }
+  }
+}
