@@ -12,7 +12,7 @@
       "steps": ["copy appstreams.py modules/promise_types/"]
     },
     "cfengine-cis": {
-    "repo": "https://github.com/nickanderson/cfengine-cis",
+      "repo": "https://github.com/nickanderson/cfengine-cis",
       "by": "https://github.com/nickanderson"
     },
     "cir": {
