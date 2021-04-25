@@ -13,7 +13,8 @@
     },
     "cfengine-cis": {
       "repo": "https://github.com/nickanderson/cfengine-cis",
-      "by": "https://github.com/nickanderson"
+      "by": "https://github.com/nickanderson",
+      "commit": "6c04f538cb33e084f435275777be421e5b104e20"
     },
     "cir": {
       "alias": "client-initiated-reporting"
@@ -22,19 +23,22 @@
       "alias": "client-initiated-reporting"
     },
     "client-initiated-reporting": {
-      "repo": "https://github.com/olehermanse/cfengine_basics.git",
+      "repo": "https://github.com/olehermanse/cfbs-modules.git",
       "by": "https://github.com/olehermanse",
+      "commit": "e9d094e277c85da8b39c06c6f94dfc6bc935ac37",
       "subdirectory": "client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
     "local-users": {
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
+      "commit": "2ab8e206a2a110a718dd79e34c84374184ec5496",
       "steps": ["run make"]
     },
     "lynis": {
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
+      "commit": "fb918248bb18f087a4cf84a7eaedca7186890ac7",
       "steps": ["run make", "json def.json def.json"]
     },
     "masterfiles": {
@@ -49,7 +53,8 @@
     },
     "lib-fim": {
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
-      "by": "https://github.com/nickanderson"
+      "by": "https://github.com/nickanderson",
+      "commit": "0fee53540262541c09f17cd8774ffe5ccea48482"
     }
   }
 }
