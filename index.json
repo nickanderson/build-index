@@ -44,10 +44,14 @@
       "steps": ["run MASTERFILES=out/masterfiles make install"]
     },
     "lynis": {
+      "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
       "commit": "fb918248bb18f087a4cf84a7eaedca7186890ac7",
-      "steps": ["run make", "json def.json def.json"]
+      "steps": [
+        "copy policy/main.cf services/lynis/main.cf",
+        "json def.json def.json"
+      ]
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
