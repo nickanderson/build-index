@@ -37,10 +37,11 @@
       "steps": ["json def.json def.json"]
     },
     "local-users": {
+      "description": "Policies for managing local users",
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "commit": "2ab8e206a2a110a718dd79e34c84374184ec5496",
-      "steps": ["run make"]
+      "steps": ["run MASTERFILES=out/masterfiles make install"]
     },
     "lynis": {
       "repo": "https://github.com/nickanderson/cfengine-lynis",
