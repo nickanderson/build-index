@@ -23,12 +23,13 @@
     },
     "client-initiated-reporting": {
       "repo": "https://github.com/olehermanse/cfengine_basics.git",
+      "by": "https://github.com/olehermanse",
       "subdirectory": "client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
     "local-users": {
-      "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
       "steps": ["run make"]
     },
     "lynis": {
