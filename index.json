@@ -1,5 +1,5 @@
 {
-  "modules":{
+  "modules": {
     "appstream": {
       "alias": "appstreams"
     },
@@ -9,23 +9,46 @@
       "by": "https://github.com/olehermanse",
       "commit": "e9d094e277c85da8b39c06c6f94dfc6bc935ac37",
       "subdirectory": "promise_types/appstreams/",
-      "steps": [
-        "copy appstreams.py modules/promise_types/"
-      ]
+      "steps": ["copy appstreams.py modules/promise_types/"]
+    },
+    "cfengine-cis": {
+    "repo": "https://github.com/nickanderson/cfengine-cis",
+      "by": "https://github.com/nickanderson"
+    },
+    "cir": {
+      "alias": "client-initiated-reporting"
+    },
+    "client-initiated": {
+      "alias": "client-initiated-reporting"
+    },
+    "client-initiated-reporting": {
+      "repo": "https://github.com/olehermanse/cfengine_basics.git",
+      "subdirectory": "client-initiated-reporting",
+      "steps": ["json def.json def.json"]
+    },
+    "local-users": {
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "steps": ["run make"]
+    },
+    "lynis": {
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "by": "https://github.com/nickanderson",
+      "steps": ["run make", "json def.json def.json"]
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "commit": "28d9b933db5fc8e1dea4338669cc4fd6677646f1",
-      "steps": [
-        "run ./autogen.sh",
-        "delete ./autogen.sh",
-        "copy ./ ./"
-      ]
+      "steps": ["run ./autogen.sh", "delete ./autogen.sh", "copy ./ ./"]
     },
     "mpf": {
       "alias": "masterfiles"
+    },
+    "lib-fim": {
+      "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
+      "by": "https://github.com/nickanderson"
     }
   }
 }
