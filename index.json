@@ -29,6 +29,7 @@
       "alias": "client-initiated-reporting"
     },
     "client-initiated-reporting": {
+      "description": "Enable client initiated reporting and disable pull collection",
       "repo": "https://github.com/olehermanse/cfbs-modules.git",
       "by": "https://github.com/olehermanse",
       "commit": "e9d094e277c85da8b39c06c6f94dfc6bc935ac37",
