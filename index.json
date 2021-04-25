@@ -64,9 +64,14 @@
       "alias": "masterfiles"
     },
     "lib-fim": {
+      "description": "Monitor key files for changes",
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
-      "commit": "0fee53540262541c09f17cd8774ffe5ccea48482"
+      "commit": "0fee53540262541c09f17cd8774ffe5ccea48482",
+      "steps": [
+        "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
+        "json def.json def.json"
+      ]
     }
   }
 }
