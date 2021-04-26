@@ -9,7 +9,10 @@
       "by": "https://github.com/olehermanse",
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/appstreams/",
-      "steps": ["copy appstreams.py modules/promise_types/"]
+      "steps": [
+        "copy appstreams.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
     },
     "cfengine-cis": {
       "description": "Framework to check Linux (Unix) installations for CIS-compliance",
