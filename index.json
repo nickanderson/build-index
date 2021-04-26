@@ -87,6 +87,83 @@
         "append enable.cf services/init.cf"
       ]
     },
+    "promise-type-backup": {
+      "description": "Promise Type to manage backups",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/Lex-2008",
+      "dependencies": ["promise-type-library-bash"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/backup/",
+      "steps": [
+        "copy backup.sh modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-cp": {
+      "description": "Example promise type to copy files",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/Lex-2008",
+      "dependencies": ["promise-type-library-bash"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/cp/",
+      "steps": [
+        "copy cp.sh modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-git": {
+      "description": "Promise type to manage git repos",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/olehermanse",
+      "dependencies": ["promise-type-library-python"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/git/",
+      "steps": [
+        "copy git.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-git-from-scratch": {
+      "description": "Example git promise type, written from scratch",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/olehermanse",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/cp/",
+      "steps": [
+        "copy cp.sh modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-gpg": {
+      "description": "Promise type to manage gpg keys",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/craigcomstock",
+      "dependencies": ["promise-type-library-python"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/gpg/",
+      "steps": [
+        "copy gpg.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-groups-experimental": {
+      "description": "Experimental promise type to manage local user groups",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/larsewi",
+      "dependencies": ["promise-type-library-python"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/groups-experimental/",
+      "steps": [
+        "copy groups_experimental.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
     "promise-type-library-bash": {
       "description": "Library enabling promise types implemented in bash",
       "tags": ["wip", "untested", "library"],
@@ -104,6 +181,32 @@
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promise_types/"]
+    },
+    "promise-type-rss": {
+      "description": "Experimental promise type to manage local user groups",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/larsewi",
+      "dependencies": ["promise-type-library-python"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/rss/",
+      "steps": [
+        "copy rss.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-site-up": {
+      "description": "Experimental promise type to manage local user groups",
+      "tags": ["wip", "untested", "promise-type", "example"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/aleksandrychev",
+      "dependencies": ["promise-type-library-python"],
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "promise_types/site-up/",
+      "steps": [
+        "copy site_up.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
     }
   }
 }
