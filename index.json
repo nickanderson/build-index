@@ -5,6 +5,7 @@
     },
     "appstreams": {
       "description": "Custom Promise Type to manage yum module appstreams",
+      "tags": ["wip", "untested", "promise-type"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
@@ -16,6 +17,7 @@
     },
     "cfengine-cis": {
       "description": "Framework to check Linux (Unix) installations for CIS-compliance",
+      "tags": ["wip", "untested", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-cis",
       "by": "https://github.com/nickanderson",
       "commit": "6c04f538cb33e084f435275777be421e5b104e20",
@@ -33,6 +35,7 @@
     },
     "client-initiated-reporting": {
       "description": "Enable client initiated reporting and disable pull collection",
+      "tags": ["wip", "untested", "reporting"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
@@ -41,6 +44,7 @@
     },
     "local-users": {
       "description": "Policies for managing local users",
+      "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "commit": "2ab8e206a2a110a718dd79e34c84374184ec5496",
@@ -48,6 +52,7 @@
     },
     "lynis": {
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
+      "tags": ["wip", "untested", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
       "commit": "fb918248bb18f087a4cf84a7eaedca7186890ac7",
@@ -58,6 +63,7 @@
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
+      "tags": ["official", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "commit": "28d9b933db5fc8e1dea4338669cc4fd6677646f1",
@@ -68,6 +74,7 @@
     },
     "lib-fim": {
       "description": "Monitor key files for changes",
+      "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
       "commit": "0fee53540262541c09f17cd8774ffe5ccea48482",
