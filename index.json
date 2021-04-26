@@ -7,7 +7,7 @@
       "description": "Custom Promise Type to manage yum module appstreams",
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "commit": "2fa7b413f27b40c72c928d0822a64e7fed98f035",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/appstreams/",
       "steps": ["copy appstreams.py modules/promise_types/"]
     },
@@ -30,9 +30,9 @@
     },
     "client-initiated-reporting": {
       "description": "Enable client initiated reporting and disable pull collection",
-      "repo": "https://github.com/olehermanse/cfbs-modules.git",
+      "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "commit": "2fa7b413f27b40c72c928d0822a64e7fed98f035",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
