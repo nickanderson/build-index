@@ -8,6 +8,7 @@
       "tags": ["wip", "untested", "promise-type"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
+      "dependencies": ["promise-type-library-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/appstreams/",
       "steps": [
@@ -82,6 +83,24 @@
         "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
         "json def.json def.json"
       ]
+    },
+    "promise-type-library-bash": {
+      "description": "Library enabling promise types implemented in bash",
+      "tags": ["wip", "untested", "library"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/Lex-2008",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "libraries/bash/",
+      "steps": ["copy cfengine.sh modules/promise_types/"]
+    },
+    "promise-type-library-python": {
+      "description": "Library enabling promise types implemented in python",
+      "tags": ["wip", "untested", "library"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/olehermanse",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "libraries/python/",
+      "steps": ["copy cfengine.py modules/promise_types/"]
     }
   }
 }
