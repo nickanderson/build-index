@@ -74,12 +74,30 @@
         "json def.json def.json"
       ]
     },
+    "library-for-promise-types-in-bash": {
+      "description": "Library enabling promise types implemented in bash",
+      "tags": ["wip", "untested", "library"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/Lex-2008",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "libraries/bash/",
+      "steps": ["copy cfengine.sh modules/promise_types/"]
+    },
+    "library-for-promise-types-in-python": {
+      "description": "Library enabling promise types implemented in python",
+      "tags": ["wip", "untested", "library"],
+      "repo": "https://github.com/olehermanse/cfbs-modules",
+      "by": "https://github.com/olehermanse",
+      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "subdirectory": "libraries/python/",
+      "steps": ["copy cfengine.py modules/promise_types/"]
+    },
     "promise-type-appstreams": {
       "description": "Promise Type to manage yum module appstreams",
       "tags": ["wip", "untested", "promise-type"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/appstreams/",
       "steps": [
@@ -92,7 +110,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/Lex-2008",
-      "dependencies": ["promise-type-library-bash"],
+      "dependencies": ["library-for-promise-types-in-bash"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/backup/",
       "steps": [
@@ -105,7 +123,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/Lex-2008",
-      "dependencies": ["promise-type-library-bash"],
+      "dependencies": ["library-for-promise-types-in-bash"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/cp/",
       "steps": [
@@ -118,7 +136,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/git/",
       "steps": [
@@ -143,7 +161,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/craigcomstock",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/gpg/",
       "steps": [
@@ -156,7 +174,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/larsewi",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
@@ -164,30 +182,12 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-library-bash": {
-      "description": "Library enabling promise types implemented in bash",
-      "tags": ["wip", "untested", "library"],
-      "repo": "https://github.com/olehermanse/cfbs-modules",
-      "by": "https://github.com/Lex-2008",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
-      "subdirectory": "libraries/bash/",
-      "steps": ["copy cfengine.sh modules/promise_types/"]
-    },
-    "promise-type-library-python": {
-      "description": "Library enabling promise types implemented in python",
-      "tags": ["wip", "untested", "library"],
-      "repo": "https://github.com/olehermanse/cfbs-modules",
-      "by": "https://github.com/olehermanse",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
-      "subdirectory": "libraries/python/",
-      "steps": ["copy cfengine.py modules/promise_types/"]
-    },
     "promise-type-rss": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/larsewi",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/rss/",
       "steps": [
@@ -200,7 +200,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/aleksandrychev",
-      "dependencies": ["promise-type-library-python"],
+      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
       "subdirectory": "promise_types/site-up/",
       "steps": [
