@@ -33,6 +33,12 @@
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
+    "git": {
+      "alias": "promise-type-git"
+    },
+    "gpg": {
+      "alias": "promise-type-gpg"
+    },
     "local-users": {
       "description": "Policies for managing local users",
       "tags": ["wip", "untested"],
