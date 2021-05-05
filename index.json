@@ -29,7 +29,7 @@
       "tags": ["wip", "untested", "reporting"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
@@ -85,7 +85,7 @@
       "tags": ["wip", "untested", "library"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/Lex-2008",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "libraries/bash/",
       "steps": ["copy cfengine.sh modules/promise_types/"]
     },
@@ -94,7 +94,7 @@
       "tags": ["wip", "untested", "library"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promise_types/"]
     },
@@ -104,7 +104,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/appstreams/",
       "steps": [
         "copy appstreams.py modules/promise_types/",
@@ -117,7 +117,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/Lex-2008",
       "dependencies": ["library-for-promise-types-in-bash"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/backup/",
       "steps": [
         "copy backup.sh modules/promise_types/",
@@ -130,7 +130,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/Lex-2008",
       "dependencies": ["library-for-promise-types-in-bash"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/cp/",
       "steps": [
         "copy cp.sh modules/promise_types/",
@@ -143,7 +143,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/git/",
       "steps": [
         "copy git.py modules/promise_types/",
@@ -155,7 +155,7 @@
       "tags": ["wip", "untested", "promise-type", "example"],
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/olehermanse",
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/cp/",
       "steps": [
         "copy cp.sh modules/promise_types/",
@@ -168,7 +168,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/craigcomstock",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/gpg/",
       "steps": [
         "copy gpg.py modules/promise_types/",
@@ -181,7 +181,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
         "copy groups_experimental.py modules/promise_types/",
@@ -194,7 +194,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/rss/",
       "steps": [
         "copy rss.py modules/promise_types/",
@@ -207,7 +207,7 @@
       "repo": "https://github.com/olehermanse/cfbs-modules",
       "by": "https://github.com/aleksandrychev",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "ca70cf5d379924600434264c4944fdddf036da7c",
+      "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/site-up/",
       "steps": [
         "copy site_up.py modules/promise_types/",
