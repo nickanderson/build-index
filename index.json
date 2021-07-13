@@ -3,7 +3,7 @@
     "ansible": {
       "alias": "promise-type-ansible"
     },
-    "bash": {
+    "bash-lib": {
       "alias": "library-for-promise-types-in-bash"
     },
     "cfengine-cis": {
@@ -150,7 +150,7 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "python": {
+    "python-lib": {
       "alias": "library-for-promise-types-in-python"
     },
     "systemd": {
