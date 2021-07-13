@@ -84,7 +84,7 @@
       "by": "https://github.com/Lex-2008",
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "libraries/bash/",
-      "steps": ["copy cfengine.sh modules/promise_types/"]
+      "steps": ["copy cfengine.sh modules/promises/"]
     },
     "library-for-promise-types-in-python": {
       "description": "Library enabling promise types implemented in python",
@@ -93,7 +93,7 @@
       "by": "https://github.com/cfengine",
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "libraries/python/",
-      "steps": ["copy cfengine.py modules/promise_types/"]
+      "steps": ["copy cfengine.py modules/promises/"]
     },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
@@ -104,7 +104,7 @@
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "promise_types/ansible/",
       "steps": [
-        "copy ansible_promise.py modules/promise_types/",
+        "copy ansible_promise.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
     },
@@ -117,7 +117,7 @@
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "promise_types/git/",
       "steps": [
-        "copy git.py modules/promise_types/",
+        "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
     },
@@ -130,7 +130,7 @@
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
-        "copy groups_experimental.py modules/promise_types/",
+        "copy groups_experimental.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
     },
@@ -143,7 +143,7 @@
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "promise_types/systemd/",
       "steps": [
-        "copy systemd.py modules/promise_types/",
+        "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
     },
