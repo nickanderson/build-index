@@ -3,6 +3,9 @@
     "ansible": {
       "alias": "promise-type-ansible"
     },
+    "bash": {
+      "alias": "library-for-promise-types-in-bash"
+    },
     "cfengine-cis": {
       "description": "Framework to check Linux (Unix) installations for CIS-compliance",
       "tags": ["wip", "untested", "compliance"],
@@ -146,6 +149,9 @@
         "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
+    },
+    "python": {
+      "alias": "library-for-promise-types-in-python"
     },
     "systemd": {
       "alias": "promise-type-systemd"
