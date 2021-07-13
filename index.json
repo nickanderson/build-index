@@ -64,6 +64,9 @@
       "alias": "masterfiles"
     },
     "lib-fim": {
+      "alias": "library-file-integrity-monitoring"
+    },
+    "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
       "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
