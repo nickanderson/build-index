@@ -27,7 +27,7 @@
     "client-initiated-reporting": {
       "description": "Enable client initiated reporting and disable pull collection",
       "tags": ["wip", "untested", "reporting"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "reporting/client-initiated-reporting",
@@ -83,7 +83,7 @@
     "library-for-promise-types-in-bash": {
       "description": "Library enabling promise types implemented in bash",
       "tags": ["wip", "untested", "library"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "libraries/bash/",
@@ -92,7 +92,7 @@
     "library-for-promise-types-in-python": {
       "description": "Library enabling promise types implemented in python",
       "tags": ["wip", "untested", "library"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "libraries/python/",
@@ -101,7 +101,7 @@
     "promise-type-appstreams": {
       "description": "Promise Type to manage yum module appstreams",
       "tags": ["wip", "untested", "promise-type"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -114,7 +114,7 @@
     "promise-type-backup": {
       "description": "Promise Type to manage backups",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "dependencies": ["library-for-promise-types-in-bash"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -127,7 +127,7 @@
     "promise-type-cp": {
       "description": "Example promise type to copy files",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "dependencies": ["library-for-promise-types-in-bash"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -140,7 +140,7 @@
     "promise-type-git": {
       "description": "Promise type to manage git repos",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -153,7 +153,7 @@
     "promise-type-git-from-scratch": {
       "description": "Example git promise type, written from scratch",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
       "subdirectory": "promise_types/cp/",
@@ -165,7 +165,7 @@
     "promise-type-gpg": {
       "description": "Promise type to manage gpg keys",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -178,7 +178,7 @@
     "promise-type-groups-experimental": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -191,7 +191,7 @@
     "promise-type-rss": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
@@ -204,7 +204,7 @@
     "promise-type-site-up": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/cfbs-modules",
+      "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/aleksandrychev",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "1438ad8515267b3dd4b862cfcd63c1b9ccfb42e1",
