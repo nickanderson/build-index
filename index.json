@@ -1,5 +1,8 @@
 {
   "modules": {
+    "ansible": {
+      "alias": "promise-type-ansible"
+    },
     "cfengine-cis": {
       "description": "Framework to check Linux (Unix) installations for CIS-compliance",
       "tags": ["wip", "untested", "compliance"],
@@ -88,6 +91,19 @@
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promise_types/"]
+    },
+    "promise-type-ansible": {
+      "description": "Promise type to manage systemd services",
+      "tags": ["promise-type", "official"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/tranchitella",
+      "dependencies": ["library-for-promise-types-in-python"],
+      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
+      "subdirectory": "promise_types/asible/",
+      "steps": [
+        "copy ansible_promise.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
     },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
