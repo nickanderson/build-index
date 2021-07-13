@@ -114,6 +114,22 @@
         "copy groups_experimental.py modules/promise_types/",
         "append enable.cf services/init.cf"
       ]
+    },
+    "promise-type-systemd": {
+      "description": "Promise type to manage systemd services",
+      "tags": ["promise-type"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/tranchitella",
+      "dependencies": ["library-for-promise-types-in-python"],
+      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
+      "subdirectory": "promise_types/git/",
+      "steps": [
+        "copy systemd.py modules/promise_types/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "systemd": {
+      "alias": "promise-type-systemd"
     }
   }
 }
