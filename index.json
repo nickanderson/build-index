@@ -91,9 +91,9 @@
     },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
-      "tags": ["wip", "untested", "promise-type", "example"],
+      "tags": ["promise-type", "official"],
       "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/cfengine",
+      "by": "https://github.com/tranchitella",
       "dependencies": ["library-for-promise-types-in-python"],
       "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
       "subdirectory": "promise_types/git/",
@@ -104,7 +104,7 @@
     },
     "promise-type-groups-experimental": {
       "description": "Experimental promise type to manage local user groups",
-      "tags": ["wip", "untested", "promise-type", "example"],
+      "tags": ["promise-type", "experimental", "official"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
@@ -117,7 +117,7 @@
     },
     "promise-type-systemd": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type"],
+      "tags": ["promise-type", "official"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "dependencies": ["library-for-promise-types-in-python"],
