@@ -1,11 +1,5 @@
 {
   "modules": {
-    "appstream": {
-      "alias": "promise-type-appstreams"
-    },
-    "appstreams": {
-      "alias": "promise-type-appstreams"
-    },
     "cfengine-cis": {
       "description": "Framework to check Linux (Unix) installations for CIS-compliance",
       "tags": ["wip", "untested", "compliance"],
@@ -35,9 +29,6 @@
     },
     "git": {
       "alias": "promise-type-git"
-    },
-    "gpg": {
-      "alias": "promise-type-gpg"
     },
     "local-users": {
       "description": "Policies for managing local users",
@@ -98,45 +89,6 @@
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promise_types/"]
     },
-    "promise-type-appstreams": {
-      "description": "Promise Type to manage yum module appstreams",
-      "tags": ["wip", "untested", "promise-type"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/cfengine",
-      "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/appstreams/",
-      "steps": [
-        "copy appstreams.py modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
-    "promise-type-backup": {
-      "description": "Promise Type to manage backups",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/Lex-2008",
-      "dependencies": ["library-for-promise-types-in-bash"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/backup/",
-      "steps": [
-        "copy backup.sh modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
-    "promise-type-cp": {
-      "description": "Example promise type to copy files",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/Lex-2008",
-      "dependencies": ["library-for-promise-types-in-bash"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/cp/",
-      "steps": [
-        "copy cp.sh modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
       "tags": ["wip", "untested", "promise-type", "example"],
@@ -150,31 +102,6 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-git-from-scratch": {
-      "description": "Example git promise type, written from scratch",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/cfengine",
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/cp/",
-      "steps": [
-        "copy cp.sh modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
-    "promise-type-gpg": {
-      "description": "Promise type to manage gpg keys",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/craigcomstock",
-      "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/gpg/",
-      "steps": [
-        "copy gpg.py modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
     "promise-type-groups-experimental": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["wip", "untested", "promise-type", "example"],
@@ -185,32 +112,6 @@
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
         "copy groups_experimental.py modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
-    "promise-type-rss": {
-      "description": "Experimental promise type to manage local user groups",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/larsewi",
-      "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/rss/",
-      "steps": [
-        "copy rss.py modules/promise_types/",
-        "append enable.cf services/init.cf"
-      ]
-    },
-    "promise-type-site-up": {
-      "description": "Experimental promise type to manage local user groups",
-      "tags": ["wip", "untested", "promise-type", "example"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/aleksandrychev",
-      "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "c732db41625152d110766bbd27b6c8f73dcab4cc",
-      "subdirectory": "promise_types/site-up/",
-      "steps": [
-        "copy site_up.py modules/promise_types/",
         "append enable.cf services/init.cf"
       ]
     }
