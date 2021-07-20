@@ -3,6 +3,15 @@
     "ansible": {
       "alias": "promise-type-ansible"
     },
+    "autorun": {
+      "description": "Enable autorun functionality",
+      "tags": ["wip", "untested"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/cfengine",
+      "commit": "dafd05381ee9b03d529836318a387ddca3b67343",
+      "subdirectory": "management/autorun",
+      "steps": ["json def.json def.json"]
+    },
     "bash-lib": {
       "alias": "library-for-promise-types-in-bash"
     },
