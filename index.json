@@ -45,6 +45,28 @@
     "git": {
       "alias": "promise-type-git"
     },
+   "inventory-fips-mode-setup": {
+       "description": "Inventory kernel parameters set during system boot",
+       "tags": ["inventory", "untested"],
+       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
+       "by": "https://github.com/nickanderson",
+       "commit": "33a9766edf741baf6ccbc3cea7a2346a9d745c87",
+       "steps": [
+           "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
+           "json augments.json def.json"
+       ]
+   },
+   "inventory-kernel-boot-params": {
+       "description": "Inventory kernel parameters set during system boot",
+       "tags": ["inventory", "untested"],
+       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
+       "by": "https://github.com/nickanderson",
+       "commit": "5c132ce0d78ee5f75c5c7d7704fc19170bd0a7e8",
+       "steps": [
+           "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
+           "json augments.json def.json"
+       ]
+   },
     "local-users": {
       "description": "Policies for managing local users",
       "tags": ["wip", "untested"],
