@@ -94,6 +94,18 @@
       "commit": "c39b79c0e7a42522c69cff3d87a5bc5ac9471369",
       "steps": ["run ./autogen.sh", "delete ./autogen.sh", "copy ./ ./"]
     },
+    "migrate2rocky": {
+        "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
+        "tags": ["untested"],
+        "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
+        "by": "https://github.com/nickanderson",
+        "dependencies": ["promise-type-git"],
+        "commit": "332dc89a479503bede5ca986092d2b95ad183129",
+        "steps": [
+            "copy policy/main.cf services/migrate2rocky/main.cf",
+            "json augments.json def.json"
+        ]
+    },
     "mpf": {
       "alias": "masterfiles"
     },
