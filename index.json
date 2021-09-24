@@ -8,6 +8,7 @@
       "tags": ["wip", "untested"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
+      "version": "1.0.0",
       "commit": "da4abb182392f48047c4c082231ea08c955be580",
       "subdirectory": "management/autorun",
       "steps": ["json def.json def.json"]
