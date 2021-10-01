@@ -67,13 +67,17 @@
            "json augments.json def.json"
        ]
    },
-    "local-users": {
-      "description": "Policies for managing local users",
+    "inventory-local-users": {
+      "description": "Inventory the local users on the system with their attributes",
       "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "commit": "2ab8e206a2a110a718dd79e34c84374184ec5496",
-      "steps": ["run MASTERFILES=out/masterfiles make install"]
+      "commit": "a6b29c1ac51a05c41e6a6ecea3cdf2be02938946",
+        "steps": [
+            "copy ./policy/inventory_passwd_shadow_discover.cf services/inventory-local-users/",
+            "copy ./policy/supplemental.cf services/inventory-local-users/",
+            "json cfbs/def.json def.json"
+        ]
     },
     "lynis": {
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
