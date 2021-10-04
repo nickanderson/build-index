@@ -107,8 +107,14 @@
       "tags": ["official", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "commit": "c39b79c0e7a42522c69cff3d87a5bc5ac9471369",
-      "steps": ["run ./autogen.sh", "delete ./autogen.sh", "copy ./ ./"]
+      "commit": "3ce8f9ed53fdcb3b41013d6fadc284b6d46aea53",
+      "steps": [
+          "run ./autogen.sh",
+          "delete ./autogen.sh",
+          "run ./cfbs/cleanup.sh",
+          "delete ./cfbs/cleanup.sh",
+          "copy ./ ./"
+        ]
     },
     "migrate2rocky": {
         "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
