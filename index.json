@@ -95,7 +95,7 @@
       "tags": ["wip", "untested", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
-      "commit": "31a7b1fa8ba33392ba7954d46b2335434f0ec2b4",
+      "commit": "f18ff3cfb629e962cce8c42b8fe845faf3d10940",
       "steps": [
         "copy policy/main.cf services/lynis/main.cf",
         "json cfbs/def.json def.json"
