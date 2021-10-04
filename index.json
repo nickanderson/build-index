@@ -16,18 +16,6 @@
     "bash-lib": {
       "alias": "library-for-promise-types-in-bash"
     },
-    "cfengine-cis": {
-      "description": "Framework to check Linux (Unix) installations for CIS-compliance",
-      "tags": ["wip", "untested", "compliance"],
-      "repo": "https://github.com/nickanderson/cfengine-cis",
-      "by": "https://github.com/nickanderson",
-      "commit": "6c04f538cb33e084f435275777be421e5b104e20",
-      "steps": [
-        "copy policy/ services/CIS/",
-        "json extras/autorun/example_def.json def.json",
-        "copy extras/autorun/cis_includefiles.cf services/autorun/"
-      ]
-    },
     "cir": {
       "alias": "client-initiated-reporting"
     },
