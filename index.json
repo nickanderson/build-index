@@ -95,10 +95,10 @@
       "tags": ["wip", "untested", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
-      "commit": "fb918248bb18f087a4cf84a7eaedca7186890ac7",
+      "commit": "31a7b1fa8ba33392ba7954d46b2335434f0ec2b4",
       "steps": [
         "copy policy/main.cf services/lynis/main.cf",
-        "json def.json def.json"
+        "json cfbs/def.json def.json"
       ]
     },
     "masterfiles": {
