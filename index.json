@@ -91,6 +91,17 @@
             "json cfbs/def.json def.json"
         ]
     },
+    "inventory-systemd": {
+        "description": "Inventory interesting things from systemd",
+        "tags": [ "inventory", "systemd", "untested"],
+        "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
+        "by": "https://github.com/nickanderson",
+        "commit": "7f468d209b7b1b010dd3b5646c20a058fd025f9a",
+        "steps": [
+            "copy ./policy/main.cf services/inventory-systemd/main.cf",
+            "json cfbs/def.json def.json"
+        ]
+    },
     "lynis": {
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
       "tags": ["wip", "untested", "security", "compliance"],
