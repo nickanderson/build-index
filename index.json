@@ -68,7 +68,18 @@
            "json augments.json def.json"
        ]
    },
-    "inventory-local-users": {
+   "inventory-lastlog": {
+       "description": "Inventory kernel parameters set during system boot",
+       "tags": ["inventory", "untested"],
+       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
+       "by": "https://github.com/nickanderson",
+       "commit": "dceb68e99cf676823cb951dd4d14af240c30ead8",
+       "steps": [
+           "copy policy/main.cf services/inventory-lastlog/",
+           "json cfbs/def.json def.json"
+       ]
+   },
+   "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
       "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
