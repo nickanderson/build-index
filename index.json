@@ -9,7 +9,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "1.0.0",
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "management/autorun",
       "steps": ["json def.json def.json"]
     },
@@ -27,7 +27,7 @@
       "tags": ["wip", "untested", "reporting"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
@@ -158,7 +158,7 @@
       "tags": ["wip", "untested", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "libraries/bash/",
       "steps": ["copy cfengine.sh modules/promises/"]
     },
@@ -167,7 +167,7 @@
       "tags": ["wip", "untested", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promises/"]
     },
@@ -177,7 +177,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "promise_types/ansible/",
       "steps": [
         "copy ansible_promise.py modules/promises/",
@@ -190,7 +190,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "promise_types/git/",
       "steps": [
         "copy git.py modules/promises/",
@@ -203,7 +203,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
         "copy groups_experimental.py modules/promises/",
@@ -216,7 +216,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "promise_types/systemd/",
       "steps": [
         "copy systemd.py modules/promises/",
@@ -231,7 +231,7 @@
       "tags": ["install", "official"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "commit": "d077f49162b05226e45f87511b6102e42a93bb72",
+      "commit": "2bd83b1c0d1e6799a8d7221d7e98360b1bdc99bc",
       "subdirectory": "management/python-3-8/",
       "steps": [
         "copy ensure_python_3_8.cf services/cfbs/python-3-8/",
