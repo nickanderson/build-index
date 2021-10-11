@@ -13,3 +13,7 @@ Use at your own risk!
 * [cfbs-index](https://github.com/cfengine/cfbs-index) - Index of modules
 * [cfbs-web](https://github.com/cfengine/cfbs-web) - Website
 * [cfbs-example](https://github.com/cfengine/cfbs-example) - Example project using cfbs
+
+## Contribution Tips
+
+* Run `cfbs pretty ./index.json` after editing to ensure proper formatting.
