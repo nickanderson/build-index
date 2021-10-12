@@ -61,6 +61,34 @@
         "json augments.json def.json"
       ]
     },
+    "inventory-kernel-settings-sysctl-conf": {
+      "description": "Inventory settings from /etc/sysctl.conf.",
+      "tags": ["inventory", "sysctl"],
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl",
+      "version": "1.0.0",
+      "commit": "69149b9d15874c4f584441cd40019a79a92ad8f2",
+      "subdirectory": "policy/inventory-kernel-settings-sysctl-conf",
+      "steps": [
+        "copy ./main.cf services/inventory-kernel-settings-sysctl-conf/",
+        "copy ./README.org services/inventory-kernel-settings-sysctl-conf/",
+        "json ./cfbs/def.json def.json"
+      ]
+    },
+    "inventory-kernel-settings-sysctl-current": {
+      "description": "Inventory sysctl settings current state.",
+      "tags": ["inventory", "sysctl"],
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl",
+      "commit": "69149b9d15874c4f584441cd40019a79a92ad8f2",
+      "subdirectory": "policy/inventory-kernel-settings-sysctl-current",
+      "steps": [
+        "copy ./main.cf services/inventory-kernel-settings-sysctl-current/",
+        "copy ./README.org services/inventory-kernel-settings-sysctl-current/",
+        "json ./cfbs/def.json def.json"
+      ]
+    },
     "inventory-lastlog": {
       "description": "Inventory kernel parameters set during system boot",
       "tags": ["inventory", "untested"],
@@ -96,6 +124,20 @@
       "steps": [
         "copy ./policy/main.cf services/inventory-systemd/main.cf",
         "json cfbs/def.json def.json"
+      ]
+    },
+    "kernel-settings-sysctl-conf": {
+      "description": "Manage settings in /etc/sysctl.conf.",
+      "tags": ["sysctl"],
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl",
+      "commit": "0d4fd85fa22ee6c52ace5222202b3290a5902862",
+      "subdirectory": "policy/kernel-settings-sysctl-conf",
+      "steps": [
+        "copy ./main.cf services/kernel-settings-sysctl-conf/",
+        "copy ./README.org services/kernel-settings-sysctl-conf/",
+        "json ./cfbs/def.json def.json"
       ]
     },
     "lynis": {
