@@ -39,4 +39,4 @@ jobs:
 
       # Validate index fields
       - name: Validate fields
-        run: cfbs validate index.json
+        run: cfbs validate --index index.json
