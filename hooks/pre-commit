@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# Shamelessly pilfered from https://stackoverflow.com/a/49265008
+formatter=$(which cfbs)
+
+if [ -z "$formatter" ]; then
+  1>&2 echo "$formatter not found. Pre-commit formatting will not be done."
+  exit 0
+fi
+
+git show ":index.json" > "tmp.index.json"
+echo "Formatting index.json"
+"$formatter" pretty tmp.index.json
+hash=$(git hash-object -w "tmp.index.json")
+git update-index --add --cacheinfo 100644 "$hash" "index.json"
+rm "tmp.index.json"
+ret=0
