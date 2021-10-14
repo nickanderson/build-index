@@ -4,6 +4,7 @@
     "autorun": {
       "description": "Enable autorun functionality",
       "tags": ["wip", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "1.0.0",
@@ -17,6 +18,7 @@
     "client-initiated-reporting": {
       "description": "Enable client initiated reporting and disable pull collection",
       "tags": ["wip", "untested", "reporting"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "0.1.0",
@@ -40,6 +42,7 @@
     "inventory-etc-hosts": {
       "description": "Inventory entries from /etc/hosts",
       "tags": ["inventory", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -52,6 +55,7 @@
     "inventory-fips-mode-setup": {
       "description": "Inventory kernel parameters set during system boot",
       "tags": ["inventory", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -64,6 +68,7 @@
     "inventory-kernel-boot-params": {
       "description": "Inventory kernel parameters set during system boot",
       "tags": ["inventory", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -76,6 +81,7 @@
     "inventory-kernel-settings-sysctl-conf": {
       "description": "Inventory settings from /etc/sysctl.conf.",
       "tags": ["inventory", "sysctl"],
+      "dependencies": ["masterfiles"],
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "version": "1.0.0",
@@ -90,6 +96,7 @@
     "inventory-kernel-settings-sysctl-current": {
       "description": "Inventory sysctl settings current state.",
       "tags": ["inventory", "sysctl"],
+      "dependencies": ["masterfiles"],
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
@@ -104,6 +111,7 @@
     "inventory-lastlog": {
       "description": "Inventory kernel parameters set during system boot",
       "tags": ["inventory", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -116,6 +124,7 @@
     "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
       "tags": ["wip", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -129,6 +138,7 @@
     "inventory-systemd": {
       "description": "Inventory interesting things from systemd",
       "tags": ["inventory", "systemd", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -141,6 +151,7 @@
     "kernel-settings-sysctl-conf": {
       "description": "Manage settings in /etc/sysctl.conf.",
       "tags": ["sysctl"],
+      "dependencies": ["masterfiles"],
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
@@ -156,6 +167,7 @@
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
       "tags": ["wip", "untested", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": ["masterfiles"],
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
       "commit": "f18ff3cfb629e962cce8c42b8fe845faf3d10940",
@@ -185,7 +197,7 @@
       "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
-      "dependencies": ["promise-type-git"],
+      "dependencies": ["masterfiles", "promise-type-git"],
       "commit": "332dc89a479503bede5ca986092d2b95ad183129",
       "steps": [
         "copy policy/main.cf services/migrate2rocky/main.cf",
@@ -197,6 +209,7 @@
     "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
       "tags": ["wip", "untested"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -209,6 +222,7 @@
     "library-for-promise-types-in-bash": {
       "description": "Library enabling promise types implemented in bash",
       "tags": ["wip", "untested", "library"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "version": "0.1.0",
@@ -219,6 +233,7 @@
     "library-for-promise-types-in-python": {
       "description": "Library enabling promise types implemented in python",
       "tags": ["wip", "untested", "library"],
+      "dependencies": ["masterfiles"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "0.1.0",
@@ -232,7 +247,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
-      "dependencies": ["library-for-promise-types-in-python"],
+      "dependencies": ["masterfiles", "library-for-promise-types-in-python"],
       "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
       "subdirectory": "promise_types/ansible/",
       "steps": [
@@ -246,7 +261,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
-      "dependencies": ["library-for-promise-types-in-python"],
+      "dependencies": ["masterfiles", "library-for-promise-types-in-python"],
       "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
       "subdirectory": "promise_types/git/",
       "steps": [
@@ -260,7 +275,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "version": "0.1.0",
-      "dependencies": ["library-for-promise-types-in-python"],
+      "dependencies": ["masterfiles", "library-for-promise-types-in-python"],
       "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
       "subdirectory": "promise_types/groups-experimental/",
       "steps": [
@@ -274,7 +289,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
-      "dependencies": ["library-for-promise-types-in-python"],
+      "dependencies": ["masterfiles", "library-for-promise-types-in-python"],
       "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
       "subdirectory": "promise_types/systemd/",
       "steps": [
@@ -288,6 +303,7 @@
       "tags": ["install", "official"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
+      "dependencies": ["masterfiles"],
       "version": "0.1.0",
       "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
       "subdirectory": "management/python-3-8/",
