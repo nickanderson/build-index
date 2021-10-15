@@ -1,0 +1,12 @@
+#+title: Git Hooks
+
+- [[./pre-commit][=pre-commit=]] :: Prettify index.json automatically. Note, if the version you try to commit isn't already pretty, after the commit is done, you are left with the non-pretty changes un-staged.
+
+* Enable hooks
+
+To enable a hook, link or copy it into .git/hooks (make sure it's executable).
+
+#+begin_src sh :results output :exports both
+    cd ../.git/hooks
+    ln -s ../../hooks/pre-commit
+#+end_src
