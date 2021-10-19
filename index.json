@@ -126,6 +126,18 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "inventory-sudoers": {
+      "description": "Inventory users with sudo access.",
+      "tags": ["inventory", "sudo"],
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
+      "commit": "01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-sudoers/main.cf",
+        "json ./cfbs/def.json def.json"
+      ]
+    },
     "inventory-systemd": {
       "description": "Inventory interesting things from systemd",
       "tags": ["inventory", "systemd", "untested"],
