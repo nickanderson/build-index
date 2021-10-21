@@ -3,7 +3,7 @@
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
       "description": "Enable autorun functionality",
-      "tags": ["wip", "untested"],
+      "tags": ["supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "1.0.0",
@@ -178,7 +178,7 @@
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
-      "tags": ["official", "base"],
+      "tags": ["official", "base", "supported"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "version": "0.1.0",
@@ -220,7 +220,7 @@
     },
     "library-for-promise-types-in-bash": {
       "description": "Library enabling promise types implemented in bash",
-      "tags": ["wip", "untested", "library"],
+      "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "version": "0.1.0",
@@ -230,7 +230,7 @@
     },
     "library-for-promise-types-in-python": {
       "description": "Library enabling promise types implemented in python",
-      "tags": ["wip", "untested", "library"],
+      "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "0.1.0",
@@ -240,7 +240,7 @@
     },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "official"],
+      "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
@@ -254,7 +254,7 @@
     },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
-      "tags": ["promise-type", "official"],
+      "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
@@ -268,7 +268,7 @@
     },
     "promise-type-groups-experimental": {
       "description": "Experimental promise type to manage local user groups",
-      "tags": ["promise-type", "experimental", "official"],
+      "tags": ["promise-type", "experimental", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "version": "0.1.0",
@@ -282,7 +282,7 @@
     },
     "promise-type-systemd": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "official"],
+      "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.0",
@@ -297,7 +297,7 @@
     "python-lib": { "alias": "library-for-promise-types-in-python" },
     "python-3-8": {
       "description": "Install python 3.8",
-      "tags": ["install", "official"],
+      "tags": ["install"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
       "version": "0.1.0",
