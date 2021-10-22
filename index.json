@@ -181,7 +181,7 @@
       "tags": ["official", "base", "supported"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "commit": "5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f",
       "steps": [
         "run ./autogen.sh",
