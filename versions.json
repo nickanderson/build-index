@@ -147,6 +147,14 @@
       "archive_sha256": "c8c0b2994781d782270de0f52071d0a16b54c88b165f4933144e576f73448adb",
       "readme_url": "modules/masterfiles/3ce8f9ed53fdcb3b41013d6fadc284b6d46aea53.md",
       "readme_sha256": "1ee581f7247cdaa93af130dabcdc0c11766bdd0593bafed9d1b8fc1c07515632"
+    },
+    "0.1.1": {
+      "commit": "5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f",
+      "timestamp": 1634929449967,
+      "archive_url": "modules/masterfiles/5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f.tar.gz",
+      "archive_sha256": "14cb07fb95c6f2d305e774e4c150f2b5df761ccb9141bfe9a9a24e2d242197a5",
+      "readme_url": "modules/masterfiles/5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f.md",
+      "readme_sha256": "1ee581f7247cdaa93af130dabcdc0c11766bdd0593bafed9d1b8fc1c07515632"
     }
   },
   "migrate2rocky": {
