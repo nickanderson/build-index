@@ -54,10 +54,6 @@ const checkout = async (module, moduleName) => {
 
     await exec(`git checkout ${module.commit}`)
         .catch(e => exit(`Error occurred while ${module.repo} ${module.commit} checkout. Err. ${e.message}`));
-
-    if (module.subdirectory && module.subdirectory.length > 0) {
-        shell.cd(module.subdirectory);
-    }
 }
 
 const createHashFromFile = filePath => new Promise(resolve => {
@@ -69,8 +65,14 @@ const stringToSha1 = string => crypto.createHash('sha1').update(string).digest('
 
 const processArchive = async (name, module, uploadQueue) => {
     const archiveBaseName = `${module.commit}.tar.gz`;
-    await exec(`git archive ${module.commit} --format tar.gz --output ${archiveBaseName}`)
-        .catch(e => exit(`Error occurred while archiving ${name} module. Err. ${e.message}`));
+    if (module.subdirectory && module.subdirectory.length > 0) {
+        await exec(`git archive ${module.commit}:${module.subdirectory} --prefix ${module.subdirectory}/ --format tar.gz --output ${archiveBaseName}`)
+            .catch(e => exit(`Error occurred while archiving ${name} module. Err. ${e.message}`));
+    }
+    else {
+        await exec(`git archive ${module.commit} --format tar.gz --output ${archiveBaseName}`)
+            .catch(e => exit(`Error occurred while archiving ${name} module. Err. ${e.message}`));
+    }
     let hash = await createHashFromFile(`./${archiveBaseName}`);
     const s3path = `modules/${name}/${module.commit}.tar.gz`;
     uploadQueue.push({localPath: `${shell.pwd().toString()}/${module.commit}.tar.gz`, s3path});
