@@ -8,10 +8,10 @@ if [ -z "$formatter" ]; then
   exit 0
 fi
 
-git show ":index.json" > "tmp.index.json"
-echo "Formatting index.json"
-"$formatter" pretty tmp.index.json
-hash=$(git hash-object -w "tmp.index.json")
-git update-index --add --cacheinfo 100644 "$hash" "index.json"
-rm "tmp.index.json"
+git show ":cfbs.json" > "tmp.cfbs.json"
+echo "Formatting cfbs.json"
+"$formatter" pretty tmp.cfbs.json
+hash=$(git hash-object -w "tmp.cfbs.json")
+git update-index --add --cacheinfo 100644 "$hash" "cfbs.json"
+rm "tmp.cfbs.json"
 ret=0

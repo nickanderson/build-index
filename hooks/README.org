@@ -1,6 +1,6 @@
 #+title: Git Hooks
 
-- [[./pre-commit][=pre-commit=]] :: Prettify index.json automatically. Note, if the version you try to commit isn't already pretty, after the commit is done, you are left with the non-pretty changes un-staged.
+- [[./pre-commit][=pre-commit=]] :: Prettify cfbs.json automatically. Note, if the version you try to commit isn't already pretty, after the commit is done, you are left with the non-pretty changes un-staged.
 
 * Enable hooks
 

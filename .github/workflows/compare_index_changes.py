@@ -5,9 +5,9 @@ from collections import OrderedDict
 
 def main():
     try:
-        with open("index.json", "r") as f:
+        with open("cfbs.json", "r") as f:
             new_index = json.loads(f.read(), object_pairs_hook=OrderedDict)
-        with open("index.old.json", "r") as f:
+        with open("cfbs.old.json", "r") as f:
             old_index = json.loads(f.read(), object_pairs_hook=OrderedDict)
         compare_index_changes(new_index, old_index)
     except Exception as e:
@@ -17,11 +17,11 @@ def main():
 
 
 def compare_index_changes(new_index, old_index):
-    assert "modules" in new_index
-    new_modules = new_index["modules"]
+    assert "index" in new_index
+    new_modules = new_index["index"]
 
-    assert "modules" in old_index
-    old_modules = old_index["modules"]
+    assert "index" in old_index
+    old_modules = old_index["index"]
 
     for module_name in new_modules:
         if module_name not in old_modules:
