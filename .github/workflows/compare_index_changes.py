@@ -31,18 +31,23 @@ def compare_index_changes(new_index, old_index):
         old_module = old_modules[module_name]
 
         # Handled by another GH Action
-        if (("version", "commit") not in new_module or
-            ("version", "commit") not in old_module):
+        if "version" not in new_module:
+            continue
+        if "commit" not in new_module:
+            continue
+        if "version" not in old_module:
+            continue
+        if "commit" not in old_module:
             continue
 
         if new_module["version"] != old_module["version"]:
             if new_module["commit"] == old_module["commit"]:
-                print("Error: Attribute 'version' was changed, but not 'commit'")
+                print("Error: Attribute 'version' was changed, but not 'commit'; in module '%s'" % module_name)
                 sys.exit(1)
 
         if new_module["commit"] != old_module["commit"]:
             if new_module["version"] == old_module["commit"]:
-                print("Error: Attribute 'commit' was changed but not 'version'")
+                print("Error: Attribute 'commit' was changed but not 'version'; in module '%s'" % module_name)
                 sys.exit(1)
 
 
