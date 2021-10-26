@@ -295,19 +295,6 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
-    "python-3-8": {
-      "description": "Install python 3.8",
-      "tags": ["install"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/olehermanse",
-      "version": "0.1.0",
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
-      "subdirectory": "management/python-3-8/",
-      "steps": [
-        "copy ensure_python_3_8.cf services/cfbs/python-3-8/",
-        "json def.json def.json"
-      ]
-    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
