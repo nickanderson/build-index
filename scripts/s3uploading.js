@@ -129,7 +129,7 @@ const processModules = async (modules, versions) => {
 try {
     (async () => {
         createTMP();
-        const modules = readJSON(`${workdir}/index.json`).modules;
+        const modules = readJSON(`${workdir}/cfbs.json`).index;
         const versions = readJSON(`${workdir}/versions.json`);
         await processModules(modules, versions).then((uploadQueue) => {
             if (uploadQueue.length == 0) return;

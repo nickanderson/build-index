@@ -5,7 +5,7 @@ on:
         branches:
           - master
         paths:
-          - index.json
+          - cfbs.json
 
     workflow_dispatch:
 

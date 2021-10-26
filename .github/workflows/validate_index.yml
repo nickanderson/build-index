@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Validate index.json
+name: Validate cfbs.json
 
 # Controls when the workflow will run
 on:
@@ -25,18 +25,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Validate JSON syntax of index.json
+      # Validate JSON syntax of cfbs.json
       - name: Validate syntax
-        run: python3 -m json.tool index.json
+        run: python3 -m json.tool cfbs.json
 
       # Install cfbs
       - name: Install cfbs
         run: pip3 install cfbs
 
-      # Check if index.json needs formatting
+      # Check if cfbs.json needs formatting
       - name: Check formatting
-        run: cfbs --check pretty index.json
+        run: cfbs --check pretty cfbs.json
 
       # Validate index fields
       - name: Validate fields
-        run: cfbs validate --index index.json
+        run: cfbs validate --index cfbs.json

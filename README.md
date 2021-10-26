@@ -16,4 +16,4 @@ Use at your own risk!
 
 ## Contribution Tips
 
-* Run `cfbs pretty ./index.json` after editing to ensure proper formatting.
+* Run `cfbs pretty ./cfbs.json` after editing to ensure proper formatting.
