@@ -1,6 +1,6 @@
-# CFEngine Build System module index
+# CFEngine Build Module Index
 
-This repository contains the JSON file which the cfbs CLI uses to find modules.
+This repository contains the JSON file which the `cfbs` CLI uses to find modules.
 
 The CFEngine Build System (cfbs) comes with **no warranty** and is **not supported**.
 This is a work in progress, everything will change.
