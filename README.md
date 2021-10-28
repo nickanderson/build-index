@@ -6,13 +6,13 @@ The CFEngine Build System (cfbs) comes with **no warranty** and is **not support
 This is a work in progress, everything will change.
 Use at your own risk!
 
-## CFEngine Build System Repositories
+## CFEngine Build Repositories
 
-* [modules](https://github.com/cfengine/modules) - Official modules provided by the CFEngine team
+* [build-index](https://github.com/cfengine/build-index) - Index of modules
+* [build-website](https://github.com/cfengine/build-website) - Website
 * [cfbs](https://github.com/cfengine/cfbs) - Command line client
-* [cfbs-index](https://github.com/cfengine/cfbs-index) - Index of modules
-* [cfbs-web](https://github.com/cfengine/cfbs-web) - Website
-* [cfbs-example](https://github.com/cfengine/cfbs-example) - Example project using cfbs
+* [modules](https://github.com/cfengine/modules) - Official modules provided by the CFEngine team
+* [module-template](https://github.com/cfengine/build-example) - Template for creating new modules
 
 ## Contribution Tips
 
