@@ -102,7 +102,7 @@
       ]
     },
     "inventory-lastlog": {
-      "description": "Inventory kernel parameters set during system boot",
+      "description": "Inventory users who have logged in",
       "tags": ["inventory", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
