@@ -7,6 +7,14 @@
       "archive_sha256": "6a957106e21f14db82798fc29859695e69b32fa064b6720734bf579e017bf571",
       "readme_url": "modules/autorun/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "1.0.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773314418,
+      "archive_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "f49eed3a8be7ba78754876051fe2b8ea6f69c1b2c03070cc34ef9cf5b13d54ea",
+      "readme_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "client-initiated-reporting": {
@@ -17,6 +25,14 @@
       "archive_sha256": "4bfea39869299e2e6782960367bb673b2dc99942c8abc83b5c773cb2e597b7fc",
       "readme_url": "modules/client-initiated-reporting/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773314738,
+      "archive_url": "modules/client-initiated-reporting/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "db649d44c76df91d985db2a14d1a0da429ec0b11d8085002a5536080cac527e5",
+      "readme_url": "modules/client-initiated-reporting/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "inventory-clamav": {
@@ -185,6 +201,14 @@
       "archive_sha256": "e38816918c66013667d45b5e320f29853c7b0692150a7f98c17714aebeed40f7",
       "readme_url": "modules/library-for-promise-types-in-bash/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773315011,
+      "archive_url": "modules/library-for-promise-types-in-bash/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "012d6317c0d2105516a6e27fe937a00379cb2821acb3d28532f91d42470b580d",
+      "readme_url": "modules/library-for-promise-types-in-bash/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "library-for-promise-types-in-python": {
@@ -195,6 +219,14 @@
       "archive_sha256": "f80ea774c4d3b894ff58a86841c855a0818e95f37513634f31724a2fd3739e9d",
       "readme_url": "modules/library-for-promise-types-in-python/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773315312,
+      "archive_url": "modules/library-for-promise-types-in-python/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "e73487a8f737793467a43043c3643c10732422d016b6ac70cb790f25432e78e2",
+      "readme_url": "modules/library-for-promise-types-in-python/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "promise-type-ansible": {
@@ -205,6 +237,14 @@
       "archive_sha256": "1112847f0f526b3f8cabd566c184e752c4591256d95f282bd00624833eca572c",
       "readme_url": "modules/promise-type-ansible/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773315621,
+      "archive_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "6b7ba694999eef4d845676419afe9d9d6dc1fc344f2edbaac13d1579f365c48e",
+      "readme_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "promise-type-git": {
@@ -215,6 +255,14 @@
       "archive_sha256": "cbb29d3a3f72638e9baee988136a5e06c89d37cd9d73e485ac9644afe0570d4c",
       "readme_url": "modules/promise-type-git/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773315913,
+      "archive_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "78522263977225ff79ad5e543b2a8ac49dbe22b49697d7a5f20a80f1a9270fa8",
+      "readme_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "promise-type-groups-experimental": {
@@ -225,6 +273,14 @@
       "archive_sha256": "7b2667ab164a307c49c69d2b8516f90d49827f7a7316f37bd87ba43d89a86155",
       "readme_url": "modules/promise-type-groups-experimental/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773316211,
+      "archive_url": "modules/promise-type-groups-experimental/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "5bde10f332e79cbd4cacfaebc44fb6bf3dfd01817c55382a7e7c6d2127f46901",
+      "readme_url": "modules/promise-type-groups-experimental/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "promise-type-systemd": {
@@ -235,6 +291,14 @@
       "archive_sha256": "ce92ae6ef96c0cc687afc8e56ba306c9b8e7070ea9f85fb97dcee438e7dc2eaf",
       "readme_url": "modules/promise-type-systemd/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+    },
+    "0.1.1": {
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "timestamp": 1635773316514,
+      "archive_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
+      "archive_sha256": "b6387098b53ed976f0b0c3956d557e389b192720a2795c9d6011da1352a75981",
+      "readme_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
   },
   "python-3-8": {
