@@ -6,7 +6,7 @@
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
       "description": "Enable autorun functionality",
-      "tags": ["supported"],
+      "tags": ["supported", "management"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "1.0.1",
@@ -30,7 +30,7 @@
     "git": { "alias": "promise-type-git" },
     "inventory-clamav": {
       "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
-      "tags": ["inventory", "antivirus"],
+      "tags": ["inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -78,7 +78,7 @@
     },
     "inventory-kernel-settings-sysctl-conf": {
       "description": "Inventory settings from /etc/sysctl.conf.",
-      "tags": ["inventory", "sysctl"],
+      "tags": ["inventory", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -92,7 +92,7 @@
     },
     "inventory-kernel-settings-sysctl-current": {
       "description": "Inventory sysctl settings current state.",
-      "tags": ["inventory", "sysctl"],
+      "tags": ["inventory", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -118,7 +118,7 @@
     },
     "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
-      "tags": ["experimental"],
+      "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -131,7 +131,7 @@
     },
     "inventory-sudoers": {
       "description": "Inventory users with sudo access.",
-      "tags": ["inventory", "sudo"],
+      "tags": ["inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -155,7 +155,7 @@
     },
     "kernel-settings-sysctl-conf": {
       "description": "Manage settings in /etc/sysctl.conf.",
-      "tags": ["sysctl"],
+      "tags": ["management", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -169,7 +169,7 @@
     },
     "lynis": {
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
-      "tags": ["experimental", "security", "compliance"],
+      "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -211,7 +211,7 @@
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
     "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
-      "tags": ["experimental"],
+      "tags": ["library", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -285,7 +285,7 @@
     },
     "promise-type-systemd": {
       "description": "Promise type to manage systemd services",
-      "tags": ["supported", "promise-type"],
+      "tags": ["supported", "promise-type", "systemd"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
