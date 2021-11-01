@@ -9,8 +9,8 @@
       "tags": ["supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "version": "1.0.0",
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
+      "version": "1.0.1",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "management/autorun",
       "steps": ["json def.json def.json"]
     },
@@ -22,8 +22,8 @@
       "tags": ["wip", "untested", "reporting"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "version": "0.1.0",
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
+      "version": "0.1.1",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
@@ -226,8 +226,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
-      "version": "0.1.0",
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
+      "version": "0.1.1",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "libraries/bash/",
       "steps": ["copy cfengine.sh modules/promises/"]
     },
@@ -236,8 +236,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "version": "0.1.0",
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
+      "version": "0.1.1",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promises/"]
     },
@@ -246,10 +246,10 @@
       "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
-      "subdirectory": "promise_types/ansible/",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "subdirectory": "promise-types/ansible/",
       "steps": [
         "copy ansible_promise.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -260,10 +260,10 @@
       "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
-      "subdirectory": "promise_types/git/",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "subdirectory": "promise-types/git/",
       "steps": [
         "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -274,10 +274,10 @@
       "tags": ["promise-type", "experimental", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
-      "subdirectory": "promise_types/groups-experimental/",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "subdirectory": "promise-types/groups-experimental/",
       "steps": [
         "copy groups_experimental.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -288,10 +288,10 @@
       "tags": ["promise-type", "official", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "dependencies": ["library-for-promise-types-in-python"],
-      "commit": "be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61",
-      "subdirectory": "promise_types/systemd/",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "subdirectory": "promise-types/systemd/",
       "steps": [
         "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
