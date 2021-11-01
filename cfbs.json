@@ -269,17 +269,17 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-groups-experimental": {
+    "promise-type-groups": {
       "description": "Experimental promise type to manage local user groups",
       "tags": ["supported", "promise-type", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
-      "version": "0.1.1",
-      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/groups-experimental/",
+      "version": "0.1.2",
+      "commit": "087a2fd81e1bbaf241dfa7bf39013efd9d8d348f",
+      "subdirectory": "promise-types/groups/",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
-        "copy groups_experimental.py modules/promises/",
+        "copy groups.py modules/promises/",
         "append enable.cf services/init.cf"
       ]
     },
