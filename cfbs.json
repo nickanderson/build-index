@@ -19,7 +19,7 @@
     "client-initiated": { "alias": "client-initiated-reporting" },
     "client-initiated-reporting": {
       "description": "Enable client initiated reporting and disable pull collection",
-      "tags": ["wip", "untested", "reporting"],
+      "tags": ["experimental", "reporting"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "0.1.1",
@@ -42,7 +42,7 @@
     },
     "inventory-etc-hosts": {
       "description": "Inventory entries from /etc/hosts",
-      "tags": ["inventory", "untested"],
+      "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
       "version": "0.1.1",
@@ -54,7 +54,7 @@
     },
     "inventory-fips-mode-setup": {
       "description": "Inventory kernel parameters set during system boot",
-      "tags": ["inventory", "untested"],
+      "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -66,7 +66,7 @@
     },
     "inventory-kernel-boot-params": {
       "description": "Inventory kernel parameters set during system boot",
-      "tags": ["inventory", "untested"],
+      "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -106,7 +106,7 @@
     },
     "inventory-lastlog": {
       "description": "Inventory kernel parameters set during system boot",
-      "tags": ["inventory", "untested"],
+      "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -118,7 +118,7 @@
     },
     "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
-      "tags": ["wip", "untested"],
+      "tags": ["experimental"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -143,7 +143,7 @@
     },
     "inventory-systemd": {
       "description": "Inventory interesting things from systemd",
-      "tags": ["inventory", "systemd", "untested"],
+      "tags": ["inventory", "systemd", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -169,7 +169,7 @@
     },
     "lynis": {
       "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
-      "tags": ["wip", "untested", "security", "compliance"],
+      "tags": ["experimental", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -196,7 +196,7 @@
     },
     "migrate2rocky": {
       "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
-      "tags": ["untested"],
+      "tags": ["experimental"],
       "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -211,7 +211,7 @@
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
     "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
-      "tags": ["wip", "untested"],
+      "tags": ["experimental"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
