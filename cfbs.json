@@ -28,6 +28,7 @@
       "steps": ["json def.json def.json"]
     },
     "git": { "alias": "promise-type-git" },
+    "groups": { "alias": "promise-type-groups" },
     "inventory-clamav": {
       "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
       "tags": ["supported", "inventory", "security"],
