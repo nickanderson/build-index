@@ -181,7 +181,7 @@
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
-      "tags": ["base", "supported"],
+      "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "version": "0.1.1",
@@ -243,7 +243,7 @@
     },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "supported"],
+      "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
@@ -257,7 +257,7 @@
     },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
-      "tags": ["promise-type", "supported"],
+      "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
@@ -271,7 +271,7 @@
     },
     "promise-type-groups-experimental": {
       "description": "Experimental promise type to manage local user groups",
-      "tags": ["promise-type", "experimental", "supported"],
+      "tags": ["supported", "promise-type", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "version": "0.1.1",
@@ -285,7 +285,7 @@
     },
     "promise-type-systemd": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "supported"],
+      "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
