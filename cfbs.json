@@ -30,7 +30,7 @@
     "git": { "alias": "promise-type-git" },
     "inventory-clamav": {
       "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
-      "tags": ["inventory", "security"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
@@ -42,7 +42,7 @@
     },
     "inventory-etc-hosts": {
       "description": "Inventory entries from /etc/hosts",
-      "tags": ["inventory", "experimental"],
+      "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
       "version": "0.1.1",
@@ -53,8 +53,8 @@
       ]
     },
     "inventory-fips-mode-setup": {
-      "description": "Inventory kernel parameters set during system boot",
-      "tags": ["inventory", "experimental"],
+      "description": "Inventory the status of fips-mode-setup",
+      "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -66,7 +66,7 @@
     },
     "inventory-kernel-boot-params": {
       "description": "Inventory kernel parameters set during system boot",
-      "tags": ["inventory", "experimental"],
+      "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -118,7 +118,7 @@
     },
     "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
-      "tags": ["inventory", "experimental"],
+      "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -143,7 +143,7 @@
     },
     "inventory-systemd": {
       "description": "Inventory interesting things from systemd",
-      "tags": ["inventory", "systemd", "experimental"],
+      "tags": ["supported", "inventory", "systemd"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
