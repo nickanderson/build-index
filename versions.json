@@ -318,5 +318,15 @@
       "readme_url": "modules/python-3-8/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
       "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
     }
+  },
+  "promise-type-groups": {
+    "0.1.2": {
+      "commit": "087a2fd81e1bbaf241dfa7bf39013efd9d8d348f",
+      "timestamp": 1635799525854,
+      "archive_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.tar.gz",
+      "archive_sha256": "c933e65bcd1b38c2944c69a922a9409d445da0d103e37869cb24c34c56e640b9",
+      "readme_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+    }
   }
 }
