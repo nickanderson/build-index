@@ -212,8 +212,8 @@
       "tags": ["wip", "untested"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "0fee53540262541c09f17cd8774ffe5ccea48482",
+      "version": "0.1.1",
+      "commit": "3e5bdf08119a8a61e3fb5a8592639fc2191f62b3",
       "steps": [
         "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
         "json def.json def.json"
