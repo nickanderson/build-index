@@ -181,7 +181,7 @@
     },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
-      "tags": ["official", "base", "supported"],
+      "tags": ["base", "supported"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "version": "0.1.1",
@@ -243,7 +243,7 @@
     },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "official", "supported"],
+      "tags": ["promise-type", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
@@ -257,7 +257,7 @@
     },
     "promise-type-git": {
       "description": "Promise type to manage git repos",
-      "tags": ["promise-type", "official", "supported"],
+      "tags": ["promise-type", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
@@ -285,7 +285,7 @@
     },
     "promise-type-systemd": {
       "description": "Promise type to manage systemd services",
-      "tags": ["promise-type", "official", "supported"],
+      "tags": ["promise-type", "supported"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
