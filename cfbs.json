@@ -31,9 +31,9 @@
     "inventory-clamav": {
       "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
       "tags": ["inventory", "antivirus"],
-      "version": "1.0.0",
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
       "commit": "1d872d1771921b0f8d92da56899d8b61d37dd5ca",
       "steps": [
         "copy policy/main.cf services/inventory-clamav/main.cf",
@@ -79,8 +79,8 @@
     "inventory-kernel-settings-sysctl-conf": {
       "description": "Inventory settings from /etc/sysctl.conf.",
       "tags": ["inventory", "sysctl"],
-      "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
+      "by": "https://github.com/nickanderson",
       "version": "1.0.0",
       "commit": "69149b9d15874c4f584441cd40019a79a92ad8f2",
       "subdirectory": "policy/inventory-kernel-settings-sysctl-conf",
@@ -93,9 +93,9 @@
     "inventory-kernel-settings-sysctl-current": {
       "description": "Inventory sysctl settings current state.",
       "tags": ["inventory", "sysctl"],
+      "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
-      "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "commit": "69149b9d15874c4f584441cd40019a79a92ad8f2",
       "subdirectory": "policy/inventory-kernel-settings-sysctl-current",
       "steps": [
@@ -132,9 +132,9 @@
     "inventory-sudoers": {
       "description": "Inventory users with sudo access.",
       "tags": ["inventory", "sudo"],
+      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
-      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "commit": "01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f",
       "steps": [
         "copy ./policy/main.cf services/inventory-sudoers/main.cf",
@@ -156,9 +156,9 @@
     "kernel-settings-sysctl-conf": {
       "description": "Manage settings in /etc/sysctl.conf.",
       "tags": ["sysctl"],
+      "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
-      "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "commit": "0d4fd85fa22ee6c52ace5222202b3290a5902862",
       "subdirectory": "policy/kernel-settings-sysctl-conf",
       "steps": [
@@ -200,8 +200,8 @@
       "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
-      "dependencies": ["promise-type-git"],
       "commit": "332dc89a479503bede5ca986092d2b95ad183129",
+      "dependencies": ["promise-type-git"],
       "steps": [
         "copy policy/main.cf services/migrate2rocky/main.cf",
         "json augments.json def.json"
@@ -247,9 +247,9 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
-      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "promise-types/ansible/",
+      "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy ansible_promise.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -261,9 +261,9 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
-      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "promise-types/git/",
+      "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -275,9 +275,9 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "version": "0.1.1",
-      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "promise-types/groups-experimental/",
+      "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy groups_experimental.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -289,9 +289,9 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
-      "dependencies": ["library-for-promise-types-in-python"],
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "promise-types/systemd/",
+      "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
