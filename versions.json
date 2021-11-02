@@ -131,6 +131,14 @@
       "archive_sha256": "105666466451c05dac577cb58567887bd8ee29b3816edc473862c866fd66ec83",
       "readme_url": "modules/inventory-sudoers/01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f.org",
       "readme_sha256": "3558ea7b5c1454b08066d6759babe8b397dcf71e9e16698f07349aa864b10698"
+    },
+    "1.0.1": {
+      "commit": "b9f0a923f6968f9346d1780f44b5f67dbff08397",
+      "timestamp": 1635864736941,
+      "archive_url": "modules/inventory-sudoers/b9f0a923f6968f9346d1780f44b5f67dbff08397.tar.gz",
+      "archive_sha256": "15a9bf0c9ce6a253b513ad51a89b0f8f5dfe42f51e2bd4a01ca0e8617f3e74bb",
+      "readme_url": "modules/inventory-sudoers/b9f0a923f6968f9346d1780f44b5f67dbff08397.org",
+      "readme_sha256": "a571e88c564f78ec9816f8b5c3daa0a4a37cde690f4b67e7d8565379e1b93822"
     }
   },
   "inventory-systemd": {
