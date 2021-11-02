@@ -132,7 +132,7 @@
     },
     "inventory-sudoers": {
       "description": "Inventory users with sudo access.",
-      "tags": ["inventory", "security"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
