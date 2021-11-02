@@ -47,7 +47,7 @@
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
       "version": "0.1.2",
-        "commit": "147ab396864e477ed6e0633c2d7969681ab4efa9",
+      "commit": "147ab396864e477ed6e0633c2d7969681ab4efa9",
       "steps": [
         "copy policy/main.cf services/inventory-etc-hosts/main.cf",
         "json cfbs/def.json def.json"
