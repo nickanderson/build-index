@@ -46,8 +46,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.1",
-      "commit": "a825e655af3bdfc6939186882e3b1b3292a8aa70",
+      "version": "0.1.3",
+      "commit": "c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0",
       "steps": [
         "copy policy/main.cf services/inventory-etc-hosts/main.cf",
         "json cfbs/def.json def.json"
