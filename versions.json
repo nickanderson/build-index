@@ -69,6 +69,14 @@
       "archive_sha256": "d27b148a7ccf11f24645c2d3df4453d86c54fbc3eba2785572eb0a680b05e091",
       "readme_url": "modules/inventory-etc-hosts/147ab396864e477ed6e0633c2d7969681ab4efa9.org",
       "readme_sha256": "5c543aae7f6fbf3f87877726e62de5f2d6a281c83d85b3dbef3dfeb6a2013935"
+    },
+    "0.1.3": {
+      "commit": "c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0",
+      "timestamp": 1635883049906,
+      "archive_url": "modules/inventory-etc-hosts/c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0.tar.gz",
+      "archive_sha256": "a79011a1fa0ab59fbf8795b8c52537d4532ee4214b55a4a3dd8c6e9d9bc0b098",
+      "readme_url": "modules/inventory-etc-hosts/c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0.org",
+      "readme_sha256": "cf267c21d886f38d77b191253a5f19e063d86cdb3529f24c40bee8e3ce20404b"
     }
   },
   "inventory-fips-mode-setup": {
