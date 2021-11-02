@@ -61,6 +61,14 @@
       "archive_sha256": "6002c6301416f6c08182e42d9b3c3aaf8847c2202bc41e67d383f20d718eb909",
       "readme_url": "modules/inventory-etc-hosts/a825e655af3bdfc6939186882e3b1b3292a8aa70.org",
       "readme_sha256": "56e2d4a62ddee1ffdd406f2f668c446b325ceb4800efe69e92ebabbdf552c3cc"
+    },
+    "0.1.2": {
+      "commit": "147ab396864e477ed6e0633c2d7969681ab4efa9",
+      "timestamp": 1635869789437,
+      "archive_url": "modules/inventory-etc-hosts/147ab396864e477ed6e0633c2d7969681ab4efa9.tar.gz",
+      "archive_sha256": "d27b148a7ccf11f24645c2d3df4453d86c54fbc3eba2785572eb0a680b05e091",
+      "readme_url": "modules/inventory-etc-hosts/147ab396864e477ed6e0633c2d7969681ab4efa9.org",
+      "readme_sha256": "5c543aae7f6fbf3f87877726e62de5f2d6a281c83d85b3dbef3dfeb6a2013935"
     }
   },
   "inventory-fips-mode-setup": {
@@ -71,6 +79,14 @@
       "archive_sha256": "de96182232bc98d0b9a0b5772344dd1fb77ac3a5cd1fd6677f1ccf99a18a3dc8",
       "readme_url": "modules/inventory-fips-mode-setup/33a9766edf741baf6ccbc3cea7a2346a9d745c87.org",
       "readme_sha256": "8e680cde868569494cccdc227453e366b8acbbc291df547d42ca4c0006ed07d4"
+    },
+    "0.1.1": {
+      "commit": "757aa0b568441a13d92d4df2d597760c6b7cde50",
+      "timestamp": 1635869789893,
+      "archive_url": "modules/inventory-fips-mode-setup/757aa0b568441a13d92d4df2d597760c6b7cde50.tar.gz",
+      "archive_sha256": "f65ec707242e7ddae8626d5e73108ad67b207e4f85cda1bf37afe95f7079ab15",
+      "readme_url": "modules/inventory-fips-mode-setup/757aa0b568441a13d92d4df2d597760c6b7cde50.org",
+      "readme_sha256": "f343ce225af28ac9fe69c4b11879b1a826f32cf0a94b03e360e3b71602edc5ce"
     }
   },
   "inventory-kernel-boot-params": {
