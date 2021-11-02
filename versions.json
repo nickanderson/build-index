@@ -6,7 +6,7 @@
       "archive_url": "modules/autorun/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "6a957106e21f14db82798fc29859695e69b32fa064b6720734bf579e017bf571",
       "readme_url": "modules/autorun/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815"
     },
     "1.0.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -14,7 +14,7 @@
       "archive_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "f49eed3a8be7ba78754876051fe2b8ea6f69c1b2c03070cc34ef9cf5b13d54ea",
       "readme_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815"
     }
   },
   "client-initiated-reporting": {
@@ -23,16 +23,16 @@
       "timestamp": 1635251170821,
       "archive_url": "modules/client-initiated-reporting/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "4bfea39869299e2e6782960367bb673b2dc99942c8abc83b5c773cb2e597b7fc",
-      "readme_url": "modules/client-initiated-reporting/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_url": null,
+      "readme_sha256": null
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "timestamp": 1635773314738,
       "archive_url": "modules/client-initiated-reporting/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "db649d44c76df91d985db2a14d1a0da429ec0b11d8085002a5536080cac527e5",
-      "readme_url": "modules/client-initiated-reporting/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_url": null,
+      "readme_sha256": null
     }
   },
   "inventory-clamav": {
@@ -122,7 +122,7 @@
       "archive_url": "modules/inventory-kernel-settings-sysctl-conf/69149b9d15874c4f584441cd40019a79a92ad8f2.tar.gz",
       "archive_sha256": "7ee5f30db7ff98e4f50a7a64d15423e6670f18ff8ac5eff8a677c1abeaa01900",
       "readme_url": "modules/inventory-kernel-settings-sysctl-conf/69149b9d15874c4f584441cd40019a79a92ad8f2.org",
-      "readme_sha256": "7fe09265c5bf85182dee8567b36079599f258880ab181a76627966a318ede9e2"
+      "readme_sha256": "c4f635ba7cb1bd956f71f7f18f9d288835877b9a17173144b2fc94bfa96295e4"
     }
   },
   "inventory-kernel-settings-sysctl-current": {
@@ -132,7 +132,7 @@
       "archive_url": "modules/inventory-kernel-settings-sysctl-current/69149b9d15874c4f584441cd40019a79a92ad8f2.tar.gz",
       "archive_sha256": "7754e1f0ef2a5740c208e4554c2974cda478b69a6db41677c525b6a054871860",
       "readme_url": "modules/inventory-kernel-settings-sysctl-current/69149b9d15874c4f584441cd40019a79a92ad8f2.org",
-      "readme_sha256": "7fe09265c5bf85182dee8567b36079599f258880ab181a76627966a318ede9e2"
+      "readme_sha256": "acb952da68d6171e16b275ff66d8efe9fae875f33f37349e0620c5bde791724e"
     }
   },
   "inventory-lastlog": {
@@ -190,7 +190,7 @@
       "archive_url": "modules/kernel-settings-sysctl-conf/0d4fd85fa22ee6c52ace5222202b3290a5902862.tar.gz",
       "archive_sha256": "12dbd6c54a12a7ce8ce834e3b6bab3aaf638a6b66f7382fc9ca611dbeecd02e5",
       "readme_url": "modules/kernel-settings-sysctl-conf/0d4fd85fa22ee6c52ace5222202b3290a5902862.org",
-      "readme_sha256": "7fe09265c5bf85182dee8567b36079599f258880ab181a76627966a318ede9e2"
+      "readme_sha256": "ef59f3c67395c671349271aaee74705e53a33b249d506e886fba18bd9d5768d1"
     }
   },
   "lynis": {
@@ -247,16 +247,16 @@
       "timestamp": 1635251182508,
       "archive_url": "modules/library-for-promise-types-in-bash/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "e38816918c66013667d45b5e320f29853c7b0692150a7f98c17714aebeed40f7",
-      "readme_url": "modules/library-for-promise-types-in-bash/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_url": null,
+      "readme_sha256": null
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "timestamp": 1635773315011,
       "archive_url": "modules/library-for-promise-types-in-bash/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "012d6317c0d2105516a6e27fe937a00379cb2821acb3d28532f91d42470b580d",
-      "readme_url": "modules/library-for-promise-types-in-bash/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_url": null,
+      "readme_sha256": null
     }
   },
   "library-for-promise-types-in-python": {
@@ -265,16 +265,16 @@
       "timestamp": 1635251182801,
       "archive_url": "modules/library-for-promise-types-in-python/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "f80ea774c4d3b894ff58a86841c855a0818e95f37513634f31724a2fd3739e9d",
-      "readme_url": "modules/library-for-promise-types-in-python/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_url": null,
+      "readme_sha256": null
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "timestamp": 1635773315312,
       "archive_url": "modules/library-for-promise-types-in-python/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "e73487a8f737793467a43043c3643c10732422d016b6ac70cb790f25432e78e2",
-      "readme_url": "modules/library-for-promise-types-in-python/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_url": null,
+      "readme_sha256": null
     }
   },
   "promise-type-ansible": {
@@ -284,7 +284,7 @@
       "archive_url": "modules/promise-type-ansible/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "1112847f0f526b3f8cabd566c184e752c4591256d95f282bd00624833eca572c",
       "readme_url": "modules/promise-type-ansible/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_sha256": "21d94d9a63f3f1477da9bc6de0c6e9cf61798caa3ea2a8c49fe8574637a94383"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -292,7 +292,7 @@
       "archive_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "6b7ba694999eef4d845676419afe9d9d6dc1fc344f2edbaac13d1579f365c48e",
       "readme_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "2cc871870e25476d6b3d595546db5301e548126cf75273e890c5863d282a2426"
     }
   },
   "promise-type-git": {
@@ -302,7 +302,7 @@
       "archive_url": "modules/promise-type-git/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "cbb29d3a3f72638e9baee988136a5e06c89d37cd9d73e485ac9644afe0570d4c",
       "readme_url": "modules/promise-type-git/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_sha256": "6d1ad4ad5abf322f2f4db6df43b568cec29745ff65ea1188a3a31af957525419"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -310,7 +310,7 @@
       "archive_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "78522263977225ff79ad5e543b2a8ac49dbe22b49697d7a5f20a80f1a9270fa8",
       "readme_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "1648e0f1e756b8f3c9c01ef21a5ecb38b25a57f9b68a0ae054969633a15a30af"
     }
   },
   "promise-type-groups-experimental": {
@@ -338,7 +338,7 @@
       "archive_url": "modules/promise-type-systemd/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "ce92ae6ef96c0cc687afc8e56ba306c9b8e7070ea9f85fb97dcee438e7dc2eaf",
       "readme_url": "modules/promise-type-systemd/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_sha256": "cba2a27327a5c596ab19c62e9b39ff29c551b90b030c60fb172970d14a6e16d2"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -346,7 +346,7 @@
       "archive_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "b6387098b53ed976f0b0c3956d557e389b192720a2795c9d6011da1352a75981",
       "readme_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "61431dd298b4d33327f51c10a0ae17f96ec213a9ed3653459aca62b1023fa6b6"
     }
   },
   "python-3-8": {
@@ -366,7 +366,7 @@
       "archive_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.tar.gz",
       "archive_sha256": "c933e65bcd1b38c2944c69a922a9409d445da0d103e37869cb24c34c56e640b9",
       "readme_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "a4f52ebdb852c3c68cc94de06ff301c129789af9350bc0746289171e81d091c4"
     }
   },
   "demo": {
@@ -376,7 +376,7 @@
       "archive_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
       "archive_sha256": "c9044380fdbd10b6c4723dad9166511bec1695f6f1e5b5802316cd44e35943c5",
       "readme_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "c456f3dd3dd6ec44a467e634e5ca6dfbbead3179aeca509fb0df5ea8012fc077"
     }
   },
   "every-minute": {
@@ -386,7 +386,7 @@
       "archive_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
       "archive_sha256": "f37b0393ad2eeb9b123fdac359cfaca17440a02aa3cb20ae90f7b752928835e0",
       "readme_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "442cd9b2a949be27ec99cea309d67660ccae9fe326da27bbba07648693b50ac9"
     }
   }
 }
