@@ -81,6 +81,14 @@
       "archive_sha256": "1f642667ca232f0c4c685973c667a9400cbf2cc3cefcd50dc095eeebadc92d7a",
       "readme_url": "modules/inventory-kernel-boot-params/5c132ce0d78ee5f75c5c7d7704fc19170bd0a7e8.org",
       "readme_sha256": "cdf303d340b9cc44c80b7f884181eff8f8154f6d8236d3320c62fb91295b21e0"
+    },
+    "0.1.1": {
+      "commit": "de528cbfcaeba3470e1f2f018e71e7a232b391e7",
+      "timestamp": 1635868862721,
+      "archive_url": "modules/inventory-kernel-boot-params/de528cbfcaeba3470e1f2f018e71e7a232b391e7.tar.gz",
+      "archive_sha256": "e721746289598d7503f10b4b8c97ef016aa4cd33fba1ab1cd66c06fe2976c671",
+      "readme_url": "modules/inventory-kernel-boot-params/de528cbfcaeba3470e1f2f018e71e7a232b391e7.org",
+      "readme_sha256": "1d2b5f08593cf2002213786cf749a58b5a68a6644dafc7d03bc5c8d7eee4fb2f"
     }
   },
   "inventory-kernel-settings-sysctl-conf": {
