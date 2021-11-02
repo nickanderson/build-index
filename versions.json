@@ -360,5 +360,25 @@
       "readme_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.md",
       "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
     }
+  },
+  "demo": {
+    "1.0.0": {
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "timestamp": 1635877265904,
+      "archive_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
+      "archive_sha256": "c9044380fdbd10b6c4723dad9166511bec1695f6f1e5b5802316cd44e35943c5",
+      "readme_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+    }
+  },
+  "every-minute": {
+    "1.0.0": {
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "timestamp": 1635877266526,
+      "archive_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
+      "archive_sha256": "f37b0393ad2eeb9b123fdac359cfaca17440a02aa3cb20ae90f7b752928835e0",
+      "readme_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+    }
   }
 }
