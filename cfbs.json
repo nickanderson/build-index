@@ -8,7 +8,7 @@
       "description": "Enable autorun functionality",
       "tags": ["supported", "management"],
       "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/cfengine",
+      "by": "https://github.com/olehermanse",
       "version": "1.0.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "management/autorun",
@@ -25,6 +25,27 @@
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "reporting/client-initiated-reporting",
+      "steps": ["json def.json def.json"]
+    },
+    "demo": {
+      "description": "Enables convenient and insecure settings for demoing CFEngine",
+      "tags": ["management", "experimental"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "subdirectory": "management/demo",
+      "dependencies": ["autorun", "every-minute"],
+      "steps": ["json def.json def.json"]
+    },
+    "every-minute": {
+      "description": "Make policy fetching, evaluation, and reporting happen every minute",
+      "tags": ["management", "experimental"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "subdirectory": "management/every-minute",
       "steps": ["json def.json def.json"]
     },
     "git": { "alias": "promise-type-git" },
@@ -58,8 +79,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "33a9766edf741baf6ccbc3cea7a2346a9d745c87",
+      "version": "0.1.1",
+      "commit": "757aa0b568441a13d92d4df2d597760c6b7cde50",
       "steps": [
         "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
         "json augments.json def.json"
@@ -70,8 +91,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "5c132ce0d78ee5f75c5c7d7704fc19170bd0a7e8",
+      "version": "0.1.1",
+      "commit": "de528cbfcaeba3470e1f2f018e71e7a232b391e7",
       "steps": [
         "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
         "json augments.json def.json"
@@ -135,8 +156,8 @@
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.0",
-      "commit": "01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f",
+      "version": "1.0.1",
+      "commit": "b9f0a923f6968f9346d1780f44b5f67dbff08397",
       "steps": [
         "copy ./policy/main.cf services/inventory-sudoers/main.cf",
         "json ./cfbs/def.json def.json"
