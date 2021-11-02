@@ -8,7 +8,7 @@
       "description": "Enable autorun functionality",
       "tags": ["supported", "management"],
       "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/cfengine",
+      "by": "https://github.com/olehermanse",
       "version": "1.0.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "management/autorun",
@@ -25,6 +25,27 @@
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "reporting/client-initiated-reporting",
+      "steps": ["json def.json def.json"]
+    },
+    "demo": {
+      "description": "Enables convenient and insecure settings for demoing CFEngine",
+      "tags": ["management", "experimental"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "subdirectory": "management/demo",
+      "dependencies": ["autorun", "every-minute"],
+      "steps": ["json def.json def.json"]
+    },
+    "every-minute": {
+      "description": "Make policy fetching, evaluation, and reporting happen every minute",
+      "tags": ["management", "experimental"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "subdirectory": "management/every-minute",
       "steps": ["json def.json def.json"]
     },
     "git": { "alias": "promise-type-git" },
