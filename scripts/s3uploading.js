@@ -10,7 +10,7 @@ const s3 = new AWS.S3({
     "AWS_SECRET_ACCESS_KEY": process.env.AWS_SECRET_ACCESS_KEY
 });
 const tmp = `${workdir}/tmp`;
-const readmeRegex = new RegExp('^readme((\.(org|md|adoc|rst)$)|$)', 'i'); // readme, readme.org, readme.adoc, readme.md, readme.rst
+const readmeRegex = new RegExp('/readme((\.(org|md|adoc|rst)$)|$)', 'i'); // readme, readme.org, readme.adoc, readme.md, readme.rst
 const Bucket = process.env.BUCKET_NAME
 
 const readJSON = (file) => JSON.parse(fs.readFileSync(file, 'utf8'));
@@ -81,7 +81,8 @@ const processArchive = async (name, module, uploadQueue) => {
 
 const processReadme = async (moduleName, module, uploadQueue) => {
     let readme_url = null, readme_sha256 = null;
-    for (const file of shell.ls('*')) {
+    const readmeDir = (module.hasOwnProperty('subdirectory')) ? module.subdirectory : '.';
+    for (const file of shell.ls(`${readmeDir}/*`)) {
         if (readmeRegex.test(file)) {
             readme_url = `modules/${moduleName}/${module.commit}${path.extname(file)}`;
             uploadQueue.push({localPath: `${shell.pwd().toString()}/${file}`, s3path: readme_url});
