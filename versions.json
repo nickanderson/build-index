@@ -153,6 +153,14 @@
       "archive_sha256": "a047731f9e73cf1735cc8d5eda1a0001107d85ca2be194bd19847fdec8564b89",
       "readme_url": "modules/inventory-local-users/a6b29c1ac51a05c41e6a6ecea3cdf2be02938946.org",
       "readme_sha256": "e9483f9ff349f1f586d1f20e1f8cfda2f27a2541a50ebc299bb04e6af56bc93e"
+    },
+    "2.0.0": {
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "timestamp": 1635944567006,
+      "archive_url": "modules/inventory-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
+      "archive_sha256": "cb2520587eb798b29b51cf6a589f6797fbbfea9a66fcc92c56a31c44b118f64e",
+      "readme_url": "modules/inventory-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
+      "readme_sha256": "c5d317034a28d538b9f5f053d56fb6a5493ded93865c967459bf34002ceaad29"
     }
   },
   "inventory-sudoers": {
@@ -387,6 +395,36 @@
       "archive_sha256": "f37b0393ad2eeb9b123fdac359cfaca17440a02aa3cb20ae90f7b752928835e0",
       "readme_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
       "readme_sha256": "442cd9b2a949be27ec99cea309d67660ccae9fe326da27bbba07648693b50ac9"
+    }
+  },
+  "inventory-local-users-locked": {
+    "2.0.0": {
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "timestamp": 1635944567505,
+      "archive_url": "modules/inventory-local-users-locked/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
+      "archive_sha256": "18f82ca509e2bc73e80cf1b894db8b1af43b6716da97ab3bd6ed3675242c4194",
+      "readme_url": "modules/inventory-local-users-locked/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
+      "readme_sha256": "372d970ff72ee1f6f8a669b077c5a39b190f02bfdc86032c04f4bf2ef626553b"
+    }
+  },
+  "inventory-local-users-password-empty": {
+    "2.0.0": {
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "timestamp": 1635944567998,
+      "archive_url": "modules/inventory-local-users-password-empty/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
+      "archive_sha256": "7425e1faa0ea14b07ad19b0c8fb0611ca796e626be66f7171921730238ddb3a9",
+      "readme_url": "modules/inventory-local-users-password-empty/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
+      "readme_sha256": "ae2700beb60da28b90fc417f5faec1a3e3a2007912f7df76250124e694ff2e0c"
+    }
+  },
+  "library-parse-local-users": {
+    "2.0.0": {
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "timestamp": 1635944568524,
+      "archive_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
+      "archive_sha256": "ab9afea7f99d0a67b5e474a24850d7b33bfbc5c1a8914f067d9d29f1dcf0e1dd",
+      "readme_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
+      "readme_sha256": "7ea46fed4b5ee60e8ca5a1c22755bdfbfa60b29790d233fe50fe7344d1982a5a"
     }
   }
 }
