@@ -143,8 +143,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.0",
-      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "version": "2.0.1",
+      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_all/",
       "dependencies": ["library-parse-local-users"],
       "steps": [
@@ -158,8 +158,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.0",
-      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "version": "2.0.1",
+      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_locked/",
       "dependencies": ["library-parse-local-users"],
       "steps": [
@@ -173,8 +173,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.0",
-      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "version": "2.0.1",
+      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_password_empty",
       "dependencies": ["library-parse-local-users"],
       "steps": [
@@ -300,8 +300,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.0",
-      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "version": "2.0.1",
+      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "parsed_etc_passwd_shadow/",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
