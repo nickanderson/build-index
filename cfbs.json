@@ -143,11 +143,42 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "a6b29c1ac51a05c41e6a6ecea3cdf2be02938946",
+      "version": "2.0.0",
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "subdirectory": "inventory_passwd_users_all/",
+      "dependencies": ["library-parse-local-users"],
       "steps": [
-        "copy ./policy/inventory_passwd_shadow_discover.cf services/inventory-local-users/",
-        "copy ./policy/supplemental.cf services/inventory-local-users/",
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ]
+    },
+    "inventory-local-users-locked": {
+      "name": "inventory-local-users-locked",
+      "description": "Inventory the local users on the system that are locked",
+      "tags": ["supported", "inventory"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "2.0.0",
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "subdirectory": "inventory_passwd_users_locked/",
+      "dependencies": ["library-parse-local-users"],
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ]
+    },
+    "inventory-local-users-password-empty": {
+      "name": "inventory-local-users-password-empty",
+      "description": "Inventory the local users on the system that do not have a password set",
+      "tags": ["supported", "inventory"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "2.0.0",
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "dependencies": ["library-parse-local-users"],
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
         "json cfbs/def.json def.json"
       ]
     },
@@ -262,6 +293,20 @@
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promises/"]
+    },
+    "library-parse-local-users": {
+      "name": "library-parsed-local-users",
+      "description": "Parse local users from /etc/passwd on the system with their attributes from /etc/shadow",
+      "tags": ["supported", "library"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "2.0.0",
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ]
     },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
