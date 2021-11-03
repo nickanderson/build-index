@@ -319,7 +319,22 @@
         "append enable.cf services/init.cf"
       ]
     },
+    "promise-type-http": {
+      "description": "Promise type to perform HTTP(S) requests from policy",
+      "tags": ["supported", "promise-type", "http"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/vpodzime",
+      "version": "1.0.0",
+      "commit": "c861789d4b376147d904fccd76963a92e65eaa97",
+      "subdirectory": "promise-types/http/",
+      "dependencies": ["library-for-promise-types-in-python"],
+      "steps": [
+        "copy http_promise_type.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ]
+    },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
-    "systemd": { "alias": "promise-type-systemd" }
+    "systemd": { "alias": "promise-type-systemd" },
+    "http": { "alias": "promise-type-http" }
   }
 }
