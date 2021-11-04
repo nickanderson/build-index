@@ -267,11 +267,11 @@
       "tags": ["library", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.1",
-      "commit": "3e5bdf08119a8a61e3fb5a8592639fc2191f62b3",
+      "version": "0.1.2",
+      "commit": "8afb5e4f482c4d1564cfe56263bc8e38c33741ca",
       "steps": [
         "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
-        "json def.json def.json"
+        "json cfbs/def.json def.json"
       ]
     },
     "library-for-promise-types-in-bash": {
