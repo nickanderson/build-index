@@ -74,6 +74,19 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "inventory-etc-login-defs": {
+      "name": "inventory-etc-login-defs",
+      "description": "Inventory useful bits from /etc/login.defs",
+      "tags": ["supported", "inventory"],
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "52f659510ddd3bc65e804306a1bff17d6c6f4299",
+      "steps": [
+        "copy ./inventory-etc-login-defs.cf services/inventory-etc-login-defs/inventory-etc-login-defs.cf",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "inventory-fips-mode-setup": {
       "description": "Inventory the status of fips-mode-setup",
       "tags": ["supported", "inventory"],
