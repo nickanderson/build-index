@@ -263,6 +263,14 @@
       "archive_sha256": "fb5f73149a3bbea8cffa7bcdf4c148f49856db724d6caa7626ae36c8f9b43b0b",
       "readme_url": "modules/library-file-integrity-monitoring/3e5bdf08119a8a61e3fb5a8592639fc2191f62b3.org",
       "readme_sha256": "15d5bf736872c24cb5c71afe8aaead82d5c7dd23dcbe36f3e3a2cc1c34588e93"
+    },
+    "0.1.2": {
+      "commit": "8afb5e4f482c4d1564cfe56263bc8e38c33741ca",
+      "timestamp": 1636039528191,
+      "archive_url": "modules/library-file-integrity-monitoring/8afb5e4f482c4d1564cfe56263bc8e38c33741ca.tar.gz",
+      "archive_sha256": "31a33895895ca2913446b0b440a20f6bc589f94c73225c4c8f20b28e4af70345",
+      "readme_url": "modules/library-file-integrity-monitoring/8afb5e4f482c4d1564cfe56263bc8e38c33741ca.org",
+      "readme_sha256": "e75db87f77ce2bc94a0f2a7ceadf4ce8addec647f7153493c90147105ffba692"
     }
   },
   "library-for-promise-types-in-bash": {
