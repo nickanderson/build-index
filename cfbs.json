@@ -294,7 +294,7 @@
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promises/"]
     },
-    "library-parse-local-users": {
+    "library-parsed-local-users": {
       "name": "library-parsed-local-users",
       "description": "Parse local users from /etc/passwd on the system with their attributes from /etc/shadow",
       "tags": ["supported", "library"],
