@@ -441,24 +441,6 @@
       "readme_sha256": "bbdacf65b3c232c297b4d657f96c0abbaee2d0f42f5d7cdb74e3534ef087b7a2"
     }
   },
-  "library-parse-local-users": {
-    "2.0.0": {
-      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
-      "timestamp": 1635944568524,
-      "archive_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
-      "archive_sha256": "ab9afea7f99d0a67b5e474a24850d7b33bfbc5c1a8914f067d9d29f1dcf0e1dd",
-      "readme_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
-      "readme_sha256": "7ea46fed4b5ee60e8ca5a1c22755bdfbfa60b29790d233fe50fe7344d1982a5a"
-    },
-    "2.0.1": {
-      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
-      "timestamp": 1635952353226,
-      "archive_url": "modules/library-parse-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
-      "archive_sha256": "d18bff60babcb820f9d0abfe3b29f701165282d18f205eea10a0707d0413167c",
-      "readme_url": "modules/library-parse-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
-      "readme_sha256": "9a8ebd9b3ea36d5bd3439ba0b31fdc93eb60dead05d7c0735ed68ad16b6bf5eb"
-    }
-  },
   "promise-type-http": {
     "1.0.0": {
       "commit": "c861789d4b376147d904fccd76963a92e65eaa97",
@@ -470,6 +452,14 @@
     }
   },
   "library-parsed-local-users": {
+    "2.0.0": {
+      "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
+      "timestamp": 1635944568524,
+      "archive_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
+      "archive_sha256": "ab9afea7f99d0a67b5e474a24850d7b33bfbc5c1a8914f067d9d29f1dcf0e1dd",
+      "readme_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
+      "readme_sha256": "7ea46fed4b5ee60e8ca5a1c22755bdfbfa60b29790d233fe50fe7344d1982a5a"
+    },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "timestamp": 1636036250277,
