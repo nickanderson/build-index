@@ -146,7 +146,7 @@
       "version": "2.0.1",
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_all/",
-      "dependencies": ["library-parse-local-users"],
+      "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
@@ -161,7 +161,7 @@
       "version": "2.0.1",
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_locked/",
-      "dependencies": ["library-parse-local-users"],
+      "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
@@ -176,7 +176,7 @@
       "version": "2.0.1",
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
       "subdirectory": "inventory_passwd_users_password_empty",
-      "dependencies": ["library-parse-local-users"],
+      "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
         "json cfbs/def.json def.json"
