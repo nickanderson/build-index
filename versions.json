@@ -169,6 +169,14 @@
       "archive_sha256": "0e3a52bba56a1685e65ecef3e99e54a9c5a32088458d0870f7e4c6b45c240542",
       "readme_url": "modules/inventory-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
       "readme_sha256": "7612c684d26a445e4858189ca05749d0bfd0f73f71d7417a005e9e16a9d386fb"
+    },
+    "2.0.2": {
+      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "timestamp": 1636038527260,
+      "archive_url": "modules/inventory-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
+      "archive_sha256": "15983f9f27523626e5cec8e1d80d8bb5954ccf7445a7a4ce9d8c3da95c9ee9b8",
+      "readme_url": "modules/inventory-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
+      "readme_sha256": "d3c74785bdbd5a6534b70593d0cb73634b01215ed760e74aa603a85f819f5df7"
     }
   },
   "inventory-sudoers": {
@@ -421,6 +429,14 @@
       "archive_sha256": "22f3e66f933d6faa7ecc6e8474900be7587600cbde0b5f34830a8fbb8eadb9ac",
       "readme_url": "modules/inventory-local-users-locked/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
       "readme_sha256": "4e17cbace7e259976f1155ede177160c2dfdbfccceaec7500c04e41a9659a4b5"
+    },
+    "2.0.2": {
+      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "timestamp": 1636038527513,
+      "archive_url": "modules/inventory-local-users-locked/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
+      "archive_sha256": "004a68f268dd21f6f212c7e746f29bea266c539bd301767f9867103e467baff7",
+      "readme_url": "modules/inventory-local-users-locked/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
+      "readme_sha256": "d2b66713b784d533d5a3a50aaa4961d27c919cd03758c8f28284953995c08990"
     }
   },
   "inventory-local-users-password-empty": {
@@ -439,6 +455,14 @@
       "archive_sha256": "5ac9c418deffa59930f5c03b13967b2516f0e03763c018a74a8e736d0b2dda6a",
       "readme_url": "modules/inventory-local-users-password-empty/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
       "readme_sha256": "bbdacf65b3c232c297b4d657f96c0abbaee2d0f42f5d7cdb74e3534ef087b7a2"
+    },
+    "2.0.2": {
+      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "timestamp": 1636038527754,
+      "archive_url": "modules/inventory-local-users-password-empty/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
+      "archive_sha256": "6a6d3969f5c497f41c30c1c18ba00e9c46d52d6d81c292ca25c68e805d5a0c74",
+      "readme_url": "modules/inventory-local-users-password-empty/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
+      "readme_sha256": "c82f7acff20abb1d8dd5242a4cec39e886ce447edb840ce3ad0eb737cc6aaefe"
     }
   },
   "promise-type-http": {
@@ -467,6 +491,14 @@
       "archive_sha256": "e53045346b8fdf1831436d5cb798140aff440df91971a29ef990f70ab6e09089",
       "readme_url": "modules/library-parsed-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
       "readme_sha256": "9a8ebd9b3ea36d5bd3439ba0b31fdc93eb60dead05d7c0735ed68ad16b6bf5eb"
+    },
+    "2.0.2": {
+      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "timestamp": 1636038527988,
+      "archive_url": "modules/library-parsed-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
+      "archive_sha256": "2d3196bd2900354ef4e856f6f7d9ef8af714add52e6fea4719d4deccf0355bec",
+      "readme_url": "modules/library-parsed-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
+      "readme_sha256": "c3309b8d86fe6981d40a2ec39c524ba7bcffd2b0c88421d5d461fbd4634bb5f7"
     }
   }
 }
