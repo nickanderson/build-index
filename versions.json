@@ -468,5 +468,15 @@
       "readme_url": "modules/promise-type-http/c861789d4b376147d904fccd76963a92e65eaa97.org",
       "readme_sha256": "0ab7f3e2e5054207ec502fb43bc09e783db3664fd9047b29753c083fa181a017"
     }
+  },
+  "library-parsed-local-users": {
+    "2.0.1": {
+      "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
+      "timestamp": 1636036250277,
+      "archive_url": "modules/library-parsed-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
+      "archive_sha256": "e53045346b8fdf1831436d5cb798140aff440df91971a29ef990f70ab6e09089",
+      "readme_url": "modules/library-parsed-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
+      "readme_sha256": "9a8ebd9b3ea36d5bd3439ba0b31fdc93eb60dead05d7c0735ed68ad16b6bf5eb"
+    }
   }
 }
