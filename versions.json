@@ -508,5 +508,15 @@
       "readme_url": "modules/library-parsed-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
       "readme_sha256": "c3309b8d86fe6981d40a2ec39c524ba7bcffd2b0c88421d5d461fbd4634bb5f7"
     }
+  },
+  "inventory-etc-login-defs": {
+    "0.0.1": {
+      "commit": "52f659510ddd3bc65e804306a1bff17d6c6f4299",
+      "timestamp": 1636044098577,
+      "archive_url": "modules/inventory-etc-login-defs/52f659510ddd3bc65e804306a1bff17d6c6f4299.tar.gz",
+      "archive_sha256": "b7e35e411549b10d555d9b8172ea4bb7f27e2146d9a192ace0d7f95b60e81b0e",
+      "readme_url": "modules/inventory-etc-login-defs/52f659510ddd3bc65e804306a1bff17d6c6f4299.org",
+      "readme_sha256": "efbda26f5b5485e1a49b3ffaaf55a0b0b42b6649dc269395ad7fa40c342b1771"
+    }
   }
 }
