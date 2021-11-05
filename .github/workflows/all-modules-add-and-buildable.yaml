@@ -4,11 +4,10 @@ name: Validate all modules in index can be added and built
 
 # Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
-  push:
+  # Triggers the workflow on master every night at 3:15 am
+  schedule:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    cron: '15 3 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
