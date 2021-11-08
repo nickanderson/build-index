@@ -156,8 +156,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.2",
-      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "version": "2.0.3",
+      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
       "subdirectory": "inventory_passwd_users_all/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
@@ -171,8 +171,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.2",
-      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "version": "2.0.3",
+      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
       "subdirectory": "inventory_passwd_users_locked/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
@@ -186,12 +186,27 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.2",
-      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "version": "2.0.3",
+      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
       "subdirectory": "inventory_passwd_users_password_empty",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ]
+    },
+    "inventory-local-users-password-hashing-algorithm": {
+      "name": "inventory-local-users-password-hashing-algorithm",
+      "description": "Inventory password hashing algorithms in use by local users",
+      "tags": ["supported", "inventory"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "2.0.3",
+      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
+      "dependencies": ["library-parsed-local-users"],
+      "steps": [
+        "copy ./inventory_local_user_pw_hashing_algorithm.cf services/local-users/inventory_passwd_users_password_hashing_algorithm/",
         "json cfbs/def.json def.json"
       ]
     },
@@ -313,8 +328,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.2",
-      "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
+      "version": "2.0.3",
+      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
       "subdirectory": "parsed_etc_passwd_shadow/",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
