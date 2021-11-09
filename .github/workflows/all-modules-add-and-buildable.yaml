@@ -6,8 +6,7 @@ name: Validate all modules in index can be added and built
 on:
   # Triggers the workflow on master every night at 3:15 am
   schedule:
-    branches: [ master ]
-    cron: '15 3 * * *'
+    - cron: '15 3 * * *'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
