@@ -50,6 +50,7 @@
     },
     "git": { "alias": "promise-type-git" },
     "groups": { "alias": "promise-type-groups" },
+    "http": { "alias": "promise-type-http" },
     "inventory-clamav": {
       "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
       "tags": ["supported", "inventory", "security"],
@@ -248,47 +249,6 @@
         "json ./cfbs/def.json def.json"
       ]
     },
-    "lynis": {
-      "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
-      "tags": ["security", "compliance", "experimental"],
-      "repo": "https://github.com/nickanderson/cfengine-lynis",
-      "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "f18ff3cfb629e962cce8c42b8fe845faf3d10940",
-      "steps": [
-        "copy policy/main.cf services/lynis/main.cf",
-        "json cfbs/def.json def.json"
-      ]
-    },
-    "masterfiles": {
-      "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
-      "tags": ["supported", "base"],
-      "repo": "https://github.com/cfengine/masterfiles",
-      "by": "https://github.com/cfengine",
-      "version": "0.1.1",
-      "commit": "5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f",
-      "steps": [
-        "run ./autogen.sh",
-        "delete ./autogen.sh",
-        "run ./cfbs/cleanup.sh",
-        "delete ./cfbs/cleanup.sh",
-        "copy ./ ./"
-      ]
-    },
-    "migrate2rocky": {
-      "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
-      "tags": ["experimental"],
-      "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
-      "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "332dc89a479503bede5ca986092d2b95ad183129",
-      "dependencies": ["promise-type-git"],
-      "steps": [
-        "copy policy/main.cf services/migrate2rocky/main.cf",
-        "json augments.json def.json"
-      ]
-    },
-    "mpf": { "alias": "masterfiles" },
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
     "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
@@ -336,6 +296,47 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "lynis": {
+      "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
+      "tags": ["security", "compliance", "experimental"],
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "by": "https://github.com/nickanderson",
+      "version": "0.1.0",
+      "commit": "f18ff3cfb629e962cce8c42b8fe845faf3d10940",
+      "steps": [
+        "copy policy/main.cf services/lynis/main.cf",
+        "json cfbs/def.json def.json"
+      ]
+    },
+    "masterfiles": {
+      "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
+      "tags": ["supported", "base"],
+      "repo": "https://github.com/cfengine/masterfiles",
+      "by": "https://github.com/cfengine",
+      "version": "0.1.1",
+      "commit": "5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f",
+      "steps": [
+        "run ./autogen.sh",
+        "delete ./autogen.sh",
+        "run ./cfbs/cleanup.sh",
+        "delete ./cfbs/cleanup.sh",
+        "copy ./ ./"
+      ]
+    },
+    "migrate2rocky": {
+      "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
+      "tags": ["experimental"],
+      "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
+      "by": "https://github.com/nickanderson",
+      "version": "0.1.0",
+      "commit": "332dc89a479503bede5ca986092d2b95ad183129",
+      "dependencies": ["promise-type-git"],
+      "steps": [
+        "copy policy/main.cf services/migrate2rocky/main.cf",
+        "json augments.json def.json"
+      ]
+    },
+    "mpf": { "alias": "masterfiles" },
     "promise-type-ansible": {
       "description": "Promise type to manage systemd services",
       "tags": ["supported", "promise-type"],
@@ -378,20 +379,6 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-systemd": {
-      "description": "Promise type to manage systemd services",
-      "tags": ["supported", "promise-type", "systemd"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/tranchitella",
-      "version": "0.1.1",
-      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/systemd/",
-      "dependencies": ["library-for-promise-types-in-python"],
-      "steps": [
-        "copy systemd.py modules/promises/",
-        "append enable.cf services/init.cf"
-      ]
-    },
     "promise-type-http": {
       "description": "Promise type to perform HTTP(S) requests from policy",
       "tags": ["supported", "promise-type", "http"],
@@ -406,8 +393,21 @@
         "append enable.cf services/init.cf"
       ]
     },
+    "promise-type-systemd": {
+      "description": "Promise type to manage systemd services",
+      "tags": ["supported", "promise-type", "systemd"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/tranchitella",
+      "version": "0.1.1",
+      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "subdirectory": "promise-types/systemd/",
+      "dependencies": ["library-for-promise-types-in-python"],
+      "steps": [
+        "copy systemd.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ]
+    },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
-    "systemd": { "alias": "promise-type-systemd" },
-    "http": { "alias": "promise-type-http" }
+    "systemd": { "alias": "promise-type-systemd" }
   }
 }
