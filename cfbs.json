@@ -338,7 +338,7 @@
     },
     "mpf": { "alias": "masterfiles" },
     "promise-type-ansible": {
-      "description": "Promise type to manage systemd services",
+      "description": "Promise type to run ansible playbooks",
       "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
