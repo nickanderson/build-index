@@ -6,7 +6,13 @@
       "archive_url": "modules/autorun/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "6a957106e21f14db82798fc29859695e69b32fa064b6720734bf579e017bf571",
       "readme_url": "modules/autorun/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815"
+      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/autorun",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     },
     "1.0.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -14,7 +20,13 @@
       "archive_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "f49eed3a8be7ba78754876051fe2b8ea6f69c1b2c03070cc34ef9cf5b13d54ea",
       "readme_url": "modules/autorun/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815"
+      "readme_sha256": "3ecc3c56a3959592532bfa3e3d675fbbcb60de1e2b1425a14aedd7071e771815",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/autorun",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "client-initiated-reporting": {
@@ -24,7 +36,13 @@
       "archive_url": "modules/client-initiated-reporting/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "4bfea39869299e2e6782960367bb673b2dc99942c8abc83b5c773cb2e597b7fc",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "reporting/client-initiated-reporting",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -32,7 +50,13 @@
       "archive_url": "modules/client-initiated-reporting/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "db649d44c76df91d985db2a14d1a0da429ec0b11d8085002a5536080cac527e5",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "reporting/client-initiated-reporting",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "inventory-clamav": {
@@ -42,7 +66,14 @@
       "archive_url": "modules/inventory-clamav/1d872d1771921b0f8d92da56899d8b61d37dd5ca.tar.gz",
       "archive_sha256": "f7cc9fba53216787d440a740089abe2a5d0be43c66188232f593eda671a006fd",
       "readme_url": "modules/inventory-clamav/1d872d1771921b0f8d92da56899d8b61d37dd5ca.org",
-      "readme_sha256": "a3f6ff3678539b25e96d0cbd8822a4910396f4832fb5bc4ef334d13605c999ba"
+      "readme_sha256": "a3f6ff3678539b25e96d0cbd8822a4910396f4832fb5bc4ef334d13605c999ba",
+      "steps": [
+        "copy policy/main.cf services/inventory-clamav/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-clamav"
     }
   },
   "inventory-etc-hosts": {
@@ -52,7 +83,14 @@
       "archive_url": "modules/inventory-etc-hosts/afbb08ab87630e724940c530050a271b63565402.tar.gz",
       "archive_sha256": "d84bb2ea2e2ab86edc286a688cd2fcb8117b437a44d391f767564b258c783011",
       "readme_url": "modules/inventory-etc-hosts/afbb08ab87630e724940c530050a271b63565402.org",
-      "readme_sha256": "828f3ec1b400fdfd5c7f37a9e8b1d0b0415e275818de645c53f47b961e1f335f"
+      "readme_sha256": "828f3ec1b400fdfd5c7f37a9e8b1d0b0415e275818de645c53f47b961e1f335f",
+      "steps": [
+        "copy policy/main.cf services/inventory-etc-hosts/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts"
     },
     "0.1.1": {
       "commit": "a825e655af3bdfc6939186882e3b1b3292a8aa70",
@@ -60,7 +98,14 @@
       "archive_url": "modules/inventory-etc-hosts/a825e655af3bdfc6939186882e3b1b3292a8aa70.tar.gz",
       "archive_sha256": "6002c6301416f6c08182e42d9b3c3aaf8847c2202bc41e67d383f20d718eb909",
       "readme_url": "modules/inventory-etc-hosts/a825e655af3bdfc6939186882e3b1b3292a8aa70.org",
-      "readme_sha256": "56e2d4a62ddee1ffdd406f2f668c446b325ceb4800efe69e92ebabbdf552c3cc"
+      "readme_sha256": "56e2d4a62ddee1ffdd406f2f668c446b325ceb4800efe69e92ebabbdf552c3cc",
+      "steps": [
+        "copy policy/main.cf services/inventory-etc-hosts/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts"
     },
     "0.1.2": {
       "commit": "147ab396864e477ed6e0633c2d7969681ab4efa9",
@@ -68,7 +113,14 @@
       "archive_url": "modules/inventory-etc-hosts/147ab396864e477ed6e0633c2d7969681ab4efa9.tar.gz",
       "archive_sha256": "d27b148a7ccf11f24645c2d3df4453d86c54fbc3eba2785572eb0a680b05e091",
       "readme_url": "modules/inventory-etc-hosts/147ab396864e477ed6e0633c2d7969681ab4efa9.org",
-      "readme_sha256": "5c543aae7f6fbf3f87877726e62de5f2d6a281c83d85b3dbef3dfeb6a2013935"
+      "readme_sha256": "5c543aae7f6fbf3f87877726e62de5f2d6a281c83d85b3dbef3dfeb6a2013935",
+      "steps": [
+        "copy policy/main.cf services/inventory-etc-hosts/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts"
     },
     "0.1.3": {
       "commit": "c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0",
@@ -76,7 +128,14 @@
       "archive_url": "modules/inventory-etc-hosts/c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0.tar.gz",
       "archive_sha256": "a79011a1fa0ab59fbf8795b8c52537d4532ee4214b55a4a3dd8c6e9d9bc0b098",
       "readme_url": "modules/inventory-etc-hosts/c4cac4bfa0f2c0a6caf83517dcaaaf17e70808a0.org",
-      "readme_sha256": "cf267c21d886f38d77b191253a5f19e063d86cdb3529f24c40bee8e3ce20404b"
+      "readme_sha256": "cf267c21d886f38d77b191253a5f19e063d86cdb3529f24c40bee8e3ce20404b",
+      "steps": [
+        "copy policy/main.cf services/inventory-etc-hosts/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts"
     }
   },
   "inventory-fips-mode-setup": {
@@ -86,7 +145,14 @@
       "archive_url": "modules/inventory-fips-mode-setup/33a9766edf741baf6ccbc3cea7a2346a9d745c87.tar.gz",
       "archive_sha256": "de96182232bc98d0b9a0b5772344dd1fb77ac3a5cd1fd6677f1ccf99a18a3dc8",
       "readme_url": "modules/inventory-fips-mode-setup/33a9766edf741baf6ccbc3cea7a2346a9d745c87.org",
-      "readme_sha256": "8e680cde868569494cccdc227453e366b8acbbc291df547d42ca4c0006ed07d4"
+      "readme_sha256": "8e680cde868569494cccdc227453e366b8acbbc291df547d42ca4c0006ed07d4",
+      "steps": [
+        "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup"
     },
     "0.1.1": {
       "commit": "757aa0b568441a13d92d4df2d597760c6b7cde50",
@@ -94,7 +160,14 @@
       "archive_url": "modules/inventory-fips-mode-setup/757aa0b568441a13d92d4df2d597760c6b7cde50.tar.gz",
       "archive_sha256": "f65ec707242e7ddae8626d5e73108ad67b207e4f85cda1bf37afe95f7079ab15",
       "readme_url": "modules/inventory-fips-mode-setup/757aa0b568441a13d92d4df2d597760c6b7cde50.org",
-      "readme_sha256": "f343ce225af28ac9fe69c4b11879b1a826f32cf0a94b03e360e3b71602edc5ce"
+      "readme_sha256": "f343ce225af28ac9fe69c4b11879b1a826f32cf0a94b03e360e3b71602edc5ce",
+      "steps": [
+        "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup"
     }
   },
   "inventory-kernel-boot-params": {
@@ -104,7 +177,14 @@
       "archive_url": "modules/inventory-kernel-boot-params/5c132ce0d78ee5f75c5c7d7704fc19170bd0a7e8.tar.gz",
       "archive_sha256": "1f642667ca232f0c4c685973c667a9400cbf2cc3cefcd50dc095eeebadc92d7a",
       "readme_url": "modules/inventory-kernel-boot-params/5c132ce0d78ee5f75c5c7d7704fc19170bd0a7e8.org",
-      "readme_sha256": "cdf303d340b9cc44c80b7f884181eff8f8154f6d8236d3320c62fb91295b21e0"
+      "readme_sha256": "cdf303d340b9cc44c80b7f884181eff8f8154f6d8236d3320c62fb91295b21e0",
+      "steps": [
+        "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params"
     },
     "0.1.1": {
       "commit": "de528cbfcaeba3470e1f2f018e71e7a232b391e7",
@@ -112,7 +192,14 @@
       "archive_url": "modules/inventory-kernel-boot-params/de528cbfcaeba3470e1f2f018e71e7a232b391e7.tar.gz",
       "archive_sha256": "e721746289598d7503f10b4b8c97ef016aa4cd33fba1ab1cd66c06fe2976c671",
       "readme_url": "modules/inventory-kernel-boot-params/de528cbfcaeba3470e1f2f018e71e7a232b391e7.org",
-      "readme_sha256": "1d2b5f08593cf2002213786cf749a58b5a68a6644dafc7d03bc5c8d7eee4fb2f"
+      "readme_sha256": "1d2b5f08593cf2002213786cf749a58b5a68a6644dafc7d03bc5c8d7eee4fb2f",
+      "steps": [
+        "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params"
     }
   },
   "inventory-kernel-settings-sysctl-conf": {
@@ -122,7 +209,15 @@
       "archive_url": "modules/inventory-kernel-settings-sysctl-conf/69149b9d15874c4f584441cd40019a79a92ad8f2.tar.gz",
       "archive_sha256": "7ee5f30db7ff98e4f50a7a64d15423e6670f18ff8ac5eff8a677c1abeaa01900",
       "readme_url": "modules/inventory-kernel-settings-sysctl-conf/69149b9d15874c4f584441cd40019a79a92ad8f2.org",
-      "readme_sha256": "c4f635ba7cb1bd956f71f7f18f9d288835877b9a17173144b2fc94bfa96295e4"
+      "readme_sha256": "c4f635ba7cb1bd956f71f7f18f9d288835877b9a17173144b2fc94bfa96295e4",
+      "steps": [
+        "copy ./main.cf services/inventory-kernel-settings-sysctl-conf/",
+        "copy ./README.org services/inventory-kernel-settings-sysctl-conf/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "policy/inventory-kernel-settings-sysctl-conf",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl"
     }
   },
   "inventory-kernel-settings-sysctl-current": {
@@ -132,7 +227,15 @@
       "archive_url": "modules/inventory-kernel-settings-sysctl-current/69149b9d15874c4f584441cd40019a79a92ad8f2.tar.gz",
       "archive_sha256": "7754e1f0ef2a5740c208e4554c2974cda478b69a6db41677c525b6a054871860",
       "readme_url": "modules/inventory-kernel-settings-sysctl-current/69149b9d15874c4f584441cd40019a79a92ad8f2.org",
-      "readme_sha256": "acb952da68d6171e16b275ff66d8efe9fae875f33f37349e0620c5bde791724e"
+      "readme_sha256": "acb952da68d6171e16b275ff66d8efe9fae875f33f37349e0620c5bde791724e",
+      "steps": [
+        "copy ./main.cf services/inventory-kernel-settings-sysctl-current/",
+        "copy ./README.org services/inventory-kernel-settings-sysctl-current/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "policy/inventory-kernel-settings-sysctl-current",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl"
     }
   },
   "inventory-lastlog": {
@@ -142,7 +245,14 @@
       "archive_url": "modules/inventory-lastlog/dceb68e99cf676823cb951dd4d14af240c30ead8.tar.gz",
       "archive_sha256": "de43815459ff1be832fcf9641a0f24e07819f7db4565972a5c6ab85abf446f6e",
       "readme_url": "modules/inventory-lastlog/dceb68e99cf676823cb951dd4d14af240c30ead8.org",
-      "readme_sha256": "37483a2ec1e40caa57afc6a151fa525ca435539462dbba6d4efb6d72a17ad4f5"
+      "readme_sha256": "37483a2ec1e40caa57afc6a151fa525ca435539462dbba6d4efb6d72a17ad4f5",
+      "steps": [
+        "copy policy/main.cf services/inventory-lastlog/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog"
     }
   },
   "inventory-local-users": {
@@ -152,7 +262,14 @@
       "archive_url": "modules/inventory-local-users/a6b29c1ac51a05c41e6a6ecea3cdf2be02938946.tar.gz",
       "archive_sha256": "a047731f9e73cf1735cc8d5eda1a0001107d85ca2be194bd19847fdec8564b89",
       "readme_url": "modules/inventory-local-users/a6b29c1ac51a05c41e6a6ecea3cdf2be02938946.org",
-      "readme_sha256": "e9483f9ff349f1f586d1f20e1f8cfda2f27a2541a50ebc299bb04e6af56bc93e"
+      "readme_sha256": "e9483f9ff349f1f586d1f20e1f8cfda2f27a2541a50ebc299bb04e6af56bc93e",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.0": {
       "commit": "2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb",
@@ -160,7 +277,14 @@
       "archive_url": "modules/inventory-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
       "archive_sha256": "cb2520587eb798b29b51cf6a589f6797fbbfea9a66fcc92c56a31c44b118f64e",
       "readme_url": "modules/inventory-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
-      "readme_sha256": "c5d317034a28d538b9f5f053d56fb6a5493ded93865c967459bf34002ceaad29"
+      "readme_sha256": "c5d317034a28d538b9f5f053d56fb6a5493ded93865c967459bf34002ceaad29",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -168,7 +292,14 @@
       "archive_url": "modules/inventory-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
       "archive_sha256": "0e3a52bba56a1685e65ecef3e99e54a9c5a32088458d0870f7e4c6b45c240542",
       "readme_url": "modules/inventory-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
-      "readme_sha256": "7612c684d26a445e4858189ca05749d0bfd0f73f71d7417a005e9e16a9d386fb"
+      "readme_sha256": "7612c684d26a445e4858189ca05749d0bfd0f73f71d7417a005e9e16a9d386fb",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -176,7 +307,14 @@
       "archive_url": "modules/inventory-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
       "archive_sha256": "15983f9f27523626e5cec8e1d80d8bb5954ccf7445a7a4ce9d8c3da95c9ee9b8",
       "readme_url": "modules/inventory-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
-      "readme_sha256": "d3c74785bdbd5a6534b70593d0cb73634b01215ed760e74aa603a85f819f5df7"
+      "readme_sha256": "d3c74785bdbd5a6534b70593d0cb73634b01215ed760e74aa603a85f819f5df7",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -184,7 +322,14 @@
       "archive_url": "modules/inventory-local-users/8039ace2f44ced34998812b5f3da90dd210670a0.tar.gz",
       "archive_sha256": "767ca7639eb2f97f8250ab30b21b93ade88cae4122b4444301b185b1fbe080df",
       "readme_url": "modules/inventory-local-users/8039ace2f44ced34998812b5f3da90dd210670a0.org",
-      "readme_sha256": "6a04a06a7d1a8feb2870cc5d899ea5407f496913bb28a5b57a7392fafd8a4e99"
+      "readme_sha256": "6a04a06a7d1a8feb2870cc5d899ea5407f496913bb28a5b57a7392fafd8a4e99",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-sudoers": {
@@ -194,7 +339,14 @@
       "archive_url": "modules/inventory-sudoers/01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f.tar.gz",
       "archive_sha256": "105666466451c05dac577cb58567887bd8ee29b3816edc473862c866fd66ec83",
       "readme_url": "modules/inventory-sudoers/01fe2d60ecea4e2e0aefbbd9b4bc9ad570425f9f.org",
-      "readme_sha256": "3558ea7b5c1454b08066d6759babe8b397dcf71e9e16698f07349aa864b10698"
+      "readme_sha256": "3558ea7b5c1454b08066d6759babe8b397dcf71e9e16698f07349aa864b10698",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-sudoers/main.cf",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers"
     },
     "1.0.1": {
       "commit": "b9f0a923f6968f9346d1780f44b5f67dbff08397",
@@ -202,7 +354,14 @@
       "archive_url": "modules/inventory-sudoers/b9f0a923f6968f9346d1780f44b5f67dbff08397.tar.gz",
       "archive_sha256": "15a9bf0c9ce6a253b513ad51a89b0f8f5dfe42f51e2bd4a01ca0e8617f3e74bb",
       "readme_url": "modules/inventory-sudoers/b9f0a923f6968f9346d1780f44b5f67dbff08397.org",
-      "readme_sha256": "a571e88c564f78ec9816f8b5c3daa0a4a37cde690f4b67e7d8565379e1b93822"
+      "readme_sha256": "a571e88c564f78ec9816f8b5c3daa0a4a37cde690f4b67e7d8565379e1b93822",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-sudoers/main.cf",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers"
     }
   },
   "inventory-systemd": {
@@ -212,7 +371,14 @@
       "archive_url": "modules/inventory-systemd/4b9c0708173d3b5f0855a76063781e2258465788.tar.gz",
       "archive_sha256": "57ff04ffe3ff7c2e90315342595f6549abe8600890813237241cf21b5b3936b9",
       "readme_url": "modules/inventory-systemd/4b9c0708173d3b5f0855a76063781e2258465788.org",
-      "readme_sha256": "4041d2526521cf9cdfbfacf352f6eb90c5459f4ccfa72e4b6b91da2205a883f1"
+      "readme_sha256": "4041d2526521cf9cdfbfacf352f6eb90c5459f4ccfa72e4b6b91da2205a883f1",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-systemd/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-systemd"
     }
   },
   "kernel-settings-sysctl-conf": {
@@ -222,7 +388,15 @@
       "archive_url": "modules/kernel-settings-sysctl-conf/0d4fd85fa22ee6c52ace5222202b3290a5902862.tar.gz",
       "archive_sha256": "12dbd6c54a12a7ce8ce834e3b6bab3aaf638a6b66f7382fc9ca611dbeecd02e5",
       "readme_url": "modules/kernel-settings-sysctl-conf/0d4fd85fa22ee6c52ace5222202b3290a5902862.org",
-      "readme_sha256": "ef59f3c67395c671349271aaee74705e53a33b249d506e886fba18bd9d5768d1"
+      "readme_sha256": "ef59f3c67395c671349271aaee74705e53a33b249d506e886fba18bd9d5768d1",
+      "steps": [
+        "copy ./main.cf services/kernel-settings-sysctl-conf/",
+        "copy ./README.org services/kernel-settings-sysctl-conf/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "policy/kernel-settings-sysctl-conf",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl"
     }
   },
   "lynis": {
@@ -232,7 +406,14 @@
       "archive_url": "modules/lynis/f18ff3cfb629e962cce8c42b8fe845faf3d10940.tar.gz",
       "archive_sha256": "a230b08dde4657113c517273bcdbf11acf0a3438d559c8d09ded83397f79dac4",
       "readme_url": "modules/lynis/f18ff3cfb629e962cce8c42b8fe845faf3d10940.org",
-      "readme_sha256": "824f98bcb64b4c0fe468ead74c6484ffd95728e227010e5e2b7c9681448e590c"
+      "readme_sha256": "824f98bcb64b4c0fe468ead74c6484ffd95728e227010e5e2b7c9681448e590c",
+      "steps": [
+        "copy policy/main.cf services/lynis/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
     }
   },
   "masterfiles": {
@@ -242,7 +423,17 @@
       "archive_url": "modules/masterfiles/5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f.tar.gz",
       "archive_sha256": "14cb07fb95c6f2d305e774e4c150f2b5df761ccb9141bfe9a9a24e2d242197a5",
       "readme_url": "modules/masterfiles/5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f.md",
-      "readme_sha256": "1ee581f7247cdaa93af130dabcdc0c11766bdd0593bafed9d1b8fc1c07515632"
+      "readme_sha256": "1ee581f7247cdaa93af130dabcdc0c11766bdd0593bafed9d1b8fc1c07515632",
+      "steps": [
+        "run ./autogen.sh",
+        "delete ./autogen.sh",
+        "run ./cfbs/cleanup.sh",
+        "delete ./cfbs/cleanup.sh",
+        "copy ./ ./"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/masterfiles"
     }
   },
   "migrate2rocky": {
@@ -252,7 +443,14 @@
       "archive_url": "modules/migrate2rocky/332dc89a479503bede5ca986092d2b95ad183129.tar.gz",
       "archive_sha256": "b61cbb11b572850a7aba78d2e61e918dd5bfe5aa0230b0b8db94351c2e501575",
       "readme_url": "modules/migrate2rocky/332dc89a479503bede5ca986092d2b95ad183129.org",
-      "readme_sha256": "ddffd309af192503f604f5b637f5e2b273c8ffde1ce08cfa35b1efae2df4e672"
+      "readme_sha256": "ddffd309af192503f604f5b637f5e2b273c8ffde1ce08cfa35b1efae2df4e672",
+      "steps": [
+        "copy policy/main.cf services/migrate2rocky/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-migrate2rocky"
     }
   },
   "library-file-integrity-monitoring": {
@@ -262,7 +460,14 @@
       "archive_url": "modules/library-file-integrity-monitoring/0fee53540262541c09f17cd8774ffe5ccea48482.tar.gz",
       "archive_sha256": "6dc43c170214562aec7e89ada0a51e2c2ec23ba4f855fc64c4e83cd8ed35b05a",
       "readme_url": "modules/library-file-integrity-monitoring/0fee53540262541c09f17cd8774ffe5ccea48482.org",
-      "readme_sha256": "16bc2470bd4970aebb1febca8778857f4ac43d9227e55bfddbfc50673fb1e2b2"
+      "readme_sha256": "16bc2470bd4970aebb1febca8778857f4ac43d9227e55bfddbfc50673fb1e2b2",
+      "steps": [
+        "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring"
     },
     "0.1.1": {
       "commit": "3e5bdf08119a8a61e3fb5a8592639fc2191f62b3",
@@ -270,7 +475,14 @@
       "archive_url": "modules/library-file-integrity-monitoring/3e5bdf08119a8a61e3fb5a8592639fc2191f62b3.tar.gz",
       "archive_sha256": "fb5f73149a3bbea8cffa7bcdf4c148f49856db724d6caa7626ae36c8f9b43b0b",
       "readme_url": "modules/library-file-integrity-monitoring/3e5bdf08119a8a61e3fb5a8592639fc2191f62b3.org",
-      "readme_sha256": "15d5bf736872c24cb5c71afe8aaead82d5c7dd23dcbe36f3e3a2cc1c34588e93"
+      "readme_sha256": "15d5bf736872c24cb5c71afe8aaead82d5c7dd23dcbe36f3e3a2cc1c34588e93",
+      "steps": [
+        "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring"
     },
     "0.1.2": {
       "commit": "8afb5e4f482c4d1564cfe56263bc8e38c33741ca",
@@ -278,7 +490,14 @@
       "archive_url": "modules/library-file-integrity-monitoring/8afb5e4f482c4d1564cfe56263bc8e38c33741ca.tar.gz",
       "archive_sha256": "31a33895895ca2913446b0b440a20f6bc589f94c73225c4c8f20b28e4af70345",
       "readme_url": "modules/library-file-integrity-monitoring/8afb5e4f482c4d1564cfe56263bc8e38c33741ca.org",
-      "readme_sha256": "e75db87f77ce2bc94a0f2a7ceadf4ce8addec647f7153493c90147105ffba692"
+      "readme_sha256": "e75db87f77ce2bc94a0f2a7ceadf4ce8addec647f7153493c90147105ffba692",
+      "steps": [
+        "copy policy/monitor_file_paths_tagged_all_changes.cf services/file_integrity_monitoring/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring"
     }
   },
   "library-for-promise-types-in-bash": {
@@ -288,7 +507,13 @@
       "archive_url": "modules/library-for-promise-types-in-bash/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "e38816918c66013667d45b5e320f29853c7b0692150a7f98c17714aebeed40f7",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "copy cfengine.sh modules/promises/"
+      ],
+      "subdirectory": "libraries/bash/",
+      "by": "https://github.com/Lex-2008",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -296,7 +521,13 @@
       "archive_url": "modules/library-for-promise-types-in-bash/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "012d6317c0d2105516a6e27fe937a00379cb2821acb3d28532f91d42470b580d",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "copy cfengine.sh modules/promises/"
+      ],
+      "subdirectory": "libraries/bash/",
+      "by": "https://github.com/Lex-2008",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "library-for-promise-types-in-python": {
@@ -306,7 +537,13 @@
       "archive_url": "modules/library-for-promise-types-in-python/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "f80ea774c4d3b894ff58a86841c855a0818e95f37513634f31724a2fd3739e9d",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "copy cfengine.py modules/promises/"
+      ],
+      "subdirectory": "libraries/python/",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -314,7 +551,13 @@
       "archive_url": "modules/library-for-promise-types-in-python/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "e73487a8f737793467a43043c3643c10732422d016b6ac70cb790f25432e78e2",
       "readme_url": null,
-      "readme_sha256": null
+      "readme_sha256": null,
+      "steps": [
+        "copy cfengine.py modules/promises/"
+      ],
+      "subdirectory": "libraries/python/",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-ansible": {
@@ -324,7 +567,14 @@
       "archive_url": "modules/promise-type-ansible/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "1112847f0f526b3f8cabd566c184e752c4591256d95f282bd00624833eca572c",
       "readme_url": "modules/promise-type-ansible/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "21d94d9a63f3f1477da9bc6de0c6e9cf61798caa3ea2a8c49fe8574637a94383"
+      "readme_sha256": "21d94d9a63f3f1477da9bc6de0c6e9cf61798caa3ea2a8c49fe8574637a94383",
+      "steps": [
+        "copy ansible_promise.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/ansible/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -332,7 +582,14 @@
       "archive_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "6b7ba694999eef4d845676419afe9d9d6dc1fc344f2edbaac13d1579f365c48e",
       "readme_url": "modules/promise-type-ansible/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "2cc871870e25476d6b3d595546db5301e548126cf75273e890c5863d282a2426"
+      "readme_sha256": "2cc871870e25476d6b3d595546db5301e548126cf75273e890c5863d282a2426",
+      "steps": [
+        "copy ansible_promise.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/ansible/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-git": {
@@ -342,7 +599,14 @@
       "archive_url": "modules/promise-type-git/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "cbb29d3a3f72638e9baee988136a5e06c89d37cd9d73e485ac9644afe0570d4c",
       "readme_url": "modules/promise-type-git/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "6d1ad4ad5abf322f2f4db6df43b568cec29745ff65ea1188a3a31af957525419"
+      "readme_sha256": "6d1ad4ad5abf322f2f4db6df43b568cec29745ff65ea1188a3a31af957525419",
+      "steps": [
+        "copy git.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/git/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -350,7 +614,14 @@
       "archive_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "78522263977225ff79ad5e543b2a8ac49dbe22b49697d7a5f20a80f1a9270fa8",
       "readme_url": "modules/promise-type-git/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "1648e0f1e756b8f3c9c01ef21a5ecb38b25a57f9b68a0ae054969633a15a30af"
+      "readme_sha256": "1648e0f1e756b8f3c9c01ef21a5ecb38b25a57f9b68a0ae054969633a15a30af",
+      "steps": [
+        "copy git.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/git/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-groups-experimental": {
@@ -378,7 +649,14 @@
       "archive_url": "modules/promise-type-systemd/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "ce92ae6ef96c0cc687afc8e56ba306c9b8e7070ea9f85fb97dcee438e7dc2eaf",
       "readme_url": "modules/promise-type-systemd/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "cba2a27327a5c596ab19c62e9b39ff29c551b90b030c60fb172970d14a6e16d2"
+      "readme_sha256": "cba2a27327a5c596ab19c62e9b39ff29c551b90b030c60fb172970d14a6e16d2",
+      "steps": [
+        "copy systemd.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/systemd/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -386,7 +664,14 @@
       "archive_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "b6387098b53ed976f0b0c3956d557e389b192720a2795c9d6011da1352a75981",
       "readme_url": "modules/promise-type-systemd/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "61431dd298b4d33327f51c10a0ae17f96ec213a9ed3653459aca62b1023fa6b6"
+      "readme_sha256": "61431dd298b4d33327f51c10a0ae17f96ec213a9ed3653459aca62b1023fa6b6",
+      "steps": [
+        "copy systemd.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/systemd/",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "python-3-8": {
@@ -406,7 +691,14 @@
       "archive_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.tar.gz",
       "archive_sha256": "c933e65bcd1b38c2944c69a922a9409d445da0d103e37869cb24c34c56e640b9",
       "readme_url": "modules/promise-type-groups/087a2fd81e1bbaf241dfa7bf39013efd9d8d348f.md",
-      "readme_sha256": "a4f52ebdb852c3c68cc94de06ff301c129789af9350bc0746289171e81d091c4"
+      "readme_sha256": "a4f52ebdb852c3c68cc94de06ff301c129789af9350bc0746289171e81d091c4",
+      "steps": [
+        "copy groups.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/groups/",
+      "by": "https://github.com/larsewi",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "demo": {
@@ -416,7 +708,13 @@
       "archive_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
       "archive_sha256": "c9044380fdbd10b6c4723dad9166511bec1695f6f1e5b5802316cd44e35943c5",
       "readme_url": "modules/demo/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
-      "readme_sha256": "c456f3dd3dd6ec44a467e634e5ca6dfbbead3179aeca509fb0df5ea8012fc077"
+      "readme_sha256": "c456f3dd3dd6ec44a467e634e5ca6dfbbead3179aeca509fb0df5ea8012fc077",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/demo",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "every-minute": {
@@ -426,7 +724,13 @@
       "archive_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.tar.gz",
       "archive_sha256": "f37b0393ad2eeb9b123fdac359cfaca17440a02aa3cb20ae90f7b752928835e0",
       "readme_url": "modules/every-minute/05bf5e5b1c014018a7b93a524e035c1a21bcffa4.md",
-      "readme_sha256": "442cd9b2a949be27ec99cea309d67660ccae9fe326da27bbba07648693b50ac9"
+      "readme_sha256": "442cd9b2a949be27ec99cea309d67660ccae9fe326da27bbba07648693b50ac9",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/every-minute",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "inventory-local-users-locked": {
@@ -436,7 +740,14 @@
       "archive_url": "modules/inventory-local-users-locked/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
       "archive_sha256": "18f82ca509e2bc73e80cf1b894db8b1af43b6716da97ab3bd6ed3675242c4194",
       "readme_url": "modules/inventory-local-users-locked/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
-      "readme_sha256": "372d970ff72ee1f6f8a669b077c5a39b190f02bfdc86032c04f4bf2ef626553b"
+      "readme_sha256": "372d970ff72ee1f6f8a669b077c5a39b190f02bfdc86032c04f4bf2ef626553b",
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_locked/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -444,7 +755,14 @@
       "archive_url": "modules/inventory-local-users-locked/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
       "archive_sha256": "22f3e66f933d6faa7ecc6e8474900be7587600cbde0b5f34830a8fbb8eadb9ac",
       "readme_url": "modules/inventory-local-users-locked/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
-      "readme_sha256": "4e17cbace7e259976f1155ede177160c2dfdbfccceaec7500c04e41a9659a4b5"
+      "readme_sha256": "4e17cbace7e259976f1155ede177160c2dfdbfccceaec7500c04e41a9659a4b5",
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_locked/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -452,7 +770,14 @@
       "archive_url": "modules/inventory-local-users-locked/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
       "archive_sha256": "004a68f268dd21f6f212c7e746f29bea266c539bd301767f9867103e467baff7",
       "readme_url": "modules/inventory-local-users-locked/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
-      "readme_sha256": "d2b66713b784d533d5a3a50aaa4961d27c919cd03758c8f28284953995c08990"
+      "readme_sha256": "d2b66713b784d533d5a3a50aaa4961d27c919cd03758c8f28284953995c08990",
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_locked/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -460,7 +785,14 @@
       "archive_url": "modules/inventory-local-users-locked/8039ace2f44ced34998812b5f3da90dd210670a0.tar.gz",
       "archive_sha256": "43bacc5bec48716997d2c0c73b3c4cc035db386c879dbbfe10e94198b50950a4",
       "readme_url": "modules/inventory-local-users-locked/8039ace2f44ced34998812b5f3da90dd210670a0.org",
-      "readme_sha256": "de46f9d344164bee8189d4419acaaf0b71b0488071dc036d52f708fce94014eb"
+      "readme_sha256": "de46f9d344164bee8189d4419acaaf0b71b0488071dc036d52f708fce94014eb",
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_locked/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-local-users-password-empty": {
@@ -470,7 +802,14 @@
       "archive_url": "modules/inventory-local-users-password-empty/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
       "archive_sha256": "7425e1faa0ea14b07ad19b0c8fb0611ca796e626be66f7171921730238ddb3a9",
       "readme_url": "modules/inventory-local-users-password-empty/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
-      "readme_sha256": "ae2700beb60da28b90fc417f5faec1a3e3a2007912f7df76250124e694ff2e0c"
+      "readme_sha256": "ae2700beb60da28b90fc417f5faec1a3e3a2007912f7df76250124e694ff2e0c",
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -478,7 +817,14 @@
       "archive_url": "modules/inventory-local-users-password-empty/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
       "archive_sha256": "5ac9c418deffa59930f5c03b13967b2516f0e03763c018a74a8e736d0b2dda6a",
       "readme_url": "modules/inventory-local-users-password-empty/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
-      "readme_sha256": "bbdacf65b3c232c297b4d657f96c0abbaee2d0f42f5d7cdb74e3534ef087b7a2"
+      "readme_sha256": "bbdacf65b3c232c297b4d657f96c0abbaee2d0f42f5d7cdb74e3534ef087b7a2",
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -486,7 +832,14 @@
       "archive_url": "modules/inventory-local-users-password-empty/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
       "archive_sha256": "6a6d3969f5c497f41c30c1c18ba00e9c46d52d6d81c292ca25c68e805d5a0c74",
       "readme_url": "modules/inventory-local-users-password-empty/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
-      "readme_sha256": "c82f7acff20abb1d8dd5242a4cec39e886ce447edb840ce3ad0eb737cc6aaefe"
+      "readme_sha256": "c82f7acff20abb1d8dd5242a4cec39e886ce447edb840ce3ad0eb737cc6aaefe",
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -494,7 +847,14 @@
       "archive_url": "modules/inventory-local-users-password-empty/8039ace2f44ced34998812b5f3da90dd210670a0.tar.gz",
       "archive_sha256": "106e2ea9ddd3ea730acc4e9bc914a8ec34cc5fbf94c02ea37ac6b02ddfcbaa51",
       "readme_url": "modules/inventory-local-users-password-empty/8039ace2f44ced34998812b5f3da90dd210670a0.org",
-      "readme_sha256": "d250fb8fd396a127334b8748aa676081797bd679af90c5147287304304e606c7"
+      "readme_sha256": "d250fb8fd396a127334b8748aa676081797bd679af90c5147287304304e606c7",
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "promise-type-http": {
@@ -504,7 +864,14 @@
       "archive_url": "modules/promise-type-http/c861789d4b376147d904fccd76963a92e65eaa97.tar.gz",
       "archive_sha256": "8c6c292c1e77c6b495788340304b88806b82221d4e151be7a848db97f1fece18",
       "readme_url": "modules/promise-type-http/c861789d4b376147d904fccd76963a92e65eaa97.org",
-      "readme_sha256": "0ab7f3e2e5054207ec502fb43bc09e783db3664fd9047b29753c083fa181a017"
+      "readme_sha256": "0ab7f3e2e5054207ec502fb43bc09e783db3664fd9047b29753c083fa181a017",
+      "steps": [
+        "copy http_promise_type.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/http/",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "library-parsed-local-users": {
@@ -514,7 +881,14 @@
       "archive_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.tar.gz",
       "archive_sha256": "ab9afea7f99d0a67b5e474a24850d7b33bfbc5c1a8914f067d9d29f1dcf0e1dd",
       "readme_url": "modules/library-parse-local-users/2243d92cd93bb5fe2f59f4ef1cee5a13dc3bbecb.org",
-      "readme_sha256": "7ea46fed4b5ee60e8ca5a1c22755bdfbfa60b29790d233fe50fe7344d1982a5a"
+      "readme_sha256": "7ea46fed4b5ee60e8ca5a1c22755bdfbfa60b29790d233fe50fe7344d1982a5a",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -522,7 +896,14 @@
       "archive_url": "modules/library-parsed-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.tar.gz",
       "archive_sha256": "e53045346b8fdf1831436d5cb798140aff440df91971a29ef990f70ab6e09089",
       "readme_url": "modules/library-parsed-local-users/4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d.org",
-      "readme_sha256": "9a8ebd9b3ea36d5bd3439ba0b31fdc93eb60dead05d7c0735ed68ad16b6bf5eb"
+      "readme_sha256": "9a8ebd9b3ea36d5bd3439ba0b31fdc93eb60dead05d7c0735ed68ad16b6bf5eb",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -530,7 +911,14 @@
       "archive_url": "modules/library-parsed-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.tar.gz",
       "archive_sha256": "2d3196bd2900354ef4e856f6f7d9ef8af714add52e6fea4719d4deccf0355bec",
       "readme_url": "modules/library-parsed-local-users/8ef87fb875ada265e1072884aaa27cb5c1c48ddf.org",
-      "readme_sha256": "c3309b8d86fe6981d40a2ec39c524ba7bcffd2b0c88421d5d461fbd4634bb5f7"
+      "readme_sha256": "c3309b8d86fe6981d40a2ec39c524ba7bcffd2b0c88421d5d461fbd4634bb5f7",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -538,7 +926,14 @@
       "archive_url": "modules/library-parsed-local-users/8039ace2f44ced34998812b5f3da90dd210670a0.tar.gz",
       "archive_sha256": "9c19baacde7abd3a3db92095497d10ce5c5f5805cdea6d31bafe9b76451bde5c",
       "readme_url": "modules/library-parsed-local-users/8039ace2f44ced34998812b5f3da90dd210670a0.org",
-      "readme_sha256": "d22196cd52d33f6d70e118872f518cd18fd40cfc253e5b7159cc512f9220bea0"
+      "readme_sha256": "d22196cd52d33f6d70e118872f518cd18fd40cfc253e5b7159cc512f9220bea0",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-etc-login-defs": {
@@ -548,7 +943,14 @@
       "archive_url": "modules/inventory-etc-login-defs/52f659510ddd3bc65e804306a1bff17d6c6f4299.tar.gz",
       "archive_sha256": "b7e35e411549b10d555d9b8172ea4bb7f27e2146d9a192ace0d7f95b60e81b0e",
       "readme_url": "modules/inventory-etc-login-defs/52f659510ddd3bc65e804306a1bff17d6c6f4299.org",
-      "readme_sha256": "efbda26f5b5485e1a49b3ffaaf55a0b0b42b6649dc269395ad7fa40c342b1771"
+      "readme_sha256": "efbda26f5b5485e1a49b3ffaaf55a0b0b42b6649dc269395ad7fa40c342b1771",
+      "steps": [
+        "copy ./inventory-etc-login-defs.cf services/inventory-etc-login-defs/inventory-etc-login-defs.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs"
     },
     "0.0.2": {
       "commit": "ef47c8d42818e12567d8d180f5c6c95362e9a450",
@@ -556,7 +958,14 @@
       "archive_url": "modules/inventory-etc-login-defs/ef47c8d42818e12567d8d180f5c6c95362e9a450.tar.gz",
       "archive_sha256": "67761a88a5c0ea9d27c12b36642a457d5837801b854d93a076cba9ede881ca63",
       "readme_url": "modules/inventory-etc-login-defs/ef47c8d42818e12567d8d180f5c6c95362e9a450.org",
-      "readme_sha256": "81f5f582b888c394fb05be0f46e25fe048f22f196dd2f7f04df76cc57dcbf653"
+      "readme_sha256": "81f5f582b888c394fb05be0f46e25fe048f22f196dd2f7f04df76cc57dcbf653",
+      "steps": [
+        "copy ./inventory-etc-login-defs.cf services/inventory-etc-login-defs/inventory-etc-login-defs.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs"
     }
   },
   "inventory-local-users-password-hashing-algorithm": {
@@ -566,7 +975,14 @@
       "archive_url": "modules/inventory-local-users-password-hashing-algorithm/8039ace2f44ced34998812b5f3da90dd210670a0.tar.gz",
       "archive_sha256": "f66ecee93bc3ad492833e0ed512ad65b0ca9b7d348fb62c41e1c6cce83bc24d5",
       "readme_url": "modules/inventory-local-users-password-hashing-algorithm/8039ace2f44ced34998812b5f3da90dd210670a0.org",
-      "readme_sha256": "6b03baeee71b1d165ebc8db758e28ccbbd47e2bc2c5e99e530aef9d817abe084"
+      "readme_sha256": "6b03baeee71b1d165ebc8db758e28ccbbd47e2bc2c5e99e530aef9d817abe084",
+      "steps": [
+        "copy ./inventory_local_user_pw_hashing_algorithm.cf services/local-users/inventory_passwd_users_password_hashing_algorithm/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   }
 }
