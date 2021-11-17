@@ -119,7 +119,11 @@ const processModules = async (modules, versions) => {
             "commit": module.commit,
             "timestamp": Date.now(),
             ...archive,
-            ...readme
+            ...readme,
+            "steps": module.steps || [],
+            "subdirectory": module.subdirectory || "",
+            "by": module.by,
+            "repo": module.repo
         };
 
         commitMsg.push(`- Added ${moduleName} ${module.version} version`);
