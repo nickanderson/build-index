@@ -22,7 +22,7 @@ cfbs build
 ### Requirements
 
 * Some reusable module code you want to share
-  * Can be a policy file, a promise type written in python, etc.
+  * Can be a policy file, [a promise type written in python](https://cfengine.com/blog/2020/how-to-implement-cfengine-custom-promise-types-in-python/), etc.
   * Must be reusable, other users must be able to use it without editing it. [Augments](https://docs.cfengine.com/docs/master/reference-language-concepts-augments.html) provide a way for users to override defaults in policy.
 * A `cfbs.json` project file
   * Enables others to do `cfbs add <your repo url>` to test your module even before it is in the index
