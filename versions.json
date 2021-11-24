@@ -330,6 +330,21 @@
       "subdirectory": "inventory_passwd_users_all/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769612115,
+      "archive_url": "modules/inventory-local-users/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "7870c7024b7d7fc58d62617ad7cb54dcc43629c49e285a0e4025c9eba563d231",
+      "readme_url": "modules/inventory-local-users/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "74d97bf6b4a654ce64267b9e970738c7c7083798da0c9338f604be81029f32a2",
+      "steps": [
+        "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_all/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-sudoers": {
@@ -793,6 +808,21 @@
       "subdirectory": "inventory_passwd_users_locked/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769612774,
+      "archive_url": "modules/inventory-local-users-locked/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "3bb395871db2c26b8e1195a89a569eaa72c999de8aacd95a4cc52b7eec560725",
+      "readme_url": "modules/inventory-local-users-locked/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "e27c909b3bf04c8e3316289bf679362ef165d0ce2b475ee8b5f7a71f30ee92ab",
+      "steps": [
+        "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_locked/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-local-users-password-empty": {
@@ -848,6 +878,21 @@
       "archive_sha256": "106e2ea9ddd3ea730acc4e9bc914a8ec34cc5fbf94c02ea37ac6b02ddfcbaa51",
       "readme_url": "modules/inventory-local-users-password-empty/8039ace2f44ced34998812b5f3da90dd210670a0.org",
       "readme_sha256": "d250fb8fd396a127334b8748aa676081797bd679af90c5147287304304e606c7",
+      "steps": [
+        "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_empty",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769614012,
+      "archive_url": "modules/inventory-local-users-password-empty/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "8ffea92fde7e3353b0db6c8a5cf9a961125d09a3d990848d10362b4f588f3344",
+      "readme_url": "modules/inventory-local-users-password-empty/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "ed766da3dfeb1015fe198fa74aa163fdfbee45ab09ab8fd293e5dc9e0ae81063",
       "steps": [
         "copy ./inventory_passwd_users_password_empty.cf services/local-users/inventory_passwd_users_password_empty/",
         "json cfbs/def.json def.json"
@@ -934,6 +979,21 @@
       "subdirectory": "parsed_etc_passwd_shadow/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769614962,
+      "archive_url": "modules/library-parsed-local-users/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "f42ba768a29749666ef01c487d6d8f18acddd891ffd6f94022fb99840d3c6b2a",
+      "readme_url": "modules/library-parsed-local-users/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "30ad6ab3a5e5a9d57f23af4f0050f8043658093544beb73fc09887c545532561",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-etc-login-defs": {
@@ -996,6 +1056,38 @@
         "json cfbs/def.json def.json"
       ],
       "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769614485,
+      "archive_url": "modules/inventory-local-users-password-hashing-algorithm/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "7e7121917d820c23199638be44a683c8450e44b3879ffbb888961c0f72524838",
+      "readme_url": "modules/inventory-local-users-password-hashing-algorithm/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "c40d4b28c02599965ac6c64af7083ec759a288ad93db43e20fcf8fb202407bfd",
+      "steps": [
+        "copy ./inventory_local_user_pw_hashing_algorithm.cf services/local-users/inventory_passwd_users_password_hashing_algorithm/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
+    }
+  },
+  "inventory-local-users-non-root-has-uid-0": {
+    "2.0.4": {
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "timestamp": 1637769613358,
+      "archive_url": "modules/inventory-local-users-non-root-has-uid-0/3b50be1e5ab09578109921b8f287603b37811350.tar.gz",
+      "archive_sha256": "6739ea45abe1ab057eab0cf508923acde4cf774e117f23cc340f04608476bde1",
+      "readme_url": "modules/inventory-local-users-non-root-has-uid-0/3b50be1e5ab09578109921b8f287603b37811350.org",
+      "readme_sha256": "9dcc18daa37969f3be7b592b4315df40456daedbb0624fd5b1fbd3e79ae89639",
+      "steps": [
+        "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_non_root_users_with_uid_zero/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
