@@ -157,8 +157,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.3",
-      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
       "subdirectory": "inventory_passwd_users_all/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
@@ -172,12 +172,26 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.3",
-      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
       "subdirectory": "inventory_passwd_users_locked/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
+        "json cfbs/def.json def.json"
+      ]
+    },
+    "inventory-local-users-non-root-has-uid-0": {
+      "description": "Inventory the non-root users that have uid 0",
+      "tags": ["inventory", "security"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "dependencies": ["library-parsed-local-users"],
+      "steps": [
+        "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
         "json cfbs/def.json def.json"
       ]
     },
@@ -187,8 +201,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.3",
-      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
       "subdirectory": "inventory_passwd_users_password_empty",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
@@ -202,8 +216,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.3",
-      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
       "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
@@ -288,8 +302,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.3",
-      "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
+      "version": "2.0.4",
+      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
       "subdirectory": "parsed_etc_passwd_shadow/",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
