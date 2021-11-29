@@ -1091,5 +1091,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
+  },
+  "inventory-ssh-host-key-fingerprints": {
+    "0.0.1": {
+      "commit": "337a0b1b2df4eb2d13cecc9718f56c23f54fffa8",
+      "timestamp": 1638217339674,
+      "archive_url": "modules/inventory-ssh-host-key-fingerprints/337a0b1b2df4eb2d13cecc9718f56c23f54fffa8.tar.gz",
+      "archive_sha256": "c22b9c9bea035d500393eee139b248c7e9dbaa054579ae3ec662d53f67f5cb19",
+      "readme_url": "modules/inventory-ssh-host-key-fingerprints/337a0b1b2df4eb2d13cecc9718f56c23f54fffa8.org",
+      "readme_sha256": "957d163677a7f7e9c785be17f72162641e880c2401cb5df9ab92d037bdda3f12",
+      "steps": [
+        "copy ./inventory-ssh-host-key-fingerprints.cf services/ssh/inventory/host-key-fingerprints/inventory-ssh-host-key-fingerprints.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "policy/inventory/host-key-fingerprints/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-ssh"
+    }
   }
 }
