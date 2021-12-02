@@ -448,6 +448,20 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
+    "sshd-Ciphers-strong": {
+      "description": "This module ensures that Ciphers is set to a list of ciphers considered to be strong.",
+      "tags": ["security"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "ebe5ba12550475e8921078fae37215ac509f0912",
+      "subdirectory": "./sshd-Ciphers-strong/",
+      "dependencies": ["lib-sshd-config"],
+      "steps": [
+        "copy ./sshd-Ciphers-strong.cf services/security-hardening/sshd-Ciphers-strong/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
