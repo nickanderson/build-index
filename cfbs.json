@@ -264,6 +264,19 @@
       ]
     },
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
+    "lib-sshd-config": {
+      "description": "This module provides policy for managing sshd configuration.",
+      "tags": ["library", "ssh", "security"],
+      "repo": "https://github.com/nickanderson/cfengine-ssh",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "eccbf3f1a7d56170df22e99b1a6122d634671326",
+      "subdirectory": "modules/lib-sshd-config/",
+      "steps": [
+        "copy ./global-key-values.cf services/lib-sshd-config/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "library-file-integrity-monitoring": {
       "description": "Monitor key files for changes",
       "tags": ["library", "experimental"],
