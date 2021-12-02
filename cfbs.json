@@ -32,8 +32,8 @@
       "tags": ["supported", "security"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "141443e48f2b91ab9682e40790bf5c624df8d129",
+      "version": "1.0.0",
+      "commit": "930019fad19654a05698eafe8d118c8d1748a0df",
       "subdirectory": "default-encrypt-method-sha512",
       "steps": [
         "json cfbs/def.json def.json",
