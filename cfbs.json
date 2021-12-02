@@ -448,6 +448,20 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
+    "sshd-MaxAuthTries-4": {
+      "description": "This module ensures that MaxAuthTries is set to 4.",
+      "tags": ["security"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "6058e00ebdd34a189be69996bd25fb9c73953b2f",
+      "subdirectory": "./sshd-MaxAuthTries-4/",
+      "dependencies": ["lib-sshd-config"],
+      "steps": [
+        "copy ./sshd-MaxAuthTries-4.cf services/security-hardening/sshd-MaxAuthTries-4/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
