@@ -1139,6 +1139,21 @@
       "subdirectory": "default-encrypt-method-sha512",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.0": {
+      "commit": "930019fad19654a05698eafe8d118c8d1748a0df",
+      "timestamp": 1638468186575,
+      "archive_url": "modules/default-encrypt-method-sha512/930019fad19654a05698eafe8d118c8d1748a0df.tar.gz",
+      "archive_sha256": "72c4c80d6b8e2cd10d6efb310743046e0e0785b191161222929390fcb00386ee",
+      "readme_url": "modules/default-encrypt-method-sha512/930019fad19654a05698eafe8d118c8d1748a0df.org",
+      "readme_sha256": "30cff1f883975fc052f877b8581bc8101e42e0a53fdab56f023a0a86189b539f",
+      "steps": [
+        "json cfbs/def.json def.json",
+        "copy policy/default-encrypt-method-sha512.cf services/security-hardening/default-encrypt-method-sha512/default-encrypt-method-sha512.cf"
+      ],
+      "subdirectory": "default-encrypt-method-sha512",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   }
 }
