@@ -448,6 +448,20 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
+    "sshd-PermitRootLogin-no": {
+      "description": "This module ensures that PermitRootLogin is set to no.",
+      "tags": ["security"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "cb365cbc239919e008dc1f4c110a21193610a7ea",
+      "subdirectory": "./sshd-PermitRootLogin-no/",
+      "dependencies": ["lib-sshd-config"],
+      "steps": [
+        "copy ./sshd-PermitRootLogin-no.cf services/security-hardening/sshd-PermitRootLogin-no/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
