@@ -1185,5 +1185,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "library-sshd-config": {
+    "0.0.1": {
+      "commit": "eccbf3f1a7d56170df22e99b1a6122d634671326",
+      "timestamp": 1638539518846,
+      "archive_url": "modules/library-sshd-config/eccbf3f1a7d56170df22e99b1a6122d634671326.tar.gz",
+      "archive_sha256": "86176b4bb6e30628b05ce8a6e1f3e56aa15e38e64545430af7a3665e5cbefa6b",
+      "readme_url": "modules/library-sshd-config/eccbf3f1a7d56170df22e99b1a6122d634671326.org",
+      "readme_sha256": "c5bdbce4d7f0e79c83e8fecceaaf4d408baa561f63c70fa481d92b7becb984e1",
+      "steps": [
+        "copy ./global-key-values.cf services/lib-sshd-config/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "modules/lib-sshd-config/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-ssh"
+    }
   }
 }
