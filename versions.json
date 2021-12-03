@@ -1300,5 +1300,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "ssh-ciphers-strong": {
+    "0.0.1": {
+      "commit": "56708045ea33ba984bfea7df4f6400ea6c98c691",
+      "timestamp": 1638559356203,
+      "archive_url": "modules/ssh-ciphers-strong/56708045ea33ba984bfea7df4f6400ea6c98c691.tar.gz",
+      "archive_sha256": "2691db638cbf73d80b2bcceedd4ef6ffa51824e74bb8d8377fec043cde0b6763",
+      "readme_url": "modules/ssh-ciphers-strong/56708045ea33ba984bfea7df4f6400ea6c98c691.org",
+      "readme_sha256": "6966994f2ec358f9714b603c95c91cb25d6472093caf198fd0caca94ea40da98",
+      "steps": [
+        "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-ciphers-strong/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
