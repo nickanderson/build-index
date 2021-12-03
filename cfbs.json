@@ -456,7 +456,7 @@
       "version": "0.0.1",
       "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
       "subdirectory": "./ssh-permit-empty-passwords-no/",
-      "dependencies": ["lib-sshd-config"],
+      "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
