@@ -1184,6 +1184,21 @@
       "subdirectory": "default-encrypt-method-sha512",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564067124,
+      "archive_url": "modules/default-encrypt-method-sha512/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "97625d43c995ee526b5a495f3a1b81ee5117467a4fee90ce535717d20d7c9e47",
+      "readme_url": "modules/default-encrypt-method-sha512/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "fc9123c0079880f014814277c51cdd6fe6672987ccead98c2d3e876d2a1941ae",
+      "steps": [
+        "json cfbs/def.json def.json",
+        "copy policy/default-encrypt-method-sha512.cf services/security-hardening/default-encrypt-method-sha512/default-encrypt-method-sha512.cf"
+      ],
+      "subdirectory": "default-encrypt-method-sha512",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "library-sshd-config": {
@@ -1233,6 +1248,21 @@
       "subdirectory": "./ssh-permit-empty-passwords-no/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564067866,
+      "archive_url": "modules/ssh-permit-empty-passwords-no/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "be774beb42cf69c3bdf1a169592515054afcad3d38e9ec08c91bdf09954c9d59",
+      "readme_url": "modules/ssh-permit-empty-passwords-no/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "345f72c5e29189218e1f4e81eeea9e3ef4385d273a8997bcca8b01be6c460e13",
+      "steps": [
+        "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-permit-root-login-no": {
@@ -1258,6 +1288,21 @@
       "archive_sha256": "5abce5c0d686e73e27d08d70b2d1f23e6e453fd53733aed39d49a52897912521",
       "readme_url": "modules/ssh-permit-root-login-no/dbd2c820894321de5931d0d8e981ee66a686183a.org",
       "readme_sha256": "5b262d6e4aa9700e0d12c285adb952b89c423f1ed68d70643219e49d0b91df1a",
+      "steps": [
+        "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-permit-root-login-no/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564068115,
+      "archive_url": "modules/ssh-permit-root-login-no/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "cd96e7bc7b10c905c268a42597d6b95e7b452d4c5789c0f76ca6030e10530242",
+      "readme_url": "modules/ssh-permit-root-login-no/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "45a37d2fc11a1e48885a46e7b2c7b398d198aa333c1cfe499deee16a01d82ddf",
       "steps": [
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
@@ -1297,6 +1342,21 @@
       "subdirectory": "./ssh-max-auth-tries/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564067620,
+      "archive_url": "modules/ssh-max-auth-tries/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "2ab389cbba475eb44041521015c83d7e7e8848479b3e81d4039180543e548952",
+      "readme_url": "modules/ssh-max-auth-tries/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "bc44ffdf1e6501f07aabd3d2797f3fbfafbd9a39df4a8c046933594a73e47105",
+      "steps": [
+        "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-max-auth-tries/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-protocol-2": {
@@ -1314,6 +1374,21 @@
       "subdirectory": "./ssh-protocol-2/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564068364,
+      "archive_url": "modules/ssh-protocol-2/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "04b1398617e6f478b4f36528f2a580c48f8baf5d3c8286fb63d05f9ab1b4e60e",
+      "readme_url": "modules/ssh-protocol-2/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "22e5377882fdb0fe6a05cdaecebcb96a7fe0013d7db3cd6c81a80d79d05c0b6a",
+      "steps": [
+        "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-protocol-2/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-ciphers-strong": {
@@ -1324,6 +1399,21 @@
       "archive_sha256": "2691db638cbf73d80b2bcceedd4ef6ffa51824e74bb8d8377fec043cde0b6763",
       "readme_url": "modules/ssh-ciphers-strong/56708045ea33ba984bfea7df4f6400ea6c98c691.org",
       "readme_sha256": "6966994f2ec358f9714b603c95c91cb25d6472093caf198fd0caca94ea40da98",
+      "steps": [
+        "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-ciphers-strong/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.3": {
+      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "timestamp": 1638564067376,
+      "archive_url": "modules/ssh-ciphers-strong/124b01041a3d45010ac20912338795e81e2a06fe.tar.gz",
+      "archive_sha256": "4cf2be1acae47465156ade5f4fbd812eff24ebd29e12e2c4c88ac51c82c3c971",
+      "readme_url": "modules/ssh-ciphers-strong/124b01041a3d45010ac20912338795e81e2a06fe.org",
+      "readme_sha256": "f0dc7dc2b6a3c0d952fb6403af2eadafe49fdf1fa5e1dec37795590d0812a4ac",
       "steps": [
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
