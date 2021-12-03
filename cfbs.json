@@ -448,17 +448,17 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
-    "sshd-PermitEmptyPasswords-no": {
+    "ssh-permit-empty-passwords-no": {
       "description": "This module ensures that PermitEmptyPasswords is set to no.",
       "tags": ["security"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
-      "commit": "3058bdc5a7a50440883931eb37d83cf35ec6d9ee",
-      "subdirectory": "./sshd-PermitEmptyPasswords-no/",
+      "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
+      "subdirectory": "./ssh-permit-empty-passwords-no/",
       "dependencies": ["lib-sshd-config"],
       "steps": [
-        "copy ./sshd-PermitEmptyPasswords-no.cf services/security-hardening/sshd-PermitEmptyPasswords-no/",
+        "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ]
     },
