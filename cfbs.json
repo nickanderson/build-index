@@ -492,7 +492,7 @@
     },
     "ssh-permit-root-login-no": {
       "description": "This module ensures that the SSH daemon does not permit logging in as root",
-      "tags": ["supported", "security"],
+      "tags": ["supported", "security", "ssh"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
