@@ -491,12 +491,12 @@
       ]
     },
     "ssh-permit-root-login-no": {
-      "description": "This module ensures that PermitRootLogin is set to no.",
-      "tags": ["security"],
+      "description": "This module ensures that the SSH daemon does not permit logging in as root",
+      "tags": ["supported", "security", "ssh"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
+      "version": "1.0.0",
+      "commit": "dbd2c820894321de5931d0d8e981ee66a686183a",
       "subdirectory": "./ssh-permit-root-login-no/",
       "dependencies": ["library-sshd-config"],
       "steps": [
