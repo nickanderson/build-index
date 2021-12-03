@@ -476,6 +476,20 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "ssh-permit-root-login-no": {
+      "description": "This module ensures that PermitRootLogin is set to no.",
+      "tags": ["security"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
+      "subdirectory": "./ssh-permit-root-login-no/",
+      "dependencies": ["library-sshd-config"],
+      "steps": [
+        "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
