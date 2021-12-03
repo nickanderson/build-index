@@ -1234,5 +1234,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "ssh-permit-root-login-no": {
+    "0.0.1": {
+      "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
+      "timestamp": 1638543464756,
+      "archive_url": "modules/ssh-permit-root-login-no/158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb.tar.gz",
+      "archive_sha256": "bbf5ec8cb8094f606b80a8f9c1037670ff150f82d7a460d0a8da11e3e29db175",
+      "readme_url": "modules/ssh-permit-root-login-no/158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb.org",
+      "readme_sha256": "3498299d0ddefdd523cac07fca7b5d989c4736f33518cc2e5ea7cfd163638aa1",
+      "steps": [
+        "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-permit-root-login-no/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
