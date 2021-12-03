@@ -1201,6 +1201,21 @@
       "subdirectory": "modules/lib-sshd-config/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-ssh"
+    },
+    "0.1.0": {
+      "commit": "abff34c08bf27af56c4c3939bbb6f848eac7fb8d",
+      "timestamp": 1638539761872,
+      "archive_url": "modules/library-sshd-config/abff34c08bf27af56c4c3939bbb6f848eac7fb8d.tar.gz",
+      "archive_sha256": "8c6cea5089d598427a9609597bfae08a0550fce8b1e9ef7f144b11eebd49a0e4",
+      "readme_url": "modules/library-sshd-config/abff34c08bf27af56c4c3939bbb6f848eac7fb8d.org",
+      "readme_sha256": "8cc936d86ed66508940c33604d0b5a61deb0eede07770af9809dc1e67873b4a0",
+      "steps": [
+        "copy ./global-key-values.cf services/library-sshd-config/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "modules/library-sshd-config/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-ssh"
     }
   }
 }
