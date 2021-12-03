@@ -464,6 +464,24 @@
       "subdirectory": "",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/masterfiles"
+    },
+    "3.18.1": {
+      "commit": "43f45bad841739fde496b5de9c01132311f6178b",
+      "timestamp": 1638543568842,
+      "archive_url": "modules/masterfiles/43f45bad841739fde496b5de9c01132311f6178b.tar.gz",
+      "archive_sha256": "ebb58dbd39500f1040329f33da7da1cff12a1c592548d75590cfc5f5e5c147a1",
+      "readme_url": "modules/masterfiles/43f45bad841739fde496b5de9c01132311f6178b.md",
+      "readme_sha256": "c05fd20fdccaee5d7e7a18bbd2ac74422b564eea857407d9327d1fba5dadb083",
+      "steps": [
+        "run ./autogen.sh",
+        "delete ./autogen.sh",
+        "run ./cfbs/cleanup.sh",
+        "delete ./cfbs/cleanup.sh",
+        "copy ./ ./"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/masterfiles"
     }
   },
   "migrate2rocky": {
