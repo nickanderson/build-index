@@ -477,12 +477,12 @@
       ]
     },
     "ssh-max-auth-tries": {
-      "description": "This module limits the maximum authentication attempts (default to 4)",
+      "description": "This module limits the maximum authentication attempts (default to 3)",
       "tags": ["security", "ssh"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "158fd38bb7bb9beaff8f454de0aa2c0aa7626cfb",
+      "version": "0.0.2",
+      "commit": "270974c7f25fc4950a07ad95507367641073424a",
       "subdirectory": "./ssh-max-auth-tries/",
       "dependencies": ["library-sshd-config"],
       "steps": [
@@ -541,7 +541,9 @@
       "version": "0.0.1",
       "commit": "16c02b1833e313489f8bcdf276e3d704a56f93d8",
       "dependencies": ["autorun"],
-      "steps": ["copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"]
+      "steps": [
+        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ]
     }
   }
 }
