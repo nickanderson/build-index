@@ -342,11 +342,11 @@
       "tags": ["library", "ssh", "security"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "eccbf3f1a7d56170df22e99b1a6122d634671326",
-      "subdirectory": "modules/lib-sshd-config/",
+      "version": "0.1.0",
+      "commit": "abff34c08bf27af56c4c3939bbb6f848eac7fb8d",
+      "subdirectory": "modules/library-sshd-config/",
       "steps": [
-        "copy ./global-key-values.cf services/lib-sshd-config/",
+        "copy ./global-key-values.cf services/library-sshd-config/",
         "json cfbs/def.json def.json"
       ]
     },
