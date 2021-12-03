@@ -504,6 +504,20 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "ssh-protocol-2": {
+      "description": "This module ensures that the SSH daemon uses SSH protocol 2.",
+      "tags": ["security, "experimental"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "56708045ea33ba984bfea7df4f6400ea6c98c691",
+      "subdirectory": "./ssh-protocol-2/",
+      "dependencies": ["library-sshd-config"],
+      "steps": [
+        "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" }
   }
 }
