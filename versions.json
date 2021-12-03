@@ -1282,6 +1282,21 @@
       "subdirectory": "./ssh-max-auth-tries/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "270974c7f25fc4950a07ad95507367641073424a",
+      "timestamp": 1638561565488,
+      "archive_url": "modules/ssh-max-auth-tries/270974c7f25fc4950a07ad95507367641073424a.tar.gz",
+      "archive_sha256": "c82862814326a8392726624bd6fdf10e3304c712bb35f6536a726ffe62daee92",
+      "readme_url": "modules/ssh-max-auth-tries/270974c7f25fc4950a07ad95507367641073424a.org",
+      "readme_sha256": "d69d321dcf70b0063145a44ca16d4624d0b13537dd0068899093fd391d7b4fe6",
+      "steps": [
+        "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-max-auth-tries/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-protocol-2": {
