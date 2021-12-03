@@ -506,7 +506,7 @@
     },
     "ssh-protocol-2": {
       "description": "This module ensures that the SSH daemon uses SSH protocol 2.",
-      "tags": ["security, "experimental"],
+      "tags": ["security", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
