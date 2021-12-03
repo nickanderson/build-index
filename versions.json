@@ -1283,5 +1283,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "ssh-protocol-2": {
+    "0.0.1": {
+      "commit": "56708045ea33ba984bfea7df4f6400ea6c98c691",
+      "timestamp": 1638558928461,
+      "archive_url": "modules/ssh-protocol-2/56708045ea33ba984bfea7df4f6400ea6c98c691.tar.gz",
+      "archive_sha256": "1ac10a57d412a5ba84fdecfc4fdeef0c92498e87dc2dec856dce7547192ef61a",
+      "readme_url": "modules/ssh-protocol-2/56708045ea33ba984bfea7df4f6400ea6c98c691.org",
+      "readme_sha256": "05bb6506bc7bc7d24b354c8e77b66408364a758295c60b232649f4cbbd8d704a",
+      "steps": [
+        "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-protocol-2/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
