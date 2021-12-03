@@ -141,7 +141,7 @@
     },
     "inventory-kernel-settings-sysctl-current": {
       "description": "Inventory sysctl settings current state.",
-      "tags": ["inventory", "kernel"],
+      "tags": ["inventory", "kernel", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
