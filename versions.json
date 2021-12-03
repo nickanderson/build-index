@@ -1250,6 +1250,21 @@
       "subdirectory": "./ssh-permit-root-login-no/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.0": {
+      "commit": "dbd2c820894321de5931d0d8e981ee66a686183a",
+      "timestamp": 1638550644136,
+      "archive_url": "modules/ssh-permit-root-login-no/dbd2c820894321de5931d0d8e981ee66a686183a.tar.gz",
+      "archive_sha256": "5abce5c0d686e73e27d08d70b2d1f23e6e453fd53733aed39d49a52897912521",
+      "readme_url": "modules/ssh-permit-root-login-no/dbd2c820894321de5931d0d8e981ee66a686183a.org",
+      "readme_sha256": "5b262d6e4aa9700e0d12c285adb952b89c423f1ed68d70643219e49d0b91df1a",
+      "steps": [
+        "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-permit-root-login-no/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-max-auth-tries": {
