@@ -1317,5 +1317,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "telnet-server-not-installed": {
+    "0.0.1": {
+      "commit": "16c02b1833e313489f8bcdf276e3d704a56f93d8",
+      "timestamp": 1638560099218,
+      "archive_url": "modules/telnet-server-not-installed/16c02b1833e313489f8bcdf276e3d704a56f93d8.tar.gz",
+      "archive_sha256": "381a7e346341e5015060bfb0d4acdf19474721f3c52af807b3e82d761ec5b380",
+      "readme_url": "modules/telnet-server-not-installed/16c02b1833e313489f8bcdf276e3d704a56f93d8.org",
+      "readme_sha256": "5343d7129fca6bf183c438d3a57025c7cefb828a2eb3562d2f7fab4365240f85",
+      "steps": [
+        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    }
   }
 }
