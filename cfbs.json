@@ -462,6 +462,20 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
+    "ssh-ciphers-strong": {
+      "description": "This module ensures that the SSH daemon uses strong ciphers",
+      "tags": ["security", "experimental"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "56708045ea33ba984bfea7df4f6400ea6c98c691",
+      "subdirectory": "./ssh-ciphers-strong/",
+      "dependencies": ["library-sshd-config"],
+      "steps": [
+        "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "ssh-max-auth-tries": {
       "description": "This module limits the maximum authentication attempts (default to 4)",
       "tags": ["security", "ssh"],
