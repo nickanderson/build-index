@@ -199,8 +199,8 @@
       "tags": ["inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.4",
-      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "version": "2.0.5",
+      "commit": "fef5d94170f8119eda8f5bf8316acf5896fbac22",
       "subdirectory": "inventory_non_root_users_with_uid_zero/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
