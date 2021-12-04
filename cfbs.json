@@ -118,8 +118,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.1",
-      "commit": "de528cbfcaeba3470e1f2f018e71e7a232b391e7",
+      "version": "0.1.2",
+      "commit": "ab79409970b97831cfb9552d98ca6a8f455e11d4",
       "steps": [
         "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
         "json augments.json def.json"
