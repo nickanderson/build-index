@@ -200,6 +200,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params"
+    },
+    "0.1.2": {
+      "commit": "ab79409970b97831cfb9552d98ca6a8f455e11d4",
+      "timestamp": 1638577766002,
+      "archive_url": "modules/inventory-kernel-boot-params/ab79409970b97831cfb9552d98ca6a8f455e11d4.tar.gz",
+      "archive_sha256": "9c0a5d3ac6daeba37ec68f2edba2ba46728ae4b6cff05f83f794937b738db204",
+      "readme_url": "modules/inventory-kernel-boot-params/ab79409970b97831cfb9552d98ca6a8f455e11d4.org",
+      "readme_sha256": "6956b22725143e1cdb8bb4182a9664cb8d155f16d363150b83fb03ef9f044cfd",
+      "steps": [
+        "copy policy/main.cf services/inventory-kernel-boot-params/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params"
     }
   },
   "inventory-kernel-settings-sysctl-conf": {
