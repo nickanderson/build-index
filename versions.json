@@ -268,6 +268,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog"
+    },
+    "0.1.1": {
+      "commit": "7436a6ca9d1a159e6083768b9c06d9b1cbb189a0",
+      "timestamp": 1638579000635,
+      "archive_url": "modules/inventory-lastlog/7436a6ca9d1a159e6083768b9c06d9b1cbb189a0.tar.gz",
+      "archive_sha256": "4850444803ac107766c111a3424ec0f3127c085bf80eefc8b8613b0406b5810b",
+      "readme_url": "modules/inventory-lastlog/7436a6ca9d1a159e6083768b9c06d9b1cbb189a0.org",
+      "readme_sha256": "4e287c23cbd3043f34986f939e6892313b832736e76be10880c7dcb3f167a4fa",
+      "steps": [
+        "copy policy/main.cf services/inventory-lastlog/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog"
     }
   },
   "inventory-local-users": {
