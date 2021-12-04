@@ -1120,6 +1120,21 @@
       "subdirectory": "inventory_non_root_users_with_uid_zero/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.5": {
+      "commit": "fef5d94170f8119eda8f5bf8316acf5896fbac22",
+      "timestamp": 1638576237003,
+      "archive_url": "modules/inventory-local-users-non-root-has-uid-0/fef5d94170f8119eda8f5bf8316acf5896fbac22.tar.gz",
+      "archive_sha256": "edd3d6cb728e7fd8730d48f5c17cc47071edc70a79f58c7280b6d42ca3736238",
+      "readme_url": "modules/inventory-local-users-non-root-has-uid-0/fef5d94170f8119eda8f5bf8316acf5896fbac22.org",
+      "readme_sha256": "bb6831cf2137d6b0ee054923bc9141357c56069a723001f462d402fe8670f419",
+      "steps": [
+        "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-ssh-host-key-fingerprints": {
