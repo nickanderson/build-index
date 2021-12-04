@@ -1436,6 +1436,21 @@
       "subdirectory": "./ssh-ciphers-strong/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.4": {
+      "commit": "7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6",
+      "timestamp": 1638574636360,
+      "archive_url": "modules/ssh-ciphers-strong/7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6.tar.gz",
+      "archive_sha256": "bffadaca4c9bde48587e9c6ceee40e016f216fad14119554a59d3be153fe0717",
+      "readme_url": "modules/ssh-ciphers-strong/7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6.org",
+      "readme_sha256": "54c45868180d4c12a7005925adf49206f4fe1eca55064f52eebe87015db5cefe",
+      "steps": [
+        "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-ciphers-strong/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "telnet-server-not-installed": {
