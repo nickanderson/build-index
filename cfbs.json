@@ -154,12 +154,12 @@
       ]
     },
     "inventory-lastlog": {
-      "description": "Inventory kernel parameters set during system boot",
+      "description": "Inventory users who have logged in and when.",
       "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "dceb68e99cf676823cb951dd4d14af240c30ead8",
+      "version": "0.1.1",
+      "commit": "7436a6ca9d1a159e6083768b9c06d9b1cbb189a0",
       "steps": [
         "copy policy/main.cf services/inventory-lastlog/",
         "json cfbs/def.json def.json"
