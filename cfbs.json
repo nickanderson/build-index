@@ -545,6 +545,19 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "sudo-enforce-allowed-users": {
+      "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in /etc/sudoers.conf",
+      "tags": ["security", "management"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "a228f837924b32685f22248d86b808bc37fb2a75",
+      "subdirectory": "./sudo-enforce-allowed-users/",
+      "steps": [
+        "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" },
     "telnet-server-not-installed": {
       "description": "This module ensures the telnet server package is not installed on the system",
