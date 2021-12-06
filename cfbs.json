@@ -475,6 +475,20 @@
       ]
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
+    "root-path-enforce-permissions": {
+      "description": "This module enforces that directories in root's $PATH are not world or group writable.",
+      "tags": ["manage", "security"],
+      "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
+      "subdirectory": "./root-path-enforce-permissions/",
+      "dependencies": ["inventory-writable-directories-in-root-path"],
+      "steps": [
+        "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
+        "json ./cfbs/def.json def.json"
+      ]
+    },
     "ssh-ciphers-strong": {
       "description": "This module ensures that the SSH daemon uses strong ciphers",
       "tags": ["security", "experimental"],
