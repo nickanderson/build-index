@@ -1528,5 +1528,22 @@
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/vpodzime/cfengine-security-hardening"
     }
+  },
+  "inventory-writable-directories-in-root-path": {
+    "0.0.1": {
+      "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
+      "timestamp": 1638816195884,
+      "archive_url": "modules/inventory-writable-directories-in-root-path/11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b.tar.gz",
+      "archive_sha256": "1006b6869f003ce5fec7d487a99aa1f5f4eb020dcf40ce4e9fea5603a4173b8a",
+      "readme_url": "modules/inventory-writable-directories-in-root-path/11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b.org",
+      "readme_sha256": "a742f0694ef71850277ec33553dbe5150a19914759137a003bf41c48e69d1494",
+      "steps": [
+        "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "./inventory-writable-directories-in-root-path/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
+    }
   }
 }
