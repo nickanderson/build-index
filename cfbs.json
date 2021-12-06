@@ -404,6 +404,19 @@
       ]
     },
     "mpf": { "alias": "masterfiles" },
+    "ntp-maxpoll": {
+      "description": "This module ensures that maxpoll is configured to 10 unless default:ntp_maxpoll._config[maxpoll] is defined in which case that value will be used.",
+      "tags": ["security", "management"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "39f75d8526a6c642622bd32f891c82cefdff080f",
+      "subdirectory": "./ntp-maxpoll/",
+      "steps": [
+        "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks",
       "tags": ["supported", "promise-type"],
