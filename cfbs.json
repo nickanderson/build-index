@@ -355,8 +355,8 @@
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.1",
-      "commit": "06aef54f09d9aa8f8b2a606f4fa98dc088d03857",
+      "version": "0.1.2",
+      "commit": "532cebd6d918c40423edfe0e0fe01d1ab394640c",
       "steps": [
         "copy policy/main.cf services/lynis/main.cf",
         "json cfbs/def.json def.json"
