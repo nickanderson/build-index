@@ -564,7 +564,7 @@
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
-      "version": "0.0.1",
+      "version": "0.0.2",
       "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
       "subdirectory": "telnet-server-not-installed",
       "dependencies": ["autorun"],
