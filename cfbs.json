@@ -404,6 +404,19 @@
       ]
     },
     "mpf": { "alias": "masterfiles" },
+    "openldap-server-not-installed": {
+      "description": "This module has a policy file which makes sure the openldap server package is not installed on the system",
+      "tags": ["security", "compliance", "experimental"],
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "by": "https://github.com/vpodzime",
+      "version": "0.0.1",
+      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
+      "subdirectory": "openldap-server-not-installed",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
+      ]
+    },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks",
       "tags": ["supported", "promise-type"],
@@ -551,8 +564,9 @@
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
-      "version": "0.0.1",
-      "commit": "16c02b1833e313489f8bcdf276e3d704a56f93d8",
+      "version": "0.0.2",
+      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
+      "subdirectory": "telnet-server-not-installed",
       "dependencies": ["autorun"],
       "steps": [
         "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
