@@ -1542,6 +1542,20 @@
       "subdirectory": "",
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
+      "timestamp": 1639070753477,
+      "archive_url": "modules/telnet-server-not-installed/2092c748f5c1a6e3b5b1aeacd486fa38ba862226.tar.gz",
+      "archive_sha256": "9d826b557a7246d7c7e9bf6a343c50f6c96659a86f4c823150b24e14a208f7e8",
+      "readme_url": "modules/telnet-server-not-installed/2092c748f5c1a6e3b5b1aeacd486fa38ba862226.org",
+      "readme_sha256": "5343d7129fca6bf183c438d3a57025c7cefb828a2eb3562d2f7fab4365240f85",
+      "steps": [
+        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ],
+      "subdirectory": "telnet-server-not-installed",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
     }
   },
   "inventory-writable-directories-in-root-path": {
@@ -1559,6 +1573,22 @@
       "subdirectory": "./inventory-writable-directories-in-root-path/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
+    }
+  },
+  "openldap-server-not-installed": {
+    "0.0.1": {
+      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
+      "timestamp": 1639070753048,
+      "archive_url": "modules/openldap-server-not-installed/2092c748f5c1a6e3b5b1aeacd486fa38ba862226.tar.gz",
+      "archive_sha256": "857c47d36a99f630409e50ce98eb842b30834e56f112e0040eb41ba0e7f0ae3a",
+      "readme_url": "modules/openldap-server-not-installed/2092c748f5c1a6e3b5b1aeacd486fa38ba862226.org",
+      "readme_sha256": "f866e4c16511ae1e2cf4ab5c6dd40cc3cefc262b10164df01e9c913ff0a674af",
+      "steps": [
+        "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
+      ],
+      "subdirectory": "openldap-server-not-installed",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
     }
   }
 }
