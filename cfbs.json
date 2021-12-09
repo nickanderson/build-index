@@ -392,8 +392,8 @@
       "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "version": "0.1.1",
-      "commit": "5c7dc5b43088e259a94de4e5a9f17c0ce9781a0f",
+      "version": "0.2.0",
+      "commit": "1e24c2d6f5a6def24d0c14e99203866fec554a7c",
       "steps": [
         "run ./autogen.sh",
         "delete ./autogen.sh",
