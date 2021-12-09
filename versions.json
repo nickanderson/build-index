@@ -1590,5 +1590,22 @@
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/vpodzime/cfengine-security-hardening"
     }
+  },
+  "cfengine-supported": {
+    "0.0.1": {
+      "commit": "6a09cc850423a063533ffe19e9066753952b9d8d",
+      "timestamp": 1639070867115,
+      "archive_url": "modules/cfengine-supported/6a09cc850423a063533ffe19e9066753952b9d8d.tar.gz",
+      "archive_sha256": "bb3c95a3bcf53f1f18d48354e9fa74ef885a6bca9d1fd17b829230ae1165e85b",
+      "readme_url": "modules/cfengine-supported/6a09cc850423a063533ffe19e9066753952b9d8d.org",
+      "readme_sha256": "485b5713335867d1403577211586926e0fda3a709da18aab95efe0dc6fa666a0",
+      "steps": [
+        "copy ./inventory-cfengine-version-support-status.cf services/cfengine-supported/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-supported"
+    }
   }
 }
