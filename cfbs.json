@@ -39,6 +39,32 @@
       "subdirectory": "reporting/client-initiated-reporting",
       "steps": ["json def.json def.json"]
     },
+    "compliance-report-imports": {
+      "name": "compliance-report-imports",
+      "description": "Keep compliance report definitions up to date",
+      "tags": ["experimental", "cfengine-enterprise"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "a5975cb3b4e22dae683a33141794879c21fb5aaf",
+      "subdirectory": "./compliance-report-imports",
+      "dependencies": ["autorun"],
+      "steps": ["copy ./compliance-report-imports.cf services/autorun/"]
+    },
+    "compliance-report-os-is-vendor-supported": {
+      "name": "compliance-report-os-is-vendor-supported",
+      "description": "Compliance report definition for checking if the current OS version is supported by the vendor",
+      "tags": ["experimental", "compliance-report", "cfengine-enterprise"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "a5975cb3b4e22dae683a33141794879c21fb5aaf",
+      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "dependencies": ["compliance-report-imports"],
+      "steps": [
+        "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
+      ]
+    },
     "default-encrypt-method-sha512": {
       "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in /etc/login.defs)",
       "tags": ["supported", "security"],
