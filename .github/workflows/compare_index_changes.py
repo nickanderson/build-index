@@ -46,7 +46,7 @@ def compare_index_changes(new_index, old_index):
                 sys.exit(1)
 
         if new_module["commit"] != old_module["commit"]:
-            if new_module["version"] == old_module["commit"]:
+            if new_module["version"] == old_module["version"]:
                 print("Error: Attribute 'commit' was changed but not 'version'; in module '%s'" % module_name)
                 sys.exit(1)
 
