@@ -553,7 +553,7 @@
     "python-lib": { "alias": "library-for-promise-types-in-python" },
     "root-path-enforce-permissions": {
       "description": "This module enforces that directories in root's $PATH are not world or group writable.",
-      "tags": ["manage", "security"],
+      "tags": ["management", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
