@@ -1707,6 +1707,20 @@
       "subdirectory": "./compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "d9e0aad225535b2b16ba2126e8302f8ffc5e7d38",
+      "timestamp": 1639076676541,
+      "archive_url": "modules/compliance-report-imports/d9e0aad225535b2b16ba2126e8302f8ffc5e7d38.tar.gz",
+      "archive_sha256": "f7fb054461d18690bcda1cc6bf1595982da39876cf672f7be51ca94b51c60987",
+      "readme_url": "modules/compliance-report-imports/d9e0aad225535b2b16ba2126e8302f8ffc5e7d38.org",
+      "readme_sha256": "20b677e76b8f0075270ce9051e3144f3d70274da1a5754d5a19f1c7461b1945b",
+      "steps": [
+        "copy ./compliance-report-imports.cf services/autorun/"
+      ],
+      "subdirectory": "./compliance-report-imports",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "compliance-report-os-is-vendor-supported": {
