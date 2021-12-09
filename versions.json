@@ -1607,5 +1607,39 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-supported"
     }
+  },
+  "root-path-enforce-permissions": {
+    "0.0.1": {
+      "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
+      "timestamp": 1639070947736,
+      "archive_url": "modules/root-path-enforce-permissions/11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b.tar.gz",
+      "archive_sha256": "c368207ddf79833f780c5d1551bd3520e2a2c84f0c092d7230d1558a3b68e8dc",
+      "readme_url": "modules/root-path-enforce-permissions/11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b.org",
+      "readme_sha256": "1d1e329b7e94146d6007b48fd49e8b37fd9348666b424ea65b55b9bb5efb4dfd",
+      "steps": [
+        "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "./root-path-enforce-permissions/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
+    }
+  },
+  "sudo-enforce-allowed-users": {
+    "0.0.1": {
+      "commit": "a228f837924b32685f22248d86b808bc37fb2a75",
+      "timestamp": 1639070948351,
+      "archive_url": "modules/sudo-enforce-allowed-users/a228f837924b32685f22248d86b808bc37fb2a75.tar.gz",
+      "archive_sha256": "57adcbfbf397e2f41acf394b0d4d11679dff48d1eaf0899f63e36c859a04198c",
+      "readme_url": "modules/sudo-enforce-allowed-users/a228f837924b32685f22248d86b808bc37fb2a75.org",
+      "readme_sha256": "a1bcb90ef9d263fed932193e6800a6ed79567911f3a4918896b1b2a7a9b71de3",
+      "steps": [
+        "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./sudo-enforce-allowed-users/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
