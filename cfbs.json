@@ -442,6 +442,18 @@
         "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
       ]
     },
+    "prelinking-disabled": {
+      "description": "Disable prelinking.",
+      "tags": ["security", "experimental"],
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "by": "https://github.com/larsewi",
+      "version": "1.0.0",
+      "commit": "9d2c8738caf1edc0c2f05a696c97358a8687f94a",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
+      ]
+    },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks",
       "tags": ["supported", "promise-type"],
