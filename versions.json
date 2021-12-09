@@ -1658,5 +1658,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "prelinking-disabled": {
+    "1.0.0": {
+      "commit": "9d2c8738caf1edc0c2f05a696c97358a8687f94a",
+      "timestamp": 1639071342743,
+      "archive_url": "modules/prelinking-disabled/9d2c8738caf1edc0c2f05a696c97358a8687f94a.tar.gz",
+      "archive_sha256": "99b78491d9c7e15d98e7baf46bc7a17a6b0c56871fb288f7327a6cda885a13f7",
+      "readme_url": "modules/prelinking-disabled/9d2c8738caf1edc0c2f05a696c97358a8687f94a.md",
+      "readme_sha256": "7acee73a2319289d29a9e51bc20dfae4648d5a662f006ff5ea85586689b62e87",
+      "steps": [
+        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/larsewi",
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+    }
   }
 }
