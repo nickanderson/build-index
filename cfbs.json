@@ -15,6 +15,18 @@
       "steps": ["json def.json def.json"]
     },
     "bash-lib": { "alias": "library-for-promise-types-in-bash" },
+    "cfengine-supported": {
+      "description": "Inventory the support status for the current version of CFEngine.",
+      "tags": ["inventory", "security"],
+      "repo": "https://github.com/nickanderson/cfengine-supported",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "6a09cc850423a063533ffe19e9066753952b9d8d",
+      "steps": [
+        "copy ./inventory-cfengine-version-support-status.cf services/cfengine-supported/",
+        "json ./cfbs/def.json def.json"
+      ]
+    },
     "cir": { "alias": "client-initiated-reporting" },
     "client-initiated": { "alias": "client-initiated-reporting" },
     "client-initiated-reporting": {
