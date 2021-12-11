@@ -1675,6 +1675,21 @@
       "subdirectory": "./ntp-maxpoll/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "0b56bd29e22f64ceeac595d5a5140f7dd26201ef",
+      "timestamp": 1639262377470,
+      "archive_url": "modules/ntp-maxpoll/0b56bd29e22f64ceeac595d5a5140f7dd26201ef.tar.gz",
+      "archive_sha256": "264c85e9766a5d22d9295c8db22727404f3026759d54f256369c511ef0297f11",
+      "readme_url": "modules/ntp-maxpoll/0b56bd29e22f64ceeac595d5a5140f7dd26201ef.org",
+      "readme_sha256": "62473bf5e35ed404f9e874f52a9c61a84c5e51071309af79481c4098ceed1375",
+      "steps": [
+        "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ntp-maxpoll/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "prelinking-disabled": {
