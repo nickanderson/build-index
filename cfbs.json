@@ -648,6 +648,18 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "sudo-requires-passwords": {
+      "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in /etc/sudoers)",
+      "tags": ["security", "management"],
+      "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
+      "by": "https://github.com/Lex-2008",
+      "version": "1.0.0",
+      "commit": "ff6108188291ae2e8074d2fa55786e4270e803af",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./sudo-requires-password.cf services/autorun/sudo-requires-password.cf"
+      ]
+    },
     "systemd": { "alias": "promise-type-systemd" },
     "telnet-server-not-installed": {
       "description": "This module ensures the telnet server package is not installed on the system",
