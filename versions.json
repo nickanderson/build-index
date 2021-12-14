@@ -1781,5 +1781,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "sudo-requires-passwords": {
+    "1.0.0": {
+      "commit": "ff6108188291ae2e8074d2fa55786e4270e803af",
+      "timestamp": 1639502024841,
+      "archive_url": "modules/sudo-requires-passwords/ff6108188291ae2e8074d2fa55786e4270e803af.tar.gz",
+      "archive_sha256": "21747fb66c53a6a7e5885a8b5c7c7e093a930797aca61204b209928eac2724ab",
+      "readme_url": "modules/sudo-requires-passwords/ff6108188291ae2e8074d2fa55786e4270e803af.md",
+      "readme_sha256": "b1c45cb6630e38d018fc9300bc2ed78e87e78f4778b9e3aae790b0d02f2de699",
+      "steps": [
+        "copy ./sudo-requires-password.cf services/autorun/sudo-requires-password.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/Lex-2008",
+      "repo": "https://github.com/Lex-2008/sudo-requires-passwords"
+    }
   }
 }
