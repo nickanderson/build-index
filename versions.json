@@ -1706,6 +1706,20 @@
       "subdirectory": "",
       "by": "https://github.com/larsewi",
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+    },
+    "1.0.1": {
+      "commit": "b39991902ae52745a097b5124c79c9e4c9f55404",
+      "timestamp": 1639590035615,
+      "archive_url": "modules/prelinking-disabled/b39991902ae52745a097b5124c79c9e4c9f55404.tar.gz",
+      "archive_sha256": "3a8fc493277e4654b15698dc85a05159d74ff2e9ba4dbb202cff01998e6432cf",
+      "readme_url": "modules/prelinking-disabled/b39991902ae52745a097b5124c79c9e4c9f55404.md",
+      "readme_sha256": "7acee73a2319289d29a9e51bc20dfae4648d5a662f006ff5ea85586689b62e87",
+      "steps": [
+        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/larsewi",
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
     }
   },
   "compliance-report-imports": {
