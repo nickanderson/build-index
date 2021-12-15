@@ -470,7 +470,7 @@
     },
     "prelinking-disabled": {
       "description": "Disable prelinking.",
-      "tags": ["security", "experimental"],
+      "tags": ["supported", "security"],
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
       "by": "https://github.com/larsewi",
       "version": "1.0.1",
