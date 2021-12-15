@@ -1811,5 +1811,22 @@
       "by": "https://github.com/Lex-2008",
       "repo": "https://github.com/Lex-2008/sudo-requires-passwords"
     }
+  },
+  "tmp-file-age": {
+    "0.0.1": {
+      "commit": "56a7c149f33808db6796de77eff6eb0502c01e61",
+      "timestamp": 1639590216127,
+      "archive_url": "modules/tmp-file-age/56a7c149f33808db6796de77eff6eb0502c01e61.tar.gz",
+      "archive_sha256": "afc0195e7088f0bf04e893485f8a1b7f03272c7b326ff7b4babbf9c93b3c286a",
+      "readme_url": "modules/tmp-file-age/56a7c149f33808db6796de77eff6eb0502c01e61.org",
+      "readme_sha256": "8e3354c58a212884431dc8508cbc45a290d16e9002d71c82bd2b8eff91e497d4",
+      "steps": [
+        "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./tmp-file-age/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
