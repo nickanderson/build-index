@@ -1829,38 +1829,6 @@
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
-  "all-packages-upgraded": {
-    "0.0.1": {
-      "commit": "ee76a9f6fc7a1dd567bdef65415571f2269e4c10",
-      "timestamp": 1639590279226,
-      "archive_url": "modules/all-packages-upgraded/ee76a9f6fc7a1dd567bdef65415571f2269e4c10.tar.gz",
-      "archive_sha256": "0ba88481ca326727a976489c42f42c141391835c0e65f9f83f3cda4dd373874b",
-      "readme_url": "modules/all-packages-upgraded/ee76a9f6fc7a1dd567bdef65415571f2269e4c10.adoc",
-      "readme_sha256": "40d4c3f7ef4843244cf6dfa23fdb2d2a830492b3777e163ceeb7b3d0003fbff0",
-      "steps": [
-        "copy ./all_packages_upgraded_policy.cf services/autorun/all_packages_upgraded_policy.cf"
-      ],
-      "subdirectory": "all-packages-upgraded",
-      "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
-    }
-  },
-  "ftp-server-not-installed": {
-    "0.0.1": {
-      "commit": "ee76a9f6fc7a1dd567bdef65415571f2269e4c10",
-      "timestamp": 1639590279667,
-      "archive_url": "modules/ftp-server-not-installed/ee76a9f6fc7a1dd567bdef65415571f2269e4c10.tar.gz",
-      "archive_sha256": "a60733955f2db7106518bd380f1a4b10406f48683235f93e9bced9f5ebdfe031",
-      "readme_url": "modules/ftp-server-not-installed/ee76a9f6fc7a1dd567bdef65415571f2269e4c10.adoc",
-      "readme_sha256": "4c9adeda2a2a52575cf542a0db4f11b16989e39dfd8bb1246c90d507f2ec4e91",
-      "steps": [
-        "copy ./ftp_server_policy.cf services/autorun/ftp_server_policy.cf"
-      ],
-      "subdirectory": "ftp-server-not-installed",
-      "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
-    }
-  },
   "cve-2021-3156-sudo": {
     "0.0.1": {
       "commit": "029ec4eac0d3d9b3bf7c8dc361db71f4796fc101",
