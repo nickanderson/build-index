@@ -1860,5 +1860,22 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
     }
+  },
+  "cve-2021-3156-sudo": {
+    "0.0.1": {
+      "commit": "029ec4eac0d3d9b3bf7c8dc361db71f4796fc101",
+      "timestamp": 1639590339344,
+      "archive_url": "modules/cve-2021-3156-sudo/029ec4eac0d3d9b3bf7c8dc361db71f4796fc101.tar.gz",
+      "archive_sha256": "0a9b237b98a9d12b462737d5a8194766bfaf4d1fb7cf8c8a83aa67afcf36699e",
+      "readme_url": "modules/cve-2021-3156-sudo/029ec4eac0d3d9b3bf7c8dc361db71f4796fc101.org",
+      "readme_sha256": "c1d2ee60c51157c433028ce0799dc5f13e3221cd1312788e3612e397bf715ec9",
+      "steps": [
+        "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./cves/cve-2021-3156-sudo/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
