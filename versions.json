@@ -1845,5 +1845,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "tmp-nosuid": {
+    "0.0.1": {
+      "commit": "c7ea31a59007fc2e8909d9c54839e9753f1b06d6",
+      "timestamp": 1639750726895,
+      "archive_url": "modules/tmp-nosuid/c7ea31a59007fc2e8909d9c54839e9753f1b06d6.tar.gz",
+      "archive_sha256": "e7b7e7df750eb5a671ff2cdb46fe5909d366255e5d48206fd80191550fa5e91e",
+      "readme_url": "modules/tmp-nosuid/c7ea31a59007fc2e8909d9c54839e9753f1b06d6.org",
+      "readme_sha256": "c8b55ff3d95dbbbbd098aeb75cb67beed84f88808754127baf53d82a1905d967",
+      "steps": [
+        "copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"
+      ],
+      "subdirectory": "tmp-nosuid",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    }
   }
 }
