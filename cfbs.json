@@ -486,8 +486,8 @@
       "tags": ["supported", "security"],
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
       "by": "https://github.com/larsewi",
-      "version": "1.0.1",
-      "commit": "b39991902ae52745a097b5124c79c9e4c9f55404",
+      "version": "1.0.2",
+      "commit": "1005d80031b2a68f31018736b02e8eba8d4ef20b",
       "dependencies": ["autorun"],
       "steps": [
         "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
