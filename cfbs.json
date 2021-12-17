@@ -699,6 +699,17 @@
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"
       ]
+    },
+    "tmp-nosuid": {
+      "description": "This module has a policy file which makes sure /tmp is mounted with the 'nosuid' option",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "by": "https://github.com/vpodzime",
+      "version": "0.0.1",
+      "commit": "c7ea31a59007fc2e8909d9c54839e9753f1b06d6",
+      "subdirectory": "tmp-nosuid",
+      "dependencies": ["autorun"],
+      "steps": ["copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"]
     }
   }
 }
