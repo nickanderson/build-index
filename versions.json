@@ -1907,5 +1907,21 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
     }
+  },
+  "inventory-yum-update-info": {
+    "0.0.1": {
+      "commit": "c89da2dbdf2f8a4baf7b6646d2e15e98a00ff365",
+      "timestamp": 1640018361395,
+      "archive_url": "modules/inventory-yum-update-info/c89da2dbdf2f8a4baf7b6646d2e15e98a00ff365.tar.gz",
+      "archive_sha256": "a1905ce8beb13cf36c49f05f566c1874240193f4cd82ab2afcdb5a89a7895e21",
+      "readme_url": "modules/inventory-yum-update-info/c89da2dbdf2f8a4baf7b6646d2e15e98a00ff365.org",
+      "readme_sha256": "a5f08c309d3340d703e9cfaa5d4a6f7e2942c9a70c0434c71ad3f3b93f904d3e",
+      "steps": [
+        "copy ./inventory_yum_update_info.cf services/autorun/inventory_yum_update_info.cf"
+      ],
+      "subdirectory": "inventory-yum-update-info",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    }
   }
 }
