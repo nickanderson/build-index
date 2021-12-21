@@ -604,6 +604,24 @@
         "json ./cfbs/def.json def.json"
       ]
     },
+    "scl": {
+      "description": "SURF CFEngine Library (SCL) for building services with json/mustache",
+      "tags": ["inventory", "lib", "management" ],
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "by": "https://github.com/basvandervlies/",
+      "version": "1.1.0",
+      "commit": "38ebc2dc5b5a214e6410647716e774e33c3ebfb1",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./masterfiles/lib/scl/ lib/scl/",
+        "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
+        "copy ./modules/ modules/scl/",
+        "copy ./scl_example.json scl_example.json",
+        "copy ./services/ services/scl/",
+        "copy ./templates/ lib/scl/.git/templates",
+        "json scl_example.json def.json"
+      ]
+    },
     "ssh-ciphers-strong": {
       "description": "This module ensures that the SSH daemon uses strong ciphers",
       "tags": ["security", "experimental"],
