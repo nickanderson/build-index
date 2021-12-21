@@ -91,6 +91,19 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "cve-2021-44228-log4j": {
+      "description": "This module leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
+      "tags": ["security"],
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "50d48bcf42edbbbf8344d7c5b438342ae53315cf",
+      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "steps": [
+        "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "default-encrypt-method-sha512": {
       "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in /etc/login.defs)",
       "tags": ["supported", "security"],
