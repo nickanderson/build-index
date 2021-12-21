@@ -604,7 +604,8 @@
         "json ./cfbs/def.json def.json"
       ]
     },
-    "scl": {
+    "scl": { "alias": "surf-cfengine-library:" },
+    "surf-cfengine-library": {
       "description": "SURF CFEngine Library (SCL) for building services with json/mustache",
       "tags": ["inventory", "lib", "management" ],
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
