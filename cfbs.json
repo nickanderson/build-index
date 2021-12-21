@@ -604,7 +604,7 @@
         "json ./cfbs/def.json def.json"
       ]
     },
-    "scl": { "alias": "surf-cfengine-library:" },
+    "scl": { "alias": "surf-cfengine-library" },
     "ssh-ciphers-strong": {
       "description": "This module ensures that the SSH daemon uses strong ciphers",
       "tags": ["security", "experimental"],
