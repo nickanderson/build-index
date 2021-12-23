@@ -96,8 +96,8 @@
       "tags": ["security", "cve"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "50d48bcf42edbbbf8344d7c5b438342ae53315cf",
+      "version": "0.0.2",
+      "commit": "a61b18704dce8893a37c67d19be62c325066c164",
       "subdirectory": "./cves/cve-2021-44228-log4j/",
       "steps": [
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
