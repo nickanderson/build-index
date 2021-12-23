@@ -1939,6 +1939,21 @@
       "subdirectory": "./cves/cve-2021-44228-log4j/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "a61b18704dce8893a37c67d19be62c325066c164",
+      "timestamp": 1640274362111,
+      "archive_url": "modules/cve-2021-44228-log4j/a61b18704dce8893a37c67d19be62c325066c164.tar.gz",
+      "archive_sha256": "29a1899325e1bc52013873652b247f3324cd51b6a77879eb5385df02b7f92d9c",
+      "readme_url": "modules/cve-2021-44228-log4j/a61b18704dce8893a37c67d19be62c325066c164.org",
+      "readme_sha256": "93e08698871e01b17690c217e62a3b5613d9004b8d7cb619ef3f4d2df24c1bf1",
+      "steps": [
+        "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   }
 }
