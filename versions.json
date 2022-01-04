@@ -1874,6 +1874,20 @@
       "subdirectory": "tmp-nosuid",
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "5be7c3ef332138b5717231d289bda59449b66d5c",
+      "timestamp": 1641292828978,
+      "archive_url": "modules/tmp-nosuid/5be7c3ef332138b5717231d289bda59449b66d5c.tar.gz",
+      "archive_sha256": "ab9d53b39901c34c7fbc2eef43178ff633e543bceb71a73100f858778baec9b1",
+      "readme_url": "modules/tmp-nosuid/5be7c3ef332138b5717231d289bda59449b66d5c.org",
+      "readme_sha256": "43958a0110945096cba24453e4b7e42217e7507af0088cc180d7343dc96ddaaa",
+      "steps": [
+        "copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"
+      ],
+      "subdirectory": "tmp-nosuid",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
     }
   },
   "all-packages-upgraded": {
