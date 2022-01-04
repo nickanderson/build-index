@@ -485,10 +485,7 @@
       "by": "https://github.com/cfengine",
       "version": "0.3.0",
       "commit": "f3a8f65e77428a6ab9d62c34057a7ace6ae54ce9",
-      "steps": [
-        "run ./prepare.sh -y",
-        "copy ./ ./"
-      ]
+      "steps": ["run ./prepare.sh -y", "copy ./ ./"]
     },
     "migrate2rocky": {
       "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
