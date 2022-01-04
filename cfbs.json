@@ -483,13 +483,10 @@
       "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "version": "0.2.0",
-      "commit": "1e24c2d6f5a6def24d0c14e99203866fec554a7c",
+      "version": "0.3.0",
+      "commit": "f3a8f65e77428a6ab9d62c34057a7ace6ae54ce9",
       "steps": [
-        "run ./autogen.sh",
-        "delete ./autogen.sh",
-        "run ./cfbs/cleanup.sh",
-        "delete ./cfbs/cleanup.sh",
+        "run ./prepare.sh -y",
         "copy ./ ./"
       ]
     },
