@@ -17,3 +17,4 @@ dist/
 .cache
 tmp
 commitMsg.txt
+git_diff_exists
