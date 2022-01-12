@@ -32,7 +32,13 @@ jobs:
                 BUCKET_NAME: cfbs
                 workdir: ${{ github.workspace }}
 
+            - name: Check if there are changes
+              run: |
+                git diff --exit-code || touch git_diff_exists
+                if [ -f git_diff_exists ]; then echo "Changes need to be commited"; else echo "No changes to commit"; fi
+
             - name: Commit version.json
+              if: hashFiles('git_diff_exists') != ''
               run: |
                 git config user.name 'GitHub'
                 git config user.email '<noreply@github.com>'
@@ -41,12 +47,14 @@ jobs:
 
             - id: commit-message-from-file
               name: Parse commit message from file into variable
+              if: hashFiles('git_diff_exists') != ''
               run: |
                 body=$(cat commitMsg.txt)
                 body="${body//$'\n'/'%0A'}"
                 echo ::set-output name=body::$body
 
             - name: Create Pull Request
+              if: hashFiles('git_diff_exists') != ''
               uses: cfengine/create-pull-request@v3
               with:
                 title: versions.json changes by mirroring action
