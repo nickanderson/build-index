@@ -1984,5 +1984,27 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "surf-cfengine-library": {
+    "0.1.0": {
+      "commit": "38ebc2dc5b5a214e6410647716e774e33c3ebfb1",
+      "timestamp": 1643141344736,
+      "archive_url": "modules/surf-cfengine-library/38ebc2dc5b5a214e6410647716e774e33c3ebfb1.tar.gz",
+      "archive_sha256": "a5fc757ae494ab5bbc8ec6be142310b71a24cbddc077fe9a731c581d0a87386e",
+      "readme_url": "modules/surf-cfengine-library/38ebc2dc5b5a214e6410647716e774e33c3ebfb1.md",
+      "readme_sha256": "d80c17831c4dc19fd9ffbee9b846cb740e9df9d0784d1ac608928b65a399985a",
+      "steps": [
+        "copy ./masterfiles/lib/scl/ lib/scl/",
+        "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
+        "copy ./modules/ modules/scl/",
+        "copy ./scl_example.json scl_example.json",
+        "copy ./services/ services/scl/",
+        "copy ./templates/ lib/scl/.git/templates",
+        "json scl_example.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/basvandervlies/",
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+    }
   }
 }
