@@ -1703,6 +1703,21 @@
       "subdirectory": "./sudo-enforce-allowed-users/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.2": {
+      "commit": "ab4f6c01c2f41dfdfef05100eac4c8abf894b74c",
+      "timestamp": 1644254684112,
+      "archive_url": "modules/sudo-enforce-allowed-users/ab4f6c01c2f41dfdfef05100eac4c8abf894b74c.tar.gz",
+      "archive_sha256": "d5c234856225ba2d1773f63b3de4ce1b454e018614056df0cb1e1e5abf29ff59",
+      "readme_url": "modules/sudo-enforce-allowed-users/ab4f6c01c2f41dfdfef05100eac4c8abf894b74c.org",
+      "readme_sha256": "a1bcb90ef9d263fed932193e6800a6ed79567911f3a4918896b1b2a7a9b71de3",
+      "steps": [
+        "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./sudo-enforce-allowed-users/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ntp-maxpoll": {
