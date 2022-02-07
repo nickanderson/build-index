@@ -506,8 +506,8 @@
       "tags": ["security", "management"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.2",
-      "commit": "0b56bd29e22f64ceeac595d5a5140f7dd26201ef",
+      "version": "0.0.3",
+      "commit": "e2519214e8a29c7f37a36ca8a4beec687712448d",
       "subdirectory": "./ntp-maxpoll/",
       "steps": [
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
