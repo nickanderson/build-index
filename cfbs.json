@@ -700,8 +700,8 @@
       "tags": ["security", "management"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "a228f837924b32685f22248d86b808bc37fb2a75",
+      "version": "0.0.2",
+      "commit": "ab4f6c01c2f41dfdfef05100eac4c8abf894b74c",
       "subdirectory": "./sudo-enforce-allowed-users/",
       "steps": [
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
