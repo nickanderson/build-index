@@ -1,25 +1,17 @@
 # Contributing modules to CFEngine Build
 
-## Development
+## Getting started guide
 
-We recommend using this template as a starting point when creating your first module:
+If you want to contribute to CFEngine Build, we highly recommend that you go through our getting started guide first.
 
-https://github.com/cfengine/module-template
+https://docs.cfengine.com/docs/master/guide-getting-started-with-cfengine-build.html
 
-### Testing
-
-The module template, or your version of it can be tested as if you were a user of the module:
-
-```
-mkdir new_test_repo
-cd new_test_repo
-cfbs init
-cfbs add mpf
-cfbs add https://github.com/cfengine/module-template
-cfbs build
-```
+In that guide you learn how to install CFEngine, use modules, write policy and even develop modules.
+After implementing your module, you can read below to see what is necessary for submitting it to the official CFEngine Build Index with a Pull Request (PR).
 
 ### Requirements
+
+In order to submit a module to CFEngine build, you need:
 
 * Some reusable module code you want to share
   * Can be a policy file, [a promise type written in python](https://cfengine.com/blog/2020/how-to-implement-cfengine-custom-promise-types-in-python/), etc.
