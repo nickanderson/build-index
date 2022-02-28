@@ -30,7 +30,7 @@
     "bash-lib": { "alias": "library-for-promise-types-in-bash" },
     "cfengine-supported": {
       "description": "Inventory the support status for the current version of CFEngine.",
-      "tags": ["inventory", "security"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-supported",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -80,7 +80,7 @@
     },
     "cve-2021-3156-sudo": {
       "description": "This module inventories and remediates CVE-2021-3156, a heap overflow in sudo that allows privilege escalation.",
-      "tags": ["security", "cve"],
+      "tags": ["supported", "security", "cve", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -93,7 +93,7 @@
     },
     "cve-2021-44228-log4j": {
       "description": "This module leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
-      "tags": ["security", "cve"],
+      "tags": ["supported", "security", "cve"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.2",
@@ -286,7 +286,7 @@
     },
     "inventory-local-users-non-root-has-uid-0": {
       "description": "Inventory the non-root users that have uid 0",
-      "tags": ["inventory", "security"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.5",
@@ -301,7 +301,7 @@
     "inventory-local-users-password-empty": {
       "name": "inventory-local-users-password-empty",
       "description": "Inventory the local users on the system that do not have a password set",
-      "tags": ["supported", "inventory"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
@@ -316,7 +316,7 @@
     "inventory-local-users-password-hashing-algorithm": {
       "name": "inventory-local-users-password-hashing-algorithm",
       "description": "Inventory password hashing algorithms in use by local users",
-      "tags": ["supported", "inventory"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
@@ -330,7 +330,7 @@
     },
     "inventory-ssh-host-key-fingerprints": {
       "description": "This module contains policy to inventory the ssh host key fingerprints.",
-      "tags": ["inventory", "ssh", "security"],
+      "tags": ["inventory", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -343,7 +343,7 @@
     },
     "inventory-sudoers": {
       "description": "Inventory users with sudo access.",
-      "tags": ["supported", "inventory", "security"],
+      "tags": ["supported", "inventory", "security", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
       "version": "1.0.2",
@@ -367,7 +367,7 @@
     },
     "inventory-writable-directories-in-root-path": {
       "description": "This module inventories directories in root's $PATH that are world or group writable.",
-      "tags": ["inventory", "security"],
+      "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -455,7 +455,7 @@
     },
     "library-sshd-config": {
       "description": "This module provides policy for managing sshd configuration.",
-      "tags": ["library", "ssh", "security"],
+      "tags": ["library", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
@@ -503,7 +503,7 @@
     "mpf": { "alias": "masterfiles" },
     "ntp-maxpoll": {
       "description": "This module ensures that maxpoll is configured to 10 unless default:ntp_maxpoll._config[maxpoll] is defined in which case that value will be used.",
-      "tags": ["security", "management"],
+      "tags": ["supported", "security", "management"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.3",
@@ -612,7 +612,7 @@
     "python-lib": { "alias": "library-for-promise-types-in-python" },
     "root-path-enforce-permissions": {
       "description": "This module enforces that directories in root's $PATH are not world or group writable.",
-      "tags": ["management", "security"],
+      "tags": ["supported", "management", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -627,7 +627,7 @@
     "scl": { "alias": "surf-cfengine-library" },
     "ssh-ciphers-strong": {
       "description": "This module ensures that the SSH daemon uses strong ciphers",
-      "tags": ["security", "experimental"],
+      "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
@@ -641,7 +641,7 @@
     },
     "ssh-max-auth-tries": {
       "description": "This module limits the maximum authentication attempts (default to 3)",
-      "tags": ["security", "ssh"],
+      "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
@@ -655,7 +655,7 @@
     },
     "ssh-permit-empty-passwords-no": {
       "description": "This module ensures that PermitEmptyPasswords is set to no.",
-      "tags": ["security"],
+      "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
@@ -669,7 +669,7 @@
     },
     "ssh-permit-root-login-no": {
       "description": "This module ensures that the SSH daemon does not permit logging in as root",
-      "tags": ["supported", "security", "ssh"],
+      "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
@@ -683,7 +683,7 @@
     },
     "ssh-protocol-2": {
       "description": "This module ensures that the SSH daemon uses SSH protocol 2.",
-      "tags": ["security", "experimental"],
+      "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
@@ -697,7 +697,7 @@
     },
     "sudo-enforce-allowed-users": {
       "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in /etc/sudoers.conf",
-      "tags": ["security", "management"],
+      "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.2",
@@ -710,7 +710,7 @@
     },
     "sudo-requires-passwords": {
       "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in /etc/sudoers)",
-      "tags": ["security", "management"],
+      "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
       "by": "https://github.com/Lex-2008",
       "version": "1.0.0",
@@ -754,7 +754,7 @@
     },
     "tmp-file-age": {
       "description": "This module inventories and manages old files in /tmp.",
-      "tags": ["security"],
+      "tags": ["supported", "inventory", "management", "security", "tmp"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
@@ -767,7 +767,7 @@
     },
     "tmp-nosuid": {
       "description": "This module has a policy file which makes sure /tmp is mounted with the 'nosuid' option",
-      "tags": ["supported", "security", "compliance"],
+      "tags": ["supported", "security", "compliance", "tmp"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
       "version": "0.0.2",
