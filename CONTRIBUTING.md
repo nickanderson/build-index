@@ -38,6 +38,7 @@ Your entry inside the `index` should have the following contents, in this order:
 * `"repo"` (string) - URL to the repository to fetch your module from
 * `"by"` (string) - URL to the GitHub user which should show up as the author
 * `"version"` (string) - Version number of your module, 3 numbers separated by dots
+  an optional release number may be included at the end after a `-` (dash) e.g. "1.0.1-2"
 * `"commit"` (string) - Commit SHA of your module
 * `"subdirectory"` (optional, string) - Subdirectory inside repo which has that module
 * `"dependencies"` (optional, list of strings) - What other modules in the index are required for your module to work
