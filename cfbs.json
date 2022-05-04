@@ -725,8 +725,8 @@
       "tags": ["inventory", "lib", "management", "experimental"],
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
       "by": "https://github.com/basvandervlies/",
-      "version": "0.1.2",
-      "commit": "09e07dda690f5806d5f17be8e71d9fdcc51bbdf1",
+      "version": "0.1.3",
+      "commit": "74d8d0593a85100388ade76c85793132b95c72ac",
       "dependencies": ["autorun"],
       "steps": [
         "copy ./masterfiles/lib/scl/ lib/scl/",
