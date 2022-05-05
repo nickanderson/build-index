@@ -914,6 +914,20 @@
       "subdirectory": "management/every-minute",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.0-1": {
+      "commit": "74b6776ca4e120285f9c44e68ccf79eef84accfd",
+      "timestamp": 1651762957548,
+      "archive_url": "modules/every-minute/74b6776ca4e120285f9c44e68ccf79eef84accfd.tar.gz",
+      "archive_sha256": "1887971c6962a79c46af71da3854606a165050c7b798d641117801a510206edc",
+      "readme_url": "modules/every-minute/74b6776ca4e120285f9c44e68ccf79eef84accfd.md",
+      "readme_sha256": "442cd9b2a949be27ec99cea309d67660ccae9fe326da27bbba07648693b50ac9",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/every-minute",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "inventory-local-users-locked": {
