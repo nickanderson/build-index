@@ -1460,6 +1460,21 @@
       "subdirectory": "./ssh-permit-empty-passwords-no/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "1.0.4": {
+      "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
+      "timestamp": 1652278520580,
+      "archive_url": "modules/ssh-permit-empty-passwords-no/705cd6a9c90b691b78a18876f1980d4d16fc9b1c.tar.gz",
+      "archive_sha256": "9b65d9841b19338902027c3f5de90bd53dc89505965c89d8b3480b93b3eddff5",
+      "readme_url": "modules/ssh-permit-empty-passwords-no/705cd6a9c90b691b78a18876f1980d4d16fc9b1c.org",
+      "readme_sha256": "b1ad51b1c216068abf569b6ab480b6142d9892d77bd29e76c1eb3e659417a849",
+      "steps": [
+        "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "ssh-permit-root-login-no": {
