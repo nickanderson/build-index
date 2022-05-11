@@ -672,8 +672,8 @@
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.3",
-      "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
+      "version": "1.0.4",
+      "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
       "subdirectory": "./ssh-permit-root-login-no/",
       "dependencies": ["library-sshd-config"],
       "steps": [
