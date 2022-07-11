@@ -483,8 +483,8 @@
       "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "version": "3.20.0",
-      "commit": "ae9c8cbf7ec280bc752cff096a14abaf4d0d2ed6",
+      "version": "3.18.2",
+      "commit": "a87b7fea6f7a88808b327730a4ba784a3dc664eb",
       "steps": ["run ./prepare.sh -y", "copy ./ ./"]
     },
     "migrate2rocky": {
