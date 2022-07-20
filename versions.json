@@ -2256,6 +2256,26 @@
       "subdirectory": "",
       "by": "https://github.com/basvandervlies/",
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+    },
+    "1.4.1": {
+      "commit": "4a48cdb21305e062c41897cbea4bfa60d5b20cff",
+      "timestamp": 1658325133486,
+      "archive_url": "modules/surf-cfengine-library/4a48cdb21305e062c41897cbea4bfa60d5b20cff.tar.gz",
+      "archive_sha256": "31e36f591dd45c71e932cfcf1a21ea6a55965a98887c18ffefc16f16b674b68f",
+      "readme_url": "modules/surf-cfengine-library/4a48cdb21305e062c41897cbea4bfa60d5b20cff.md",
+      "readme_sha256": "de1927c2d84f7a8ec469941365e3c629029f5559c538c34363702a3b03d2f8c0",
+      "steps": [
+        "copy ./masterfiles/lib/scl/ lib/scl/",
+        "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
+        "copy ./modules/ modules/scl/",
+        "copy ./scl_example.json scl_example.json",
+        "copy ./services/ services/scl/",
+        "copy ./templates/ lib/scl/.git/templates",
+        "json scl_example.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/basvandervlies/",
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
     }
   }
 }
