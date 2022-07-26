@@ -48,8 +48,19 @@ jobs:
 
       # Build
       - name: Build
-        run: cfbs build
+        run: cfbs build --ignore-versions-json
 
       # Build
       - name: Status
         run: cfbs status
+      # Validate built policy
+      # Here we use root for everything to avoid permissions problems in policy that accesses files
+      - name: Validate built policy
+        run: |
+          sudo pip3 install cfbs
+          wget https://s3.amazonaws.com/cfengine.packages/quick-install-cfengine-enterprise.sh  && sudo bash ./quick-install-cfengine-enterprise.sh agent
+          sudo cfbs install
+          # fake a bootstrap, lib-fim module expects stdlib to be in inputs with $(sys.libdir)
+          sudo cp -r /var/cfengine/masterfiles/lib /var/cfengine/inputs
+          sudo cf-promises -f /var/cfengine/masterfiles/promises.cf
+          sudo cf-promises -vf /var/cfengine/masterfiles/update.cf
