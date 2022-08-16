@@ -58,8 +58,8 @@
       "tags": ["experimental", "cfengine-enterprise"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.6",
-      "commit": "6f6996bc36c07c91bcf9da9276d434cc0426ee97",
+      "version": "0.0.7",
+      "commit": "14fafaf0a4e118830f26e062827979fcc6be5cf4",
       "subdirectory": "./compliance-report-imports",
       "dependencies": ["autorun"],
       "steps": ["copy ./compliance-report-imports.cf services/autorun/"]
