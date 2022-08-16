@@ -564,6 +564,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
+    },
+    "0.3.1": {
+      "commit": "c63c5366f4948f29481c7d35cd65ae67a7a00cd3",
+      "timestamp": 1660684670987,
+      "archive_url": "modules/lynis/c63c5366f4948f29481c7d35cd65ae67a7a00cd3.tar.gz",
+      "archive_sha256": "5b19fa470a501e89504c802ffd530e0e0fb1f3b959049207ebed6a9da2922cbb",
+      "readme_url": "modules/lynis/c63c5366f4948f29481c7d35cd65ae67a7a00cd3.org",
+      "readme_sha256": "34334032067b17d8ac69302a8256d8792dd5e7e8e2b1e7d152d87384716db10b",
+      "steps": [
+        "copy policy/main.cf services/lynis/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
     }
   },
   "masterfiles": {
