@@ -2336,5 +2336,21 @@
       "by": "https://github.com/basvandervlies/",
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
     }
+  },
+  "compliance-report-lynis": {
+    "0.0.1": {
+      "commit": "8286e6b10179fc621ac9583e249dbd245d9727a0",
+      "timestamp": 1660930116268,
+      "archive_url": "modules/compliance-report-lynis/8286e6b10179fc621ac9583e249dbd245d9727a0.tar.gz",
+      "archive_sha256": "e8d2e893c1c1d86322de152502096baa1b32a6a34788e2b71e9eae975fd72df5",
+      "readme_url": "modules/compliance-report-lynis/8286e6b10179fc621ac9583e249dbd245d9727a0.org",
+      "readme_sha256": "5a854c47e4a78df05b8d17721fa2cb281b75dc33f7df3d5111076f0ce61b671f",
+      "steps": [
+        "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
+      ],
+      "subdirectory": "./compliance-reports",
+      "by": "https://github.com/nickanderson/",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
+    }
   }
 }
