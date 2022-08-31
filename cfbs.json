@@ -268,6 +268,21 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "inventory-local-groups": {
+      "name": "inventory-local-groups",
+      "description": "Inventory the local groups on the system.",
+      "tags": ["inventory", "supported"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "633fdc37f6369461fcd866ad69eb84cd9feb595c",
+      "subdirectory": "inventory-local-groups/",
+      "dependencies": ["library-parsed-local-groups"],
+      "steps": [
+        "copy ./inventory-local-groups.cf services/local-groups/inventory-local-groups/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "inventory-local-users": {
       "description": "Inventory the local users on the system with their attributes",
       "tags": ["supported", "inventory"],
