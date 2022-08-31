@@ -439,6 +439,20 @@
       "subdirectory": "libraries/python/",
       "steps": ["copy cfengine.py modules/promises/"]
     },
+    "library-parsed-local-groups": {
+      "name": "library-parsed-local-groups",
+      "description": "Parse local group from /etc/group on the system.",
+      "tags": ["supported", "library"],
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "3028f74671c0bd8c8668a5b18245191439b0bad9",
+      "subdirectory": "parsed_etc_group/",
+      "steps": [
+        "copy ./parsed_etc_group.cf services/local-groups/parsed_etc_group/",
+        "json cfbs/def.json def.json"
+      ]
+    },
     "library-parsed-local-users": {
       "name": "library-parsed-local-users",
       "description": "Parse local users from /etc/passwd on the system with their attributes from /etc/shadow",
