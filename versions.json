@@ -2369,5 +2369,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
+  },
+  "inventory-local-groups": {
+    "0.0.1": {
+      "commit": "633fdc37f6369461fcd866ad69eb84cd9feb595c",
+      "timestamp": 1661970489453,
+      "archive_url": "modules/inventory-local-groups/633fdc37f6369461fcd866ad69eb84cd9feb595c.tar.gz",
+      "archive_sha256": "c6827b66d19b4f865e9cdadd83041410757faa579a3ff9e32467eb1850ab3e47",
+      "readme_url": "modules/inventory-local-groups/633fdc37f6369461fcd866ad69eb84cd9feb595c.org",
+      "readme_sha256": "25b0a0b61eb51b43e0126fbc7008c7b8dc9e1170000f009cabbedb4b7b5134b2",
+      "steps": [
+        "copy ./inventory-local-groups.cf services/local-groups/inventory-local-groups/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "inventory-local-groups/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
+    }
   }
 }
