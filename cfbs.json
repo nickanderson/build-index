@@ -743,7 +743,7 @@
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
-      "commit": "bdc7a16c6e52ff44149eb2abfd510fcee12dd2c1",
+      "commit": "f3c1c878782badc0a4c9026eef34ad003db9ca0e",
       "subdirectory": "./stig/canonical_ubuntu_20.04_lts/",
       "dependencies": [
         "compliance-report-imports",
