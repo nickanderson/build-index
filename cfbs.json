@@ -106,11 +106,11 @@
     },
     "cve-2021-44228-log4j": {
       "description": "This module leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
-      "tags": ["supported", "security", "cve"],
+      "tags": ["supported", "security", "cve", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.2",
-      "commit": "a61b18704dce8893a37c67d19be62c325066c164",
+      "version": "0.2.0",
+      "commit": "bdc7a16c6e52ff44149eb2abfd510fcee12dd2c1",
       "subdirectory": "./cves/cve-2021-44228-log4j/",
       "steps": [
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
