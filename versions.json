@@ -74,6 +74,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav"
+    },
+    "1.1.0": {
+      "commit": "b7de8aed5fba718a88ca008c09fabd152c56df24",
+      "timestamp": 1664991708828,
+      "archive_url": "modules/inventory-clamav/b7de8aed5fba718a88ca008c09fabd152c56df24.tar.gz",
+      "archive_sha256": "3dad94f9945d4bf84004f1eb31d9a8f621110ca855020a8512e981c0f1309f2f",
+      "readme_url": "modules/inventory-clamav/b7de8aed5fba718a88ca008c09fabd152c56df24.org",
+      "readme_sha256": "8ebd7b39f81a5fc0883a849c94fe9e83d263ad5d4d382ab6b8fce2d6c88b31ab",
+      "steps": [
+        "copy policy/main.cf services/inventory-clamav/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-clamav"
     }
   },
   "inventory-etc-hosts": {
