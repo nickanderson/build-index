@@ -172,8 +172,8 @@
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.0",
-      "commit": "1d872d1771921b0f8d92da56899d8b61d37dd5ca",
+      "version": "1.1.0",
+      "commit": "b7de8aed5fba718a88ca008c09fabd152c56df24",
       "steps": [
         "copy policy/main.cf services/inventory-clamav/main.cf",
         "json cfbs/def.json def.json"
