@@ -3,19 +3,7 @@
   "description": "The official (default) index of modules for CFEngine Build",
   "type": "index",
   "index": {
-    "all-packages-upgraded": {
-      "description": "This module ensures that the package manager data is updated and all upgradeable packages are upgraded",
-      "tags": ["supported", "security", "compliance"],
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
-      "by": "https://github.com/craigcomstock",
-      "version": "0.0.1",
-      "commit": "b6b7ea9c28d7ae7514bfedf4c564a3eb23bf1798",
-      "subdirectory": "all-packages-upgraded",
-      "dependencies": ["autorun"],
-      "steps": [
-        "copy ./all_packages_upgraded_policy.cf services/autorun/all_packages_upgraded_policy.cf"
-      ]
-    },
+    "all-packages-upgraded": { "alias": "upgrade-all-packages" },
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
       "description": "Enable autorun functionality",
@@ -151,19 +139,7 @@
       "subdirectory": "management/every-minute",
       "steps": ["json def.json def.json"]
     },
-    "ftp-server-not-installed": {
-      "description": "This module has a policy file which makes sure the ftp server package is not installed on the system",
-      "tags": ["supported", "security", "compliance"],
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
-      "by": "https://github.com/craigcomstock",
-      "version": "0.0.1",
-      "commit": "b6b7ea9c28d7ae7514bfedf4c564a3eb23bf1798",
-      "subdirectory": "ftp-server-not-installed",
-      "dependencies": ["autorun"],
-      "steps": [
-        "copy ./ftp_server_policy.cf services/autorun/ftp_server_policy.cf"
-      ]
-    },
+    "ftp-server-not-installed": { "alias": "uninstall-ftp" },
     "git": { "alias": "promise-type-git" },
     "groups": { "alias": "promise-type-groups" },
     "http": { "alias": "promise-type-http" },
@@ -817,6 +793,30 @@
       "subdirectory": "tmp-nosuid",
       "dependencies": ["autorun"],
       "steps": ["copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"]
+    },
+    "uninstall-ftp": {
+      "description": "This module has a policy file which makes sure the ftp server package is not installed on the system",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "by": "https://github.com/craigcomstock",
+      "version": "0.0.2",
+      "commit": "2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8",
+      "subdirectory": "uninstall-ftp",
+      "dependencies": ["autorun"],
+      "steps": ["copy ./uninstall_ftp.cf services/autorun/uninstall_ftp.cf"]
+    },
+    "upgrade-all-packages": {
+      "description": "This module ensures that the package manager data is updated and all upgradeable packages are upgraded",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "by": "https://github.com/craigcomstock",
+      "version": "0.0.2",
+      "commit": "2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8",
+      "subdirectory": "upgrade-all-packages",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./upgrade_all_packages.cf services/autorun/upgrade_all_packages.cf"
+      ]
     }
   }
 }

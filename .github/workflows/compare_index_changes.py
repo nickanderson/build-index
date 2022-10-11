@@ -28,6 +28,12 @@ def compare_index_changes(new_index, old_index):
         new_module = new_modules[module_name]
         old_module = old_modules.get(module_name)
 
+        # Resolve any aliases
+        if "alias" in new_module:
+            new_module = new_modules[new_module["alias"]]
+        if old_module and "alias" in old_module:
+            old_module = old_modules[old_module["alias"]]
+
         # Any remote resources must be reachable
         validate_reachable_resources(new_module, old_module, module_name)
 
@@ -70,8 +76,8 @@ def validate_reachable_resources(new_module, old_module, module_name):
         or new_module.get("commit") != old_module.get("commit")
         or new_module.get("subdirectory") != old_module.get("subdirectory")
     ):
-        assert "repo" in new_module, "Missing required attribute 'repo'"
-        assert "commit" in new_module, "Missing required attribute 'commit'"
+        assert "repo" in new_module, "Missing required attribute 'repo' in module {}".format(module_name)
+        assert "commit" in new_module, "Missing required attribute 'commit' in module {}".format(module_name)
         url = new_module["repo"]
         commit = new_module["commit"]
         subdir = new_module.get("subdirectory")
