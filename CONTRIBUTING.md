@@ -23,6 +23,24 @@ In order to submit a module to CFEngine build, you need:
   * If your module requires some data or additional steps clearly tell your users what they need to do
   * Can use [this README](https://github.com/cfengine/modules/blob/master/promise-types/git/README.md) as an example to follow
 
+### Naming your module
+
+In order for other users to more easily find your module and understand what it does, we have some guidelines on how to name it:
+
+* Module names are lowercase, with dashes (`-`) to separate words
+* Some prefixes are commonly used:
+  * `cve-...` - (followed by ID), modules used to address CVEs (either by making changes, or just identifying vulnerable hosts) 
+  * `inventory-...` - modules which add inventory (reporting) data and don't make significant changes to the system
+  * `promise-type-...` - modules which provide a promise type
+  * `library-...` - modules which don't do much on their own, but are normally used as dependencies for other modules
+  * `compliance-report-...` - modules which provide a compliance report in mission portal
+  * `example-...` - modules which will always be just an example, never intended to become a real / supported module
+  * `ssh-...` - modules relating to SSH
+  * `sudo-...` - modules relating to sudo
+* Even though CFEngine is a declarative language, we prefer module names which focus on what action / change (imperative) the user wants to achieve:
+  * `delete-file`, not `file-is-not-present`. (aliases can be used when renaming modules or to provide a shortcut or alternate name)
+  * In many cases, you don't need to have a verb in the name: `lynis`, `tmp-nosuid`, `ntp-maxpoll`, `surf-cfengine-library`, `ssh-max-auth-tries` (set/manage/edit is often implied).
+
 ## Publishing your module for others to reuse
 
 When your module is working and ready for others to use, you can submit a pull request to change the index of CFEngine Build modules:
