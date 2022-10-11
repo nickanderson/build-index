@@ -604,8 +604,8 @@
       "tags": ["supported", "promise-type", "http"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/vpodzime",
-      "version": "1.0.0",
-      "commit": "c861789d4b376147d904fccd76963a92e65eaa97",
+      "version": "1.1.0",
+      "commit": "54d87ae227bf5821c654d77199adc100ea72ec86",
       "subdirectory": "promise-types/http/",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
