@@ -2430,5 +2430,37 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
+  },
+  "uninstall-ftp": {
+    "0.0.2": {
+      "commit": "2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8",
+      "timestamp": 1665509254169,
+      "archive_url": "modules/uninstall-ftp/2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8.tar.gz",
+      "archive_sha256": "f8d4ed51332ad2d5f02da0a826e3ff1b6fbb01d1dee1264d17e2de66d0b4a29c",
+      "readme_url": "modules/uninstall-ftp/2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8.md",
+      "readme_sha256": "2a1e2ca54f35b847d62d7cb32137ac33390f3515af67244441154bf44c3b0103",
+      "steps": [
+        "copy ./uninstall_ftp.cf services/autorun/uninstall_ftp.cf"
+      ],
+      "subdirectory": "uninstall-ftp",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+    }
+  },
+  "upgrade-all-packages": {
+    "0.0.2": {
+      "commit": "2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8",
+      "timestamp": 1665509254399,
+      "archive_url": "modules/upgrade-all-packages/2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8.tar.gz",
+      "archive_sha256": "cd2b0fbc89419feaa0cb9cef9d9e9965964ab82e9314d23873f137ae57495ea9",
+      "readme_url": "modules/upgrade-all-packages/2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8.md",
+      "readme_sha256": "c75bf8d1afb7705fcc446dda34cce752ff50f4a0263806c53c70ddf16da49d15",
+      "steps": [
+        "copy ./upgrade_all_packages.cf services/autorun/upgrade_all_packages.cf"
+      ],
+      "subdirectory": "upgrade-all-packages",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+    }
   }
 }
