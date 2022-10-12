@@ -1204,6 +1204,21 @@
       "subdirectory": "promise-types/http/",
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.1.0": {
+      "commit": "501e96673621d6b9754f8a5c32bf2ee509e6bf5b",
+      "timestamp": 1665572865362,
+      "archive_url": "modules/promise-type-http/501e96673621d6b9754f8a5c32bf2ee509e6bf5b.tar.gz",
+      "archive_sha256": "024c33702f7fa23b09473dc7ff88c1605dcf40812566899ef6a73bc9e9080d8a",
+      "readme_url": "modules/promise-type-http/501e96673621d6b9754f8a5c32bf2ee509e6bf5b.org",
+      "readme_sha256": "de96e827efbddd1aa44f84abdc85241e4ebe5db57fdd03c2e5120ce1ddbd116c",
+      "steps": [
+        "copy http_promise_type.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/http/",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "library-parsed-local-users": {
