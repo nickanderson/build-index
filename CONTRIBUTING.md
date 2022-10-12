@@ -34,6 +34,9 @@ In order for other users to more easily find your module and understand what it 
   * `promise-type-...` - modules which provide a promise type
   * `library-...` - modules which don't do much on their own, but are normally used as dependencies for other modules
   * `compliance-report-...` - modules which provide a compliance report in mission portal
+    * In many cases it is natural to put both inventory attributes and a compliance report in 1 module
+      * In this case, use the `compliance-report-...` prefix, not `inventory-...`
+      * If the inventory attributes will be used across multiple reports / separate modules (or seem very useful and valuable on their own), putting them in a separate `inventory-` module and adding that as a dependency is natural.
   * `example-...` - modules which will always be just an example, never intended to become a real / supported module
   * `ssh-...` - modules relating to SSH
   * `sudo-...` - modules relating to sudo
