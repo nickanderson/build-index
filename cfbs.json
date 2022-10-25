@@ -139,6 +139,52 @@
       "subdirectory": "management/every-minute",
       "steps": ["json def.json def.json"]
     },
+    "file-permissions": {
+      "description": "Manages file permissions",
+      "tags": ["management"],
+      "repo": "https://github.com/nickanderson/cfengine-file-permissions",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "a678160011b834557f1ab42a081ea84adf8622df",
+      "steps": [
+        "copy file-permissions.cf services/file-permissions.cf",
+        "input file-permissions/input.json def.json",
+        "bundles nickanderson:file_permissions",
+        "json inputs-def.json def.json"
+      ],
+      "input": [
+        {
+          "type": "list",
+          "variable": "files",
+          "namespace": "nickanderson",
+          "bundle": "file_permissions",
+          "label": "Filepaths",
+          "subtype": [
+            {
+              "key": "path",
+              "type": "string",
+              "label": "Path",
+              "question": "Path of file?"
+            },
+            {
+              "key": "mode",
+              "type": "string",
+              "label": "Octal mode",
+              "question": "File permissions?",
+              "default": "600"
+            },
+            {
+              "key": "why",
+              "type": "string",
+              "label": "Why",
+              "question": "Why must these permissions be set so?",
+              "default": "Because, compliance."
+            }
+          ],
+          "while": "Manage permission of another file?"
+        }
+      ]
+    },
     "ftp-server-not-installed": { "alias": "uninstall-ftp" },
     "git": { "alias": "promise-type-git" },
     "groups": { "alias": "promise-type-groups" },
