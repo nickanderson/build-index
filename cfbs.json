@@ -144,41 +144,41 @@
       "tags": ["management"],
       "repo": "https://github.com/nickanderson/cfengine-file-permissions",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "a678160011b834557f1ab42a081ea84adf8622df",
+      "version": "0.2.0",
+      "commit": "b307d1b2b002dc7e32d29702f3fddc6d4832c9ec",
       "steps": [
-        "copy file-permissions.cf services/file-permissions.cf",
+        "copy file-permissions.cf services/cfbs/modules/file-permissions/file-permissions.cf",
         "input file-permissions/input.json def.json",
-        "bundles nickanderson:file_permissions",
-        "json inputs-def.json def.json"
+        "bundles file_permissions:file_permissions",
+        "policy_files services/cfbs/modules/file-permissions/file-permissions.cf"
       ],
       "input": [
         {
           "type": "list",
           "variable": "files",
-          "namespace": "nickanderson",
+          "namespace": "file_permissions",
           "bundle": "file_permissions",
-          "label": "Filepaths",
+          "label": "Files",
           "subtype": [
             {
               "key": "path",
               "type": "string",
               "label": "Path",
-              "question": "Path of file?"
+              "question": "Path to file"
             },
             {
               "key": "mode",
               "type": "string",
-              "label": "Octal mode",
-              "question": "File permissions?",
+              "label": "Permissions",
+              "question": "Permission bits (octal)",
               "default": "600"
             },
             {
               "key": "why",
               "type": "string",
               "label": "Why",
-              "question": "Why must these permissions be set so?",
-              "default": "Because, compliance."
+              "question": "Why do these permissions matter?",
+              "default": "Unknown"
             }
           ],
           "while": "Manage permission of another file?"
