@@ -2410,6 +2410,20 @@
       "subdirectory": "./compliance-reports",
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
+    },
+    "0.0.2": {
+      "commit": "60ad7321d6b5e30606830d3228812fe3f77c4fa8",
+      "timestamp": 1666906531647,
+      "archive_url": "modules/compliance-report-lynis/60ad7321d6b5e30606830d3228812fe3f77c4fa8.tar.gz",
+      "archive_sha256": "11144285a608c97ddd3fbf1cc7142a1e0126cb7c56e7a33591dfebc728ac5e74",
+      "readme_url": "modules/compliance-report-lynis/60ad7321d6b5e30606830d3228812fe3f77c4fa8.org",
+      "readme_sha256": "5a854c47e4a78df05b8d17721fa2cb281b75dc33f7df3d5111076f0ce61b671f",
+      "steps": [
+        "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
+      ],
+      "subdirectory": "./compliance-reports",
+      "by": "https://github.com/nickanderson/",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
     }
   },
   "library-parsed-local-groups": {
