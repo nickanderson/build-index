@@ -2491,5 +2491,24 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
     }
+  },
+  "file-permissions": {
+    "0.2.0": {
+      "commit": "b307d1b2b002dc7e32d29702f3fddc6d4832c9ec",
+      "timestamp": 1666951155380,
+      "archive_url": "modules/file-permissions/b307d1b2b002dc7e32d29702f3fddc6d4832c9ec.tar.gz",
+      "archive_sha256": "36fd0eed883fb651c85c634899cb2ba866dc89ca89a813214e10145773cfb457",
+      "readme_url": "modules/file-permissions/b307d1b2b002dc7e32d29702f3fddc6d4832c9ec.org",
+      "readme_sha256": "691df37b425aac4b2415e2e93c9d659f343a2dfded7c420bc49875ca39e3a1ad",
+      "steps": [
+        "copy file-permissions.cf services/cfbs/modules/file-permissions/file-permissions.cf",
+        "input file-permissions/input.json def.json",
+        "bundles file_permissions:file_permissions",
+        "policy_files services/cfbs/modules/file-permissions/file-permissions.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-file-permissions"
+    }
   }
 }
