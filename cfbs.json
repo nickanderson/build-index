@@ -417,6 +417,19 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "inventory-openssl-versions": {
+      "description": "Adds an inventory attribute containing all versions of OpenSSL found on the system.",
+      "tags": ["inventory", "security", "experimental"],
+      "repo": "https://github.com/olehermanse/cfengine-inventory-openssl-versions",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "1effb6ac31576d7c52c58feef3c936e6f4f8d9e3",
+      "steps": [
+        "copy inventory-openssl-versions.cf services/cfbs/modules/inventory-openssl-versions/inventory-openssl-versions.cf",
+        "policy_files services/cfbs/modules/inventory-openssl-versions/inventory-openssl-versions.cf",
+        "bundles inventory_openssl_versions:inventory_openssl_versions"
+      ]
+    },
     "inventory-ssh-host-key-fingerprints": {
       "description": "This module contains policy to inventory the ssh host key fingerprints.",
       "tags": ["inventory", "security", "ssh", "experimental"],
