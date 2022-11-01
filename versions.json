@@ -2510,5 +2510,24 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-file-permissions"
     }
+  },
+  "delete-files": {
+    "0.0.1": {
+      "commit": "68ce93f3148992f5b3c87fb1cd91cf3f82fbbfa8",
+      "timestamp": 1667313323478,
+      "archive_url": "modules/delete-files/68ce93f3148992f5b3c87fb1cd91cf3f82fbbfa8.tar.gz",
+      "archive_sha256": "231ae201ef773338283d3cec71dfa0957f9145fefdc8e7fca1e14fa94e546db4",
+      "readme_url": "modules/delete-files/68ce93f3148992f5b3c87fb1cd91cf3f82fbbfa8.org",
+      "readme_sha256": "0f5231a015dbcbd756eb034e690b5a237de9959924ab5d46c217905838d73c7c",
+      "steps": [
+        "copy delete-files.cf services/cfbs/modules/delete-files/delete-files.cf",
+        "input delete-files/input.json def.json",
+        "bundles delete_files:delete_files",
+        "policy_files services/cfbs/modules/delete-files/delete-files.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-delete-files"
+    }
   }
 }
