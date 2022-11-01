@@ -2529,5 +2529,23 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-delete-files"
     }
+  },
+  "inventory-openssl-versions": {
+    "0.0.1": {
+      "commit": "1effb6ac31576d7c52c58feef3c936e6f4f8d9e3",
+      "timestamp": 1667329930087,
+      "archive_url": "modules/inventory-openssl-versions/1effb6ac31576d7c52c58feef3c936e6f4f8d9e3.tar.gz",
+      "archive_sha256": "dc2213517b8f807372da454e60d3038b1a1721047c3b45f41123f38bb1b0478b",
+      "readme_url": "modules/inventory-openssl-versions/1effb6ac31576d7c52c58feef3c936e6f4f8d9e3.md",
+      "readme_sha256": "3d0ea4520e58aaf3bea4bd89c27fd333667dd1d4824748e8d21a69b1407296f2",
+      "steps": [
+        "copy inventory-openssl-versions.cf services/cfbs/modules/inventory-openssl-versions/inventory-openssl-versions.cf",
+        "policy_files services/cfbs/modules/inventory-openssl-versions/inventory-openssl-versions.cf",
+        "bundles inventory_openssl_versions:inventory_openssl_versions"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-inventory-openssl-versions"
+    }
   }
 }
