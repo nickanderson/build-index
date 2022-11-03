@@ -2563,5 +2563,21 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-inventory-openssl-versions"
     }
+  },
+  "disable-prelinking": {
+    "1.0.3": {
+      "commit": "4b309622404e6a6e989989a229fe780bec029de5",
+      "timestamp": 1667491610983,
+      "archive_url": "modules/disable-prelinking/4b309622404e6a6e989989a229fe780bec029de5.tar.gz",
+      "archive_sha256": "094e27a61d5ae5f1080afdc862c177ec31a2b00d92761e3037d3d343dca90695",
+      "readme_url": "modules/disable-prelinking/4b309622404e6a6e989989a229fe780bec029de5.md",
+      "readme_sha256": "64607b2d1d4cf0944d6545421db9ab8084d0d17cfa4e21a67d196ec29b5f0014",
+      "steps": [
+        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/larsewi",
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+    }
   }
 }
