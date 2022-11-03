@@ -168,6 +168,18 @@
       "dependencies": ["autorun", "every-minute"],
       "steps": ["json def.json def.json"]
     },
+    "disable-prelinking": {
+      "description": "Disable prelinking.",
+      "tags": ["supported", "security"],
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "by": "https://github.com/larsewi",
+      "version": "1.0.3",
+      "commit": "4b309622404e6a6e989989a229fe780bec029de5",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
+      ]
+    },
     "every-minute": {
       "description": "Make policy fetching, evaluation, and reporting happen every minute",
       "tags": ["management", "experimental"],
@@ -643,18 +655,7 @@
         "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
       ]
     },
-    "prelinking-disabled": {
-      "description": "Disable prelinking.",
-      "tags": ["supported", "security"],
-      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
-      "by": "https://github.com/larsewi",
-      "version": "1.0.2",
-      "commit": "1005d80031b2a68f31018736b02e8eba8d4ef20b",
-      "dependencies": ["autorun"],
-      "steps": [
-        "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
-      ]
-    },
+    "prelinking-disabled": { "alias": "disable-prelinking" },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks",
       "tags": ["supported", "promise-type"],
