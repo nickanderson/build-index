@@ -2579,5 +2579,37 @@
       "by": "https://github.com/larsewi",
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
     }
+  },
+  "uninstall-openldap-server": {
+    "0.0.2": {
+      "commit": "b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea",
+      "timestamp": 1669050418439,
+      "archive_url": "modules/uninstall-openldap-server/b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea.tar.gz",
+      "archive_sha256": "ae4142ff03f9b7c95bb6ffd440036fbb0f03fa34b504514344a66f1aff829e76",
+      "readme_url": "modules/uninstall-openldap-server/b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea.org",
+      "readme_sha256": "f866e4c16511ae1e2cf4ab5c6dd40cc3cefc262b10164df01e9c913ff0a674af",
+      "steps": [
+        "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
+      ],
+      "subdirectory": "uninstall-openldap-server",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    }
+  },
+  "uninstall-telnet-server": {
+    "0.0.3": {
+      "commit": "b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea",
+      "timestamp": 1669050419044,
+      "archive_url": "modules/uninstall-telnet-server/b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea.tar.gz",
+      "archive_sha256": "2a98fb946f34db746bcb8b9b2047dbb1c68d451d10fc80c1c6a899f4a0360cc0",
+      "readme_url": "modules/uninstall-telnet-server/b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea.org",
+      "readme_sha256": "5343d7129fca6bf183c438d3a57025c7cefb828a2eb3562d2f7fab4365240f85",
+      "steps": [
+        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ],
+      "subdirectory": "uninstall-telnet-server",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+    }
   }
 }
