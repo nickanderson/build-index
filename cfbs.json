@@ -642,19 +642,7 @@
         "json cfbs/def.json def.json"
       ]
     },
-    "openldap-server-not-installed": {
-      "description": "This module has a policy file which makes sure the openldap server package is not installed on the system",
-      "tags": ["security", "compliance", "experimental"],
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
-      "by": "https://github.com/vpodzime",
-      "version": "0.0.1",
-      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
-      "subdirectory": "openldap-server-not-installed",
-      "dependencies": ["autorun"],
-      "steps": [
-        "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
-      ]
-    },
+    "openldap-server-not-installed": { "alias": "uninstall-openldap-server" },
     "prelinking-disabled": { "alias": "disable-prelinking" },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks",
@@ -856,19 +844,7 @@
       ]
     },
     "systemd": { "alias": "promise-type-systemd" },
-    "telnet-server-not-installed": {
-      "description": "This module ensures the telnet server package is not installed on the system",
-      "tags": ["supported", "security", "compliance"],
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
-      "by": "https://github.com/vpodzime",
-      "version": "0.0.2",
-      "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
-      "subdirectory": "telnet-server-not-installed",
-      "dependencies": ["autorun"],
-      "steps": [
-        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
-      ]
-    },
+    "telnet-server-not-installed": { "alias": "uninstall-telnet-server" },
     "tmp-file-age": {
       "description": "This module inventories and manages old files in /tmp.",
       "tags": ["supported", "inventory", "management", "security", "tmp"],
@@ -903,6 +879,32 @@
       "subdirectory": "uninstall-ftp",
       "dependencies": ["autorun"],
       "steps": ["copy ./uninstall_ftp.cf services/autorun/uninstall_ftp.cf"]
+    },
+    "uninstall-openldap-server": {
+      "description": "This module has a policy file which makes sure the openldap server package is not installed on the system",
+      "tags": ["security", "compliance", "experimental"],
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "by": "https://github.com/vpodzime",
+      "version": "0.0.2",
+      "commit": "b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea",
+      "subdirectory": "uninstall-openldap-server",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
+      ]
+    },
+    "uninstall-telnet-server": {
+      "description": "This module ensures the telnet server package is not installed on the system",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "by": "https://github.com/vpodzime",
+      "version": "0.0.3",
+      "commit": "b0c5d6e9f2a9fb5904cb1eb9cd948ee7907969ea",
+      "subdirectory": "uninstall-telnet-server",
+      "dependencies": ["autorun"],
+      "steps": [
+        "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ]
     },
     "upgrade-all-packages": {
       "description": "This module ensures that the package manager data is updated and all upgradeable packages are upgraded",
