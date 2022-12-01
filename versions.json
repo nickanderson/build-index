@@ -2628,6 +2628,22 @@
       "subdirectory": "security/uninstall-rsh-server",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.0.2": {
+      "commit": "d7ab64b9874e39e64508dd169237563dc9ad8176",
+      "timestamp": 1669929834729,
+      "archive_url": "modules/uninstall-rsh-server/d7ab64b9874e39e64508dd169237563dc9ad8176.tar.gz",
+      "archive_sha256": "b087120347ea983d3004ec747dd8cd00443d0ea38bf58ad6c77d324978111685",
+      "readme_url": "modules/uninstall-rsh-server/d7ab64b9874e39e64508dd169237563dc9ad8176.md",
+      "readme_sha256": "3c99cfb03bbe04b2d415933b54a7e34e29c8aca5ef426dad62b51ab8227d5aab",
+      "steps": [
+        "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
+        "bundles uninstall_rsh_server",
+        "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
+      ],
+      "subdirectory": "security/uninstall-rsh-server",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   }
 }
