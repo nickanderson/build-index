@@ -898,8 +898,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.1",
-      "commit": "d68c4143d242e631743fae2f6f7620ea882c4d42",
+      "version": "0.0.2",
+      "commit": "d7ab64b9874e39e64508dd169237563dc9ad8176",
       "subdirectory": "security/uninstall-rsh-server",
       "steps": [
         "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
