@@ -902,8 +902,8 @@
       "commit": "d68c4143d242e631743fae2f6f7620ea882c4d42",
       "subdirectory": "security/uninstall-rsh-server",
       "steps": [
-        "copy uninstall_rsh_server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
-        "bundles uninstall-rsh-server",
+        "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
+        "bundles uninstall_rsh_server",
         "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
       ]
     },
