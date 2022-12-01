@@ -2621,8 +2621,8 @@
       "readme_url": "modules/uninstall-rsh-server/d68c4143d242e631743fae2f6f7620ea882c4d42.md",
       "readme_sha256": "6928ee91c60907cd483e9317557ff2a41d4408149280569936ad88951349d372",
       "steps": [
-        "copy uninstall_rsh_server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
-        "bundles uninstall-rsh-server",
+        "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
+        "bundles uninstall_rsh_server",
         "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
       ],
       "subdirectory": "security/uninstall-rsh-server",
