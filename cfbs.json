@@ -893,6 +893,20 @@
         "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
       ]
     },
+    "uninstall-rsh-server": {
+      "description": "Ensure the remote shell (rsh) server package is not installed on the system",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "d68c4143d242e631743fae2f6f7620ea882c4d42",
+      "subdirectory": "security/uninstall-rsh-server",
+      "steps": [
+        "copy uninstall_rsh_server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
+        "bundles uninstall-rsh-server",
+        "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
+      ]
+    },
     "uninstall-telnet-server": {
       "description": "This module ensures the telnet server package is not installed on the system",
       "tags": ["supported", "security", "compliance"],
