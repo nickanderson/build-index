@@ -2645,5 +2645,23 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "etc-motd-access": {
+    "0.0.1": {
+      "commit": "2c54a98a05bb0315c7a5b9b2edf17a629f151563",
+      "timestamp": 1670102497452,
+      "archive_url": "modules/etc-motd-access/2c54a98a05bb0315c7a5b9b2edf17a629f151563.tar.gz",
+      "archive_sha256": "943d717d95c9f281fd8925d0bf2fc1f5b7d11aaff8d4bcf774e7fba9b1f7f7d0",
+      "readme_url": "modules/etc-motd-access/2c54a98a05bb0315c7a5b9b2edf17a629f151563.md",
+      "readme_sha256": "3e491c509cc2eaf75edcda80f59a61afa2b94a47e49c1705bef259386df0a31e",
+      "steps": [
+        "copy etc-motd-access.cf services/cfbs/modules/etc-motd-access/etc-motd-access.cf",
+        "bundles etc_motd_access",
+        "policy_files services/cfbs/modules/etc-motd-access/etc-motd-access.cf"
+      ],
+      "subdirectory": "security/etc-motd-access",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
