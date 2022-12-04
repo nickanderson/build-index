@@ -180,6 +180,20 @@
         "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
       ]
     },
+    "etc-issue-access": {
+      "description": "Limit access to /etc/issue by setting user, group, and permission bits.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "subdirectory": "security/etc-issue-access",
+      "steps": [
+        "copy etc-issue-access.cf services/cfbs/modules/etc-issue-access/etc-issue-access.cf",
+        "bundles etc_motd_access",
+        "policy_files services/cfbs/modules/etc-issue-access/etc-issue-access.cf"
+      ]
+    },
     "etc-motd-access": {
       "description": "Limit access to /etc/motd by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
@@ -919,6 +933,20 @@
         "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
         "bundles uninstall_rsh_server",
         "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
+      ]
+    },
+    "uninstall-talk": {
+      "description": "Ensure the talk client and server packages are not installed",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "subdirectory": "security/uninstall-talk",
+      "steps": [
+        "copy uninstall-talk.cf services/cfbs/modules/uninstall-talk/uninstall-talk.cf",
+        "bundles uninstall_talk",
+        "policy_files services/cfbs/modules/uninstall-talk/uninstall-talk.cf"
       ]
     },
     "uninstall-telnet-server": {
