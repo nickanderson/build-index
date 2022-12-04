@@ -2674,7 +2674,7 @@
       "readme_sha256": "aa1d1331544bdc2f29aa4c7dd5173fd689b1f39fb89fe58cb3b6e40207e41847",
       "steps": [
         "copy etc-issue-access.cf services/cfbs/modules/etc-issue-access/etc-issue-access.cf",
-        "bundles etc_motd_access",
+        "bundles etc_issue_access",
         "policy_files services/cfbs/modules/etc-issue-access/etc-issue-access.cf"
       ],
       "subdirectory": "security/etc-issue-access",

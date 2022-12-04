@@ -190,7 +190,7 @@
       "subdirectory": "security/etc-issue-access",
       "steps": [
         "copy etc-issue-access.cf services/cfbs/modules/etc-issue-access/etc-issue-access.cf",
-        "bundles etc_motd_access",
+        "bundles etc_issue_access",
         "policy_files services/cfbs/modules/etc-issue-access/etc-issue-access.cf"
       ]
     },
