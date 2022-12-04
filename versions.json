@@ -2663,5 +2663,41 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "etc-issue-access": {
+    "0.0.1": {
+      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "timestamp": 1670192249785,
+      "archive_url": "modules/etc-issue-access/36ff5729aeba97d72bdadfdb53bb4cc19c81f900.tar.gz",
+      "archive_sha256": "b92bb97cae0dbec8b4c440e32ba5c4943b89bcf7aeea70e9970d7a23273cb40f",
+      "readme_url": "modules/etc-issue-access/36ff5729aeba97d72bdadfdb53bb4cc19c81f900.md",
+      "readme_sha256": "aa1d1331544bdc2f29aa4c7dd5173fd689b1f39fb89fe58cb3b6e40207e41847",
+      "steps": [
+        "copy etc-issue-access.cf services/cfbs/modules/etc-issue-access/etc-issue-access.cf",
+        "bundles etc_motd_access",
+        "policy_files services/cfbs/modules/etc-issue-access/etc-issue-access.cf"
+      ],
+      "subdirectory": "security/etc-issue-access",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-talk": {
+    "0.0.1": {
+      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "timestamp": 1670192250056,
+      "archive_url": "modules/uninstall-talk/36ff5729aeba97d72bdadfdb53bb4cc19c81f900.tar.gz",
+      "archive_sha256": "a97dbf7b438efcbabca2205df8aff75c133073d3baf797789136c8f23c37ee66",
+      "readme_url": "modules/uninstall-talk/36ff5729aeba97d72bdadfdb53bb4cc19c81f900.md",
+      "readme_sha256": "7154e72c719c8b45e628ba4cb0acd385c52d0c2f45e67c6bf656df0a7d6b96ed",
+      "steps": [
+        "copy uninstall-talk.cf services/cfbs/modules/uninstall-talk/uninstall-talk.cf",
+        "bundles uninstall_talk",
+        "policy_files services/cfbs/modules/uninstall-talk/uninstall-talk.cf"
+      ],
+      "subdirectory": "security/uninstall-talk",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
