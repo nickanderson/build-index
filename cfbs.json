@@ -180,6 +180,20 @@
         "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
       ]
     },
+    "enable-aslr": {
+      "description": "Ensure that Address space layout randomization (ASLR) is enabled on the system",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/craigcomstock",
+      "version": "0.0.1",
+      "commit": "294155c662d6e7eee9f89c21d42728921d218a0f",
+      "subdirectory": "security/enable-aslr",
+      "steps": [
+        "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
+        "bundles enable_aslr",
+        "policy_files services/cfbs/modules/enable-aslr/enable-aslr.cf"
+      ]
+    },
     "etc-issue-access": {
       "description": "Limit access to /etc/issue by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
