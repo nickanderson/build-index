@@ -2716,6 +2716,22 @@
       "subdirectory": "security/enable-aslr",
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.0.2": {
+      "commit": "5507dc81587ccb833c5092fd5baeb52dd1b3fdd3",
+      "timestamp": 1670273311983,
+      "archive_url": "modules/enable-aslr/5507dc81587ccb833c5092fd5baeb52dd1b3fdd3.tar.gz",
+      "archive_sha256": "952771ba75be524d2833eab85137c0603a9ab9d57bbb479955b36b5fc982a612",
+      "readme_url": "modules/enable-aslr/5507dc81587ccb833c5092fd5baeb52dd1b3fdd3.md",
+      "readme_sha256": "d23e9425b897bb0bcf75ed871557b539fda0d9e25a1506eac65b26e18eee0800",
+      "steps": [
+        "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
+        "bundles enable_aslr",
+        "policy_files services/cfbs/modules/enable-aslr/enable-aslr.cf"
+      ],
+      "subdirectory": "security/enable-aslr",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
     }
   }
 }
