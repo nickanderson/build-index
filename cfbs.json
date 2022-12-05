@@ -185,8 +185,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
-      "version": "0.0.1",
-      "commit": "294155c662d6e7eee9f89c21d42728921d218a0f",
+      "version": "0.0.2",
+      "commit": "5507dc81587ccb833c5092fd5baeb52dd1b3fdd3",
       "subdirectory": "security/enable-aslr",
       "steps": [
         "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
