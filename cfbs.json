@@ -162,8 +162,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.2",
-      "commit": "ac4da2686958c4a64a8d78e911025342b4d9a9f4",
+      "version": "0.0.3",
+      "commit": "78a6e0af3d414944baa6f30611b5482438a5674a",
       "subdirectory": "security/delete-home-dotshosts",
       "steps": [
         "copy policy/main.cf services/cfbs/delete-home-dotshots/",
