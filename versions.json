@@ -2733,5 +2733,23 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "delete-home-dotshosts": {
+    "0.0.1": {
+      "commit": "df7a37161fa0f1c9eda4aa82514af3f66950f902",
+      "timestamp": 1670330904024,
+      "archive_url": "modules/delete-home-dotshosts/df7a37161fa0f1c9eda4aa82514af3f66950f902.tar.gz",
+      "archive_sha256": "3b60b7af25cb0f551a061fd3c51a7e8c26140b47c463fa7b96e55c91bb384f41",
+      "readme_url": "modules/delete-home-dotshosts/df7a37161fa0f1c9eda4aa82514af3f66950f902.md",
+      "readme_sha256": "91b24f2dbe2e778f9ab0358101f3d5763f6763cfd20b74eadf397a5d6afb449b",
+      "steps": [
+        "copy policy/main.cf services/cfbs/delete-home-dotshots/",
+        "policy_files services/cfbs/delete-home-dotshots/",
+        "bundles delete_home_dotshosts:main"
+      ],
+      "subdirectory": "security/delete-home-dotshosts",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
