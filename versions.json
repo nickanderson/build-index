@@ -2766,6 +2766,22 @@
       "subdirectory": "security/delete-home-dotshosts",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.0.3": {
+      "commit": "78a6e0af3d414944baa6f30611b5482438a5674a",
+      "timestamp": 1670334665849,
+      "archive_url": "modules/delete-home-dotshosts/78a6e0af3d414944baa6f30611b5482438a5674a.tar.gz",
+      "archive_sha256": "033f55aa6431c7bf0669a185d75aa6d44972b3d1603e740d0f077c3237063499",
+      "readme_url": "modules/delete-home-dotshosts/78a6e0af3d414944baa6f30611b5482438a5674a.md",
+      "readme_sha256": "c6257ae27b18e81b59c6746fdd74a0b41fef5a20e95c646d35e07e2b6cd2942d",
+      "steps": [
+        "copy policy/main.cf services/cfbs/delete-home-dotshots/",
+        "policy_files services/cfbs/delete-home-dotshots/",
+        "bundles delete_home_dotshosts:main"
+      ],
+      "subdirectory": "security/delete-home-dotshosts",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
     }
   }
 }
