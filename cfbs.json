@@ -157,6 +157,20 @@
         }
       ]
     },
+    "delete-home-dotshosts": {
+      "description": "Ensure that ~/.shosts files are not present, as they present a security risk",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "df7a37161fa0f1c9eda4aa82514af3f66950f902",
+      "subdirectory": "security/delete-home-dotshosts",
+      "steps": [
+        "copy policy/main.cf services/cfbs/delete-home-dotshots/",
+        "policy_files services/cfbs/delete-home-dotshots/",
+        "bundles delete_home_dotshosts:main"
+      ]
+    },
     "demo": {
       "description": "Enables convenient and insecure settings for demoing CFEngine",
       "tags": ["management", "experimental"],
