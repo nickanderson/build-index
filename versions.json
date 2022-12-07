@@ -1296,6 +1296,21 @@
       "subdirectory": "parsed_etc_passwd_shadow/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
+    },
+    "2.0.5": {
+      "commit": "ede282c34083ab807543aa734b1142228ab98993",
+      "timestamp": 1670439834974,
+      "archive_url": "modules/library-parsed-local-users/ede282c34083ab807543aa734b1142228ab98993.tar.gz",
+      "archive_sha256": "6b81958acc7891de05488b93bd19c5de089af3694a4ff176f2f6eca9c220703d",
+      "readme_url": "modules/library-parsed-local-users/ede282c34083ab807543aa734b1142228ab98993.org",
+      "readme_sha256": "1ba4973e99ccc8373266d36970f29a381d18e06c45f06f3043afcf3327bd0456",
+      "steps": [
+        "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "parsed_etc_passwd_shadow/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
   },
   "inventory-etc-login-defs": {
