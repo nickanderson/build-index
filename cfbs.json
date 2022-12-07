@@ -629,8 +629,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
-      "version": "2.0.4",
-      "commit": "3b50be1e5ab09578109921b8f287603b37811350",
+      "version": "2.0.5",
+      "commit": "ede282c34083ab807543aa734b1142228ab98993",
       "subdirectory": "parsed_etc_passwd_shadow/",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
