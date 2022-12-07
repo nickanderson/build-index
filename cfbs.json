@@ -594,8 +594,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
-      "version": "0.1.1",
-      "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
+      "version": "0.1.2",
+      "commit": "99017f2d952c9e7fddaf3aac1be19061cb23c0d6",
       "subdirectory": "libraries/bash/",
       "steps": ["copy cfengine.sh modules/promises/"]
     },
