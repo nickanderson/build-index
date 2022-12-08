@@ -801,6 +801,20 @@
       "subdirectory": "libraries/bash/",
       "by": "https://github.com/Lex-2008",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.1.2": {
+      "commit": "99017f2d952c9e7fddaf3aac1be19061cb23c0d6",
+      "timestamp": 1670512767114,
+      "archive_url": "modules/library-for-promise-types-in-bash/99017f2d952c9e7fddaf3aac1be19061cb23c0d6.tar.gz",
+      "archive_sha256": "22f4b53d9120dc16957d8c6ab83f840eb268449f7515b29165745f08ddffb3f0",
+      "readme_url": null,
+      "readme_sha256": null,
+      "steps": [
+        "copy cfengine.sh modules/promises/"
+      ],
+      "subdirectory": "libraries/bash/",
+      "by": "https://github.com/Lex-2008",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "library-for-promise-types-in-python": {
