@@ -2828,5 +2828,23 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "inventory-local-users-unhashed-password": {
+    "1.0.0": {
+      "commit": "057f24c8e96ef5504779d45f3f8a19907ccf0b32",
+      "timestamp": 1670513796840,
+      "archive_url": "modules/inventory-local-users-unhashed-password/057f24c8e96ef5504779d45f3f8a19907ccf0b32.tar.gz",
+      "archive_sha256": "2566dfb3e92b98a90503ec44aa5d3befb2ca8cdc7f3fef236a4001a4c83c1024",
+      "readme_url": "modules/inventory-local-users-unhashed-password/057f24c8e96ef5504779d45f3f8a19907ccf0b32.md",
+      "readme_sha256": "f59f383cb2d57ac2069da95ca1a27cdb1bfd40ef7b1c9bbad3ced7fb012ad187",
+      "steps": [
+        "copy policy/main.cf services/cfbs/inventory-local-users-unhashed-password/",
+        "policy_files services/cfbs/inventory-local-users-unhashed-password/",
+        "bundles inventory_local_users_unhashed_password:main"
+      ],
+      "subdirectory": "security/inventory-local-users-unhashed-password/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
