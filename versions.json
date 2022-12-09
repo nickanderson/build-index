@@ -2878,6 +2878,22 @@
       "subdirectory": "security/inventory-unshadowed-users/",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.2": {
+      "commit": "cff9325f0b12e914fead75c7b30092b0d91cee64",
+      "timestamp": 1670599709879,
+      "archive_url": "modules/inventory-unshadowed-users/cff9325f0b12e914fead75c7b30092b0d91cee64.tar.gz",
+      "archive_sha256": "f4b5b64af5dd8d4a9236424886c7d71eb0ee5c4a915b1157cc7349547d801ef2",
+      "readme_url": "modules/inventory-unshadowed-users/cff9325f0b12e914fead75c7b30092b0d91cee64.md",
+      "readme_sha256": "9f59fdcf1df373d7d7688f72d762371f4f804866744a3558457536e46760c577",
+      "steps": [
+        "copy policy/main.cf services/cfbs/inventory-unshadowed-users/",
+        "policy_files services/cfbs/inventory-unshadowed-users/",
+        "bundles inventory_unshadowed_users:main"
+      ],
+      "subdirectory": "security/inventory-unshadowed-users/",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
     }
   }
 }
