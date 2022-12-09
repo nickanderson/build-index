@@ -312,7 +312,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -327,7 +327,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -342,7 +342,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -357,7 +357,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -372,7 +372,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -387,7 +387,7 @@
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -799,7 +799,7 @@
       "steps": [
         "copy cfengine.sh modules/promises/"
       ],
-      "subdirectory": "libraries/bash/",
+      "subdirectory": "libraries/bash",
       "by": "https://github.com/Lex-2008",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -813,7 +813,7 @@
       "steps": [
         "copy cfengine.sh modules/promises/"
       ],
-      "subdirectory": "libraries/bash/",
+      "subdirectory": "libraries/bash",
       "by": "https://github.com/Lex-2008",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -827,7 +827,7 @@
       "steps": [
         "copy cfengine.sh modules/promises/"
       ],
-      "subdirectory": "libraries/bash/",
+      "subdirectory": "libraries/bash",
       "by": "https://github.com/Lex-2008",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -843,7 +843,7 @@
       "steps": [
         "copy cfengine.py modules/promises/"
       ],
-      "subdirectory": "libraries/python/",
+      "subdirectory": "libraries/python",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -857,7 +857,7 @@
       "steps": [
         "copy cfengine.py modules/promises/"
       ],
-      "subdirectory": "libraries/python/",
+      "subdirectory": "libraries/python",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -874,7 +874,7 @@
         "copy ansible_promise.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/ansible/",
+      "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -889,7 +889,7 @@
         "copy ansible_promise.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/ansible/",
+      "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -906,7 +906,7 @@
         "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/git/",
+      "subdirectory": "promise-types/git",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -921,7 +921,7 @@
         "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/git/",
+      "subdirectory": "promise-types/git",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -956,7 +956,7 @@
         "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/systemd/",
+      "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -971,7 +971,7 @@
         "copy systemd.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/systemd/",
+      "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -998,7 +998,7 @@
         "copy groups.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/groups/",
+      "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -1013,7 +1013,7 @@
         "copy groups.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/groups/",
+      "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -1076,7 +1076,7 @@
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1091,7 +1091,7 @@
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1106,7 +1106,7 @@
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1121,7 +1121,7 @@
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1136,7 +1136,7 @@
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -1230,7 +1230,7 @@
         "copy http_promise_type.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/http/",
+      "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -1245,7 +1245,7 @@
         "copy http_promise_type.py modules/promises/",
         "append enable.cf services/init.cf"
       ],
-      "subdirectory": "promise-types/http/",
+      "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -1262,7 +1262,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1277,7 +1277,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1292,7 +1292,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1307,7 +1307,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1322,7 +1322,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1337,7 +1337,7 @@
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -1433,7 +1433,7 @@
         "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "subdirectory": "inventory_non_root_users_with_uid_zero",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     },
@@ -1448,7 +1448,7 @@
         "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "subdirectory": "inventory_non_root_users_with_uid_zero",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -1465,7 +1465,7 @@
         "copy ./inventory-ssh-host-key-fingerprints.cf services/ssh/inventory/host-key-fingerprints/inventory-ssh-host-key-fingerprints.cf",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "policy/inventory/host-key-fingerprints/",
+      "subdirectory": "policy/inventory/host-key-fingerprints",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-ssh"
     }
@@ -1559,7 +1559,7 @@
         "copy ./global-key-values.cf services/lib-sshd-config/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "modules/lib-sshd-config/",
+      "subdirectory": "modules/lib-sshd-config",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-ssh"
     },
@@ -1574,7 +1574,7 @@
         "copy ./global-key-values.cf services/library-sshd-config/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "modules/library-sshd-config/",
+      "subdirectory": "modules/library-sshd-config",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-ssh"
     }
@@ -1591,7 +1591,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "subdirectory": "./ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1606,7 +1606,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "subdirectory": "./ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1621,7 +1621,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "subdirectory": "./ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1638,7 +1638,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no/",
+      "subdirectory": "./ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1653,7 +1653,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no/",
+      "subdirectory": "./ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1668,7 +1668,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no/",
+      "subdirectory": "./ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1685,7 +1685,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries/",
+      "subdirectory": "./ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1700,7 +1700,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries/",
+      "subdirectory": "./ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1715,7 +1715,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries/",
+      "subdirectory": "./ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1732,7 +1732,7 @@
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-protocol-2/",
+      "subdirectory": "./ssh-protocol-2",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1747,7 +1747,7 @@
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-protocol-2/",
+      "subdirectory": "./ssh-protocol-2",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1764,7 +1764,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong/",
+      "subdirectory": "./ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1779,7 +1779,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong/",
+      "subdirectory": "./ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1794,7 +1794,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong/",
+      "subdirectory": "./ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1841,7 +1841,7 @@
         "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
       ],
-      "subdirectory": "./inventory-writable-directories-in-root-path/",
+      "subdirectory": "./inventory-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
     }
@@ -1891,7 +1891,7 @@
         "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
       ],
-      "subdirectory": "./root-path-enforce-permissions/",
+      "subdirectory": "./root-path-enforce-permissions",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
     }
@@ -1908,7 +1908,7 @@
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./sudo-enforce-allowed-users/",
+      "subdirectory": "./sudo-enforce-allowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1923,7 +1923,7 @@
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./sudo-enforce-allowed-users/",
+      "subdirectory": "./sudo-enforce-allowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1940,7 +1940,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll/",
+      "subdirectory": "./ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1955,7 +1955,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll/",
+      "subdirectory": "./ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1970,7 +1970,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll/",
+      "subdirectory": "./ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2191,7 +2191,7 @@
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./tmp-file-age/",
+      "subdirectory": "./tmp-file-age",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2208,7 +2208,7 @@
         "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-3156-sudo/",
+      "subdirectory": "./cves/cve-2021-3156-sudo",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2303,7 +2303,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "subdirectory": "./cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2318,7 +2318,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "subdirectory": "./cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2333,7 +2333,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "subdirectory": "./cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2482,7 +2482,7 @@
         "copy ./parsed_etc_group.cf services/local-groups/parsed_etc_group/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "parsed_etc_group/",
+      "subdirectory": "parsed_etc_group",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -2499,7 +2499,7 @@
         "copy ./inventory-local-groups.cf services/local-groups/inventory-local-groups/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "inventory-local-groups/",
+      "subdirectory": "inventory-local-groups",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-local_users"
     }
@@ -2857,7 +2857,7 @@
         "policy_files services/cfbs/inventory-local-users-unhashed-password/",
         "bundles inventory_local_users_unhashed_password:main"
       ],
-      "subdirectory": "security/inventory-local-users-unhashed-password/",
+      "subdirectory": "security/inventory-local-users-unhashed-password",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     }
@@ -2875,7 +2875,7 @@
         "policy_files services/cfbs/inventory-unshadowed-users/",
         "bundles inventory_unshadowed_users:main"
       ],
-      "subdirectory": "security/inventory-unshadowed-users/",
+      "subdirectory": "security/inventory-unshadowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     },
@@ -2891,7 +2891,7 @@
         "policy_files services/cfbs/inventory-unshadowed-users/",
         "bundles inventory_unshadowed_users:main"
       ],
-      "subdirectory": "security/inventory-unshadowed-users/",
+      "subdirectory": "security/inventory-unshadowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     }
