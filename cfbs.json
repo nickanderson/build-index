@@ -6,7 +6,7 @@
     "all-packages-upgraded": { "alias": "upgrade-all-packages" },
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
-      "description": "Enable autorun functionality",
+      "description": "Enables autorun functionality.",
       "tags": ["supported", "management"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -17,7 +17,7 @@
     },
     "bash-lib": { "alias": "library-for-promise-types-in-bash" },
     "cfengine-supported": {
-      "description": "Inventory the support status for the current version of CFEngine.",
+      "description": "Adds reporting data (inventory) for the support status for the current version of CFEngine.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-supported",
       "by": "https://github.com/nickanderson",
@@ -31,7 +31,7 @@
     "cir": { "alias": "client-initiated-reporting" },
     "client-initiated": { "alias": "client-initiated-reporting" },
     "client-initiated-reporting": {
-      "description": "Enable client initiated reporting and disable pull collection",
+      "description": "Enables client initiated reporting and disable pull collection.",
       "tags": ["experimental", "reporting"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
@@ -42,7 +42,7 @@
     },
     "compliance-report-imports": {
       "name": "compliance-report-imports",
-      "description": "Keep compliance report definitions up to date",
+      "description": "Used by other modules to import compliance reports to Mission Portal.",
       "tags": ["experimental", "cfengine-enterprise"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -53,7 +53,7 @@
       "steps": ["copy ./compliance-report-imports.cf services/autorun/"]
     },
     "compliance-report-lynis": {
-      "description": "Compliance report with Lynis checks",
+      "description": "Compliance report with Lynis checks.",
       "tags": ["experimental", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson/",
@@ -67,7 +67,7 @@
     },
     "compliance-report-os-is-vendor-supported": {
       "name": "compliance-report-os-is-vendor-supported",
-      "description": "Compliance report definition for checking if the current OS version is supported by the vendor",
+      "description": "Compliance report definition for checking if the current OS version is supported by the vendor.",
       "tags": ["experimental", "compliance-report", "cfengine-enterprise"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -80,33 +80,33 @@
       ]
     },
     "cve-2021-3156-sudo": {
-      "description": "This module inventories and remediates CVE-2021-3156, a heap overflow in sudo that allows privilege escalation.",
+      "description": "Reporting data (inventory) and remediaton for CVE-2021-3156, a heap overflow in sudo that allows privilege escalation.",
       "tags": ["supported", "security", "cve", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "029ec4eac0d3d9b3bf7c8dc361db71f4796fc101",
-      "subdirectory": "./cves/cve-2021-3156-sudo/",
+      "subdirectory": "./cves/cve-2021-3156-sudo",
       "steps": [
         "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
         "json cfbs/def.json def.json"
       ]
     },
     "cve-2021-44228-log4j": {
-      "description": "This module leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
+      "description": "Leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
       "tags": ["supported", "security", "cve", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.2.0",
       "commit": "bdc7a16c6e52ff44149eb2abfd510fcee12dd2c1",
-      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "subdirectory": "./cves/cve-2021-44228-log4j",
       "steps": [
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ]
     },
     "default-encrypt-method-sha512": {
-      "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in /etc/login.defs)",
+      "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in the /etc/login.defs file).",
       "tags": ["supported", "security"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -158,7 +158,7 @@
       ]
     },
     "delete-home-dotshosts": {
-      "description": "Ensure that ~/.shosts files are not present, as they present a security risk",
+      "description": "Ensures that ~/.shosts files are not present, as they present a security risk.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/nickanderson",
@@ -172,7 +172,7 @@
       ]
     },
     "demo": {
-      "description": "Enables convenient and insecure settings for demoing CFEngine",
+      "description": "Enables convenient and insecure settings for demoing CFEngine.",
       "tags": ["management", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -183,7 +183,7 @@
       "steps": ["json def.json def.json"]
     },
     "disable-prelinking": {
-      "description": "Disable prelinking.",
+      "description": "Disables prelinking.",
       "tags": ["supported", "security"],
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
       "by": "https://github.com/larsewi",
@@ -195,7 +195,7 @@
       ]
     },
     "enable-aslr": {
-      "description": "Ensure that Address space layout randomization (ASLR) is enabled on the system",
+      "description": "Ensures that Address space layout randomization (ASLR) is enabled on the system.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
@@ -209,7 +209,7 @@
       ]
     },
     "etc-issue-access": {
-      "description": "Limit access to /etc/issue by setting user, group, and permission bits.",
+      "description": "Limits access to the /etc/issue file by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -223,7 +223,7 @@
       ]
     },
     "etc-motd-access": {
-      "description": "Limit access to /etc/motd by setting user, group, and permission bits.",
+      "description": "Limits access to the /etc/motd file by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -237,7 +237,7 @@
       ]
     },
     "every-minute": {
-      "description": "Make policy fetching, evaluation, and reporting happen every minute",
+      "description": "Makes policy fetching, evaluation, and reporting happen every minute.",
       "tags": ["management", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -247,7 +247,7 @@
       "steps": ["json def.json def.json"]
     },
     "file-permissions": {
-      "description": "Manages file permissions",
+      "description": "Manages file permissions, allowing you to specify permission bits for different paths.",
       "tags": ["management"],
       "repo": "https://github.com/nickanderson/cfengine-file-permissions",
       "by": "https://github.com/nickanderson",
@@ -297,7 +297,7 @@
     "groups": { "alias": "promise-type-groups" },
     "http": { "alias": "promise-type-http" },
     "inventory-clamav": {
-      "description": "Inventory useful information from ClamAV (version, definitions version, definitions date)",
+      "description": "Adds reporting data (inventory) for useful information from ClamAV (version, definitions version, definitions date).",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
@@ -309,7 +309,7 @@
       ]
     },
     "inventory-etc-hosts": {
-      "description": "Inventory entries from /etc/hosts",
+      "description": "Adds reporting data (inventory) for entries from the /etc/hosts file.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
@@ -322,7 +322,7 @@
     },
     "inventory-etc-login-defs": {
       "name": "inventory-etc-login-defs",
-      "description": "Inventory useful bits from /etc/login.defs",
+      "description": "Adds reporting data (inventory) for useful bits from the /etc/login.defs file.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs",
       "by": "https://github.com/nickanderson",
@@ -334,7 +334,7 @@
       ]
     },
     "inventory-fips-mode-setup": {
-      "description": "Inventory the status of fips-mode-setup",
+      "description": "Adds reporting data (inventory) for the status of fips-mode-setup.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
@@ -346,7 +346,7 @@
       ]
     },
     "inventory-kernel-boot-params": {
-      "description": "Inventory kernel parameters set during system boot",
+      "description": "Adds reporting data (inventory) for kernel parameters set during system boot.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
@@ -358,7 +358,7 @@
       ]
     },
     "inventory-kernel-settings-sysctl-conf": {
-      "description": "Inventory settings from /etc/sysctl.conf.",
+      "description": "Adds reporting data (inventory) for settings from the /etc/sysctl.conf file.",
       "tags": ["inventory", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -372,7 +372,7 @@
       ]
     },
     "inventory-kernel-settings-sysctl-current": {
-      "description": "Inventory sysctl settings current state.",
+      "description": "Adds reporting data (inventory) for sysctl settings current state.",
       "tags": ["inventory", "kernel", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -386,7 +386,7 @@
       ]
     },
     "inventory-lastlog": {
-      "description": "Inventory users who have logged in and when.",
+      "description": "Adds reporting data (inventory) for users who have logged in and when.",
       "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
@@ -399,13 +399,13 @@
     },
     "inventory-local-groups": {
       "name": "inventory-local-groups",
-      "description": "Inventory the local groups on the system.",
+      "description": "Adds reporting data (inventory) for the local groups on the system.",
       "tags": ["inventory", "supported"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "633fdc37f6369461fcd866ad69eb84cd9feb595c",
-      "subdirectory": "inventory-local-groups/",
+      "subdirectory": "inventory-local-groups",
       "dependencies": ["library-parsed-local-groups"],
       "steps": [
         "copy ./inventory-local-groups.cf services/local-groups/inventory-local-groups/",
@@ -413,13 +413,13 @@
       ]
     },
     "inventory-local-users": {
-      "description": "Inventory the local users on the system with their attributes",
+      "description": "Adds reporting data (inventory) for the local users on the system with their attributes.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
@@ -428,13 +428,13 @@
     },
     "inventory-local-users-locked": {
       "name": "inventory-local-users-locked",
-      "description": "Inventory the local users on the system that are locked",
+      "description": "Adds reporting data (inventory) for the local users on the system that are locked.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
@@ -442,13 +442,13 @@
       ]
     },
     "inventory-local-users-non-root-has-uid-0": {
-      "description": "Inventory the non-root users that have uid 0",
+      "description": "Adds reporting data (inventory) for the non-root users that have uid 0.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.5",
       "commit": "fef5d94170f8119eda8f5bf8316acf5896fbac22",
-      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "subdirectory": "inventory_non_root_users_with_uid_zero",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
@@ -457,7 +457,7 @@
     },
     "inventory-local-users-password-empty": {
       "name": "inventory-local-users-password-empty",
-      "description": "Inventory the local users on the system that do not have a password set",
+      "description": "Adds reporting data (inventory) for the local users on the system that do not have a password set.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -472,7 +472,7 @@
     },
     "inventory-local-users-password-hashing-algorithm": {
       "name": "inventory-local-users-password-hashing-algorithm",
-      "description": "Inventory password hashing algorithms in use by local users",
+      "description": "Adds reporting data (inventory) for password hashing algorithms in use by local users.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -502,20 +502,20 @@
       ]
     },
     "inventory-ssh-host-key-fingerprints": {
-      "description": "This module contains policy to inventory the ssh host key fingerprints.",
+      "description": "Adds reporting data (inventory) for the SSH host key fingerprints.",
       "tags": ["inventory", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "337a0b1b2df4eb2d13cecc9718f56c23f54fffa8",
-      "subdirectory": "policy/inventory/host-key-fingerprints/",
+      "subdirectory": "policy/inventory/host-key-fingerprints",
       "steps": [
         "copy ./inventory-ssh-host-key-fingerprints.cf services/ssh/inventory/host-key-fingerprints/inventory-ssh-host-key-fingerprints.cf",
         "json cfbs/def.json def.json"
       ]
     },
     "inventory-sudoers": {
-      "description": "Inventory users with sudo access.",
+      "description": "Adds reporting data (inventory) for users with sudo access.",
       "tags": ["supported", "inventory", "security", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
@@ -527,7 +527,7 @@
       ]
     },
     "inventory-systemd": {
-      "description": "Inventory interesting things from systemd",
+      "description": "Adds reporting data (inventory) for interesting things from systemd.",
       "tags": ["supported", "inventory", "systemd"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
@@ -545,7 +545,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.2",
       "commit": "cff9325f0b12e914fead75c7b30092b0d91cee64",
-      "subdirectory": "security/inventory-unshadowed-users/",
+      "subdirectory": "security/inventory-unshadowed-users",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy policy/main.cf services/cfbs/inventory-unshadowed-users/",
@@ -554,20 +554,20 @@
       ]
     },
     "inventory-writable-directories-in-root-path": {
-      "description": "This module inventories directories in root's $PATH that are world or group writable.",
+      "description": "Reporting data (inventory) directories in root's $PATH that are world or group writable.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./inventory-writable-directories-in-root-path/",
+      "subdirectory": "./inventory-writable-directories-in-root-path",
       "steps": [
         "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
       ]
     },
     "inventory-yum-update-info": {
-      "description": "This module adds information about security updates from 'yum updateinfo' to inventory",
+      "description": "Adds information about security updates from 'yum updateinfo' to inventory.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -580,7 +580,7 @@
       ]
     },
     "kernel-settings-sysctl-conf": {
-      "description": "Manage settings in /etc/sysctl.conf.",
+      "description": "Manages settings in the /etc/sysctl.conf file.",
       "tags": ["management", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -596,7 +596,7 @@
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
     "lib-sshd-config": { "alias": "library-sshd-config" },
     "library-file-integrity-monitoring": {
-      "description": "Monitor key files for changes",
+      "description": "Monitors key files for changes.",
       "tags": ["library", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
@@ -608,34 +608,34 @@
       ]
     },
     "library-for-promise-types-in-bash": {
-      "description": "Library enabling promise types implemented in bash",
+      "description": "Library enabling promise types implemented in bash.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/Lex-2008",
       "version": "0.1.2",
       "commit": "99017f2d952c9e7fddaf3aac1be19061cb23c0d6",
-      "subdirectory": "libraries/bash/",
+      "subdirectory": "libraries/bash",
       "steps": ["copy cfengine.sh modules/promises/"]
     },
     "library-for-promise-types-in-python": {
-      "description": "Library enabling promise types implemented in python",
+      "description": "Library enabling promise types implemented in python.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "libraries/python/",
+      "subdirectory": "libraries/python",
       "steps": ["copy cfengine.py modules/promises/"]
     },
     "library-parsed-local-groups": {
       "name": "library-parsed-local-groups",
-      "description": "Parse local group from /etc/group on the system.",
+      "description": "Parses local group from the /etc/group file on the system.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "3028f74671c0bd8c8668a5b18245191439b0bad9",
-      "subdirectory": "parsed_etc_group/",
+      "subdirectory": "parsed_etc_group",
       "steps": [
         "copy ./parsed_etc_group.cf services/local-groups/parsed_etc_group/",
         "json cfbs/def.json def.json"
@@ -643,33 +643,33 @@
     },
     "library-parsed-local-users": {
       "name": "library-parsed-local-users",
-      "description": "Parse local users from /etc/passwd on the system with their attributes from /etc/shadow",
+      "description": "Parses local users from /etc/passwd on the system with their attributes from /etc/shadow.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
       "version": "2.0.5",
       "commit": "ede282c34083ab807543aa734b1142228ab98993",
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
       ]
     },
     "library-sshd-config": {
-      "description": "This module provides policy for managing sshd configuration.",
+      "description": "Library used by other modules to manage sshd configuration.",
       "tags": ["library", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
       "commit": "abff34c08bf27af56c4c3939bbb6f848eac7fb8d",
-      "subdirectory": "modules/library-sshd-config/",
+      "subdirectory": "modules/library-sshd-config",
       "steps": [
         "copy ./global-key-values.cf services/library-sshd-config/",
         "json cfbs/def.json def.json"
       ]
     },
     "lynis": {
-      "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits",
+      "description": "Automates the installation, running, and reporting of CISOfy's lynis system audits.",
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
@@ -681,7 +681,7 @@
       ]
     },
     "masterfiles": {
-      "description": "Official CFEngine Masterfiles Policy Framework (MPF)",
+      "description": "Official CFEngine Masterfiles Policy Framework (MPF).",
       "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
@@ -690,7 +690,7 @@
       "steps": ["run ./prepare.sh -y", "copy ./ ./"]
     },
     "migrate2rocky": {
-      "description": "Unattended migration of CentOS 8 hosts to Rocky Linux",
+      "description": "Unattended migration of CentOS 8 hosts to Rocky Linux.",
       "tags": ["experimental"],
       "repo": "https://github.com/nickanderson/cfengine-migrate2rocky",
       "by": "https://github.com/nickanderson",
@@ -704,13 +704,13 @@
     },
     "mpf": { "alias": "masterfiles" },
     "ntp-maxpoll": {
-      "description": "This module ensures that maxpoll is configured to 10 unless default:ntp_maxpoll._config[maxpoll] is defined in which case that value will be used.",
+      "description": "Ensures that maxpoll is configured (to 10 by default).",
       "tags": ["supported", "security", "management"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.3",
       "commit": "e2519214e8a29c7f37a36ca8a4beec687712448d",
-      "subdirectory": "./ntp-maxpoll/",
+      "subdirectory": "./ntp-maxpoll",
       "steps": [
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
@@ -719,13 +719,13 @@
     "openldap-server-not-installed": { "alias": "uninstall-openldap-server" },
     "prelinking-disabled": { "alias": "disable-prelinking" },
     "promise-type-ansible": {
-      "description": "Promise type to run ansible playbooks",
+      "description": "Promise type to run ansible playbooks.",
       "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/ansible/",
+      "subdirectory": "promise-types/ansible",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy ansible_promise.py modules/promises/",
@@ -733,13 +733,13 @@
       ]
     },
     "promise-type-git": {
-      "description": "Promise type to manage git repos",
+      "description": "Promise type to manage git repos.",
       "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/git/",
+      "subdirectory": "promise-types/git",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy git.py modules/promises/",
@@ -747,13 +747,13 @@
       ]
     },
     "promise-type-groups": {
-      "description": "Experimental promise type to manage local user groups",
+      "description": "Experimental promise type to manage local user groups.",
       "tags": ["supported", "promise-type", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
       "version": "0.1.3",
       "commit": "fd255fbdcc6cac0521ab8de2c543c684fadb16fa",
-      "subdirectory": "promise-types/groups/",
+      "subdirectory": "promise-types/groups",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy groups.py modules/promises/",
@@ -761,13 +761,13 @@
       ]
     },
     "promise-type-http": {
-      "description": "Promise type to perform HTTP(S) requests from policy",
+      "description": "Promise type to perform HTTP(S) requests from policy.",
       "tags": ["supported", "promise-type", "http"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/vpodzime",
       "version": "1.1.0",
       "commit": "501e96673621d6b9754f8a5c32bf2ee509e6bf5b",
-      "subdirectory": "promise-types/http/",
+      "subdirectory": "promise-types/http",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy http_promise_type.py modules/promises/",
@@ -775,13 +775,13 @@
       ]
     },
     "promise-type-systemd": {
-      "description": "Promise type to manage systemd services",
+      "description": "Promise type to manage systemd services.",
       "tags": ["supported", "promise-type", "systemd"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/systemd/",
+      "subdirectory": "promise-types/systemd",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy systemd.py modules/promises/",
@@ -790,13 +790,13 @@
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
     "root-path-enforce-permissions": {
-      "description": "This module enforces that directories in root's $PATH are not world or group writable.",
+      "description": "Enforces that directories in root's $PATH are not world or group writable.",
       "tags": ["supported", "management", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./root-path-enforce-permissions/",
+      "subdirectory": "./root-path-enforce-permissions",
       "dependencies": ["inventory-writable-directories-in-root-path"],
       "steps": [
         "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
@@ -805,13 +805,13 @@
     },
     "scl": { "alias": "surf-cfengine-library" },
     "ssh-ciphers-strong": {
-      "description": "This module ensures that the SSH daemon uses strong ciphers",
+      "description": "Ensures that the SSH daemon uses strong ciphers.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6",
-      "subdirectory": "./ssh-ciphers-strong/",
+      "subdirectory": "./ssh-ciphers-strong",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
@@ -819,13 +819,13 @@
       ]
     },
     "ssh-max-auth-tries": {
-      "description": "This module limits the maximum authentication attempts (default to 3)",
+      "description": "Limits the maximum authentication attempts (default to 3).",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-max-auth-tries/",
+      "subdirectory": "./ssh-max-auth-tries",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
@@ -833,13 +833,13 @@
       ]
     },
     "ssh-permit-empty-passwords-no": {
-      "description": "This module ensures that PermitEmptyPasswords is set to no.",
+      "description": "Ensures that PermitEmptyPasswords is set to no in the sshd configuration.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
-      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "subdirectory": "./ssh-permit-empty-passwords-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
@@ -847,13 +847,13 @@
       ]
     },
     "ssh-permit-root-login-no": {
-      "description": "This module ensures that the SSH daemon does not permit logging in as root",
+      "description": "Ensures that the SSH daemon does not permit logging in as root.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-permit-root-login-no/",
+      "subdirectory": "./ssh-permit-root-login-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
@@ -861,13 +861,13 @@
       ]
     },
     "ssh-protocol-2": {
-      "description": "This module ensures that the SSH daemon uses SSH protocol 2.",
+      "description": "Ensures that the SSH daemon uses SSH protocol 2.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-protocol-2/",
+      "subdirectory": "./ssh-protocol-2",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
@@ -875,20 +875,20 @@
       ]
     },
     "sudo-enforce-allowed-users": {
-      "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in /etc/sudoers.conf",
+      "description": "Ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in the /etc/sudoers.conf file.",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.2",
       "commit": "ab4f6c01c2f41dfdfef05100eac4c8abf894b74c",
-      "subdirectory": "./sudo-enforce-allowed-users/",
+      "subdirectory": "./sudo-enforce-allowed-users",
       "steps": [
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
       ]
     },
     "sudo-requires-passwords": {
-      "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in /etc/sudoers)",
+      "description": "Ensures that sudo requires password (there are no 'NOPASSWD' in the /etc/sudoers file).",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
       "by": "https://github.com/Lex-2008",
@@ -900,7 +900,7 @@
       ]
     },
     "surf-cfengine-library": {
-      "description": "SURF CFEngine Library (SCL) for building services with json/mustache",
+      "description": "SURF CFEngine Library (SCL) for building services with json/mustache.",
       "tags": ["inventory", "lib", "management", "experimental"],
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
       "by": "https://github.com/basvandervlies/",
@@ -920,20 +920,20 @@
     "systemd": { "alias": "promise-type-systemd" },
     "telnet-server-not-installed": { "alias": "uninstall-telnet-server" },
     "tmp-file-age": {
-      "description": "This module inventories and manages old files in /tmp.",
+      "description": "Reporting data (inventory) and removal of old files in the /tmp directory.",
       "tags": ["supported", "inventory", "management", "security", "tmp"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "56a7c149f33808db6796de77eff6eb0502c01e61",
-      "subdirectory": "./tmp-file-age/",
+      "subdirectory": "./tmp-file-age",
       "steps": [
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"
       ]
     },
     "tmp-nosuid": {
-      "description": "This module has a policy file which makes sure /tmp is mounted with the 'nosuid' option",
+      "description": "Makes sure /tmp is mounted with the 'nosuid' option.",
       "tags": ["supported", "security", "compliance", "tmp"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -944,7 +944,7 @@
       "steps": ["copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"]
     },
     "uninstall-ftp": {
-      "description": "This module has a policy file which makes sure the ftp server package is not installed on the system",
+      "description": "Ensures the ftp server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
       "by": "https://github.com/craigcomstock",
@@ -955,7 +955,7 @@
       "steps": ["copy ./uninstall_ftp.cf services/autorun/uninstall_ftp.cf"]
     },
     "uninstall-openldap-server": {
-      "description": "This module has a policy file which makes sure the openldap server package is not installed on the system",
+      "description": "Ensures the openldap server package is not installed on the system(s).",
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -968,7 +968,7 @@
       ]
     },
     "uninstall-rsh-server": {
-      "description": "Ensure the remote shell (rsh) server package is not installed on the system",
+      "description": "Ensure the remote shell (rsh) server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -982,7 +982,7 @@
       ]
     },
     "uninstall-talk": {
-      "description": "Ensure the talk client and server packages are not installed",
+      "description": "Ensures the talk client and server packages are not installed.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -996,7 +996,7 @@
       ]
     },
     "uninstall-telnet-server": {
-      "description": "This module ensures the telnet server package is not installed on the system",
+      "description": "Ensures the telnet server package is not installed on the system.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -1009,7 +1009,7 @@
       ]
     },
     "upgrade-all-packages": {
-      "description": "This module ensures that the package manager data is updated and all upgradeable packages are upgraded",
+      "description": "Ensures that the package manager data is updated and all upgradeable packages are upgraded.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
       "by": "https://github.com/craigcomstock",
