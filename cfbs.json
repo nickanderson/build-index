@@ -17,7 +17,7 @@
     },
     "bash-lib": { "alias": "library-for-promise-types-in-bash" },
     "cfengine-supported": {
-      "description": "Inventory the support status for the current version of CFEngine.",
+      "description": "Adds reporting data (inventory) for the support status for the current version of CFEngine.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-supported",
       "by": "https://github.com/nickanderson",
@@ -80,7 +80,7 @@
       ]
     },
     "cve-2021-3156-sudo": {
-      "description": "This module inventories and remediates CVE-2021-3156, a heap overflow in sudo that allows privilege escalation.",
+      "description": "Reporting data (inventory) and remediaton for CVE-2021-3156, a heap overflow in sudo that allows privilege escalation.",
       "tags": ["supported", "security", "cve", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -106,7 +106,7 @@
       ]
     },
     "default-encrypt-method-sha512": {
-      "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in /etc/login.defs).",
+      "description": "Sets the default password hashing algorithm to SHA-512 (encrypt_method in the /etc/login.defs file).",
       "tags": ["supported", "security"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -209,7 +209,7 @@
       ]
     },
     "etc-issue-access": {
-      "description": "Limit access to /etc/issue by setting user, group, and permission bits.",
+      "description": "Limits access to the /etc/issue file by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -223,7 +223,7 @@
       ]
     },
     "etc-motd-access": {
-      "description": "Limit access to /etc/motd by setting user, group, and permission bits.",
+      "description": "Limits access to the /etc/motd file by setting user, group, and permission bits.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -237,7 +237,7 @@
       ]
     },
     "every-minute": {
-      "description": "Make policy fetching, evaluation, and reporting happen every minute.",
+      "description": "Makes policy fetching, evaluation, and reporting happen every minute.",
       "tags": ["management", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -247,7 +247,7 @@
       "steps": ["json def.json def.json"]
     },
     "file-permissions": {
-      "description": "Manages file permissions.",
+      "description": "Manages file permissions, allowing you to specify permission bits for different paths.",
       "tags": ["management"],
       "repo": "https://github.com/nickanderson/cfengine-file-permissions",
       "by": "https://github.com/nickanderson",
@@ -297,7 +297,7 @@
     "groups": { "alias": "promise-type-groups" },
     "http": { "alias": "promise-type-http" },
     "inventory-clamav": {
-      "description": "Inventory useful information from ClamAV (version, definitions version, definitions date).",
+      "description": "Adds reporting data (inventory) for useful information from ClamAV (version, definitions version, definitions date).",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-clamav",
       "by": "https://github.com/nickanderson",
@@ -309,7 +309,7 @@
       ]
     },
     "inventory-etc-hosts": {
-      "description": "Inventory entries from /etc/hosts.",
+      "description": "Adds reporting data (inventory) for entries from the /etc/hosts file.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-hosts",
       "by": "https://github.com/nickanderson",
@@ -322,7 +322,7 @@
     },
     "inventory-etc-login-defs": {
       "name": "inventory-etc-login-defs",
-      "description": "Inventory useful bits from /etc/login.defs.",
+      "description": "Adds reporting data (inventory) for useful bits from the /etc/login.defs file.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs",
       "by": "https://github.com/nickanderson",
@@ -334,7 +334,7 @@
       ]
     },
     "inventory-fips-mode-setup": {
-      "description": "Inventory the status of fips-mode-setup.",
+      "description": "Adds reporting data (inventory) for the status of fips-mode-setup.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
@@ -346,7 +346,7 @@
       ]
     },
     "inventory-kernel-boot-params": {
-      "description": "Inventory kernel parameters set during system boot.",
+      "description": "Adds reporting data (inventory) for kernel parameters set during system boot.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-kernel-boot-params",
       "by": "https://github.com/nickanderson",
@@ -358,7 +358,7 @@
       ]
     },
     "inventory-kernel-settings-sysctl-conf": {
-      "description": "Inventory settings from /etc/sysctl.conf.",
+      "description": "Adds reporting data (inventory) for settings from the /etc/sysctl.conf file.",
       "tags": ["inventory", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -372,7 +372,7 @@
       ]
     },
     "inventory-kernel-settings-sysctl-current": {
-      "description": "Inventory sysctl settings current state.",
+      "description": "Adds reporting data (inventory) for sysctl settings current state.",
       "tags": ["inventory", "kernel", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -386,7 +386,7 @@
       ]
     },
     "inventory-lastlog": {
-      "description": "Inventory users who have logged in and when.",
+      "description": "Adds reporting data (inventory) for users who have logged in and when.",
       "tags": ["inventory", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-lastlog",
       "by": "https://github.com/nickanderson",
@@ -399,7 +399,7 @@
     },
     "inventory-local-groups": {
       "name": "inventory-local-groups",
-      "description": "Inventory the local groups on the system.",
+      "description": "Adds reporting data (inventory) for the local groups on the system.",
       "tags": ["inventory", "supported"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -413,7 +413,7 @@
       ]
     },
     "inventory-local-users": {
-      "description": "Inventory the local users on the system with their attributes.",
+      "description": "Adds reporting data (inventory) for the local users on the system with their attributes.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -428,7 +428,7 @@
     },
     "inventory-local-users-locked": {
       "name": "inventory-local-users-locked",
-      "description": "Inventory the local users on the system that are locked.",
+      "description": "Adds reporting data (inventory) for the local users on the system that are locked.",
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -442,7 +442,7 @@
       ]
     },
     "inventory-local-users-non-root-has-uid-0": {
-      "description": "Inventory the non-root users that have uid 0.",
+      "description": "Adds reporting data (inventory) for the non-root users that have uid 0.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -457,7 +457,7 @@
     },
     "inventory-local-users-password-empty": {
       "name": "inventory-local-users-password-empty",
-      "description": "Inventory the local users on the system that do not have a password set.",
+      "description": "Adds reporting data (inventory) for the local users on the system that do not have a password set.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -472,7 +472,7 @@
     },
     "inventory-local-users-password-hashing-algorithm": {
       "name": "inventory-local-users-password-hashing-algorithm",
-      "description": "Inventory password hashing algorithms in use by local users.",
+      "description": "Adds reporting data (inventory) for password hashing algorithms in use by local users.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -502,7 +502,7 @@
       ]
     },
     "inventory-ssh-host-key-fingerprints": {
-      "description": "This module contains policy to inventory the ssh host key fingerprints.",
+      "description": "Adds reporting data (inventory) for the SSH host key fingerprints.",
       "tags": ["inventory", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
@@ -515,7 +515,7 @@
       ]
     },
     "inventory-sudoers": {
-      "description": "Inventory users with sudo access.",
+      "description": "Adds reporting data (inventory) for users with sudo access.",
       "tags": ["supported", "inventory", "security", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
@@ -527,7 +527,7 @@
       ]
     },
     "inventory-systemd": {
-      "description": "Inventory interesting things from systemd.",
+      "description": "Adds reporting data (inventory) for interesting things from systemd.",
       "tags": ["supported", "inventory", "systemd"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
@@ -554,7 +554,7 @@
       ]
     },
     "inventory-writable-directories-in-root-path": {
-      "description": "This module inventories directories in root's $PATH that are world or group writable.",
+      "description": "Reporting data (inventory) directories in root's $PATH that are world or group writable.",
       "tags": ["supported", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
@@ -580,7 +580,7 @@
       ]
     },
     "kernel-settings-sysctl-conf": {
-      "description": "Manage settings in /etc/sysctl.conf.",
+      "description": "Manages settings in the /etc/sysctl.conf file.",
       "tags": ["management", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
@@ -629,7 +629,7 @@
     },
     "library-parsed-local-groups": {
       "name": "library-parsed-local-groups",
-      "description": "Parse local group from /etc/group on the system.",
+      "description": "Parse local group from the /etc/group file on the system.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -875,7 +875,7 @@
       ]
     },
     "sudo-enforce-allowed-users": {
-      "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in /etc/sudoers.conf.",
+      "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in the /etc/sudoers.conf file.",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -888,7 +888,7 @@
       ]
     },
     "sudo-requires-passwords": {
-      "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in /etc/sudoers).",
+      "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in the /etc/sudoers file).",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
       "by": "https://github.com/Lex-2008",
@@ -920,7 +920,7 @@
     "systemd": { "alias": "promise-type-systemd" },
     "telnet-server-not-installed": { "alias": "uninstall-telnet-server" },
     "tmp-file-age": {
-      "description": "This module inventories and manages old files in /tmp.",
+      "description": "Reporting data (inventory) and removal of old files in the /tmp directory.",
       "tags": ["supported", "inventory", "management", "security", "tmp"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
