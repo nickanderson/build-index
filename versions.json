@@ -2161,6 +2161,20 @@
       "subdirectory": "./compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    },
+    "0.0.3": {
+      "commit": "1b9d2fab3d3fd43fae3d34f864c8cfa4574b01b4",
+      "timestamp": 1670613601266,
+      "archive_url": "modules/compliance-report-os-is-vendor-supported/1b9d2fab3d3fd43fae3d34f864c8cfa4574b01b4.tar.gz",
+      "archive_sha256": "78e084a7c627fdbb7d365d23b7196192f0dae6ac90ef09250e8ddde08f44fd77",
+      "readme_url": "modules/compliance-report-os-is-vendor-supported/1b9d2fab3d3fd43fae3d34f864c8cfa4574b01b4.org",
+      "readme_sha256": "4d9ac8e84298597e8a3039968a89daff767f23a140f57e14944adcd3513b4f2a",
+      "steps": [
+        "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
+      ],
+      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
   },
   "sudo-requires-passwords": {
