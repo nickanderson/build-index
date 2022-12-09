@@ -6,7 +6,7 @@
     "all-packages-upgraded": { "alias": "upgrade-all-packages" },
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
-      "description": "Enable autorun functionality.",
+      "description": "Enables autorun functionality.",
       "tags": ["supported", "management"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -31,7 +31,7 @@
     "cir": { "alias": "client-initiated-reporting" },
     "client-initiated": { "alias": "client-initiated-reporting" },
     "client-initiated-reporting": {
-      "description": "Enable client initiated reporting and disable pull collection.",
+      "description": "Enables client initiated reporting and disable pull collection.",
       "tags": ["experimental", "reporting"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
@@ -42,7 +42,7 @@
     },
     "compliance-report-imports": {
       "name": "compliance-report-imports",
-      "description": "Keep compliance report definitions up to date.",
+      "description": "Used by other modules to import compliance reports to Mission Portal.",
       "tags": ["experimental", "cfengine-enterprise"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -93,7 +93,7 @@
       ]
     },
     "cve-2021-44228-log4j": {
-      "description": "This module leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
+      "description": "Leverages yahoo/check-log4j to scan for files potentially vulnerable to CVE-2021-44228, which allows arbitrary code execution.",
       "tags": ["supported", "security", "cve", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -158,7 +158,7 @@
       ]
     },
     "delete-home-dotshosts": {
-      "description": "Ensure that ~/.shosts files are not present, as they present a security risk.",
+      "description": "Ensures that ~/.shosts files are not present, as they present a security risk.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/nickanderson",
@@ -183,7 +183,7 @@
       "steps": ["json def.json def.json"]
     },
     "disable-prelinking": {
-      "description": "Disable prelinking.",
+      "description": "Disables prelinking.",
       "tags": ["supported", "security"],
       "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
       "by": "https://github.com/larsewi",
@@ -195,7 +195,7 @@
       ]
     },
     "enable-aslr": {
-      "description": "Ensure that Address space layout randomization (ASLR) is enabled on the system.",
+      "description": "Ensures that Address space layout randomization (ASLR) is enabled on the system.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
@@ -567,7 +567,7 @@
       ]
     },
     "inventory-yum-update-info": {
-      "description": "This module adds information about security updates from 'yum updateinfo' to inventory.",
+      "description": "Adds information about security updates from 'yum updateinfo' to inventory.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -596,7 +596,7 @@
     "lib-fim": { "alias": "library-file-integrity-monitoring" },
     "lib-sshd-config": { "alias": "library-sshd-config" },
     "library-file-integrity-monitoring": {
-      "description": "Monitor key files for changes.",
+      "description": "Monitors key files for changes.",
       "tags": ["library", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-file_integrity_monitoring",
       "by": "https://github.com/nickanderson",
@@ -629,7 +629,7 @@
     },
     "library-parsed-local-groups": {
       "name": "library-parsed-local-groups",
-      "description": "Parse local group from the /etc/group file on the system.",
+      "description": "Parses local group from the /etc/group file on the system.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -643,7 +643,7 @@
     },
     "library-parsed-local-users": {
       "name": "library-parsed-local-users",
-      "description": "Parse local users from /etc/passwd on the system with their attributes from /etc/shadow.",
+      "description": "Parses local users from /etc/passwd on the system with their attributes from /etc/shadow.",
       "tags": ["supported", "library"],
       "repo": "https://github.com/nickanderson/cfengine-local_users",
       "by": "https://github.com/nickanderson",
@@ -656,7 +656,7 @@
       ]
     },
     "library-sshd-config": {
-      "description": "This module provides policy for managing sshd configuration.",
+      "description": "Library used by other modules to manage sshd configuration.",
       "tags": ["library", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
@@ -669,7 +669,7 @@
       ]
     },
     "lynis": {
-      "description": "CFEngine policy to automate the installation, running, and reporting of CISOfy's lynis system audits.",
+      "description": "Automates the installation, running, and reporting of CISOfy's lynis system audits.",
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
@@ -704,7 +704,7 @@
     },
     "mpf": { "alias": "masterfiles" },
     "ntp-maxpoll": {
-      "description": "This module ensures that maxpoll is configured to 10 unless default:ntp_maxpoll._config[maxpoll] is defined in which case that value will be used.",
+      "description": "Ensures that maxpoll is configured (to 10 by default).",
       "tags": ["supported", "security", "management"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -790,7 +790,7 @@
     },
     "python-lib": { "alias": "library-for-promise-types-in-python" },
     "root-path-enforce-permissions": {
-      "description": "This module enforces that directories in root's $PATH are not world or group writable.",
+      "description": "Enforces that directories in root's $PATH are not world or group writable.",
       "tags": ["supported", "management", "security"],
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
@@ -805,7 +805,7 @@
     },
     "scl": { "alias": "surf-cfengine-library" },
     "ssh-ciphers-strong": {
-      "description": "This module ensures that the SSH daemon uses strong ciphers.",
+      "description": "Ensures that the SSH daemon uses strong ciphers.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -819,7 +819,7 @@
       ]
     },
     "ssh-max-auth-tries": {
-      "description": "This module limits the maximum authentication attempts (default to 3).",
+      "description": "Limits the maximum authentication attempts (default to 3).",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -833,7 +833,7 @@
       ]
     },
     "ssh-permit-empty-passwords-no": {
-      "description": "This module ensures that PermitEmptyPasswords is set to no.",
+      "description": "Ensures that PermitEmptyPasswords is set to no in the sshd configuration.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -847,7 +847,7 @@
       ]
     },
     "ssh-permit-root-login-no": {
-      "description": "This module ensures that the SSH daemon does not permit logging in as root.",
+      "description": "Ensures that the SSH daemon does not permit logging in as root.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -861,7 +861,7 @@
       ]
     },
     "ssh-protocol-2": {
-      "description": "This module ensures that the SSH daemon uses SSH protocol 2.",
+      "description": "Ensures that the SSH daemon uses SSH protocol 2.",
       "tags": ["security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -875,7 +875,7 @@
       ]
     },
     "sudo-enforce-allowed-users": {
-      "description": "This module ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in the /etc/sudoers.conf file.",
+      "description": "Ensures the following lines 'ALL ALL=(ALL) ALL' and 'ALL ALL=(ALL:ALL) ALL' are not present in the /etc/sudoers.conf file.",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
@@ -888,7 +888,7 @@
       ]
     },
     "sudo-requires-passwords": {
-      "description": "This module ensures that sudo requires password (there are no 'NOPASSWD' in the /etc/sudoers file).",
+      "description": "Ensures that sudo requires password (there are no 'NOPASSWD' in the /etc/sudoers file).",
       "tags": ["security", "management", "sudo", "experimental"],
       "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
       "by": "https://github.com/Lex-2008",
@@ -933,7 +933,7 @@
       ]
     },
     "tmp-nosuid": {
-      "description": "This module has a policy file which makes sure /tmp is mounted with the 'nosuid' option.",
+      "description": "Makes sure /tmp is mounted with the 'nosuid' option.",
       "tags": ["supported", "security", "compliance", "tmp"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -944,7 +944,7 @@
       "steps": ["copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"]
     },
     "uninstall-ftp": {
-      "description": "This module has a policy file which makes sure the ftp server package is not installed on the system.",
+      "description": "Ensures the ftp server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
       "by": "https://github.com/craigcomstock",
@@ -955,7 +955,7 @@
       "steps": ["copy ./uninstall_ftp.cf services/autorun/uninstall_ftp.cf"]
     },
     "uninstall-openldap-server": {
-      "description": "This module has a policy file which makes sure the openldap server package is not installed on the system.",
+      "description": "Ensures the openldap server package is not installed on the system(s).",
       "tags": ["security", "compliance", "experimental"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -968,7 +968,7 @@
       ]
     },
     "uninstall-rsh-server": {
-      "description": "Ensure the remote shell (rsh) server package is not installed on the system.",
+      "description": "Ensure the remote shell (rsh) server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -982,7 +982,7 @@
       ]
     },
     "uninstall-talk": {
-      "description": "Ensure the talk client and server packages are not installed.",
+      "description": "Ensures the talk client and server packages are not installed.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
@@ -996,7 +996,7 @@
       ]
     },
     "uninstall-telnet-server": {
-      "description": "This module ensures the telnet server package is not installed on the system.",
+      "description": "Ensures the telnet server package is not installed on the system.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/vpodzime/cfengine-security-hardening",
       "by": "https://github.com/vpodzime",
@@ -1009,7 +1009,7 @@
       ]
     },
     "upgrade-all-packages": {
-      "description": "This module ensures that the package manager data is updated and all upgradeable packages are upgraded.",
+      "description": "Ensures that the package manager data is updated and all upgradeable packages are upgraded.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
       "by": "https://github.com/craigcomstock",
