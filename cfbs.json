@@ -86,7 +86,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "029ec4eac0d3d9b3bf7c8dc361db71f4796fc101",
-      "subdirectory": "./cves/cve-2021-3156-sudo/",
+      "subdirectory": "./cves/cve-2021-3156-sudo",
       "steps": [
         "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
         "json cfbs/def.json def.json"
@@ -99,7 +99,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.2.0",
       "commit": "bdc7a16c6e52ff44149eb2abfd510fcee12dd2c1",
-      "subdirectory": "./cves/cve-2021-44228-log4j/",
+      "subdirectory": "./cves/cve-2021-44228-log4j",
       "steps": [
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
@@ -405,7 +405,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "633fdc37f6369461fcd866ad69eb84cd9feb595c",
-      "subdirectory": "inventory-local-groups/",
+      "subdirectory": "inventory-local-groups",
       "dependencies": ["library-parsed-local-groups"],
       "steps": [
         "copy ./inventory-local-groups.cf services/local-groups/inventory-local-groups/",
@@ -419,7 +419,7 @@
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
-      "subdirectory": "inventory_passwd_users_all/",
+      "subdirectory": "inventory_passwd_users_all",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_all.cf services/local-users/inventory_passwd_users_all/",
@@ -434,7 +434,7 @@
       "by": "https://github.com/nickanderson",
       "version": "2.0.4",
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
-      "subdirectory": "inventory_passwd_users_locked/",
+      "subdirectory": "inventory_passwd_users_locked",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory_passwd_users_locked.cf services/local-users/inventory_passwd_users_locked/",
@@ -448,7 +448,7 @@
       "by": "https://github.com/nickanderson",
       "version": "2.0.5",
       "commit": "fef5d94170f8119eda8f5bf8316acf5896fbac22",
-      "subdirectory": "inventory_non_root_users_with_uid_zero/",
+      "subdirectory": "inventory_non_root_users_with_uid_zero",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy ./inventory-non-root-users-with-uid-zero.cf services/local-users/inventory_non_root_users_with_uid_zero/inventory-non-root-users-with-uid-zero.cf",
@@ -508,7 +508,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "337a0b1b2df4eb2d13cecc9718f56c23f54fffa8",
-      "subdirectory": "policy/inventory/host-key-fingerprints/",
+      "subdirectory": "policy/inventory/host-key-fingerprints",
       "steps": [
         "copy ./inventory-ssh-host-key-fingerprints.cf services/ssh/inventory/host-key-fingerprints/inventory-ssh-host-key-fingerprints.cf",
         "json cfbs/def.json def.json"
@@ -545,7 +545,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.2",
       "commit": "cff9325f0b12e914fead75c7b30092b0d91cee64",
-      "subdirectory": "security/inventory-unshadowed-users/",
+      "subdirectory": "security/inventory-unshadowed-users",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
         "copy policy/main.cf services/cfbs/inventory-unshadowed-users/",
@@ -560,7 +560,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./inventory-writable-directories-in-root-path/",
+      "subdirectory": "./inventory-writable-directories-in-root-path",
       "steps": [
         "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
@@ -614,7 +614,7 @@
       "by": "https://github.com/Lex-2008",
       "version": "0.1.2",
       "commit": "99017f2d952c9e7fddaf3aac1be19061cb23c0d6",
-      "subdirectory": "libraries/bash/",
+      "subdirectory": "libraries/bash",
       "steps": ["copy cfengine.sh modules/promises/"]
     },
     "library-for-promise-types-in-python": {
@@ -624,7 +624,7 @@
       "by": "https://github.com/cfengine",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "libraries/python/",
+      "subdirectory": "libraries/python",
       "steps": ["copy cfengine.py modules/promises/"]
     },
     "library-parsed-local-groups": {
@@ -635,7 +635,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "3028f74671c0bd8c8668a5b18245191439b0bad9",
-      "subdirectory": "parsed_etc_group/",
+      "subdirectory": "parsed_etc_group",
       "steps": [
         "copy ./parsed_etc_group.cf services/local-groups/parsed_etc_group/",
         "json cfbs/def.json def.json"
@@ -649,7 +649,7 @@
       "by": "https://github.com/nickanderson",
       "version": "2.0.5",
       "commit": "ede282c34083ab807543aa734b1142228ab98993",
-      "subdirectory": "parsed_etc_passwd_shadow/",
+      "subdirectory": "parsed_etc_passwd_shadow",
       "steps": [
         "copy ./parsed_etc_passwd_shadow.cf services/local-users/parsed_etc_passwd_shadow/",
         "json cfbs/def.json def.json"
@@ -662,7 +662,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.1.0",
       "commit": "abff34c08bf27af56c4c3939bbb6f848eac7fb8d",
-      "subdirectory": "modules/library-sshd-config/",
+      "subdirectory": "modules/library-sshd-config",
       "steps": [
         "copy ./global-key-values.cf services/library-sshd-config/",
         "json cfbs/def.json def.json"
@@ -710,7 +710,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.3",
       "commit": "e2519214e8a29c7f37a36ca8a4beec687712448d",
-      "subdirectory": "./ntp-maxpoll/",
+      "subdirectory": "./ntp-maxpoll",
       "steps": [
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
@@ -725,7 +725,7 @@
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/ansible/",
+      "subdirectory": "promise-types/ansible",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy ansible_promise.py modules/promises/",
@@ -739,7 +739,7 @@
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/git/",
+      "subdirectory": "promise-types/git",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy git.py modules/promises/",
@@ -753,7 +753,7 @@
       "by": "https://github.com/larsewi",
       "version": "0.1.3",
       "commit": "fd255fbdcc6cac0521ab8de2c543c684fadb16fa",
-      "subdirectory": "promise-types/groups/",
+      "subdirectory": "promise-types/groups",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy groups.py modules/promises/",
@@ -767,7 +767,7 @@
       "by": "https://github.com/vpodzime",
       "version": "1.1.0",
       "commit": "501e96673621d6b9754f8a5c32bf2ee509e6bf5b",
-      "subdirectory": "promise-types/http/",
+      "subdirectory": "promise-types/http",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy http_promise_type.py modules/promises/",
@@ -781,7 +781,7 @@
       "by": "https://github.com/tranchitella",
       "version": "0.1.1",
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
-      "subdirectory": "promise-types/systemd/",
+      "subdirectory": "promise-types/systemd",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy systemd.py modules/promises/",
@@ -796,7 +796,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./root-path-enforce-permissions/",
+      "subdirectory": "./root-path-enforce-permissions",
       "dependencies": ["inventory-writable-directories-in-root-path"],
       "steps": [
         "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
@@ -811,7 +811,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6",
-      "subdirectory": "./ssh-ciphers-strong/",
+      "subdirectory": "./ssh-ciphers-strong",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
@@ -825,7 +825,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-max-auth-tries/",
+      "subdirectory": "./ssh-max-auth-tries",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
@@ -839,7 +839,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
-      "subdirectory": "./ssh-permit-empty-passwords-no/",
+      "subdirectory": "./ssh-permit-empty-passwords-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
@@ -853,7 +853,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-permit-root-login-no/",
+      "subdirectory": "./ssh-permit-root-login-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
@@ -867,7 +867,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-protocol-2/",
+      "subdirectory": "./ssh-protocol-2",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
@@ -881,7 +881,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.2",
       "commit": "ab4f6c01c2f41dfdfef05100eac4c8abf894b74c",
-      "subdirectory": "./sudo-enforce-allowed-users/",
+      "subdirectory": "./sudo-enforce-allowed-users",
       "steps": [
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
@@ -926,7 +926,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "56a7c149f33808db6796de77eff6eb0502c01e61",
-      "subdirectory": "./tmp-file-age/",
+      "subdirectory": "./tmp-file-age",
       "steps": [
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"
