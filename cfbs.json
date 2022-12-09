@@ -486,19 +486,7 @@
       ]
     },
     "inventory-local-users-unhashed-password": {
-      "description": "Adds reporting data (inventory) for local users not using hashed passwords.",
-      "tags": ["supported", "inventory", "security", "compliance"],
-      "repo": "https://github.com/cfengine/modules",
-      "by": "https://github.com/nickanderson",
-      "version": "1.0.0",
-      "commit": "057f24c8e96ef5504779d45f3f8a19907ccf0b32",
-      "subdirectory": "security/inventory-local-users-unhashed-password/",
-      "dependencies": ["library-parsed-local-users"],
-      "steps": [
-        "copy policy/main.cf services/cfbs/inventory-local-users-unhashed-password/",
-        "policy_files services/cfbs/inventory-local-users-unhashed-password/",
-        "bundles inventory_local_users_unhashed_password:main"
-      ]
+      "alias": "inventory-unshadowed-users"
     },
     "inventory-openssl-versions": {
       "description": "Adds an inventory attribute containing all versions of OpenSSL found on the system.",
@@ -548,6 +536,21 @@
       "steps": [
         "copy ./policy/main.cf services/inventory-systemd/main.cf",
         "json cfbs/def.json def.json"
+      ]
+    },
+    "inventory-unshadowed-users": {
+      "description": "Inventory local users in /etc/passwd not using /etc/shadow for their password.",
+      "tags": ["supported", "inventory", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.1",
+      "commit": "a7f9699fade014b510c268cbc19c1bd3b0b52e9f",
+      "subdirectory": "security/inventory-unshadowed-users/",
+      "dependencies": ["library-parsed-local-users"],
+      "steps": [
+        "copy policy/main.cf services/cfbs/inventory-unshadowed-users/",
+        "policy_files services/cfbs/inventory-unshadowed-users/",
+        "bundles inventory_unshadowed_users:main"
       ]
     },
     "inventory-writable-directories-in-root-path": {
