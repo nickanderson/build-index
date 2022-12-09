@@ -539,12 +539,12 @@
       ]
     },
     "inventory-unshadowed-users": {
-      "description": "Inventory local users in /etc/passwd not using /etc/shadow for their password.",
+      "description": "Adds reporting data (inventory) on local users in /etc/passwd not using /etc/shadow for their password.",
       "tags": ["supported", "inventory", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.1",
-      "commit": "a7f9699fade014b510c268cbc19c1bd3b0b52e9f",
+      "version": "1.0.2",
+      "commit": "cff9325f0b12e914fead75c7b30092b0d91cee64",
       "subdirectory": "security/inventory-unshadowed-users/",
       "dependencies": ["library-parsed-local-users"],
       "steps": [
