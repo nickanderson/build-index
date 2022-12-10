@@ -2909,5 +2909,23 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "cron-access": {
+    "0.0.1": {
+      "commit": "e5b64e3bf390b3b27e0efce29af9a1c354ed54f1",
+      "timestamp": 1670715571068,
+      "archive_url": "modules/cron-access/e5b64e3bf390b3b27e0efce29af9a1c354ed54f1.tar.gz",
+      "archive_sha256": "a98af8e252d2f66dae12e5257b28331ad33cefb206394588e729ec8ef18bd0ea",
+      "readme_url": "modules/cron-access/e5b64e3bf390b3b27e0efce29af9a1c354ed54f1.md",
+      "readme_sha256": "47103f57f995aebe6af30e2c6ebff85f2a4e5848b188be113f4a896cccd50ffa",
+      "steps": [
+        "copy cron-access.cf services/cfbs/modules/cron-access/cron-access.cf",
+        "bundles cron_access",
+        "policy_files services/cfbs/modules/cron-access/cron-access.cf"
+      ],
+      "subdirectory": "security/cron-access",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
