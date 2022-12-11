@@ -2927,5 +2927,23 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "install-aide": {
+    "0.0.1": {
+      "commit": "9bb26f99ba377f85f7211d05bf54e71d89711d1a",
+      "timestamp": 1670800351884,
+      "archive_url": "modules/install-aide/9bb26f99ba377f85f7211d05bf54e71d89711d1a.tar.gz",
+      "archive_sha256": "5a3e4f3b86753b6091af1e2e10d5d435bf98d760a5d4ccb5b34b8e3e67a63736",
+      "readme_url": "modules/install-aide/9bb26f99ba377f85f7211d05bf54e71d89711d1a.md",
+      "readme_sha256": "78bae342c609f2b834c1059178ef765c694b0db379997ccdb17620c0e425ff10",
+      "steps": [
+        "copy install-aide.cf services/cfbs/modules/install-aide/install-aide.cf",
+        "bundles install_aide",
+        "policy_files services/cfbs/modules/install-aide/install-aide.cf"
+      ],
+      "subdirectory": "security/install-aide",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
