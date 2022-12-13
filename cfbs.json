@@ -708,6 +708,20 @@
         "json cfbs/def.json def.json"
       ]
     },
+    "maintainers-in-motd": {
+      "description": "Add maintainer and purpose information from CMDB to /etc/motd",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/craigcomstock",
+      "version": "0.0.1",
+      "commit": "89629690fe265556e1ae4eb9127e42fb9525c9f5",
+      "subdirectory": "security/maintainers-in-motd",
+      "steps": [
+        "copy ./maintainers-in-motd.cf services/cfbs/modules/maintainers-in-motd.cf",
+        "policy_files services/cfbs/modules/maintainers-in-motd.cf",
+        "bundles maintainers_in_motd"
+      ]
+    },
     "masterfiles": {
       "description": "Official CFEngine Masterfiles Policy Framework (MPF).",
       "tags": ["supported", "base"],
