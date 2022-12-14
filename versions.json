@@ -2945,5 +2945,23 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "maintainers-in-motd": {
+    "0.0.1": {
+      "commit": "89629690fe265556e1ae4eb9127e42fb9525c9f5",
+      "timestamp": 1671030178531,
+      "archive_url": "modules/maintainers-in-motd/89629690fe265556e1ae4eb9127e42fb9525c9f5.tar.gz",
+      "archive_sha256": "31bad1f0de4018b21efd47e27cda8c6b736d8a97fc1449f63bcdaf4ee3330f86",
+      "readme_url": "modules/maintainers-in-motd/89629690fe265556e1ae4eb9127e42fb9525c9f5.md",
+      "readme_sha256": "3071723977ee9f509d9799f5a900f1891ceca4259fdb442d5ab694a6472cd3fc",
+      "steps": [
+        "copy ./maintainers-in-motd.cf services/cfbs/modules/maintainers-in-motd.cf",
+        "policy_files services/cfbs/modules/maintainers-in-motd.cf",
+        "bundles maintainers_in_motd"
+      ],
+      "subdirectory": "security/maintainers-in-motd",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
