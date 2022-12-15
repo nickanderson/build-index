@@ -177,7 +177,7 @@
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/nickanderson",
       "version": "1.0.0",
-      "commit": "TODO",
+      "commit": "9a28d03dbb1f62401c9b4c898524f8304f93fd19",
       "subdirectory": "security/delete-home-dotrhosts",
       "steps": [
         "copy policy/main.cf services/cfbs/delete-home-dotrhosts/",
