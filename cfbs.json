@@ -171,6 +171,20 @@
         }
       ]
     },
+    "delete-home-dotrhosts": {
+      "description": "Ensures that ~/.rhosts files are not present, as they present a security risk.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "commit": "TODO",
+      "subdirectory": "security/delete-home-dotrhosts",
+      "steps": [
+        "copy policy/main.cf services/cfbs/delete-home-dotrhosts/",
+        "policy_files services/cfbs/delete-home-dotrhosts/",
+        "bundles delete_home_dotrhosts:main"
+      ]
+    },
     "delete-home-dotshosts": {
       "description": "Ensures that ~/.shosts files are not present, as they present a security risk.",
       "tags": ["supported", "security", "compliance"],
