@@ -2963,5 +2963,23 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "delete-home-dotrhosts": {
+    "1.0.0": {
+      "commit": "9a28d03dbb1f62401c9b4c898524f8304f93fd19",
+      "timestamp": 1671142162787,
+      "archive_url": "modules/delete-home-dotrhosts/9a28d03dbb1f62401c9b4c898524f8304f93fd19.tar.gz",
+      "archive_sha256": "7c8713653edf2c53007ba1761acdc9cfacd644ce1e03baec81a1a428a487728d",
+      "readme_url": "modules/delete-home-dotrhosts/9a28d03dbb1f62401c9b4c898524f8304f93fd19.md",
+      "readme_sha256": "d7750dec5cd2b6ee779df849a75ce684d2bd4528e3b0b125ab1a0de3092d8299",
+      "steps": [
+        "copy policy/main.cf services/cfbs/delete-home-dotrhosts/",
+        "policy_files services/cfbs/delete-home-dotrhosts/",
+        "bundles delete_home_dotrhosts:main"
+      ],
+      "subdirectory": "security/delete-home-dotrhosts",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
