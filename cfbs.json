@@ -1107,6 +1107,20 @@
         "bundles uninstall_samba"
       ]
     },
+    "uninstall-squid": {
+      "description": "Ensures the squid package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-squid",
+      "steps": [
+        "copy uninstall-squid.cf services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "policy_files services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "bundles uninstall_squid"
+      ]
+    },
     "uninstall-talk": {
       "description": "Ensures the talk client and server packages are not installed.",
       "tags": ["supported", "security", "compliance"],
