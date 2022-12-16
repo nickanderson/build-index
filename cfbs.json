@@ -1126,8 +1126,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.1",
-      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
       "subdirectory": "security/uninstall-talk",
       "steps": [
         "copy uninstall-talk.cf services/cfbs/modules/uninstall-talk/uninstall-talk.cf",
