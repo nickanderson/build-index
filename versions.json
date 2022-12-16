@@ -2702,6 +2702,22 @@
       "subdirectory": "security/uninstall-rsh-server",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213549231,
+      "archive_url": "modules/uninstall-rsh-server/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "beb581d225ee4cef17aff1bb498a304e019b027408ad49d0586b6c06cfe6faf5",
+      "readme_url": "modules/uninstall-rsh-server/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "f7edb8bd7123092ff1b291a3d3eca9310328e7d881b62f2c4046bdd30fedebaf",
+      "steps": [
+        "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
+        "bundles uninstall_rsh_server",
+        "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
+      ],
+      "subdirectory": "security/uninstall-rsh-server",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "etc-motd-access": {
@@ -2756,6 +2772,22 @@
       "subdirectory": "security/uninstall-talk",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213551354,
+      "archive_url": "modules/uninstall-talk/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "6af06c69d8ff64027afa1b6e7a7088e1abc7c2d1c7a50ec8bace9c9ba7849acf",
+      "readme_url": "modules/uninstall-talk/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "4b8ed6cb83276b7535a6c6689e38443848eecadc676873c72913fcddd3a6cbd7",
+      "steps": [
+        "copy uninstall-talk.cf services/cfbs/modules/uninstall-talk/uninstall-talk.cf",
+        "bundles uninstall_talk",
+        "policy_files services/cfbs/modules/uninstall-talk/uninstall-talk.cf"
+      ],
+      "subdirectory": "security/uninstall-talk",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "enable-aslr": {
@@ -2782,6 +2814,22 @@
       "archive_sha256": "952771ba75be524d2833eab85137c0603a9ab9d57bbb479955b36b5fc982a612",
       "readme_url": "modules/enable-aslr/5507dc81587ccb833c5092fd5baeb52dd1b3fdd3.md",
       "readme_sha256": "d23e9425b897bb0bcf75ed871557b539fda0d9e25a1506eac65b26e18eee0800",
+      "steps": [
+        "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
+        "bundles enable_aslr",
+        "policy_files services/cfbs/modules/enable-aslr/enable-aslr.cf"
+      ],
+      "subdirectory": "security/enable-aslr",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213545593,
+      "archive_url": "modules/enable-aslr/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "95e78e200ab7c31f0929ece30d774779f490bfff2ac5bea7e2ca0f5c6f29416f",
+      "readme_url": "modules/enable-aslr/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "349d28287acbaa0db514e0a89e5c43d591f11b95a8d6d8684102e9eede7c2018",
       "steps": [
         "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
         "bundles enable_aslr",
@@ -2979,6 +3027,132 @@
       ],
       "subdirectory": "security/delete-home-dotrhosts",
       "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-apache": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213546316,
+      "archive_url": "modules/uninstall-apache/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "c80d907200802a57713ca49e63773a15a18af744fc7adc2ab25cff38c3d3458b",
+      "readme_url": "modules/uninstall-apache/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "e6ab7081a59027b14a955551a64adf89d016f1fc655757859732b21f1c2c9346",
+      "steps": [
+        "copy uninstall-apache.cf services/cfbs/modules/uninstall-apache/uninstall-apache.cf",
+        "policy_files services/cfbs/modules/uninstall-apache/uninstall-apache.cf",
+        "bundles uninstall_apache"
+      ],
+      "subdirectory": "security/uninstall-apache",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-bind": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213547019,
+      "archive_url": "modules/uninstall-bind/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "d219df8604b6304787264401e35bc8484e8907fae3139baf952721cb121b3342",
+      "readme_url": "modules/uninstall-bind/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "42f66e44c41534876d4c5825ecbc888303ed4c3156dc21c9da95bfb00bac4e11",
+      "steps": [
+        "copy uninstall-bind.cf services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "policy_files services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "bundles uninstall_bind"
+      ],
+      "subdirectory": "security/uninstall-bind",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-dhcp": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213547743,
+      "archive_url": "modules/uninstall-dhcp/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "60a61e595fde1b498e8667184d741056c9575cc003854dbe932bbd28ec23b803",
+      "readme_url": "modules/uninstall-dhcp/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "3a24dac085695f9a23bde31465addb58a771b7aa1488bf8545ba8b859bcb6d69",
+      "steps": [
+        "copy uninstall-dhcp.cf services/cfbs/modules/uninstall-dhcp/uninstall-dhcp.cf",
+        "policy_files services/cfbs/modules/uninstall-dhcp/uninstall-dhcp.cf",
+        "bundles uninstall_dhcp"
+      ],
+      "subdirectory": "security/uninstall-dhcp",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-dovecot": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213548457,
+      "archive_url": "modules/uninstall-dovecot/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "1cfae923c29c2b1540393767c4bebe5b93dd14a25823e0b39b7741c992fb4fe2",
+      "readme_url": "modules/uninstall-dovecot/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "61d651890d5aad2d67c8313e856e69058853842fee7c2270044e088caa28a11f",
+      "steps": [
+        "copy uninstall-dovecot.cf services/cfbs/modules/uninstall-dovecot/uninstall-dovecot.cf",
+        "policy_files services/cfbs/modules/uninstall-dovecot/uninstall-dovecot.cf",
+        "bundles uninstall_dovecot"
+      ],
+      "subdirectory": "security/uninstall-dovecot",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-samba": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213549953,
+      "archive_url": "modules/uninstall-samba/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "a909aa24722abd52e36f74bec228e7e02d130dd8cc4e239653eaf7efbe8568ea",
+      "readme_url": "modules/uninstall-samba/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "3cafe5ccc88e7d7e5d527e9433a99ff3a05ae62d7a7bcc7700fa52aaaa9458df",
+      "steps": [
+        "copy uninstall-samba.cf services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "policy_files services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "bundles uninstall_samba"
+      ],
+      "subdirectory": "security/uninstall-samba",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-squid": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213550668,
+      "archive_url": "modules/uninstall-squid/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "3b783150efdd0a65957aab3ce9ab10b61b944759283d65a2cec0eb324605264e",
+      "readme_url": "modules/uninstall-squid/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "b490ff7570e26cd16f59b259c447838f1e0bf1cf1e26383d0fbbba7639565b5c",
+      "steps": [
+        "copy uninstall-squid.cf services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "policy_files services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "bundles uninstall_squid"
+      ],
+      "subdirectory": "security/uninstall-squid",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "uninstall-xinetd": {
+    "1.0.0": {
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "timestamp": 1671213552061,
+      "archive_url": "modules/uninstall-xinetd/6805332200dd48db54c61178c90bf2374c5d8fca.tar.gz",
+      "archive_sha256": "4e963e760a73ce60e5458b9c35e36d5e5f4d8267a0a77e33e889ab451b049fd8",
+      "readme_url": "modules/uninstall-xinetd/6805332200dd48db54c61178c90bf2374c5d8fca.md",
+      "readme_sha256": "6ed4e8cb7877f9fe5b1d34b9cae9bbe9a5efdfd9f8dd95532cac87dbb52ef904",
+      "steps": [
+        "copy uninstall-xinetd.cf services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "policy_files services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "bundles uninstall_xinetd"
+      ],
+      "subdirectory": "security/uninstall-xinetd",
+      "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
   }
