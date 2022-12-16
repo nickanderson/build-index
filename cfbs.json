@@ -1148,6 +1148,20 @@
         "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
       ]
     },
+    "uninstall-xinetd": {
+      "description": "Ensures the xinetd package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-xinetd",
+      "steps": [
+        "copy uninstall-xinetd.cf services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "policy_files services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "bundles uninstall_xinetd"
+      ]
+    },
     "upgrade-all-packages": {
       "description": "Ensures that the package manager data is updated and all upgradeable packages are upgraded.",
       "tags": ["supported", "security", "compliance"],
