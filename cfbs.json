@@ -1018,8 +1018,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "1.0.0",
-      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "version": "1.0.1",
+      "commit": "306181850201c60f4b7d379e80a8b1e552bb7f0f",
       "subdirectory": "security/uninstall-bind",
       "steps": [
         "copy uninstall-bind.cf services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
