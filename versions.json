@@ -3064,6 +3064,22 @@
       "subdirectory": "security/uninstall-bind",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "1.0.1": {
+      "commit": "306181850201c60f4b7d379e80a8b1e552bb7f0f",
+      "timestamp": 1671218224762,
+      "archive_url": "modules/uninstall-bind/306181850201c60f4b7d379e80a8b1e552bb7f0f.tar.gz",
+      "archive_sha256": "b2b4dd165272a940a2e34a369be5779c08594054828494231df0d4ee59ee8a18",
+      "readme_url": "modules/uninstall-bind/306181850201c60f4b7d379e80a8b1e552bb7f0f.md",
+      "readme_sha256": "fa4747980acab0dd6054d68c0cd201a31b3f6909216b4b6d152f214373addaa7",
+      "steps": [
+        "copy uninstall-bind.cf services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "policy_files services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "bundles uninstall_bind"
+      ],
+      "subdirectory": "security/uninstall-bind",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "uninstall-dhcp": {
