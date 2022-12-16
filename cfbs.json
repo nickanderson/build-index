@@ -227,8 +227,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
-      "version": "0.0.2",
-      "commit": "5507dc81587ccb833c5092fd5baeb52dd1b3fdd3",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
       "subdirectory": "security/enable-aslr",
       "steps": [
         "copy enable-aslr.cf services/cfbs/modules/enable-aslr/enable-aslr.cf",
@@ -999,6 +999,62 @@
       "dependencies": ["autorun"],
       "steps": ["copy ./tmp_nosuid.cf services/autorun/tmp_nosuid.cf"]
     },
+    "uninstall-apache": {
+      "description": "Ensures the apache package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-apache",
+      "steps": [
+        "copy uninstall-apache.cf services/cfbs/modules/uninstall-apache/uninstall-apache.cf",
+        "policy_files services/cfbs/modules/uninstall-apache/uninstall-apache.cf",
+        "bundles uninstall_apache"
+      ]
+    },
+    "uninstall-bind": {
+      "description": "Ensures the bind package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-bind",
+      "steps": [
+        "copy uninstall-bind.cf services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "policy_files services/cfbs/modules/uninstall-bind/uninstall-bind.cf",
+        "bundles uninstall_bind"
+      ]
+    },
+    "uninstall-dhcp": {
+      "description": "Ensures the dhcp package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-dhcp",
+      "steps": [
+        "copy uninstall-dhcp.cf services/cfbs/modules/uninstall-dhcp/uninstall-dhcp.cf",
+        "policy_files services/cfbs/modules/uninstall-dhcp/uninstall-dhcp.cf",
+        "bundles uninstall_dhcp"
+      ]
+    },
+    "uninstall-dovecot": {
+      "description": "Ensures the dovecot package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-dovecot",
+      "steps": [
+        "copy uninstall-dovecot.cf services/cfbs/modules/uninstall-dovecot/uninstall-dovecot.cf",
+        "policy_files services/cfbs/modules/uninstall-dovecot/uninstall-dovecot.cf",
+        "bundles uninstall_dovecot"
+      ]
+    },
     "uninstall-ftp": {
       "description": "Ensures the ftp server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
@@ -1028,8 +1084,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.2",
-      "commit": "d7ab64b9874e39e64508dd169237563dc9ad8176",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
       "subdirectory": "security/uninstall-rsh-server",
       "steps": [
         "copy uninstall-rsh-server.cf services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf",
@@ -1037,13 +1093,41 @@
         "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
       ]
     },
+    "uninstall-samba": {
+      "description": "Ensures the samba package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-samba",
+      "steps": [
+        "copy uninstall-samba.cf services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "policy_files services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "bundles uninstall_samba"
+      ]
+    },
+    "uninstall-squid": {
+      "description": "Ensures the squid package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-squid",
+      "steps": [
+        "copy uninstall-squid.cf services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "policy_files services/cfbs/modules/uninstall-squid/uninstall-squid.cf",
+        "bundles uninstall_squid"
+      ]
+    },
     "uninstall-talk": {
       "description": "Ensures the talk client and server packages are not installed.",
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.1",
-      "commit": "36ff5729aeba97d72bdadfdb53bb4cc19c81f900",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
       "subdirectory": "security/uninstall-talk",
       "steps": [
         "copy uninstall-talk.cf services/cfbs/modules/uninstall-talk/uninstall-talk.cf",
@@ -1062,6 +1146,20 @@
       "dependencies": ["autorun"],
       "steps": [
         "copy ./telnet_server_policy.cf services/autorun/telnet_server_policy.cf"
+      ]
+    },
+    "uninstall-xinetd": {
+      "description": "Ensures the xinetd package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-xinetd",
+      "steps": [
+        "copy uninstall-xinetd.cf services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "policy_files services/cfbs/modules/uninstall-xinetd/uninstall-xinetd.cf",
+        "bundles uninstall_xinetd"
       ]
     },
     "upgrade-all-packages": {
