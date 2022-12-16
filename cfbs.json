@@ -1093,6 +1093,20 @@
         "policy_files services/cfbs/modules/uninstall-rsh-server/uninstall-rsh-server.cf"
       ]
     },
+    "uninstall-samba": {
+      "description": "Ensures the samba package is not installed.",
+      "tags": ["supported", "security", "compliance"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "1.0.0",
+      "commit": "6805332200dd48db54c61178c90bf2374c5d8fca",
+      "subdirectory": "security/uninstall-samba",
+      "steps": [
+        "copy uninstall-samba.cf services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "policy_files services/cfbs/modules/uninstall-samba/uninstall-samba.cf",
+        "bundles uninstall_samba"
+      ]
+    },
     "uninstall-talk": {
       "description": "Ensures the talk client and server packages are not installed.",
       "tags": ["supported", "security", "compliance"],
