@@ -1167,8 +1167,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
       "by": "https://github.com/craigcomstock",
-      "version": "0.0.2",
-      "commit": "2ec06ea5e78b0ad39cfde0137e0a8c25a983fae8",
+      "version": "1.0.0",
+      "commit": "e3039050296ec20c7e44b3accba84c146cf6ef69",
       "subdirectory": "upgrade-all-packages",
       "dependencies": ["autorun"],
       "steps": [
