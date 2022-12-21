@@ -2586,6 +2586,23 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-delete-files"
+    },
+    "1.0.0": {
+      "commit": "40bdc143e614a8dfb36eceef4060f322204ebe61",
+      "timestamp": 1671631988437,
+      "archive_url": "modules/delete-files/40bdc143e614a8dfb36eceef4060f322204ebe61.tar.gz",
+      "archive_sha256": "8c0e6f51b3b56b2d79a92b54867c61cd36cc0dd1df488760cfbb114be13f2ee0",
+      "readme_url": "modules/delete-files/40bdc143e614a8dfb36eceef4060f322204ebe61.org",
+      "readme_sha256": "ceffcf7ee69a2d4993e2d84090b381e8e014a493e5a4197aba791c1de5aa035c",
+      "steps": [
+        "copy delete-files.cf services/cfbs/modules/delete-files/delete-files.cf",
+        "input delete-files/input.json def.json",
+        "bundles delete_files:delete_files",
+        "policy_files services/cfbs/modules/delete-files/delete-files.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-delete-files"
     }
   },
   "inventory-openssl-versions": {
