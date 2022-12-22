@@ -1079,6 +1079,46 @@
         "copy ./openldap_server_policy.cf services/autorun/openldap_server_policy.cf"
       ]
     },
+    "uninstall-packages": {
+      "description": "Uninstalls a list of packages specified by module input.",
+      "tags": ["supported", "security", "management"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "cbcac5651618f6209da0093707f1104b9f527674",
+      "subdirectory": "security/uninstall-packages",
+      "steps": [
+        "copy uninstall-packages.cf services/cfbs/modules/uninstall-packages/uninstall-packages.cf",
+        "input uninstall-packages/input.json def.json",
+        "bundles uninstall_packages:uninstall_packages",
+        "policy_files services/cfbs/modules/uninstall-packages/uninstall-packages.cf"
+      ],
+      "input": [
+        {
+          "type": "list",
+          "variable": "package_names",
+          "namespace": "uninstall_packages",
+          "bundle": "uninstall_packages",
+          "label": "Packages to uninstall",
+          "subtype": [
+            {
+              "key": "name",
+              "type": "string",
+              "label": "Package name",
+              "question": "Package name"
+            },
+            {
+              "key": "why",
+              "type": "string",
+              "label": "Why",
+              "question": "Why should this package be uninstalled?",
+              "default": "Unknown"
+            }
+          ],
+          "while": "Specify another package you want uninstalled on your hosts?"
+        }
+      ]
+    },
     "uninstall-rsh-server": {
       "description": "Ensure the remote shell (rsh) server package is not installed on the system(s).",
       "tags": ["supported", "security", "compliance"],
