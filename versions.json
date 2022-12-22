@@ -3213,10 +3213,10 @@
       "readme_url": "modules/uninstall-packages/cbcac5651618f6209da0093707f1104b9f527674.md",
       "readme_sha256": "e5cc59b4536ce31161b6af309c106e7ebacb73f65b5430114bd37b89c11bc764",
       "steps": [
-        "copy uninstall-packages.cf services/cfbs/modules/uninstall-packages/uninstall-packages.cf",
+        "copy main.cf services/cfbs/modules/uninstall-packages/main.cf",
         "input uninstall-packages/input.json def.json",
         "bundles uninstall_packages:uninstall_packages",
-        "policy_files services/cfbs/modules/uninstall-packages/uninstall-packages.cf"
+        "policy_files services/cfbs/modules/uninstall-packages/main.cf"
       ],
       "subdirectory": "security/uninstall-packages",
       "by": "https://github.com/olehermanse",
