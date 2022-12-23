@@ -3221,6 +3221,23 @@
       "subdirectory": "security/uninstall-packages",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.0.2": {
+      "commit": "0ad131abe2fac2f98c0321db8b2a77281bd2bf5f",
+      "timestamp": 1671755495986,
+      "archive_url": "modules/uninstall-packages/0ad131abe2fac2f98c0321db8b2a77281bd2bf5f.tar.gz",
+      "archive_sha256": "f3a7f3a1841b268025d1c134b9e4b5a264f8f3afc2a89b04d7821dce6dcc9726",
+      "readme_url": "modules/uninstall-packages/0ad131abe2fac2f98c0321db8b2a77281bd2bf5f.md",
+      "readme_sha256": "e5cc59b4536ce31161b6af309c106e7ebacb73f65b5430114bd37b89c11bc764",
+      "steps": [
+        "copy main.cf services/cfbs/modules/uninstall-packages/main.cf",
+        "input uninstall-packages/input.json def.json",
+        "bundles uninstall_packages:uninstall_packages",
+        "policy_files services/cfbs/modules/uninstall-packages/main.cf"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-uninstall-packages"
     }
   }
 }
