@@ -1084,8 +1084,8 @@
       "tags": ["supported", "security", "management"],
       "repo": "https://github.com/olehermanse/cfengine-uninstall-packages",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.2",
-      "commit": "0ad131abe2fac2f98c0321db8b2a77281bd2bf5f",
+      "version": "1.0.0",
+      "commit": "82dc210c3085c851f5a8bd3498ed915647800ce1",
       "steps": [
         "copy main.cf services/cfbs/modules/uninstall-packages/main.cf",
         "input uninstall-packages/input.json def.json",
@@ -1103,8 +1103,8 @@
             {
               "key": "name",
               "type": "string",
-              "label": "Package name",
-              "question": "Package name"
+              "label": "Name",
+              "question": "What is the name in the package manager (apt, yum, etc.)?"
             },
             {
               "key": "why",
