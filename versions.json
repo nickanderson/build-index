@@ -2577,6 +2577,20 @@
       "subdirectory": "upgrade-all-packages",
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+    },
+    "1.0.0": {
+      "commit": "e3039050296ec20c7e44b3accba84c146cf6ef69",
+      "timestamp": 1672333054143,
+      "archive_url": "modules/upgrade-all-packages/e3039050296ec20c7e44b3accba84c146cf6ef69.tar.gz",
+      "archive_sha256": "ca9801c956b1bf32deb3ea6c171e6e1c685288e941e3e9e9bf4d5746445babc2",
+      "readme_url": "modules/upgrade-all-packages/e3039050296ec20c7e44b3accba84c146cf6ef69.md",
+      "readme_sha256": "c75bf8d1afb7705fcc446dda34cce752ff50f4a0263806c53c70ddf16da49d15",
+      "steps": [
+        "copy ./upgrade_all_packages.cf services/autorun/upgrade_all_packages.cf"
+      ],
+      "subdirectory": "upgrade-all-packages",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
     }
   },
   "file-permissions": {
