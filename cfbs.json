@@ -548,8 +548,8 @@
       "tags": ["inventory", "security", "ssh", "experimental"],
       "repo": "https://github.com/nickanderson/cfengine-ssh",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "337a0b1b2df4eb2d13cecc9718f56c23f54fffa8",
+      "version": "0.0.2",
+      "commit": "dbd948d795a32b29dcbfad54d9f16326f485d094",
       "subdirectory": "policy/inventory/host-key-fingerprints",
       "steps": [
         "copy ./inventory-ssh-host-key-fingerprints.cf services/ssh/inventory/host-key-fingerprints/inventory-ssh-host-key-fingerprints.cf",
