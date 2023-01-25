@@ -472,6 +472,22 @@
       "subdirectory": "policy/kernel-settings-sysctl-conf",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-sysctl"
+    },
+    "1.0.1": {
+      "commit": "00ca2759e6dcdb346152c4f6f9a7f52f5401aacc",
+      "timestamp": 1674663476717,
+      "archive_url": "modules/kernel-settings-sysctl-conf/00ca2759e6dcdb346152c4f6f9a7f52f5401aacc.tar.gz",
+      "archive_sha256": "d7a223c04d65493a1a796762a75eee39e4952886d86da0b0a9bc2f964d3ae884",
+      "readme_url": "modules/kernel-settings-sysctl-conf/00ca2759e6dcdb346152c4f6f9a7f52f5401aacc.org",
+      "readme_sha256": "7f8b683fc296f1e9ecb5a4db572c4ca272aa20d5ec6a18a04c788e7f5dba73e9",
+      "steps": [
+        "copy ./main.cf services/kernel-settings-sysctl-conf/",
+        "copy ./README.org services/kernel-settings-sysctl-conf/",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "policy/kernel-settings-sysctl-conf",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-sysctl"
     }
   },
   "lynis": {
