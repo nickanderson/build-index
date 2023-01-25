@@ -626,8 +626,8 @@
       "tags": ["management", "kernel"],
       "repo": "https://github.com/nickanderson/cfengine-sysctl",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.0",
-      "commit": "0d4fd85fa22ee6c52ace5222202b3290a5902862",
+      "version": "1.0.1",
+      "commit": "00ca2759e6dcdb346152c4f6f9a7f52f5401aacc",
       "subdirectory": "policy/kernel-settings-sysctl-conf",
       "steps": [
         "copy ./main.cf services/kernel-settings-sysctl-conf/",
