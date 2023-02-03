@@ -830,7 +830,7 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-scl-docker_compose": {
+    "promise-type-scl-docker-compose": {
       "description": "Promise type to manage docker compose installation",
       "tags": ["promise-type", "docker_compose"],
       "repo": "https://github.com/basvandervlies/scl_modules",
