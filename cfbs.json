@@ -788,20 +788,6 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-scl-docker_compose": {
-      "description": "Promise type to manage docker compose installation",
-      "tags": ["promise-type", "docker_compose"],
-      "repo": "https://github.com/basvandervlies/scl_modules",
-      "by": "https://github.com/basvandervlies",
-      "version": "22.02.03",
-      "commit": "598e9a19feee65e355be68e752d169721fd1f653",
-      "subdirectory": "promise-types/docker_compose/",
-      "dependencies": ["library-for-promise-types-in-bash"],
-      "steps": [
-        "copy docker_compose.sh modules/promises/scl_docker_compose.sh",
-        "append enable.cf services/init.cf"
-      ]
-    },
     "promise-type-git": {
       "description": "Promise type to manage git repos.",
       "tags": ["supported", "promise-type"],
@@ -841,6 +827,20 @@
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
         "copy http_promise_type.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ]
+    },
+    "promise-type-scl-docker_compose": {
+      "description": "Promise type to manage docker compose installation",
+      "tags": ["promise-type", "docker_compose"],
+      "repo": "https://github.com/basvandervlies/scl_modules",
+      "by": "https://github.com/basvandervlies",
+      "version": "22.02.03",
+      "commit": "598e9a19feee65e355be68e752d169721fd1f653",
+      "subdirectory": "promise-types/docker_compose",
+      "dependencies": ["library-for-promise-types-in-bash"],
+      "steps": [
+        "copy docker_compose.sh modules/promises/scl_docker_compose.sh",
         "append enable.cf services/init.cf"
       ]
     },
