@@ -830,12 +830,12 @@
         "append enable.cf services/init.cf"
       ]
     },
-    "promise-type-scl-docker-compose": {
+    "promise-type-scl-docker_compose": {
       "description": "Promise type to manage docker compose installation",
       "tags": ["promise-type", "docker_compose"],
       "repo": "https://github.com/basvandervlies/scl_modules",
       "by": "https://github.com/basvandervlies",
-      "version": "22.02.03",
+      "version": "1.0.0",
       "commit": "598e9a19feee65e355be68e752d169721fd1f653",
       "subdirectory": "promise-types/docker_compose",
       "dependencies": ["library-for-promise-types-in-bash"],
