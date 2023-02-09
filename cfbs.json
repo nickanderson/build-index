@@ -773,6 +773,42 @@
       ]
     },
     "openldap-server-not-installed": { "alias": "uninstall-openldap-server" },
+    "packages-allowlist": {
+      "description": "This module reports on and optionally removes software installed by the platforms default package module (e.g. yum, apt_get) that is not in an explicit allow list.",
+      "tags": ["management", "inventory", "security"],
+      "repo": "https://github.com/nickanderson/cfengine-packages-allowlist",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "1e69fbbdcf0d66edba596d711e22d99bb27e4f83",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist/main.cf",
+        "bundles packages-allowlist:state",
+        "policy_files services/cfbs/modules/packages-allowlist/main.cf",
+        "input packages-allowlist/input.json def.json"
+      ],
+      "input": [
+        {
+          "type": "string",
+          "namespace": "packages_allowlist",
+          "bundle": "state",
+          "variable": "enforcement",
+          "label": "(disabled|enabled)",
+          "question": "Would you like to enable enforcement for packages-allowlist?"
+        },
+        {
+          "type": "list",
+          "namespace": "packages_allowlist",
+          "bundle": "state",
+          "variable": "allowed",
+          "subtype": {
+            "type": "string",
+            "label": "Package name",
+            "question": "What package name would you like to allow?"
+          },
+          "while": "Do you want to allow another package?"
+        }
+      ]
+    },
     "prelinking-disabled": { "alias": "disable-prelinking" },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks.",
