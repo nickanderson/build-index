@@ -3404,5 +3404,24 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-uninstall-packages"
     }
+  },
+  "conditional-installer": {
+    "0.0.1": {
+      "commit": "e6c731a9aead018e1c4895f6b77249fa417aa4bd",
+      "timestamp": 1676563571263,
+      "archive_url": "modules/conditional-installer/e6c731a9aead018e1c4895f6b77249fa417aa4bd.tar.gz",
+      "archive_sha256": "6088c76f907461638f27d8646c374facb52aa6a54fd2e29b9bc3187173f9a2f5",
+      "readme_url": "modules/conditional-installer/e6c731a9aead018e1c4895f6b77249fa417aa4bd.md",
+      "readme_sha256": "06b1b456b6cfa1f8d66c1d811a1873b7c911add08e27a5fe55d6d93689f5328d",
+      "steps": [
+        "copy main.cf services/cfbs/modules/conditional-installer/main.cf",
+        "input conditional-installer/input.json def.json",
+        "bundles conditional_installer:main",
+        "policy_files services/cfbs/modules/conditional-installer/main.cf"
+      ],
+      "subdirectory": "security/conditional-installer",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
