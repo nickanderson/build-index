@@ -3423,5 +3423,24 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "etc-issue-content": {
+    "0.0.1": {
+      "commit": "459939185974e93bf5504da3393bc4de5a54e617",
+      "timestamp": 1676569569776,
+      "archive_url": "modules/etc-issue-content/459939185974e93bf5504da3393bc4de5a54e617.tar.gz",
+      "archive_sha256": "0939fc77631cf7840c34058e782141963baf1ca2c663a12d5f901c651281e841",
+      "readme_url": "modules/etc-issue-content/459939185974e93bf5504da3393bc4de5a54e617.org",
+      "readme_sha256": "b1f1ed96c7d9a9ab9f84dbe352ff7d94846c13bb73496e9925744dd7add0cefc",
+      "steps": [
+        "copy main.cf services/cfbs/modules/etc-issue-content/main.cf",
+        "bundles etc_issue_content:main",
+        "policy_files services/cfbs/modules/etc-issue-content/main.cf",
+        "input etc_issue_content/input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-etc_issue_content"
+    }
   }
 }
