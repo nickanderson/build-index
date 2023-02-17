@@ -3442,5 +3442,24 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-etc_issue_content"
     }
+  },
+  "packages-allowlist": {
+    "0.0.1": {
+      "commit": "1e69fbbdcf0d66edba596d711e22d99bb27e4f83",
+      "timestamp": 1676646914510,
+      "archive_url": "modules/packages-allowlist/1e69fbbdcf0d66edba596d711e22d99bb27e4f83.tar.gz",
+      "archive_sha256": "365f25c561843c22ac6e9e55a260bcf18613b51be41aebf5b5475576fc2c09ff",
+      "readme_url": "modules/packages-allowlist/1e69fbbdcf0d66edba596d711e22d99bb27e4f83.org",
+      "readme_sha256": "090004b93990dba97554a0ccd3ab746b91a7592f15c76abf28a31aed0b3ab721",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist/main.cf",
+        "bundles packages-allowlist:state",
+        "policy_files services/cfbs/modules/packages-allowlist/main.cf",
+        "input packages-allowlist/input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-packages-allowlist"
+    }
   }
 }
