@@ -316,6 +316,16 @@
         "bundles etc_issue_content:main",
         "policy_files services/cfbs/modules/etc-issue-content/main.cf",
         "input etc_issue_content/input.json def.json"
+      ],
+      "input": [
+        {
+          "type": "string",
+          "variable": "body",
+          "namespace": "etc_issue_content",
+          "bundle": "main",
+          "label": "Text",
+          "question": "What is the content that should be in /etc/issue?"
+        }
       ]
     },
     "etc-motd-access": {
