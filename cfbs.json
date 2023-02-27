@@ -789,7 +789,7 @@
       ]
     },
     "promise-type-docker-compose": {
-      "description": "Promise type to manage docker compose installation",
+      "description": "Promise type to manage containers using docker compose",
       "tags": ["promise-type", "docker", "experimental"],
       "repo": "https://github.com/basvandervlies/scl_modules",
       "by": "https://github.com/basvandervlies",
