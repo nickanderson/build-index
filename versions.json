@@ -3461,5 +3461,22 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-packages-allowlist"
     }
+  },
+  "promise-type-docker-compose": {
+    "1.0.0": {
+      "commit": "7dd0ef2e2dca0c8669405f60d4690e577c51e435",
+      "timestamp": 1678990486252,
+      "archive_url": "modules/promise-type-docker-compose/7dd0ef2e2dca0c8669405f60d4690e577c51e435.tar.gz",
+      "archive_sha256": "024729dd31803d886b012f50fcd1aac157ae8fb516e2e311a8dee70b7c5c0758",
+      "readme_url": "modules/promise-type-docker-compose/7dd0ef2e2dca0c8669405f60d4690e577c51e435.md",
+      "readme_sha256": "374676301b95d4c7c87a15c0984d7fb0c3ae9e95ca82922a0bca73e63c3121db",
+      "steps": [
+        "copy docker_compose.sh modules/promises/docker_compose.sh",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/docker_compose",
+      "by": "https://github.com/basvandervlies",
+      "repo": "https://github.com/basvandervlies/scl_modules"
+    }
   }
 }
