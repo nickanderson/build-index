@@ -856,8 +856,8 @@
       "tags": ["management", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-packages-allowlist",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.4",
-      "commit": "a5862401d2bcaa5a82758d1ab8ce8f4cb1c3d9e3",
+      "version": "0.0.5",
+      "commit": "0a8ea198ca2ff35ea77042dfa297da3544ed0eca",
       "steps": [
         "copy main.cf services/cfbs/modules/packages-allowlist/main.cf",
         "bundles packages_allowlist:state",
