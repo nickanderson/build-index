@@ -183,6 +183,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup"
+    },
+    "0.1.2": {
+      "commit": "e6eb16c5d25ccfc96ae763480643189a5f474f69",
+      "timestamp": 1680547410504,
+      "archive_url": "modules/inventory-fips-mode-setup/e6eb16c5d25ccfc96ae763480643189a5f474f69.tar.gz",
+      "archive_sha256": "c934504000cc7beb14f2edbcbf095bf0866dddb18766fe87c6cf18b864c6c005",
+      "readme_url": "modules/inventory-fips-mode-setup/e6eb16c5d25ccfc96ae763480643189a5f474f69.org",
+      "readme_sha256": "f343ce225af28ac9fe69c4b11879b1a826f32cf0a94b03e360e3b71602edc5ce",
+      "steps": [
+        "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
+        "json augments.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup"
     }
   },
   "inventory-kernel-boot-params": {
