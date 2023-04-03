@@ -458,8 +458,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-fips-mode-setup",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.1",
-      "commit": "757aa0b568441a13d92d4df2d597760c6b7cde50",
+      "version": "0.1.2",
+      "commit": "e6eb16c5d25ccfc96ae763480643189a5f474f69",
       "steps": [
         "copy policy/main.cf services/inventory-fips-mode-setup/main.cf",
         "json augments.json def.json"
