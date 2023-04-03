@@ -446,8 +446,8 @@
       "tags": ["supported", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-etc-login-defs",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.3",
-      "commit": "8f4747e4856737aa44fd96b9b8d38d941afec9f3",
+      "version": "0.0.4",
+      "commit": "37670ddd6a92022e895ac191b821e4de6794ac34",
       "steps": [
         "copy ./inventory-etc-login-defs.cf services/inventory-etc-login-defs/inventory-etc-login-defs.cf",
         "json cfbs/def.json def.json"
