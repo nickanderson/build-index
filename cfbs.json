@@ -856,8 +856,8 @@
       "tags": ["management", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-packages-allowlist",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.6",
-      "commit": "e5cccd5666e5820d2c27edec88323d4f2993b084",
+      "version": "0.0.7",
+      "commit": "93bfbb81491d00e62ac5e46cd4f5dfb907a0ec6c",
       "steps": [
         "copy main.cf services/cfbs/modules/packages-allowlist/main.cf",
         "bundles packages_allowlist:state",
@@ -870,15 +870,15 @@
           "namespace": "packages_allowlist",
           "bundle": "state",
           "variable": "enforcement",
-          "label": "(disabled|enabled)",
-          "question": "Would you like to enable enforcement for packages-allowlist?"
+          "label": "Uninstall not allowed packages (disabled|enabled)",
+          "question": "Would you like to enable enforcement for packages-allowlist? (disabled|enabled)"
         },
         {
           "type": "list",
           "namespace": "packages_allowlist",
           "bundle": "state",
           "variable": "allowed",
-          "label": "Package name",
+          "label": "Packages",
           "subtype": {
             "type": "string",
             "label": "Package name",
