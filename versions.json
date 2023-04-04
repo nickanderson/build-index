@@ -3575,6 +3575,23 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-packages-allowlist"
+    },
+    "0.0.7": {
+      "commit": "93bfbb81491d00e62ac5e46cd4f5dfb907a0ec6c",
+      "timestamp": 1680634474438,
+      "archive_url": "modules/packages-allowlist/93bfbb81491d00e62ac5e46cd4f5dfb907a0ec6c.tar.gz",
+      "archive_sha256": "c49213853b58aded976a06daa6859cf17c2e54cb8cdf8e9bd65991546ef9688b",
+      "readme_url": "modules/packages-allowlist/93bfbb81491d00e62ac5e46cd4f5dfb907a0ec6c.org",
+      "readme_sha256": "a6037e91c5a8d614a7cf887195ed65e62ee99a6f64104826ff8a8f67d2305c0c",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist/main.cf",
+        "bundles packages_allowlist:state",
+        "policy_files services/cfbs/modules/packages-allowlist/main.cf",
+        "input packages_allowlist/input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-packages-allowlist"
     }
   },
   "promise-type-docker-compose": {
