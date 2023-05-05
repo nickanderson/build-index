@@ -621,6 +621,19 @@
         "bundles inventory_openssl_versions:inventory_openssl_versions"
       ]
     },
+    "inventory-physical-memory": {
+      "description": "Inventory information about physical memory.",
+      "tags": ["inventory"],
+      "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory",
+      "by": "https://github.com/nickanderson/",
+      "version": "0.0.1",
+      "commit": "3cc53e0f4d153c3b597471adef013e35cd01a2cb",
+      "steps": [
+        "copy ./policy/main.cf services/cfbs/inventory-physical-memory/main.cf",
+        "policy_files services/cfbs/inventory-physical-memory/main.cf",
+        "bundles inventory_physical_memory:main"
+      ]
+    },
     "inventory-ssh-host-key-fingerprints": {
       "description": "Adds reporting data (inventory) for the SSH host key fingerprints.",
       "tags": ["inventory", "security", "ssh", "experimental"],
