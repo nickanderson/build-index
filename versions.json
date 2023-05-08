@@ -3610,5 +3610,23 @@
       "by": "https://github.com/basvandervlies",
       "repo": "https://github.com/basvandervlies/scl_modules"
     }
+  },
+  "inventory-physical-memory": {
+    "0.0.1": {
+      "commit": "3cc53e0f4d153c3b597471adef013e35cd01a2cb",
+      "timestamp": 1683559259360,
+      "archive_url": "modules/inventory-physical-memory/3cc53e0f4d153c3b597471adef013e35cd01a2cb.tar.gz",
+      "archive_sha256": "eba1d3d84124238d281a65d049d71a422171e1adae5a61a36977435f16beb6a3",
+      "readme_url": "modules/inventory-physical-memory/3cc53e0f4d153c3b597471adef013e35cd01a2cb.org",
+      "readme_sha256": "2fb4456c4ec77785352d76b331b910914f9f6d956b97cf5d0d03c874af93af40",
+      "steps": [
+        "copy ./policy/main.cf services/cfbs/inventory-physical-memory/main.cf",
+        "policy_files services/cfbs/inventory-physical-memory/main.cf",
+        "bundles inventory_physical_memory:main"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson/",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory"
+    }
   }
 }
