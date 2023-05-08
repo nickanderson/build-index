@@ -626,8 +626,8 @@
       "tags": ["inventory"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory",
       "by": "https://github.com/nickanderson/",
-      "version": "0.0.1",
-      "commit": "3cc53e0f4d153c3b597471adef013e35cd01a2cb",
+      "version": "0.0.2",
+      "commit": "076da84e22e7ee592f9751eb3712eb4d421c8de0",
       "steps": [
         "copy ./policy/main.cf services/cfbs/inventory-physical-memory/main.cf",
         "policy_files services/cfbs/inventory-physical-memory/main.cf",
