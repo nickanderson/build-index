@@ -3627,6 +3627,22 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory"
+    },
+    "0.0.2": {
+      "commit": "076da84e22e7ee592f9751eb3712eb4d421c8de0",
+      "timestamp": 1683563386868,
+      "archive_url": "modules/inventory-physical-memory/076da84e22e7ee592f9751eb3712eb4d421c8de0.tar.gz",
+      "archive_sha256": "cb5becd69bfd8f4df018c57feb438a0ac05fe676cae4e96f24481f65110abf7e",
+      "readme_url": "modules/inventory-physical-memory/076da84e22e7ee592f9751eb3712eb4d421c8de0.org",
+      "readme_sha256": "2fb4456c4ec77785352d76b331b910914f9f6d956b97cf5d0d03c874af93af40",
+      "steps": [
+        "copy ./policy/main.cf services/cfbs/inventory-physical-memory/main.cf",
+        "policy_files services/cfbs/inventory-physical-memory/main.cf",
+        "bundles inventory_physical_memory:main"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson/",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory"
     }
   }
 }
