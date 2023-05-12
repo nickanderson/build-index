@@ -1104,7 +1104,7 @@
       "by": "https://github.com/basvandervlies/",
       "version": "1.5.0",
       "commit": "c15fc0a273c3ae7abd2286e825badf166dc53897",
-      "dependencies": ["autorun"],
+      "dependencies": ["autorun", "promise-type-groups"],
       "steps": [
         "copy ./masterfiles/lib/scl/ lib/scl/",
         "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
