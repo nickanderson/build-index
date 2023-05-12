@@ -2631,6 +2631,26 @@
       "subdirectory": "",
       "by": "https://github.com/basvandervlies/",
       "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+    },
+    "1.5.0": {
+      "commit": "c15fc0a273c3ae7abd2286e825badf166dc53897",
+      "timestamp": 1683901138779,
+      "archive_url": "modules/surf-cfengine-library/c15fc0a273c3ae7abd2286e825badf166dc53897.tar.gz",
+      "archive_sha256": "d49f70e5ebe6feb0b42493ef9ccad686c917b9b111cf597366b24387294e0379",
+      "readme_url": "modules/surf-cfengine-library/c15fc0a273c3ae7abd2286e825badf166dc53897.md",
+      "readme_sha256": "de1927c2d84f7a8ec469941365e3c629029f5559c538c34363702a3b03d2f8c0",
+      "steps": [
+        "copy ./masterfiles/lib/scl/ lib/scl/",
+        "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
+        "copy ./modules/ modules/scl/",
+        "copy ./scl_example.json scl_example.json",
+        "copy ./services/ services/scl/",
+        "copy ./templates/ lib/scl/.git/templates",
+        "json scl_example.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/basvandervlies/",
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
     }
   },
   "compliance-report-lynis": {
