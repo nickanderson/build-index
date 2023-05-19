@@ -833,7 +833,7 @@
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
       "version": "3.18.4-2",
-      "commit": "e6ab4eb5853302b53d6fc57095845aec113f1d0e",
+      "commit": "aceb20acccc12a6200ac496c05e81fa558a363aa",
       "steps": ["run ./prepare.sh -y", "copy ./ ./"]
     },
     "migrate2rocky": {
