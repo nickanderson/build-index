@@ -703,6 +703,8 @@
       "readme_sha256": "5290c619aef65139e7378b75439b8668756fb91df1ee6a20d7627a00a24c2407",
       "steps": [
         "run ./prepare.sh -y",
+        "run grep --files-with-matches -R 3.18.1 . | xargs -n1 sed -i.bak 's/3\\.18\\.1a.*\\b/3.18.1/g'",
+        "run find . -name '*.bak' | xargs rm",
         "copy ./ ./"
       ],
       "subdirectory": "",
@@ -718,6 +720,8 @@
       "readme_sha256": "5290c619aef65139e7378b75439b8668756fb91df1ee6a20d7627a00a24c2407",
       "steps": [
         "run ./prepare.sh -y",
+        "run grep --files-with-matches -R 3.18.2 . | xargs -n1 sed -i.bak 's/3\\.18\\.2a.*\\b/3.18.2/g'",
+        "run find . -name '*.bak' | xargs rm",
         "copy ./ ./"
       ],
       "subdirectory": "",
@@ -733,6 +737,8 @@
       "readme_sha256": "5290c619aef65139e7378b75439b8668756fb91df1ee6a20d7627a00a24c2407",
       "steps": [
         "run ./prepare.sh -y",
+        "run grep --files-with-matches -R 3.20.0 . | xargs -n1 sed -i.bak 's/3\\.20\\.0a.*\\b/3.20.0/g'",
+        "run find . -name '*.bak' | xargs rm",
         "copy ./ ./"
       ],
       "subdirectory": "",
