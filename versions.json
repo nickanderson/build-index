@@ -753,6 +753,7 @@
       "readme_url": "modules/masterfiles/c92106b72ac9a9f12e412df7ecba1ea22bcb373a.md",
       "readme_sha256": "5290c619aef65139e7378b75439b8668756fb91df1ee6a20d7627a00a24c2407",
       "steps": [
+        "run sed -i.bak 's|prefix=\"/var/cfengine/\"|prefix=\"/var/cfengine\"|g' prepare.sh",
         "run EXPLICIT_RELEASE=2 ./prepare.sh -y",
         "run grep --files-with-matches -R 3.18.3 . | xargs -n1 sed -i.bak 's/3\\.18\\.3a.*\\b/3.18.3/g'",
         "run find . -name '*.bak' | xargs rm",
