@@ -798,6 +798,21 @@
       "subdirectory": "",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/masterfiles"
+    },
+    "3.18.4-2": {
+      "commit": "aceb20acccc12a6200ac496c05e81fa558a363aa",
+      "timestamp": 1684509321179,
+      "archive_url": "modules/masterfiles/aceb20acccc12a6200ac496c05e81fa558a363aa.tar.gz",
+      "archive_sha256": "126093cf4e828144b5be43f34ce05be69de6e68173c2cf0df2a60d93b48892e4",
+      "readme_url": "modules/masterfiles/aceb20acccc12a6200ac496c05e81fa558a363aa.md",
+      "readme_sha256": "5290c619aef65139e7378b75439b8668756fb91df1ee6a20d7627a00a24c2407",
+      "steps": [
+        "run ./prepare.sh -y",
+        "copy ./ ./"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/masterfiles"
     }
   },
   "migrate2rocky": {
