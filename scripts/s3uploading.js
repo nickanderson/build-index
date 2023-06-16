@@ -54,6 +54,9 @@ const checkout = async (module, moduleName) => {
 
     await exec(`git checkout ${module.commit}`)
         .catch(e => exit(`Error occurred while ${module.repo} ${module.commit} checkout. Err. ${e.message}`));
+
+    await exec(`git fetch --all --tags`)
+        .catch(e => exit(`Error occurred while fetching tags for ${module.repo} ${module.commit}. Err. ${e.message}`));
 }
 
 const createHashFromFile = filePath => new Promise(resolve => {
