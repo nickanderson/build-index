@@ -901,6 +901,30 @@
         }
       ]
     },
+    "packages-allowlist-snapshot": {
+      "description": "Allows you to snapshot which packages are installed on a system, and then enforce that list, uninstalling or giving warnings when other packages appear.",
+      "tags": ["management", "inventory", "security", "experimental"],
+      "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "5bed9531d89a30be52a1d13971638c2dd9adfe87",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "bundles packages_allowlist_snapshot:entry_point",
+        "policy_files services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "input packages-allowlist-snapshot/input.json def.json"
+      ],
+      "input": [
+        {
+          "type": "string",
+          "namespace": "packages_allowlist_snapshot",
+          "bundle": "state",
+          "variable": "mode",
+          "label": "Mode",
+          "question": "What mode should the module be in? (init|warn|enforce)"
+        }
+      ]
+    },
     "prelinking-disabled": { "alias": "disable-prelinking" },
     "promise-type-ansible": {
       "description": "Promise type to run ansible playbooks.",
