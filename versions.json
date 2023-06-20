@@ -3814,5 +3814,24 @@
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-inventory-physical-memory"
     }
+  },
+  "packages-allowlist-snapshot": {
+    "0.0.1": {
+      "commit": "5bed9531d89a30be52a1d13971638c2dd9adfe87",
+      "timestamp": 1687265367072,
+      "archive_url": "modules/packages-allowlist-snapshot/5bed9531d89a30be52a1d13971638c2dd9adfe87.tar.gz",
+      "archive_sha256": "1cf1ec1582731bfbc08e815ed743d8c47e890af763383a6d863a125d6060ca2a",
+      "readme_url": "modules/packages-allowlist-snapshot/5bed9531d89a30be52a1d13971638c2dd9adfe87.md",
+      "readme_sha256": "26a5b2028ff580fd929e3339beefb910fc094d54f3180f292b877b87caf46d73",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "bundles packages_allowlist_snapshot:entry_point",
+        "policy_files services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "input packages-allowlist-snapshot/input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot"
+    }
   }
 }
