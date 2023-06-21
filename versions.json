@@ -3832,6 +3832,23 @@
       "subdirectory": "",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot"
+    },
+    "0.0.2": {
+      "commit": "30efc502f56f82b1576ed67bda9275b43222d90b",
+      "timestamp": 1687353071213,
+      "archive_url": "modules/packages-allowlist-snapshot/30efc502f56f82b1576ed67bda9275b43222d90b.tar.gz",
+      "archive_sha256": "129acd15aac97a40438353303cda6daec54e5f4922a825175771451169641f54",
+      "readme_url": "modules/packages-allowlist-snapshot/30efc502f56f82b1576ed67bda9275b43222d90b.md",
+      "readme_sha256": "26a5b2028ff580fd929e3339beefb910fc094d54f3180f292b877b87caf46d73",
+      "steps": [
+        "copy main.cf services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "bundles packages_allowlist_snapshot:entry_point",
+        "policy_files services/cfbs/modules/packages-allowlist-snapshot/main.cf",
+        "input packages-allowlist-snapshot/input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot"
     }
   }
 }
