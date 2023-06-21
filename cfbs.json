@@ -865,7 +865,7 @@
     },
     "openldap-server-not-installed": { "alias": "uninstall-openldap-server" },
     "packages-allowlist": {
-      "description": "This module reports on and optionally removes software installed by the platforms default package module (e.g. yum, apt_get) that is not in an explicit allow list.",
+      "description": "Reports on and optionally removes software installed by the platforms default package module (e.g. yum, apt_get) that is not in an explicit allow list.",
       "tags": ["management", "inventory", "security"],
       "repo": "https://github.com/nickanderson/cfengine-packages-allowlist",
       "by": "https://github.com/nickanderson",
@@ -906,8 +906,8 @@
       "tags": ["management", "inventory", "security", "experimental"],
       "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.1",
-      "commit": "5bed9531d89a30be52a1d13971638c2dd9adfe87",
+      "version": "0.0.2",
+      "commit": "30efc502f56f82b1576ed67bda9275b43222d90b",
       "steps": [
         "copy main.cf services/cfbs/modules/packages-allowlist-snapshot/main.cf",
         "bundles packages_allowlist_snapshot:entry_point",
