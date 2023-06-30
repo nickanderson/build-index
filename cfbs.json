@@ -191,8 +191,8 @@
       "tags": ["supported", "management"],
       "repo": "https://github.com/nickanderson/cfengine-delete-files",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.0",
-      "commit": "40bdc143e614a8dfb36eceef4060f322204ebe61",
+      "version": "2.0.0",
+      "commit": "84cce7c5653b6a5f2b5a28ebb33c697ffc676dd4",
       "steps": [
         "copy delete-files.cf services/cfbs/modules/delete-files/delete-files.cf",
         "input delete-files/input.json def.json",
