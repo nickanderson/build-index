@@ -834,7 +834,20 @@
       "by": "https://github.com/cfengine",
       "version": "3.21.2",
       "commit": "f495603285f9bd90d5d36df4fec4870aeee751e8",
-      "steps": ["run ./prepare.sh -y", "copy ./ ./"]
+      "steps": [
+        "run EXPLICIT_VERSION=3.21.2 EXPLICIT_RELEASE=1 ./prepare.sh -y",
+        "delete cfe_internal/core/watchdog/README.md",
+        "delete cfe_internal/enterprise/ha/ha_info.json",
+        "delete .github",
+        "delete inventory/README.md",
+        "delete lib/README.md",
+        "delete LICENSE",
+        "delete modules/promises",
+        "delete .no-distrib",
+        "delete services/autorun/README.md",
+        "delete templates/README.md",
+        "copy ./ ./"
+      ]
     },
     "migrate2rocky": {
       "description": "Unattended migration of CentOS 8 hosts to Rocky Linux.",
