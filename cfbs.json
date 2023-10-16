@@ -110,7 +110,7 @@
           "label": "Install",
           "subtype": [
             {
-              "key": "name",
+              "key": "packages",
               "type": "string",
               "label": "Package(s)",
               "question": "Package(s) to install"
