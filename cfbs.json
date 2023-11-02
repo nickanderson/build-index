@@ -15,6 +15,26 @@
       "subdirectory": "management/autorun",
       "steps": ["json def.json def.json"]
     },
+    "autorun-bundles": {
+      "description": "Enables autorun functionality.",
+      "tags": ["supported", "management"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "commit": "e5a43450cf272fe84d4727a33d431c98ffb58bbc",
+      "subdirectory": "management/autorun-bundles",
+      "steps": ["json def.json def.json"]
+    },
+    "autorun-inputs": {
+      "description": "Enables autorun functionality.",
+      "tags": ["supported", "management"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "commit": "e5a43450cf272fe84d4727a33d431c98ffb58bbc",
+      "subdirectory": "management/autorun-inputs",
+      "steps": ["json def.json def.json"]
+    },
     "bash-lib": { "alias": "library-for-promise-types-in-bash" },
     "cfengine-supported": {
       "description": "Adds reporting data (inventory) for the support status for the current version of CFEngine.",
