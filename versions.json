@@ -3897,5 +3897,37 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-packages-allowlist-snapshot"
     }
+  },
+  "autorun-bundles": {
+    "1.0.0": {
+      "commit": "e5a43450cf272fe84d4727a33d431c98ffb58bbc",
+      "timestamp": 1698948362364,
+      "archive_url": "modules/autorun-bundles/e5a43450cf272fe84d4727a33d431c98ffb58bbc.tar.gz",
+      "archive_sha256": "5dadc3a2ef316a0f30e74b6443b2621337f2da83c4f079ed1850f1e478839950",
+      "readme_url": "modules/autorun-bundles/e5a43450cf272fe84d4727a33d431c98ffb58bbc.md",
+      "readme_sha256": "a001a474089a37f830391df00930fb5731a0107382dc79961630eef4751a347f",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/autorun-bundles",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "autorun-inputs": {
+    "1.0.0": {
+      "commit": "e5a43450cf272fe84d4727a33d431c98ffb58bbc",
+      "timestamp": 1698948363260,
+      "archive_url": "modules/autorun-inputs/e5a43450cf272fe84d4727a33d431c98ffb58bbc.tar.gz",
+      "archive_sha256": "9317bb4cce03116d9bbf10b0977ffa33b540c18f1cef7cd5c3fce7b598a41d82",
+      "readme_url": "modules/autorun-inputs/e5a43450cf272fe84d4727a33d431c98ffb58bbc.md",
+      "readme_sha256": "e98c02fed2282b854cf7644d78bc5e5fc799a1acc72ec37f2aa44f5139390cee",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/autorun-inputs",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
