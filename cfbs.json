@@ -77,8 +77,8 @@
       "tags": ["experimental", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson/",
-      "version": "0.0.2",
-      "commit": "60ad7321d6b5e30606830d3228812fe3f77c4fa8",
+      "version": "3.0.9",
+      "commit": "9aaff7dd802cf879f40b992243e760f039e7636c",
       "subdirectory": "./compliance-reports",
       "dependencies": ["compliance-report-imports", "lynis"],
       "steps": [
@@ -823,11 +823,11 @@
     },
     "lynis": {
       "description": "Automates the installation, running, and reporting of CISOfy's lynis system audits.",
-      "tags": ["security", "compliance", "experimental"],
+      "tags": ["security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
-      "version": "0.3.2",
-      "commit": "da3dc477846d4885688aba93f4f0df38dd14bf53",
+      "version": "3.0.9",
+      "commit": "9aaff7dd802cf879f40b992243e760f039e7636c",
       "steps": [
         "copy policy/main.cf services/lynis/main.cf",
         "json cfbs/def.json def.json"
