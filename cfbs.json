@@ -4,6 +4,16 @@
   "type": "index",
   "index": {
     "all-packages-upgraded": { "alias": "upgrade-all-packages" },
+    "allow-all-hosts": {
+      "description": "Allows all hosts / IP addresses to connect and fetch policy.",
+      "tags": ["management", "experimental"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "85f9aec38783b5a4dac4777ffa9d17fde5054d14",
+      "subdirectory": "management/allow-all-hosts",
+      "steps": ["json def.json def.json"]
+    },
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
       "description": "Enables autorun functionality.",
