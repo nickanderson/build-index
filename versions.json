@@ -3958,5 +3958,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "allow-all-hosts": {
+    "0.0.1": {
+      "commit": "85f9aec38783b5a4dac4777ffa9d17fde5054d14",
+      "timestamp": 1700769125759,
+      "archive_url": "modules/allow-all-hosts/85f9aec38783b5a4dac4777ffa9d17fde5054d14.tar.gz",
+      "archive_sha256": "45e19869c93ff9f65a8519c0dc86222761612380c7c4940645958d43144c43a1",
+      "readme_url": "modules/allow-all-hosts/85f9aec38783b5a4dac4777ffa9d17fde5054d14.md",
+      "readme_sha256": "724663850fe0223be6d3b3059c8a5a0da13e6151ebe20124031dfb5c2035fcbb",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/allow-all-hosts",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
