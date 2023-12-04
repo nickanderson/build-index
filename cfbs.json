@@ -339,8 +339,8 @@
       "tags": ["supported", "security", "compliance", "inventory"],
       "repo": "https://github.com/nickanderson/cfengine-etc_issue_content",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.1",
-      "commit": "459939185974e93bf5504da3393bc4de5a54e617",
+      "version": "1.0.0",
+      "commit": "7fe7ba868ca5d2ad1a39311d85af6fbb27ee77a8",
       "steps": [
         "copy main.cf services/cfbs/modules/etc-issue-content/main.cf",
         "bundles etc_issue_content:main",
