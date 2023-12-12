@@ -78,7 +78,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.8",
       "commit": "06f0894b662befbba4e775884f21cfe8573c32d6",
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "dependencies": ["autorun"],
       "steps": ["copy ./compliance-report-imports.cf services/autorun/"]
     },
@@ -89,7 +89,7 @@
       "by": "https://github.com/nickanderson/",
       "version": "3.0.9",
       "commit": "9aaff7dd802cf879f40b992243e760f039e7636c",
-      "subdirectory": "./compliance-reports",
+      "subdirectory": "compliance-reports",
       "dependencies": ["compliance-report-imports", "lynis"],
       "steps": [
         "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
@@ -103,7 +103,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.4",
       "commit": "d828be6de5b73b0058e4367c2ab09bda1cf035ca",
-      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "subdirectory": "compliance-report-os-is-vendor-supported",
       "dependencies": ["compliance-report-imports"],
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
@@ -184,7 +184,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "029ec4eac0d3d9b3bf7c8dc361db71f4796fc101",
-      "subdirectory": "./cves/cve-2021-3156-sudo",
+      "subdirectory": "cves/cve-2021-3156-sudo",
       "steps": [
         "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
         "json cfbs/def.json def.json"
@@ -197,7 +197,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.2.0",
       "commit": "bdc7a16c6e52ff44149eb2abfd510fcee12dd2c1",
-      "subdirectory": "./cves/cve-2021-44228-log4j",
+      "subdirectory": "cves/cve-2021-44228-log4j",
       "steps": [
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
@@ -723,7 +723,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./inventory-writable-directories-in-root-path",
+      "subdirectory": "inventory-writable-directories-in-root-path",
       "steps": [
         "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
@@ -890,7 +890,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.3",
       "commit": "e2519214e8a29c7f37a36ca8a4beec687712448d",
-      "subdirectory": "./ntp-maxpoll",
+      "subdirectory": "ntp-maxpoll",
       "steps": [
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
@@ -1051,7 +1051,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "11fe0552d0cfde9d7280c629cea18cb0e2fd2a8b",
-      "subdirectory": "./root-path-enforce-permissions",
+      "subdirectory": "root-path-enforce-permissions",
       "dependencies": ["inventory-writable-directories-in-root-path"],
       "steps": [
         "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
@@ -1066,7 +1066,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6",
-      "subdirectory": "./ssh-ciphers-strong",
+      "subdirectory": "ssh-ciphers-strong",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
@@ -1080,7 +1080,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-max-auth-tries",
+      "subdirectory": "ssh-max-auth-tries",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
@@ -1094,7 +1094,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.4",
       "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
-      "subdirectory": "./ssh-permit-empty-passwords-no",
+      "subdirectory": "ssh-permit-empty-passwords-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
@@ -1108,7 +1108,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-permit-root-login-no",
+      "subdirectory": "ssh-permit-root-login-no",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
@@ -1122,7 +1122,7 @@
       "by": "https://github.com/nickanderson",
       "version": "1.0.3",
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
-      "subdirectory": "./ssh-protocol-2",
+      "subdirectory": "ssh-protocol-2",
       "dependencies": ["library-sshd-config"],
       "steps": [
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
@@ -1136,7 +1136,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.2",
       "commit": "ab4f6c01c2f41dfdfef05100eac4c8abf894b74c",
-      "subdirectory": "./sudo-enforce-allowed-users",
+      "subdirectory": "sudo-enforce-allowed-users",
       "steps": [
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
@@ -1181,7 +1181,7 @@
       "by": "https://github.com/nickanderson",
       "version": "0.0.1",
       "commit": "56a7c149f33808db6796de77eff6eb0502c01e61",
-      "subdirectory": "./tmp-file-age",
+      "subdirectory": "tmp-file-age",
       "steps": [
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"

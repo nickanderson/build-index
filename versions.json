@@ -1935,7 +1935,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no",
+      "subdirectory": "ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1950,7 +1950,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no",
+      "subdirectory": "ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1965,7 +1965,7 @@
         "copy ./ssh-permit-empty-passwords-no.cf services/security-hardening/ssh-permit-empty-passwords-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-empty-passwords-no",
+      "subdirectory": "ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -1982,7 +1982,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no",
+      "subdirectory": "ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -1997,7 +1997,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no",
+      "subdirectory": "ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2012,7 +2012,7 @@
         "copy ./ssh-permit-root-login-no.cf services/security-hardening/ssh-permit-root-login-no/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-permit-root-login-no",
+      "subdirectory": "ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2029,7 +2029,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries",
+      "subdirectory": "ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2044,7 +2044,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries",
+      "subdirectory": "ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2059,7 +2059,7 @@
         "copy ./ssh-max-auth-tries.cf services/security-hardening/ssh-max-auth-tries/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-max-auth-tries",
+      "subdirectory": "ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2076,7 +2076,7 @@
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-protocol-2",
+      "subdirectory": "ssh-protocol-2",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2091,7 +2091,7 @@
         "copy ./ssh-protocol-2.cf services/security-hardening/ssh-protocol-2/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-protocol-2",
+      "subdirectory": "ssh-protocol-2",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2108,7 +2108,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong",
+      "subdirectory": "ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2123,7 +2123,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong",
+      "subdirectory": "ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2138,7 +2138,7 @@
         "copy ./ssh-ciphers-strong.cf services/security-hardening/ssh-ciphers-strong/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ssh-ciphers-strong",
+      "subdirectory": "ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2185,7 +2185,7 @@
         "copy ./inventory-world-group-writable-root-path.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
       ],
-      "subdirectory": "./inventory-writable-directories-in-root-path",
+      "subdirectory": "inventory-writable-directories-in-root-path",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
     }
@@ -2235,7 +2235,7 @@
         "copy ./root-path-enforce-group-other-not-writable.cf services/world-writable-directories-in-root-path/",
         "json ./cfbs/def.json def.json"
       ],
-      "subdirectory": "./root-path-enforce-permissions",
+      "subdirectory": "root-path-enforce-permissions",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
     }
@@ -2252,7 +2252,7 @@
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./sudo-enforce-allowed-users",
+      "subdirectory": "sudo-enforce-allowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2267,7 +2267,7 @@
         "copy ./sudo-enforce-allowed-users.cf services/security-hardening/sudo-enforce-allowed-users/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./sudo-enforce-allowed-users",
+      "subdirectory": "sudo-enforce-allowed-users",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2284,7 +2284,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll",
+      "subdirectory": "ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2299,7 +2299,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll",
+      "subdirectory": "ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2314,7 +2314,7 @@
         "copy ./ntp-maxpoll.cf services/security-hardening/ntp-maxpoll/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./ntp-maxpoll",
+      "subdirectory": "ntp-maxpoll",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2374,7 +2374,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2388,7 +2388,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2402,7 +2402,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2416,7 +2416,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2430,7 +2430,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2444,7 +2444,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2458,7 +2458,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2472,7 +2472,7 @@
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
       ],
-      "subdirectory": "./compliance-report-imports",
+      "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2488,7 +2488,7 @@
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
       ],
-      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2502,7 +2502,7 @@
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
       ],
-      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2516,7 +2516,7 @@
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
       ],
-      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2530,7 +2530,7 @@
       "steps": [
         "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
       ],
-      "subdirectory": "./compliance-report-os-is-vendor-supported",
+      "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2563,7 +2563,7 @@
         "copy ./tmp-file-age.cf services/security-hardening/tmp-file-age/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./tmp-file-age",
+      "subdirectory": "tmp-file-age",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2580,7 +2580,7 @@
         "copy ./cve-2021-3156-sudo.cf services/security-hardening/cves/cve-2021-3156-sudo/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-3156-sudo",
+      "subdirectory": "cves/cve-2021-3156-sudo",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2675,7 +2675,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j",
+      "subdirectory": "cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2690,7 +2690,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j",
+      "subdirectory": "cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
@@ -2705,7 +2705,7 @@
         "copy ./cve-2021-44228-log4j-inventory-log4shell.cf services/security-hardening/cves/cve-2021-44228-log4j/",
         "json cfbs/def.json def.json"
       ],
-      "subdirectory": "./cves/cve-2021-44228-log4j",
+      "subdirectory": "cves/cve-2021-44228-log4j",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
@@ -2843,7 +2843,7 @@
       "steps": [
         "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
       ],
-      "subdirectory": "./compliance-reports",
+      "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
     },
@@ -2857,7 +2857,7 @@
       "steps": [
         "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
       ],
-      "subdirectory": "./compliance-reports",
+      "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
     },
@@ -2871,7 +2871,7 @@
       "steps": [
         "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
       ],
-      "subdirectory": "./compliance-reports",
+      "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson/",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
     }
