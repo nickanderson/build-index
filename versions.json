@@ -4005,5 +4005,21 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "allow-hosts": {
+    "0.0.1": {
+      "commit": "f58f84e9954f9bd4850d83fc6c7b13872b1f528d",
+      "timestamp": 1704740344441,
+      "archive_url": "modules/allow-hosts/f58f84e9954f9bd4850d83fc6c7b13872b1f528d.tar.gz",
+      "archive_sha256": "7dc57d2c21ef26e096a080beb86116df58e3b51550e93cf6315c950b58486391",
+      "readme_url": "modules/allow-hosts/f58f84e9954f9bd4850d83fc6c7b13872b1f528d.md",
+      "readme_sha256": "a7c29b80eff34ab9bb36659bdc53594c87c0780254bf0fa401a112a65313303e",
+      "steps": [
+        "input ./input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-allow-hosts"
+    }
   }
 }
