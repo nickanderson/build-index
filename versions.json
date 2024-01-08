@@ -3885,6 +3885,21 @@
       "subdirectory": "promise-types/docker_compose",
       "by": "https://github.com/basvandervlies",
       "repo": "https://github.com/basvandervlies/scl_modules"
+    },
+    "1.1.0": {
+      "commit": "d3b3aed55b90df5bb33b652532f8d17cf74b5e96",
+      "timestamp": 1704749968533,
+      "archive_url": "modules/promise-type-docker-compose/d3b3aed55b90df5bb33b652532f8d17cf74b5e96.tar.gz",
+      "archive_sha256": "b888f26157be4e757880b3b586e06758c1e542f39d8499c8d5716a17ea919cc6",
+      "readme_url": "modules/promise-type-docker-compose/d3b3aed55b90df5bb33b652532f8d17cf74b5e96.md",
+      "readme_sha256": "374676301b95d4c7c87a15c0984d7fb0c3ae9e95ca82922a0bca73e63c3121db",
+      "steps": [
+        "copy docker_compose.sh modules/promises/docker_compose.sh",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/docker_compose",
+      "by": "https://github.com/basvandervlies",
+      "repo": "https://github.com/basvandervlies/scl_modules"
     }
   },
   "inventory-physical-memory": {
