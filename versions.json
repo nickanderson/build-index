@@ -4020,6 +4020,20 @@
       "subdirectory": "",
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-allow-hosts"
+    },
+    "0.0.2": {
+      "commit": "620b4a523d82cb3b50a429b2f8d3511c7efa219c",
+      "timestamp": 1704742519373,
+      "archive_url": "modules/allow-hosts/620b4a523d82cb3b50a429b2f8d3511c7efa219c.tar.gz",
+      "archive_sha256": "9d07c8da66c577f468551cf977ea2da65fe6938e0ebff91da570c354d01e1b1c",
+      "readme_url": "modules/allow-hosts/620b4a523d82cb3b50a429b2f8d3511c7efa219c.md",
+      "readme_sha256": "b5401830aaf467fcfc530dd394cbe58babe617225f4d6b14fc98e29e4ea4bc22",
+      "steps": [
+        "input ./input.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/olehermanse/cfengine-allow-hosts"
     }
   }
 }
