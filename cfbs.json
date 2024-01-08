@@ -14,6 +14,30 @@
       "subdirectory": "management/allow-all-hosts",
       "steps": ["json def.json def.json"]
     },
+    "allow-hosts": {
+      "description": "Allows specific hosts / IP addresses to connect and fetch policy.",
+      "tags": ["management", "security", "experimental"],
+      "repo": "https://github.com/olehermanse/cfengine-allow-hosts",
+      "by": "https://github.com/olehermanse",
+      "version": "0.0.1",
+      "commit": "f58f84e9954f9bd4850d83fc6c7b13872b1f528d",
+      "steps": ["input ./input.json def.json"],
+      "input": [
+        {
+          "type": "list",
+          "namespace": "default",
+          "bundle": "def",
+          "variable": "acl",
+          "label": "Allowed hosts / IPs",
+          "subtype": {
+            "type": "string",
+            "label": "Host/IP",
+            "question": "Host / IP to allow"
+          },
+          "while": "Do you want to specify more hosts?"
+        }
+      ]
+    },
     "ansible": { "alias": "promise-type-ansible" },
     "autorun": {
       "description": "Enables autorun functionality.",
