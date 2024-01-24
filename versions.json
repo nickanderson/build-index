@@ -4129,5 +4129,51 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/olehermanse/cfengine-allow-hosts"
     }
+  },
+  "stig-rhel-7": {
+    "0.0.1": {
+      "commit": "f20b82a0f714d5b76fafc1d788ac9b720dea0a03",
+      "timestamp": 1706118949924,
+      "archive_url": "modules/stig-rhel-7/f20b82a0f714d5b76fafc1d788ac9b720dea0a03.tar.gz",
+      "archive_sha256": "9a79eee9ba8039ce95bcbb1fcbd4f4363b4c418b94409c1c78517f6e7ded403a",
+      "readme_url": "modules/stig-rhel-7/f20b82a0f714d5b76fafc1d788ac9b720dea0a03.org",
+      "readme_sha256": "b25ab607a58143982913d0152095826a1ddcae681fb134aa63b800ba5776d54f",
+      "steps": [
+        "copy ./compliance-reports/compliance-report.json ./.no-distrib/compliance-report-definitions/red-hat-enterprise-linux-7-security-technical-implementation-guide.json",
+        "copy ./config.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/config.cf",
+        "copy ./V-204392/V-204392.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204392.cf",
+        "copy ./V-204424/V-204424.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204424.cf",
+        "copy ./V-204425/V-204425.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204425.cf",
+        "copy ./V-204502/V-204502.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204502.cf",
+        "copy ./V-204594/V-204594.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204594.cf",
+        "copy ./V-204620/V-204620.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204620.cf",
+        "copy ./V-204621/V-204621.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204621.cf",
+        "copy ./V-204627/V-204627.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204627.cf",
+        "copy ./V-214799/V-214799.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-214799.cf",
+        "copy ./V-204497/V-204497.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204497.cf",
+        "copy ./V-204443/V-204443.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204443.cf",
+        "copy ./V-204442/V-204442.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204442.cf",
+        "copy ./chaos.cf services/cfbs/modules/stig-red-hat-enterprise-linux-7/chaos.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204392.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204424.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204425.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204502.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204594.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204620.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204621.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204627.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-214799.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204497.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204443.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/V-204442.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/chaos.cf",
+        "policy_files services/cfbs/modules/stig-red-hat-enterprise-linux-7/config.cf",
+        "bundles rhel_7_stig:run",
+        "input ./input.json def.json"
+      ],
+      "subdirectory": "stig/red_hat_enterprise_linux_7",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+    }
   }
 }
