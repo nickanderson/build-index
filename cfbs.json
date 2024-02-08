@@ -706,8 +706,8 @@
       "tags": ["supported", "inventory", "security", "sudo"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers",
       "by": "https://github.com/nickanderson",
-      "version": "1.0.2",
-      "commit": "ba9768f0e09914e41dae95fbf81caed90c1e6ed4",
+      "version": "1.0.3",
+      "commit": "7f6be96d4b8e759de3463facbd3144c8b22cdc78",
       "steps": [
         "copy ./policy/main.cf services/inventory-sudoers/main.cf",
         "json ./cfbs/def.json def.json"
