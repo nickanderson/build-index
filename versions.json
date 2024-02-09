@@ -452,6 +452,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers"
+    },
+    "1.0.3": {
+      "commit": "7f6be96d4b8e759de3463facbd3144c8b22cdc78",
+      "timestamp": 1707483482275,
+      "archive_url": "modules/inventory-sudoers/7f6be96d4b8e759de3463facbd3144c8b22cdc78.tar.gz",
+      "archive_sha256": "5c4b83df578dfda3fef1d48f13e17941c120090775e308cf9459903c1d18a556",
+      "readme_url": "modules/inventory-sudoers/7f6be96d4b8e759de3463facbd3144c8b22cdc78.org",
+      "readme_sha256": "0e61b1ea4fa84d80eead62c2c6ea7456d6b5bd75f89c2a3be604c7681ea8afee",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-sudoers/main.cf",
+        "json ./cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-sudoers"
     }
   },
   "inventory-systemd": {
