@@ -14,7 +14,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checks-out repository
-              uses: actions/checkout@v2
+              uses: actions/checkout@v4
               with:
                 fetch-depth: 0
 
@@ -57,7 +57,7 @@ jobs:
 
             - name: Create Pull Request
               if: hashFiles('git_diff_exists') != ''
-              uses: cfengine/create-pull-request@v3
+              uses: cfengine/create-pull-request@v6
               with:
                 title: versions.json changes by mirroring action
                 body: ${{ steps.commit-message-from-file.outputs.body }}
