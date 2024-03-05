@@ -1159,6 +1159,20 @@
       "subdirectory": "libraries/python",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.2": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662124315,
+      "archive_url": "modules/library-for-promise-types-in-python/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "a0e3c94c7bb8baa8b3b79c6178e39ca889fd7e8dd022e7e03eac54b84f162c91",
+      "readme_url": "modules/library-for-promise-types-in-python/813fb3d172c8db5642ef69cd5e8ef32b264ef275.md",
+      "readme_sha256": "aeb8ec1d656e54d1dd94fc90654c9ed9551f146a09e9a0393e13eee30ccf3d38",
+      "steps": [
+        "copy cfengine.py modules/promises/"
+      ],
+      "subdirectory": "libraries/python",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-ansible": {
@@ -1206,6 +1220,21 @@
       "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.2": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662125227,
+      "archive_url": "modules/promise-type-ansible/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "c4fff5b19486c8ab45debca65c5d389df2c9c7e109bb350ad960b34d3da0945e",
+      "readme_url": "modules/promise-type-ansible/813fb3d172c8db5642ef69cd5e8ef32b264ef275.md",
+      "readme_sha256": "ee682dd655010ac0d7498989b526bdb7dfdbbbd9c43b450e9386045d8e74468c",
+      "steps": [
+        "copy ansible_promise.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/ansible",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-git": {
@@ -1246,6 +1275,21 @@
       "archive_sha256": "c59c170f64ae801b087edde0667cb0113774080cfd8f1220f0481a41d39a6567",
       "readme_url": "modules/promise-type-git/70afe61739bbb2cfc205dc0b604fbdda96b6be43.md",
       "readme_sha256": "23dc3590f2fd624d7022d41417f68dd45aecae021b5dee298596882d6a04c22e",
+      "steps": [
+        "copy git.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/git",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.3": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662126120,
+      "archive_url": "modules/promise-type-git/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "d0d3f893da866560993a8cc31b15d6e14fc5698c0df3c29705edef61b9d7e757",
+      "readme_url": "modules/promise-type-git/813fb3d172c8db5642ef69cd5e8ef32b264ef275.md",
+      "readme_sha256": "767d55350c7d822912a9a353a1a70d02a007bce33112f98e767096bb9b90ecb5",
       "steps": [
         "copy git.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -1318,6 +1362,21 @@
       "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.3": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662129150,
+      "archive_url": "modules/promise-type-systemd/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "c7f3d754bbfd43ed285d58d111c84d33a1ca98fb71272983551bd215f20e3bb5",
+      "readme_url": "modules/promise-type-systemd/813fb3d172c8db5642ef69cd5e8ef32b264ef275.md",
+      "readme_sha256": "a9f60d602d8026d554308c7a868b0d3ef1a5ee054410108423135a64e8740c43",
+      "steps": [
+        "copy systemd.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/systemd",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "python-3-8": {
@@ -1368,6 +1427,21 @@
       "archive_sha256": "04ddeb65ca420d4091a27577cf10ced9c7c03033614f2a7f63acfcb6829486eb",
       "readme_url": "modules/promise-type-groups/70afe61739bbb2cfc205dc0b604fbdda96b6be43.md",
       "readme_sha256": "55a5b43604f7dbacc3fac746468fe47ad2868b58d964f574dad068668a0c1843",
+      "steps": [
+        "copy groups.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/groups",
+      "by": "https://github.com/larsewi",
+      "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.4": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662127007,
+      "archive_url": "modules/promise-type-groups/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "eef418223edb0cf5b6c82ef3d455a364a6c3cd2596bca2ba070ec6486b61fd63",
+      "readme_url": "modules/promise-type-groups/813fb3d172c8db5642ef69cd5e8ef32b264ef275.md",
+      "readme_sha256": "ef8578fec147461efa73a1e65ccb79fcc440c70fee5bc78f82cc9945f6a712bb",
       "steps": [
         "copy groups.py modules/promises/",
         "append enable.cf services/init.cf"
@@ -1615,6 +1689,21 @@
       "archive_sha256": "77c39f3f7b109ab0a8620b1c760e7cfd6cfc69edb10c29d917eea0671734fa41",
       "readme_url": "modules/promise-type-http/70afe61739bbb2cfc205dc0b604fbdda96b6be43.org",
       "readme_sha256": "de96e827efbddd1aa44f84abdc85241e4ebe5db57fdd03c2e5120ce1ddbd116c",
+      "steps": [
+        "copy http_promise_type.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/http",
+      "by": "https://github.com/vpodzime",
+      "repo": "https://github.com/cfengine/modules"
+    },
+    "2.0.1": {
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "timestamp": 1709662127881,
+      "archive_url": "modules/promise-type-http/813fb3d172c8db5642ef69cd5e8ef32b264ef275.tar.gz",
+      "archive_sha256": "7eb04fc41231ac4401d9ff80af4f654cacbadf071e7bf883f172ce166003a040",
+      "readme_url": "modules/promise-type-http/813fb3d172c8db5642ef69cd5e8ef32b264ef275.org",
+      "readme_sha256": "e3f6e565d9248818f0f5e89e5d6afb806ee2863c8355a34dcfa7c38d297d82c1",
       "steps": [
         "copy http_promise_type.py modules/promises/",
         "append enable.cf services/init.cf"
