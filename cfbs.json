@@ -1030,8 +1030,8 @@
       "tags": ["supported", "promise-type", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/larsewi",
-      "version": "0.2.3",
-      "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
+      "version": "0.2.4",
+      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
       "subdirectory": "promise-types/groups",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
