@@ -330,6 +330,16 @@
         "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
       ]
     },
+    "disable-automatic-key-trust": {
+      "description": "Makes the hub / policy server stop accepting new keys automatically.",
+      "subdirectory": "management/disable-automatic-key-trust",
+      "version": "1.0.0",
+      "commit": "5fed175857e2fd6a65e1d0f74ab2dddd30653e2c",
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/olehermanse",
+      "tags": ["management", "security", "supported"],
+      "steps": ["json def.json def.json"]
+    },
     "enable-aslr": {
       "description": "Ensures that Address space layout randomization (ASLR) is enabled on the system.",
       "tags": ["supported", "security", "compliance"],
