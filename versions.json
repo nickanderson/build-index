@@ -4279,5 +4279,21 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     }
+  },
+  "disable-automatic-key-trust": {
+    "1.0.0": {
+      "commit": "5fed175857e2fd6a65e1d0f74ab2dddd30653e2c",
+      "timestamp": 1710170440448,
+      "archive_url": "modules/disable-automatic-key-trust/5fed175857e2fd6a65e1d0f74ab2dddd30653e2c.tar.gz",
+      "archive_sha256": "b41ba0d1683a085faf2cc0d046b26e7eb2e4c9f361ba6243be514c76af7a0340",
+      "readme_url": "modules/disable-automatic-key-trust/5fed175857e2fd6a65e1d0f74ab2dddd30653e2c.md",
+      "readme_sha256": "c6b14c4b60819fae7458a6242ce95839c6be68f616b599eaf24ac3a35ea66975",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/disable-automatic-key-trust",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
