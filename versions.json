@@ -685,6 +685,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-lynis"
+    },
+    "3.1.1": {
+      "commit": "70bdf7be29c890d3bf162a8fe993e8d12eb61388",
+      "timestamp": 1711116863302,
+      "archive_url": "modules/lynis/70bdf7be29c890d3bf162a8fe993e8d12eb61388.tar.gz",
+      "archive_sha256": "6985dcf35e26aa2c2c44fd4ecd6e2c18a1274a8b1cb9a169122e457fb8f0de96",
+      "readme_url": "modules/lynis/70bdf7be29c890d3bf162a8fe993e8d12eb61388.org",
+      "readme_sha256": "46cbf2d286af79434468fb998e0956a9580b3ac1efdb6f1ffd29e7654895aea5",
+      "steps": [
+        "copy policy/main.cf services/lynis/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
     }
   },
   "masterfiles": {
@@ -3094,6 +3109,20 @@
       "archive_sha256": "b77a208589abb56a3309a2923ff53253c7d89b8584133c8bd42599d2af53a7ec",
       "readme_url": "modules/compliance-report-lynis/b6fb66e7ddb81c722f0ede500094ab30702bf0bf.org",
       "readme_sha256": "a03b33d2c7cb751165f09c03cc6c545d2761236bd7c8c8a1bf9e471d372379c5",
+      "steps": [
+        "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
+      ],
+      "subdirectory": "compliance-reports",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-lynis"
+    },
+    "3.1.1": {
+      "commit": "70bdf7be29c890d3bf162a8fe993e8d12eb61388",
+      "timestamp": 1711116862607,
+      "archive_url": "modules/compliance-report-lynis/70bdf7be29c890d3bf162a8fe993e8d12eb61388.tar.gz",
+      "archive_sha256": "140e570786983156d2f5009ecea71d3bc9ee43faced39b8e9100b4ebd5177209",
+      "readme_url": "modules/compliance-report-lynis/70bdf7be29c890d3bf162a8fe993e8d12eb61388.org",
+      "readme_sha256": "64aea21bde1a527e28fbc1080b32c6e79c0b409c584a4b9bf830473452ad1713",
       "steps": [
         "copy ./generated-compliance-report.json .no-distrib/compliance-report-definitions/lynis-compliance-report.json"
       ],
