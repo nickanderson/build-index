@@ -330,6 +330,16 @@
         "copy ./disable_prelinking.cf services/autorun/disable_prelinking.cf"
       ]
     },
+    "disable-recommendations": {
+      "description": "Disable all recommendations emitted from the Masterfiles Policy Framework (MPF).",
+      "tags": ["supported", "management"],
+      "repo": "https://github.com/cfengine/modules/",
+      "by": "https://github.com/nickanderson",
+      "version": "1.0.0",
+      "commit": "b3af8bf726c66ee7f190fdb6884f100ad91082e8",
+      "subdirectory": "management/disable-recommendations",
+      "steps": ["json def.json def.json"]
+    },
     "disable-automatic-key-trust": {
       "description": "Makes the hub / policy server stop accepting new keys automatically.",
       "subdirectory": "management/disable-automatic-key-trust",
