@@ -4353,5 +4353,21 @@
       "by": "https://github.com/olehermanse",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "disable-recommendations": {
+    "1.0.0": {
+      "commit": "b3af8bf726c66ee7f190fdb6884f100ad91082e8",
+      "timestamp": 1712679836671,
+      "archive_url": "modules/disable-recommendations/b3af8bf726c66ee7f190fdb6884f100ad91082e8.tar.gz",
+      "archive_sha256": "739f65dad590f36f25f29f8c869ce744b49eba0f29138972696adebc44a4a782",
+      "readme_url": "modules/disable-recommendations/b3af8bf726c66ee7f190fdb6884f100ad91082e8.md",
+      "readme_sha256": "b8a8869a0efda03042ef1c33baaed17f75a17a82e9fb0fc57ba740283679f47d",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/disable-recommendations",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/cfengine/modules/"
+    }
   }
 }
