@@ -344,7 +344,10 @@
       ],
       "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -359,7 +362,10 @@
       ],
       "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -374,7 +380,10 @@
       ],
       "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -389,7 +398,10 @@
       ],
       "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.4": {
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
@@ -404,7 +416,10 @@
       ],
       "subdirectory": "inventory_passwd_users_all",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "inventory-sudoers": {
@@ -1234,7 +1249,10 @@
       ],
       "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.1": {
       "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
@@ -1249,7 +1267,10 @@
       ],
       "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.2": {
       "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
@@ -1264,7 +1285,10 @@
       ],
       "subdirectory": "promise-types/ansible",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "promise-type-git": {
@@ -1296,7 +1320,10 @@
       ],
       "subdirectory": "promise-types/git",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.2": {
       "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
@@ -1311,7 +1338,10 @@
       ],
       "subdirectory": "promise-types/git",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.3": {
       "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
@@ -1326,7 +1356,10 @@
       ],
       "subdirectory": "promise-types/git",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "promise-type-groups-experimental": {
@@ -1336,7 +1369,10 @@
       "archive_url": "modules/promise-type-groups-experimental/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.tar.gz",
       "archive_sha256": "7b2667ab164a307c49c69d2b8516f90d49827f7a7316f37bd87ba43d89a86155",
       "readme_url": "modules/promise-type-groups-experimental/be3bc015f6a19e945bb7a9fa0ed78c97e2cecf61.md",
-      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4"
+      "readme_sha256": "5710c04c67080c2a43b755a2c9775d7796e61a3dd6f659689a1cb317c69278e4",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.1.1": {
       "commit": "c3b7329b240cf7ad062a0a64ee8b607af2cb912a",
@@ -1344,7 +1380,10 @@
       "archive_url": "modules/promise-type-groups-experimental/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.tar.gz",
       "archive_sha256": "5bde10f332e79cbd4cacfaebc44fb6bf3dfd01817c55382a7e7c6d2127f46901",
       "readme_url": "modules/promise-type-groups-experimental/c3b7329b240cf7ad062a0a64ee8b607af2cb912a.md",
-      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184"
+      "readme_sha256": "8d5ef18955197107a6c51a85854980ea0caa6a3cf05ee7c1c33bf78e30b0f184",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "promise-type-systemd": {
@@ -1376,7 +1415,10 @@
       ],
       "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.2": {
       "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
@@ -1391,7 +1433,10 @@
       ],
       "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.3": {
       "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
@@ -1406,7 +1451,10 @@
       ],
       "subdirectory": "promise-types/systemd",
       "by": "https://github.com/tranchitella",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "python-3-8": {
@@ -1433,7 +1481,10 @@
       ],
       "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.1.3": {
       "commit": "fd255fbdcc6cac0521ab8de2c543c684fadb16fa",
@@ -1448,7 +1499,10 @@
       ],
       "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.3": {
       "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
@@ -1463,7 +1517,10 @@
       ],
       "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "0.2.4": {
       "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
@@ -1478,7 +1535,10 @@
       ],
       "subdirectory": "promise-types/groups",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "demo": {
@@ -1494,7 +1554,11 @@
       ],
       "subdirectory": "management/demo",
       "by": "https://github.com/olehermanse",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "autorun",
+        "every-minute"
+      ]
     }
   },
   "every-minute": {
@@ -1541,7 +1605,10 @@
       ],
       "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -1556,7 +1623,10 @@
       ],
       "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -1571,7 +1641,10 @@
       ],
       "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -1586,7 +1659,10 @@
       ],
       "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.4": {
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
@@ -1601,7 +1677,10 @@
       ],
       "subdirectory": "inventory_passwd_users_locked",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "inventory-local-users-password-empty": {
@@ -1618,7 +1697,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_empty",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.1": {
       "commit": "4cd87dd1db5c77ddb0fc4c83437665e0dab4a34d",
@@ -1633,7 +1715,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_empty",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parse-local-users"
+      ]
     },
     "2.0.2": {
       "commit": "8ef87fb875ada265e1072884aaa27cb5c1c48ddf",
@@ -1648,7 +1733,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_empty",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.3": {
       "commit": "8039ace2f44ced34998812b5f3da90dd210670a0",
@@ -1663,7 +1751,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_empty",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.4": {
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
@@ -1678,7 +1769,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_empty",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "promise-type-http": {
@@ -1695,7 +1789,10 @@
       ],
       "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "1.1.0": {
       "commit": "501e96673621d6b9754f8a5c32bf2ee509e6bf5b",
@@ -1710,7 +1807,10 @@
       ],
       "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "2.0.0": {
       "commit": "70afe61739bbb2cfc205dc0b604fbdda96b6be43",
@@ -1725,7 +1825,10 @@
       ],
       "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     },
     "2.0.1": {
       "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
@@ -1740,7 +1843,10 @@
       ],
       "subdirectory": "promise-types/http",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "library-parsed-local-users": {
@@ -1911,7 +2017,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.4": {
       "commit": "3b50be1e5ab09578109921b8f287603b37811350",
@@ -1926,7 +2035,10 @@
       ],
       "subdirectory": "inventory_passwd_users_password_hashing_algorithm",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "inventory-local-users-non-root-has-uid-0": {
@@ -1943,7 +2055,10 @@
       ],
       "subdirectory": "inventory_non_root_users_with_uid_zero",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "2.0.5": {
       "commit": "fef5d94170f8119eda8f5bf8316acf5896fbac22",
@@ -1958,7 +2073,10 @@
       ],
       "subdirectory": "inventory_non_root_users_with_uid_zero",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "inventory-ssh-host-key-fingerprints": {
@@ -2131,7 +2249,10 @@
       ],
       "subdirectory": "ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     },
     "1.0.4": {
       "commit": "705cd6a9c90b691b78a18876f1980d4d16fc9b1c",
@@ -2146,7 +2267,10 @@
       ],
       "subdirectory": "ssh-permit-empty-passwords-no",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     }
   },
   "ssh-permit-root-login-no": {
@@ -2193,7 +2317,10 @@
       ],
       "subdirectory": "ssh-permit-root-login-no",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     }
   },
   "ssh-max-auth-tries": {
@@ -2240,7 +2367,10 @@
       ],
       "subdirectory": "ssh-max-auth-tries",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     }
   },
   "ssh-protocol-2": {
@@ -2257,7 +2387,10 @@
       ],
       "subdirectory": "ssh-protocol-2",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "lib-sshd-config"
+      ]
     },
     "1.0.3": {
       "commit": "124b01041a3d45010ac20912338795e81e2a06fe",
@@ -2272,7 +2405,10 @@
       ],
       "subdirectory": "ssh-protocol-2",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     }
   },
   "ssh-ciphers-strong": {
@@ -2304,7 +2440,10 @@
       ],
       "subdirectory": "ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     },
     "1.0.4": {
       "commit": "7c5e3638ddcf2ba097644eefe0a3bc9d7f2269e6",
@@ -2319,7 +2458,10 @@
       ],
       "subdirectory": "ssh-ciphers-strong",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "library-sshd-config"
+      ]
     }
   },
   "telnet-server-not-installed": {
@@ -2335,7 +2477,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.2": {
       "commit": "2092c748f5c1a6e3b5b1aeacd486fa38ba862226",
@@ -2349,7 +2494,10 @@
       ],
       "subdirectory": "telnet-server-not-installed",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "inventory-writable-directories-in-root-path": {
@@ -2382,7 +2530,10 @@
       ],
       "subdirectory": "openldap-server-not-installed",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "cfengine-supported": {
@@ -2416,7 +2567,10 @@
       ],
       "subdirectory": "root-path-enforce-permissions",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path"
+      "repo": "https://github.com/nickanderson/cfengine-writable-directories-in-root-path",
+      "dependencies": [
+        "inventory-writable-directories-in-root-path"
+      ]
     }
   },
   "sudo-enforce-allowed-users": {
@@ -2511,7 +2665,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "1.0.1": {
       "commit": "b39991902ae52745a097b5124c79c9e4c9f55404",
@@ -2525,7 +2682,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "1.0.2": {
       "commit": "1005d80031b2a68f31018736b02e8eba8d4ef20b",
@@ -2539,7 +2699,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "compliance-report-imports": {
@@ -2555,7 +2718,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.2": {
       "commit": "d9e0aad225535b2b16ba2126e8302f8ffc5e7d38",
@@ -2569,7 +2735,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.3": {
       "commit": "22220dcecba4cf2a774d92f55b96712543cca84d",
@@ -2583,7 +2752,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.4": {
       "commit": "9d4a1cb1f919454a49baf22469ebc0b1606ae904",
@@ -2597,7 +2769,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.5": {
       "commit": "4ff5dbdecd046c79086629911221c68fe571ff62",
@@ -2611,7 +2786,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.6": {
       "commit": "6f6996bc36c07c91bcf9da9276d434cc0426ee97",
@@ -2625,7 +2803,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.7": {
       "commit": "14fafaf0a4e118830f26e062827979fcc6be5cf4",
@@ -2639,7 +2820,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.8": {
       "commit": "06f0894b662befbba4e775884f21cfe8573c32d6",
@@ -2653,7 +2837,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.9": {
       "commit": "019880c60e1bfbcecc8bf9d91f98c1443772354b",
@@ -2667,7 +2854,10 @@
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.10": {
       "commit": "1afe01806fb18e764f904eda6e3cc49f9c9ff3dd",
@@ -2678,6 +2868,25 @@
       "readme_sha256": "3e277dc326afce9879faaff7947d3e81b98ec457d62f0af914c59fca39787038",
       "steps": [
         "copy ./compliance-report-imports.cf services/autorun/"
+      ],
+      "subdirectory": "compliance-report-imports",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
+    },
+    "0.0.11": {
+      "commit": "9bd8f0d837905b4ae4104d78af26f274d1a45b5e",
+      "timestamp": 1715702969887,
+      "archive_url": "modules/compliance-report-imports/9bd8f0d837905b4ae4104d78af26f274d1a45b5e.tar.gz",
+      "archive_sha256": "ea86541a3601bfb1d2b0885d64d4e42f1bb1e2109049022cd42a8b750c4c8887",
+      "readme_url": "modules/compliance-report-imports/9bd8f0d837905b4ae4104d78af26f274d1a45b5e.org",
+      "readme_sha256": "3e277dc326afce9879faaff7947d3e81b98ec457d62f0af914c59fca39787038",
+      "steps": [
+        "copy ./compliance-report-imports.cf services/cfbs/modules/compliance-report-imports/compliance-report-imports.cf",
+        "policy_files services/cfbs/modules/compliance-report-imports/compliance-report-imports.cf",
+        "bundles default:compliance_report_imports"
       ],
       "subdirectory": "compliance-report-imports",
       "by": "https://github.com/nickanderson",
@@ -2713,7 +2922,10 @@
       ],
       "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     },
     "0.0.2": {
       "commit": "d9e0aad225535b2b16ba2126e8302f8ffc5e7d38",
@@ -2727,7 +2939,10 @@
       ],
       "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     },
     "0.0.3": {
       "commit": "1b9d2fab3d3fd43fae3d34f864c8cfa4574b01b4",
@@ -2741,7 +2956,10 @@
       ],
       "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     },
     "0.0.4": {
       "commit": "d828be6de5b73b0058e4367c2ab09bda1cf035ca",
@@ -2755,7 +2973,10 @@
       ],
       "subdirectory": "compliance-report-os-is-vendor-supported",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     }
   },
   "sudo-requires-passwords": {
@@ -2771,7 +2992,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/Lex-2008",
-      "repo": "https://github.com/Lex-2008/sudo-requires-passwords"
+      "repo": "https://github.com/Lex-2008/sudo-requires-passwords",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "tmp-file-age": {
@@ -2821,7 +3045,10 @@
       ],
       "subdirectory": "tmp-nosuid",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "0.0.2": {
       "commit": "5be7c3ef332138b5717231d289bda59449b66d5c",
@@ -2835,7 +3062,10 @@
       ],
       "subdirectory": "tmp-nosuid",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "all-packages-upgraded": {
@@ -2851,7 +3081,10 @@
       ],
       "subdirectory": "all-packages-upgraded",
       "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "ftp-server-not-installed": {
@@ -2867,7 +3100,10 @@
       ],
       "subdirectory": "ftp-server-not-installed",
       "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "inventory-yum-update-info": {
@@ -2883,7 +3119,10 @@
       ],
       "subdirectory": "inventory-yum-update-info",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "cve-2021-44228-log4j": {
@@ -2952,7 +3191,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "0.1.2": {
       "commit": "09e07dda690f5806d5f17be8e71d9fdcc51bbdf1",
@@ -2972,7 +3215,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "0.1.3": {
       "commit": "74d8d0593a85100388ade76c85793132b95c72ac",
@@ -2992,7 +3239,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "1.4.0": {
       "commit": "31b725f7515e87ecc9a7f3b7f7516d4018c34ad8",
@@ -3012,7 +3263,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "1.4.1": {
       "commit": "4a48cdb21305e062c41897cbea4bfa60d5b20cff",
@@ -3032,7 +3287,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "1.5.0": {
       "commit": "c15fc0a273c3ae7abd2286e825badf166dc53897",
@@ -3052,7 +3311,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     },
     "1.6.0": {
       "commit": "424d9dedb9cb421300aaa20486a3b4bbacf022f0",
@@ -3072,7 +3335,11 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/cf_surfsara_lib"
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "masterfiles",
+        "autorun"
+      ]
     }
   },
   "compliance-report-lynis": {
@@ -3088,7 +3355,11 @@
       ],
       "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-lynis"
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": [
+        "compliance-report-imports",
+        "lynis"
+      ]
     },
     "0.0.2": {
       "commit": "60ad7321d6b5e30606830d3228812fe3f77c4fa8",
@@ -3102,7 +3373,11 @@
       ],
       "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-lynis"
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": [
+        "compliance-report-imports",
+        "lynis"
+      ]
     },
     "3.0.9": {
       "commit": "9aaff7dd802cf879f40b992243e760f039e7636c",
@@ -3116,7 +3391,11 @@
       ],
       "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-lynis"
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": [
+        "compliance-report-imports",
+        "lynis"
+      ]
     },
     "3.1.0": {
       "commit": "b6fb66e7ddb81c722f0ede500094ab30702bf0bf",
@@ -3130,7 +3409,11 @@
       ],
       "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-lynis"
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": [
+        "compliance-report-imports",
+        "lynis"
+      ]
     },
     "3.1.1": {
       "commit": "70bdf7be29c890d3bf162a8fe993e8d12eb61388",
@@ -3144,7 +3427,11 @@
       ],
       "subdirectory": "compliance-reports",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-lynis"
+      "repo": "https://github.com/nickanderson/cfengine-lynis",
+      "dependencies": [
+        "compliance-report-imports",
+        "lynis"
+      ]
     }
   },
   "library-parsed-local-groups": {
@@ -3178,7 +3465,10 @@
       ],
       "subdirectory": "inventory-local-groups",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-local_users"
+      "repo": "https://github.com/nickanderson/cfengine-local_users",
+      "dependencies": [
+        "library-parsed-local-groups"
+      ]
     }
   },
   "uninstall-ftp": {
@@ -3194,7 +3484,10 @@
       ],
       "subdirectory": "uninstall-ftp",
       "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "upgrade-all-packages": {
@@ -3210,7 +3503,10 @@
       ],
       "subdirectory": "upgrade-all-packages",
       "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     },
     "1.0.0": {
       "commit": "e3039050296ec20c7e44b3accba84c146cf6ef69",
@@ -3224,7 +3520,10 @@
       ],
       "subdirectory": "upgrade-all-packages",
       "by": "https://github.com/craigcomstock",
-      "repo": "https://github.com/craigcomstock/cfengine-security-hardening"
+      "repo": "https://github.com/craigcomstock/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "file-permissions": {
@@ -3346,7 +3645,10 @@
       ],
       "subdirectory": "",
       "by": "https://github.com/larsewi",
-      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled"
+      "repo": "https://github.com/larsewi/cfengine-prelinking-disabled",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "uninstall-openldap-server": {
@@ -3362,7 +3664,10 @@
       ],
       "subdirectory": "uninstall-openldap-server",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "uninstall-telnet-server": {
@@ -3378,7 +3683,10 @@
       ],
       "subdirectory": "uninstall-telnet-server",
       "by": "https://github.com/vpodzime",
-      "repo": "https://github.com/vpodzime/cfengine-security-hardening"
+      "repo": "https://github.com/vpodzime/cfengine-security-hardening",
+      "dependencies": [
+        "autorun"
+      ]
     }
   },
   "uninstall-rsh-server": {
@@ -3632,7 +3940,10 @@
       ],
       "subdirectory": "security/inventory-local-users-unhashed-password",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "inventory-unshadowed-users": {
@@ -3650,7 +3961,10 @@
       ],
       "subdirectory": "security/inventory-unshadowed-users",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     },
     "1.0.2": {
       "commit": "cff9325f0b12e914fead75c7b30092b0d91cee64",
@@ -3666,7 +3980,10 @@
       ],
       "subdirectory": "security/inventory-unshadowed-users",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/cfengine/modules"
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-parsed-local-users"
+      ]
     }
   },
   "cron-access": {
@@ -4126,7 +4443,10 @@
       ],
       "subdirectory": "promise-types/docker_compose",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/scl_modules"
+      "repo": "https://github.com/basvandervlies/scl_modules",
+      "dependencies": [
+        "library-for-promise-types-in-bash"
+      ]
     },
     "1.1.0": {
       "commit": "d3b3aed55b90df5bb33b652532f8d17cf74b5e96",
@@ -4141,7 +4461,10 @@
       ],
       "subdirectory": "promise-types/docker_compose",
       "by": "https://github.com/basvandervlies",
-      "repo": "https://github.com/basvandervlies/scl_modules"
+      "repo": "https://github.com/basvandervlies/scl_modules",
+      "dependencies": [
+        "library-for-promise-types-in-bash"
+      ]
     }
   },
   "inventory-physical-memory": {
@@ -4351,7 +4674,10 @@
       ],
       "subdirectory": "stig/red_hat_enterprise_linux_7",
       "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     }
   },
   "disable-automatic-key-trust": {
