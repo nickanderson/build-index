@@ -128,6 +128,9 @@ const processModules = async (modules, versions) => {
             "by": module.by,
             "repo": module.repo
         };
+        if (module.dependencies.length){
+            versions[moduleName][module.version].dependencies = module.dependencies
+        }
 
         commitMsg.push(`- Added ${moduleName} ${module.version} version`);
     }
