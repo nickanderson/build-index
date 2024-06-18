@@ -1360,6 +1360,24 @@
       "dependencies": [
         "library-for-promise-types-in-python"
       ]
+    },
+    "0.2.4": {
+      "commit": "2ce7daa3c03e601ccc2686f16512a5d9739be9d7",
+      "timestamp": 1718726351401,
+      "archive_url": "modules/promise-type-git/2ce7daa3c03e601ccc2686f16512a5d9739be9d7.tar.gz",
+      "archive_sha256": "6447aa89723d4d0f1d6171be6474f711adf4abd709f930bf383d0a2e7074d92b",
+      "readme_url": "modules/promise-type-git/2ce7daa3c03e601ccc2686f16512a5d9739be9d7.md",
+      "readme_sha256": "767d55350c7d822912a9a353a1a70d02a007bce33112f98e767096bb9b90ecb5",
+      "steps": [
+        "copy git.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/git",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "promise-type-groups-experimental": {
@@ -2865,22 +2883,6 @@
       "dependencies": [
         "autorun"
       ]
-    },
-    "0.0.11": {
-      "commit": "9bd8f0d837905b4ae4104d78af26f274d1a45b5e",
-      "timestamp": 1715702969887,
-      "archive_url": "modules/compliance-report-imports/9bd8f0d837905b4ae4104d78af26f274d1a45b5e.tar.gz",
-      "archive_sha256": "ea86541a3601bfb1d2b0885d64d4e42f1bb1e2109049022cd42a8b750c4c8887",
-      "readme_url": "modules/compliance-report-imports/9bd8f0d837905b4ae4104d78af26f274d1a45b5e.org",
-      "readme_sha256": "3e277dc326afce9879faaff7947d3e81b98ec457d62f0af914c59fca39787038",
-      "steps": [
-        "copy ./compliance-report-imports.cf services/cfbs/modules/compliance-report-imports/compliance-report-imports.cf",
-        "policy_files services/cfbs/modules/compliance-report-imports/compliance-report-imports.cf",
-        "bundles default:compliance_report_imports"
-      ],
-      "subdirectory": "compliance-report-imports",
-      "by": "https://github.com/nickanderson",
-      "repo": "https://github.com/nickanderson/cfengine-security-hardening"
     },
     "0.0.11": {
       "commit": "9bd8f0d837905b4ae4104d78af26f274d1a45b5e",
