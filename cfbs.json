@@ -832,8 +832,8 @@
       "tags": ["supported", "library"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/cfengine",
-      "version": "0.2.2",
-      "commit": "813fb3d172c8db5642ef69cd5e8ef32b264ef275",
+      "version": "0.2.3",
+      "commit": "2be0eee0788e2e562e43f0254c702f85b368c051",
       "subdirectory": "libraries/python",
       "steps": ["copy cfengine.py modules/promises/"]
     },
