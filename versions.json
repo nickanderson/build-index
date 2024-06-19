@@ -1218,6 +1218,20 @@
       "subdirectory": "libraries/python",
       "by": "https://github.com/cfengine",
       "repo": "https://github.com/cfengine/modules"
+    },
+    "0.2.3": {
+      "commit": "2be0eee0788e2e562e43f0254c702f85b368c051",
+      "timestamp": 1718809283203,
+      "archive_url": "modules/library-for-promise-types-in-python/2be0eee0788e2e562e43f0254c702f85b368c051.tar.gz",
+      "archive_sha256": "b21b2bb3297ba8709512929f880aad429c642e8f5d836c0e255425f967cc46c9",
+      "readme_url": "modules/library-for-promise-types-in-python/2be0eee0788e2e562e43f0254c702f85b368c051.md",
+      "readme_sha256": "aeb8ec1d656e54d1dd94fc90654c9ed9551f146a09e9a0393e13eee30ccf3d38",
+      "steps": [
+        "copy cfengine.py modules/promises/"
+      ],
+      "subdirectory": "libraries/python",
+      "by": "https://github.com/cfengine",
+      "repo": "https://github.com/cfengine/modules"
     }
   },
   "promise-type-ansible": {
