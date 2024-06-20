@@ -909,10 +909,10 @@
       "tags": ["supported", "base"],
       "repo": "https://github.com/cfengine/masterfiles",
       "by": "https://github.com/cfengine",
-      "version": "3.21.4",
-      "commit": "80374429aa8d9f1d5afe952727ae5659caf5e9ef",
+      "version": "3.18.8",
+      "commit": "716156f42829f0a81f3716469d5afeb15eb4358e",
       "steps": [
-        "run EXPLICIT_VERSION=3.21.4 EXPLICIT_RELEASE=1 ./prepare.sh -y",
+        "run EXPLICIT_VERSION=3.18.8 EXPLICIT_RELEASE=1 ./prepare.sh -y",
         "copy ./ ./"
       ]
     },
