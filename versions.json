@@ -3013,6 +3013,23 @@
       "dependencies": [
         "compliance-report-imports"
       ]
+    },
+    "0.0.5": {
+      "commit": "45f062b3e1efe1747d8d331c574711e53a13dc28",
+      "timestamp": 1721146634995,
+      "archive_url": "modules/compliance-report-os-is-vendor-supported/45f062b3e1efe1747d8d331c574711e53a13dc28.tar.gz",
+      "archive_sha256": "8da780f7085af856f5c3182a7ab3fd53bdcc991a48120054e99056f9445cd10c",
+      "readme_url": "modules/compliance-report-os-is-vendor-supported/45f062b3e1efe1747d8d331c574711e53a13dc28.org",
+      "readme_sha256": "4d9ac8e84298597e8a3039968a89daff767f23a140f57e14944adcd3513b4f2a",
+      "steps": [
+        "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
+      ],
+      "subdirectory": "compliance-report-os-is-vendor-supported",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     }
   },
   "sudo-requires-passwords": {
