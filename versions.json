@@ -1453,6 +1453,24 @@
       "dependencies": [
         "library-for-promise-types-in-python"
       ]
+    },
+    "0.2.5": {
+      "commit": "7a9ada9e3f025966955eefbab1e4b9f44e517f5b",
+      "timestamp": 1725275428596,
+      "archive_url": "modules/promise-type-git/7a9ada9e3f025966955eefbab1e4b9f44e517f5b.tar.gz",
+      "archive_sha256": "e7f22cbdc931ba53bce2e24e9d5411278b0ab7e32966b431c31edc3588b37ada",
+      "readme_url": "modules/promise-type-git/7a9ada9e3f025966955eefbab1e4b9f44e517f5b.md",
+      "readme_sha256": "767d55350c7d822912a9a353a1a70d02a007bce33112f98e767096bb9b90ecb5",
+      "steps": [
+        "copy git.py modules/promises/",
+        "append enable.cf services/init.cf"
+      ],
+      "subdirectory": "promise-types/git",
+      "by": "https://github.com/tranchitella",
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "library-for-promise-types-in-python"
+      ]
     }
   },
   "promise-type-groups-experimental": {
