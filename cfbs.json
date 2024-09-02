@@ -1079,8 +1079,8 @@
       "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
-      "version": "0.2.4",
-      "commit": "2ce7daa3c03e601ccc2686f16512a5d9739be9d7",
+      "version": "0.2.5",
+      "commit": "7a9ada9e3f025966955eefbab1e4b9f44e517f5b",
       "subdirectory": "promise-types/git",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
