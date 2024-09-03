@@ -57,7 +57,7 @@ jobs:
 
             - name: Create Pull Request
               if: hashFiles('git_diff_exists') != ''
-              uses: cfengine/create-pull-request@v6
+              uses: cfengine/create-pull-request@v7
               with:
                 title: versions.json changes by mirroring action
                 body: ${{ steps.commit-message-from-file.outputs.body }}
