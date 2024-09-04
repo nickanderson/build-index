@@ -4831,5 +4831,45 @@
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/cfengine/modules/"
     }
+  },
+  "package-method-winget": {
+    "0.0.1": {
+      "commit": "dc6e25ea429b45c91e5c56497335321bf8fd5495",
+      "timestamp": 1725486802009,
+      "archive_url": "modules/package-method-winget/dc6e25ea429b45c91e5c56497335321bf8fd5495.tar.gz",
+      "archive_sha256": "36a7e5097d9a721baf4ea8a8b790b2ba292ffecac83c98e03794ab86e7fd05fb",
+      "readme_url": "modules/package-method-winget/dc6e25ea429b45c91e5c56497335321bf8fd5495.md",
+      "readme_sha256": "6fdf0c09e2447f3fc1a5413bd47e76ea004ae1235ac0d679f3644c77ab5b6727",
+      "steps": [
+        "input ./input.json def.json",
+        "directory ./ services/cfbs/modules/package-method-winget/",
+        "policy_files services/cfbs/modules/package-method-winget/",
+        "bundles package_method_winget:package_method_winget winget_installed:winget_installed"
+      ],
+      "subdirectory": "management/package-method-winget",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "powershell-execution-policy"
+      ]
+    }
+  },
+  "powershell-execution-policy": {
+    "0.0.1": {
+      "commit": "dc6e25ea429b45c91e5c56497335321bf8fd5495",
+      "timestamp": 1725486803054,
+      "archive_url": "modules/powershell-execution-policy/dc6e25ea429b45c91e5c56497335321bf8fd5495.tar.gz",
+      "archive_sha256": "d1ff54c6ceeba844241c0bb7782f476b58f48730e5a0bcde7aee6ac681f2ab36",
+      "readme_url": "modules/powershell-execution-policy/dc6e25ea429b45c91e5c56497335321bf8fd5495.md",
+      "readme_sha256": "daab7bd7a35adcaa9c995215b9533404b04a28b0ddde8e34bdc9fb72473bc303",
+      "steps": [
+        "directory ./ services/cfbs/powershell-execution-policy/",
+        "policy_files services/cfbs/powershell-execution-policy/",
+        "bundles powershell_execution_policy_inventory"
+      ],
+      "subdirectory": "management/powershell-execution-policy",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
