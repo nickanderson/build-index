@@ -1660,6 +1660,24 @@
         "autorun",
         "every-minute"
       ]
+    },
+    "1.0.1": {
+      "commit": "33ed05743ed5b973c110123cdf8d0f074c7e0bee",
+      "timestamp": 1727904403470,
+      "archive_url": "modules/demo/33ed05743ed5b973c110123cdf8d0f074c7e0bee.tar.gz",
+      "archive_sha256": "512f7ff3713e453ef5a233cd83073c7b9b8282e9684021ce5c7578cbc8f654fb",
+      "readme_url": "modules/demo/33ed05743ed5b973c110123cdf8d0f074c7e0bee.md",
+      "readme_sha256": "c456f3dd3dd6ec44a467e634e5ca6dfbbead3179aeca509fb0df5ea8012fc077",
+      "steps": [
+        "json def.json def.json"
+      ],
+      "subdirectory": "management/demo",
+      "by": "https://github.com/olehermanse",
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "autorun",
+        "every-minute"
+      ]
     }
   },
   "every-minute": {
