@@ -315,8 +315,8 @@
       "tags": ["management", "experimental"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "1.0.0",
-      "commit": "05bf5e5b1c014018a7b93a524e035c1a21bcffa4",
+      "version": "1.0.1",
+      "commit": "33ed05743ed5b973c110123cdf8d0f074c7e0bee",
       "subdirectory": "management/demo",
       "dependencies": ["autorun", "every-minute"],
       "steps": ["json def.json def.json"]
