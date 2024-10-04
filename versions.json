@@ -4889,5 +4889,62 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "windows-capability": {
+    "1.0.0": {
+      "commit": "9daca3b9e366daeeb53e872685a358c78823f29d",
+      "timestamp": 1728064242605,
+      "archive_url": "modules/windows-capability/9daca3b9e366daeeb53e872685a358c78823f29d.tar.gz",
+      "archive_sha256": "503134def02169802b5e7d3adb63efda32c6292734db17a04a8916a5c659fa67",
+      "readme_url": null,
+      "readme_sha256": null,
+      "steps": [
+        "directory ./ services/cfbs/windows-capability/",
+        "policy_files services/cfbs/windows-capability/",
+        "bundles windows_capability"
+      ],
+      "subdirectory": "management/windows-capability",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    }
+  },
+  "windows-openssh-server": {
+    "1.0.0": {
+      "commit": "9daca3b9e366daeeb53e872685a358c78823f29d",
+      "timestamp": 1728064242890,
+      "archive_url": "modules/windows-openssh-server/9daca3b9e366daeeb53e872685a358c78823f29d.tar.gz",
+      "archive_sha256": "368f91c22dc7c7c83113ff84c47e0323cc46a99fd26ebccee4e8a43e7e54a20e",
+      "readme_url": null,
+      "readme_sha256": null,
+      "steps": [
+        "copy windows-openssh-server.cf services/cfbs/software/windows/windows-openssh-server.cf",
+        "policy_files services/cfbs/software/windows/windows-openssh-server.cf",
+        "bundles windows_openssh_server"
+      ],
+      "subdirectory": "software/windows",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules",
+      "dependencies": [
+        "windows-capability"
+      ]
+    }
+  },
+  "windows-optional-feature": {
+    "1.0.0": {
+      "commit": "9daca3b9e366daeeb53e872685a358c78823f29d",
+      "timestamp": 1728064243189,
+      "archive_url": "modules/windows-optional-feature/9daca3b9e366daeeb53e872685a358c78823f29d.tar.gz",
+      "archive_sha256": "0bef352caf5226f25b6c66b9f373d83f4203a371ffb99bbf369a5a807df97c32",
+      "readme_url": null,
+      "readme_sha256": null,
+      "steps": [
+        "directory ./ services/cfbs/windows-optional-feature/",
+        "policy_files services/cfbs/windows-optional-feature/",
+        "bundles windows_optional_feature"
+      ],
+      "subdirectory": "management/windows-optional-feature",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
