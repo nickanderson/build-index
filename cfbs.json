@@ -484,8 +484,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.2",
-      "commit": "3055538003b5dc88c80547703368da33fd43a5a9",
+      "version": "0.0.1",
+      "commit": "9bb26f99ba377f85f7211d05bf54e71d89711d1a",
       "subdirectory": "security/install-aide",
       "steps": [
         "copy install-aide.cf services/cfbs/modules/install-aide/install-aide.cf",
