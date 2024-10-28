@@ -484,8 +484,8 @@
       "tags": ["supported", "security", "compliance"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/olehermanse",
-      "version": "0.0.2",
-      "commit": "3055538003b5dc88c80547703368da33fd43a5a9",
+      "version": "0.0.1",
+      "commit": "9bb26f99ba377f85f7211d05bf54e71d89711d1a",
       "subdirectory": "security/install-aide",
       "steps": [
         "copy install-aide.cf services/cfbs/modules/install-aide/install-aide.cf",
@@ -1135,8 +1135,8 @@
       "tags": ["supported", "promise-type"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/tranchitella",
-      "version": "0.2.5",
-      "commit": "7a9ada9e3f025966955eefbab1e4b9f44e517f5b",
+      "version": "0.2.6",
+      "commit": "3055538003b5dc88c80547703368da33fd43a5a9",
       "subdirectory": "promise-types/git",
       "dependencies": ["library-for-promise-types-in-python"],
       "steps": [
