@@ -3145,6 +3145,23 @@
       "dependencies": [
         "compliance-report-imports"
       ]
+    },
+    "0.0.6": {
+      "commit": "0344b3ba1d9599d01a19f1b673c82980822ac477",
+      "timestamp": 1733858529411,
+      "archive_url": "modules/compliance-report-os-is-vendor-supported/0344b3ba1d9599d01a19f1b673c82980822ac477.tar.gz",
+      "archive_sha256": "a7ede3c867e750af421aa77cf640ca775feda0ddcfb22f0b403cc303326e6b93",
+      "readme_url": "modules/compliance-report-os-is-vendor-supported/0344b3ba1d9599d01a19f1b673c82980822ac477.org",
+      "readme_sha256": "4d9ac8e84298597e8a3039968a89daff767f23a140f57e14944adcd3513b4f2a",
+      "steps": [
+        "copy ./os-is-vendor-supported.json .no-distrib/compliance-report-definitions/os-is-vendor-supported.json"
+      ],
+      "subdirectory": "compliance-report-os-is-vendor-supported",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-security-hardening",
+      "dependencies": [
+        "compliance-report-imports"
+      ]
     }
   },
   "sudo-requires-passwords": {
@@ -3507,6 +3524,30 @@
       "dependencies": [
         "masterfiles",
         "autorun"
+      ]
+    },
+    "1.7.0": {
+      "commit": "32915a0ef02e488782349110056d2a7d804a43ea",
+      "timestamp": 1733858529853,
+      "archive_url": "modules/surf-cfengine-library/32915a0ef02e488782349110056d2a7d804a43ea.tar.gz",
+      "archive_sha256": "a03507b62b2b8fa0ca26a80532b6f271f86aa7eabdedceb46353902c682ab438",
+      "readme_url": "modules/surf-cfengine-library/32915a0ef02e488782349110056d2a7d804a43ea.md",
+      "readme_sha256": "23a1c45d5c95078361d36931eef24bf41d46bd6d6a9502c35b178b70d2fbdfbb",
+      "steps": [
+        "copy ./masterfiles/lib/scl/ lib/scl/",
+        "copy ./masterfiles/services/autorun/scl.cf services/autorun/scl.cf",
+        "copy ./modules/ modules/scl/",
+        "copy ./scl_example.json scl_example.json",
+        "copy ./services/ services/scl/",
+        "copy ./templates/ lib/scl/.git/templates",
+        "json scl_example.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/basvandervlies",
+      "repo": "https://github.com/basvandervlies/cf_surfsara_lib",
+      "dependencies": [
+        "autorun",
+        "promise-type-groups"
       ]
     }
   },
