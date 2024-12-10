@@ -128,8 +128,8 @@
       "tags": ["experimental", "compliance-report", "cfengine-enterprise"],
       "repo": "https://github.com/nickanderson/cfengine-security-hardening",
       "by": "https://github.com/nickanderson",
-      "version": "0.0.5",
-      "commit": "45f062b3e1efe1747d8d331c574711e53a13dc28",
+      "version": "0.0.6",
+      "commit": "0344b3ba1d9599d01a19f1b673c82980822ac477",
       "subdirectory": "compliance-report-os-is-vendor-supported",
       "dependencies": ["compliance-report-imports"],
       "steps": [
