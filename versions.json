@@ -5068,5 +5068,23 @@
       "by": "https://github.com/craigcomstock",
       "repo": "https://github.com/cfengine/modules"
     }
+  },
+  "inventory-windows-services": {
+    "0.0.1": {
+      "commit": "bf3b21d34d6506671fb7977443d9bfa24ea25241",
+      "timestamp": 1734474132303,
+      "archive_url": "modules/inventory-windows-services/bf3b21d34d6506671fb7977443d9bfa24ea25241.tar.gz",
+      "archive_sha256": "c75876a3c1542fcf96bbe576e6f9933b32ba5fcdd19e7717ea2ff2ea276843f1",
+      "readme_url": null,
+      "readme_sha256": null,
+      "steps": [
+        "copy inventory-windows-services.cf services/cfbs/inventory-windows-services/",
+        "policy_files services/cfbs/inventory-windows-services/",
+        "bundles inventory_windows_services_running"
+      ],
+      "subdirectory": "inventory",
+      "by": "https://github.com/craigcomstock",
+      "repo": "https://github.com/cfengine/modules"
+    }
   }
 }
