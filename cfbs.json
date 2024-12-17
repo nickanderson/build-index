@@ -741,8 +741,8 @@
       "tags": ["supported", "inventory", "systemd"],
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd",
       "by": "https://github.com/nickanderson",
-      "version": "0.1.0",
-      "commit": "4b9c0708173d3b5f0855a76063781e2258465788",
+      "version": "0.2.0",
+      "commit": "58961dd09c7fca62fc5e53de4cedc90ebbf55149",
       "steps": [
         "copy ./policy/main.cf services/inventory-systemd/main.cf",
         "json cfbs/def.json def.json"
