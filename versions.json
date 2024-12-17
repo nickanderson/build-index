@@ -499,6 +499,21 @@
       "subdirectory": "",
       "by": "https://github.com/nickanderson",
       "repo": "https://github.com/nickanderson/cfengine-inventory-systemd"
+    },
+    "0.2.0": {
+      "commit": "58961dd09c7fca62fc5e53de4cedc90ebbf55149",
+      "timestamp": 1734460120604,
+      "archive_url": "modules/inventory-systemd/58961dd09c7fca62fc5e53de4cedc90ebbf55149.tar.gz",
+      "archive_sha256": "8b79bf4a722f0fa4fe4d98852dfd783078249139afb3d637b2bb223467881f6f",
+      "readme_url": "modules/inventory-systemd/58961dd09c7fca62fc5e53de4cedc90ebbf55149.org",
+      "readme_sha256": "4041d2526521cf9cdfbfacf352f6eb90c5459f4ccfa72e4b6b91da2205a883f1",
+      "steps": [
+        "copy ./policy/main.cf services/inventory-systemd/main.cf",
+        "json cfbs/def.json def.json"
+      ],
+      "subdirectory": "",
+      "by": "https://github.com/nickanderson",
+      "repo": "https://github.com/nickanderson/cfengine-inventory-systemd"
     }
   },
   "kernel-settings-sysctl-conf": {
