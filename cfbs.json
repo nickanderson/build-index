@@ -114,8 +114,8 @@
       "tags": ["experimental", "security", "compliance"],
       "repo": "https://github.com/nickanderson/cfengine-lynis",
       "by": "https://github.com/nickanderson",
-      "version": "3.1.1-2",
-      "commit": "247ca61c13ebedcba800a10f1af4e56ab0a874a0",
+      "version": "3.1.2",
+      "commit": "3a3a24cbc27dee0633309a06b50b679103e18aa9",
       "subdirectory": "compliance-reports",
       "dependencies": ["compliance-report-imports", "lynis"],
       "steps": [
