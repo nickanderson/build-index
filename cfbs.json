@@ -757,14 +757,28 @@
         "bundles inventory_unshadowed_users:main"
       ]
     },
+    "inventory-fde": {
+      "description": "Inventory full disk encryption status on Linux (LUKS1, LUKS2, plain dm-crypt).",
+      "tags": ["supported", "linux", "inventory", "security"],
+      "repo": "https://github.com/cfengine/modules",
+      "by": "https://github.com/nickanderson",
+      "version": "0.0.1",
+      "commit": "8fa7626",
+      "subdirectory": "inventory/inventory-fde",
+      "steps": [
+        "copy inventory-fde.cf services/cfbs/inventory-fde/",
+        "policy_files services/cfbs/inventory-fde/",
+        "bundles inventory_fde:main"
+      ]
+    },
     "inventory-windows-services": {
       "description": "Inventory running Windows services.",
       "tags": ["supported", "windows", "inventory", "security"],
       "repo": "https://github.com/cfengine/modules",
       "by": "https://github.com/craigcomstock",
-      "version": "0.0.1",
-      "commit": "bf3b21d34d6506671fb7977443d9bfa24ea25241",
-      "subdirectory": "inventory",
+      "version": "0.0.2",
+      "commit": "8fa7626",
+      "subdirectory": "inventory/inventory-windows-services",
       "steps": [
         "copy inventory-windows-services.cf services/cfbs/inventory-windows-services/",
         "policy_files services/cfbs/inventory-windows-services/",
